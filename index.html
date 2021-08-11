@@ -1,88 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title><Document></title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css" />
+	<title>Document</title>
+	<script src="https://kit.fontawesome.com/b959c0c03b.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="main">
-        <h1 id="title"></h1>
-       
-        <div class="main-content">
-            <div class="form-content">
-                <form id="survey-form">
-                    <p id="description">
-                        Para efecto de clasificación estadística, indique características 
-                        socioeconómicas y de movilidad <strong antes de la pandemia ></strong>
-                    </p>
-                    <label for="edad" id="edad-label">¿Cuál es su edad?</label>
-                    <input id="edad" type="number" required placeholder="Ej 35"/>
+	<!--<div class="drops">
+		<div class="drop"></div>
+		<div class="drop"></div>
+		<div class="drop"></div>
+		<div class="drop"></div>
+		<div class="drop"></div>
+		
+	</div>-->
+	<!--<div class="container-all" id="modal">
+	<div class="popup">
+		<div class="img"></div>
+		<div class="container-text">
+			<h1>Investigación del comportamiento de elección </h1>
+			<p>
+				Esta encuesta tiene por objetivo estudiar el proceso de deliberación de las personas al elegir
+				 alternativas de viajes en transporte público. </p>
+				<p>Agradecemos su colaboración respondiendo la presente encuesta,
+				 la cual le tomará alrededor de 8 minutos. Los datos que usted indique serán utilizados solamente para el 
+				 desarrollo de una Tesis de Magister en Ingeniería de Transporte de la Universidad de Chile.</p>
+			   <p> Al dar click en “Acepto”, da su consentimiento para continuar y 
+				participar en la encuesta.
+				  Si tiene alguna duda, sugerencia y/o 
+				  comentario, por favor no dude en comunicarse al correo electrónico 
+				  gabriel.nova@ug.uchile.cl
 
-                    <label for="dropdown">¿Con que genero se siente identificado?</label>
-                    <select id="genero-dropdown">
-                        <option value="Masculino">Masculino</option>
-                        <option value="Femenino">Femenino</option>
-                        <option value="Otro">Otro</option>
-                    </select>
-
-                    <label for="dropdown">¿Cuál es su situación laboral actual?</label>
-                    <select id="situation-dropdown">
-                        <option value="Estudiando">Estudiando</option>
-                        <option value="Trabajando">Trabajando</option>
-                        <option value="Cesante">Cesante</option>
-                        <option value="Jubilado">Jubilado</option>
-                        <option value="Otro">Otro</option>
-                    </select>
-
-
-                    <label for="dropdown">¿Cuál es su máximo nivel educacional?</label>
-                    <select id="education-dropdown">
-                        <option value="Ninguno">Ninguno</option>
-                        <option value="Preescolar">Preescolar</option>
-                        <option value="Básica">Básica</option>
-                        <option value="Media Científica-Humanista">Media Científica-Humanista</option>
-                        <option value="Media Técnico-Profesional">Media Técnico-Profesional</option>
-                        <option value="Centro de Formación Técnica">Centro de Formación Técnica</option>
-                        <option value="Instituto Profesional">Instituto Profesional</option>
-                        <option value="Universitaria">Universitaria</option>
-                       
-                    </select>
-
-                    <label for="worcking-day" id="worcking-day-label">¿Cuántos días de la semana laboral usaba transporte público 
-                    para ir al trabajo o estudio antes de la pandemia?</label>
-                    <input id="worcking-day-input" type="number" required placeholder="Ej 4"/>
-
-                    <label for="dropdown">¿Tiene tarjeta Bip!, pase escolar o adulto mayor?</label>
-                    <select id="bip-dropdown">
-                        <option value="Tarjeta Bip!">Tarjeta Bip!</option>
-                        <option value="Pase escolar">Pase escolar</option>
-                        <option value="Tarjeta de adulto mayor">Tarjeta de adulto mayor</option>
-                        
-                    </select>
-
-                    <label for="dropdown">¿En qué rango estima usted que se encuentra el ingreso líquido mensual de su hogar?</label>
-                    <select id="range_income-dropdown">
-                        <option value="Menos de $324.000">Menos de $324.000</option>
-                        <option value="Entre $324.000 y $562.000">Entre $324.000 y $562.000</option>
-                        <option value="Entre $562.000 y $899.000">Entre $562.000 y $899.000</option>
-                        <option value="Entre $899.000 y $1.360.000">Entre $899.000 y $1.360.000</option>
-                        <option value="Entre $1.360.000 y $1.986.000">Entre $1.360.000 y $1.986.000</option>
-                        <option value="Entre $1.986.000 y $2.739.000">Entre $1.986.000 y $2.739.000</option>
-                        <option value="Más de $2.739.000">Más de $2.739.000</option>
-                        <option value="Prefiero no responder">Prefiero no responder</option>
-                        
-                    </select>
-
-                    <label for="family" id="family-label">¿Cuántas personas componen su hogar incluyéndose?</label>
-                    <input id="family-input" type="number" required placeholder="Ej 5"/>
-
-                    <input type="submit" id="btnnext" value="Siguiente"/>
-                </form>
+			</p>
+			<input type="checkbox" name="aceptarterminos" id="aceptarterminos"/>Acepto y doy mi consentimiento para continuar con la encuesta 
+		</div>
+	</div>
+</div>-->
+	<div class="container" >
+		
+		<header>
+			<div class="logo">
+                <img src="img/logo_facultad_universidad_de_chile.jpg" width="50%" height="100%"  alt="logo">
+				
             </div>
-        </div>
-    </div>
+		</header>
+		<div class="progress-bar">
+			<div class="step">
+				<p>name</p>
+				<div class="bullet">
+					<span>1</span>
+				</div>
+				<div class="check fas fa-check"></div>
+			</div>
+			<div class="step">
+				<p>name</p>
+				<div class="bullet">
+					<span>2</span>
+				</div>
+				<div class="check fas fa-check"></div>
+			</div>
+			<div class="step">
+				<p>name</p>
+				<div class="bullet">
+					<span>3</span>
+				</div>
+				<div class="check fas fa-check"></div>
+			</div>
+			<div class="step">
+				<p>name</p>
+				<div class="bullet">
+					<span>4</span>
+				</div>
+				<div class="check fas fa-check"></div>
+			</div>
+			</div>
+		<div class="form-outer">
+			<form action="#" id="form">
+				<div class="page slidepage">
+					<div class="title">Para efecto de clasificación estadística, <span class="salto">indique características 
+						socioeconómicas y de movilidad</span> <h4> antes de la pandemia </div>
+					<div class="field">
+						<div class="label">¿Cuál es su edad?</div>
+						<input type="number" placeholder="Ej 20" id="edad">
+						<i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+
+					</div>
+					<div class="field">
+						<div class="label">¿Con que genero se siente identificado?</div>
+						<select id="genero">
+							<option>Masculino</option>
+							<option>Femenino</option>
+							<option>Otro</option>
+						</select>
+						<i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+					</div>
+					<button class="btn-next nextBtn" type="button" id="next" >Siguiente</button>
+				
+				</div>
+                <div class="page">
+					<div class="title">Para efecto de clasificación estadística, <span class="salto"> indique características 
+						socioeconómicas</span> <span class="salto"> y de movilidad </span><h4> antes de la pandemia </div>
+					<div class="field">
+						<div class="label">¿Cuál es su situación laboral actual?</div>
+						<select id="ocupacion">
+							<option>Estudiando</option>
+							<option>Trabajando</option>
+							<option>Cesante</option>
+							<option>Jubilado</option>
+							<option>Otro</option>
+						</select>
+						<i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+					</div>
+					<div class="field">
+						<div class="label">¿Cuál es su máximo nivel educacional?</div>
+						<select id="nivelestudio">
+							<option>Ninguno</option>
+							<option>Preescolar</option>
+							<option>Básica</option>
+							<option>Media Científica-Humanista</option>
+							<option>Media Técnico-Profesional</option>
+							<option>Centro de Formación Técnica</option>
+							<option>Instituto Profesional</option>
+							<option>Universitaria</option>
+						   
+						</select>
+						<i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+					</div>
+					<button class="btn-next prev-1">Back</button>
+					<button class="btn-next next-1">Siguiente</button>
+					
+				</div>
+
+				<div class="page">
+					<div class="title">Para efecto de clasificación estadística,<span class="salto"> indique características 
+						socioeconómicas<span class="salto"></span> y de movilidad </span><h4> antes de la pandemia</h4> </div>
+					<div class="field">
+						<div class="label-custom">¿Cuántos días de la semana laboral <span class="salto"> usaba transporte público 
+							para ir al </span> trabajo o estudio antes de la pandemia?</div>
+						<input type="text" class="input-custom" id="viajeday">
+						<i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+					</div>
+					<div class="field">
+						<div class="label-custom2">¿Tiene tarjeta Bip!, pase escolar<span class="salto"> o adulto mayor?</span></div>
+						<select class="select-custom" id="tarjetabip">
+							<option>Tarjeta Bip!</option>
+							<option>Pase escolar</option>
+							<option>Tarjeta de adulto mayor</option>
+							
+						</select>
+						<i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+					</div>
+					<button class="btn-next1 prev-2">Back</button>
+					<button class="btn-next1 next-2">Siguiente</button>
+
+				</div>
+
+
+				<div class="page">
+					<div class="title">Para efecto de clasificación estadística, <span class="salto"> indique características 
+						socioeconómicas</span> <span class="salto"> y de movilidad</span> <h4> antes de la pandemia</h4> </div>
+					<div class="field">
+						<div class="label">¿En qué rango estima usted <span class="salto">que se encuentra el ingreso líquido</span> <span class="salto">mensual de su hogar?</span></div>
+						<select class="select-custom2" id="rentamensual">
+							<option>Menos de $324.000</option>
+							<option>Entre $324.000 y $562.000</option>
+							<option>Entre $562.000 y $899.000</option>
+							<option>Entre $899.000 y $1.360.000</option>
+							<option>Entre $1.360.000 y $1.986.000</option>
+							<option>Entre $1.986.000 y $2.739.000</option>
+							<option>Más de $2.739.000</option>
+							<option>Prefiero no responder</option>
+							
+						</select>
+						<i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+					</div>
+					<div class="field">
+						<div class="label-custom3">¿Cuántas personas componen <span class="salto"> su hogar incluyéndose?</span></div>
+						<input type="number" class="input-custom2" id="totalpersHouse">
+						<i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+					</div>
+					<button class="btn-next1 prev-3">Back</button>
+					<button class="btn-next1 next-3">Siguiente</button>
+
+				</div>
+
+				<div class="page">
+					<div class="title">Describa por favor cómo era su viaje habitual <span class="salto">
+						en transporte publico al trabajo/estudio </span> antes de la pandemia </div>
+					
+						<div class="field2">
+							<label>Tiempo de caminata [min]:</label>
+							<input type="number" class="fieldnumber">
+							
+						</div>
+						<div class="field2">
+							<label>Tiempo de espera [min]:</label>
+							<input type="number" class="fieldnumber">
+						
+						</div>
+						<div class="field2">
+						<label>Tiempo de viaje [min]:</label>
+						<input type="number" class="fieldnumber" />
+						
+						</div>
+						<button class="btn-next2 prev-4">Back</button>
+						<button class="btn-next2 next-4">Siguiente</button>
+
+				</div>
+				<div class="page">
+					<div class="field3">
+						<label >Tarifa [$]:</label>
+						<input type="number" class="fieldnumber tarifa"/>
+					
+						</div>
+						<div class="field3">
+						<label>Trasbordo [-]:</label>					
+						<input type="number" class="fieldnumber transbordo"/>
+		
+						</div>
+						<div class="field3">
+						<label>¿Hay asiento?</label>
+						<select class="fieldnumber disponibilidad">
+							<option>Hay disponibilidad</option>
+							<option>No</option>
+						</select>
+				
+					</div>
+				</div>
+				
+			</form>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
