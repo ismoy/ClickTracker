@@ -544,6 +544,7 @@ form .page .field select{
     width: 60%;
     padding: 50px;
    
+   
 }
 .container-text h1{
     font-size: 30px;
@@ -552,6 +553,45 @@ form .page .field select{
     margin-top: 20px;
     font-size: 16px;
 }
+/*CSS encuesta1 screen1*/
+.prueba{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.prueba button{
+  padding: 20px;
+  margin-right: 10px;
+    
+}
+.grupolabel1,
+.grupolabel2,
+.grupolabel3,
+.grupolabel4,
+.grupolabel5,
+.grupolabel6
+{
+    padding: 10px;
+}
+.grupolabel2 label, 
+.grupolabel1 label,
+.grupolabel3 label,
+.grupolabel4 label,
+.grupolabel4 label,
+.grupolabel5 label,
+.grupolabel6 label{
+    margin-right: 40px;
+}
+
+.prueba .rutaA span{
+    margin-left: 20px;
+    text-align: justify;
+    
+    
+}
+
+
+
 
 /*INICIO MEDIA QUERY PARA LOS DISPOSITIVOS MOVILES*/
 @media screen and (max-width:600px){

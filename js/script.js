@@ -38,7 +38,6 @@ function setErrorFor(input, message) {
 function setSuccessFor(input) {
 	const formControl = input.parentElement;
 	formControl.className = 'field success';
-
     
 }
 
