@@ -42,7 +42,7 @@ body{
 }
 .form-outer form{
     display: flex;
-    width: 1600%;
+    width: 700%;
 }
 .form-outer form .page{
     width: 25%;
@@ -207,7 +207,7 @@ form .page .field select{
 .container .progress-bar{
     display: flex;
     margin: 40px 0;
-    margin-left: 22%;
+    margin-left: 10%;
 
 }
 
@@ -500,19 +500,39 @@ form .page .field select{
     flex-direction: column;
     justify-content: space-between;
 }
-.prueba button{
+.prueba input{
   padding: 6px;
   margin-right: 10px;
+ 
     
 }
-.grupolabel1,
+.prueba input .grupolabel1,
 .grupolabel2,
 .grupolabel3,
 .grupolabel4,
 .grupolabel5,
 .grupolabel6
 {
-    padding: 2px;
+    padding: 6px;
+    width: 100%;
+}
+
+.grupolabel2{
+    margin-left: 3px;
+}
+
+.grupolabel3{
+    margin-left: 9px;
+}
+.grupolabel4{
+    margin-left: 52px;
+}
+.grupolabel5{
+    margin-left: 36px;
+  
+}
+.grupolabel6{
+    margin-left: 34px;
 }
 .grupolabel2 label, 
 .grupolabel1 label,
@@ -524,9 +544,9 @@ form .page .field select{
     margin-right: 40px;
 }
 
-.prueba .rutaA span{
-    margin-left: 6px;
-    text-align: justify;
+.prueba .rutaA{
+    margin-left: 14%;
+
     
     
 }
@@ -536,13 +556,12 @@ form .page .field select{
     padding: 15px 35px;
     background-color: red;
     color: #fff;
-    float: left;
     border-radius: 27px;
     margin: 15px;
     transition: 0.4s all;
     margin-top: 1%;
     width: 8%;
-    margin-left: -47%;
+ 
   }
   
   .btn-next4:hover {

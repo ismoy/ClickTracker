@@ -56,7 +56,6 @@ function setSuccessFor(input) {
 firstNextBtn.addEventListener("click", function(){
     const edadValue = edad.value.trim();
     const generoValue = genero.value.trim();   
-
     if(edadValue === '' || generoValue === ''){
         setErrorFor(edad,"requerido");
        // setErrorFor(genero,"requerido");
@@ -65,7 +64,7 @@ firstNextBtn.addEventListener("click", function(){
        
         setSuccessFor(edad);
         setSuccessFor(genero);
-        slidePage.style.marginLeft = "-6%" 
+        slidePage.style.marginLeft = "-12%" 
     bullet[current -1].classList.add("active");
     progressCheck[current -1].classList.add("active");
     current +=1;
@@ -83,7 +82,7 @@ nextBtnSec.addEventListener("click", function(){
     else{
         setSuccessFor(nivelestudio);
         setSuccessFor(ocupacion);
-    slidePage.style.marginLeft = "-14%" 
+    slidePage.style.marginLeft = "-34%" 
     bullet[current -1].classList.add("active");
     progressCheck[current -1].classList.add("active");
     current +=1;
@@ -99,7 +98,7 @@ nextBtnThird.addEventListener("click", function(){
     }else{
         setSuccessFor(viajeday);
         setSuccessFor(tarjetabip);
-    slidePage.style.marginLeft = "-23%" 
+    slidePage.style.marginLeft = "-68%" 
     bullet[current -1].classList.add("active");
     progressCheck[current -1].classList.add("active");
     current +=1;
@@ -116,7 +115,7 @@ nextBtnFourth.addEventListener("click", function(){
     }else{
         setSuccessFor(rentamensual);
         setSuccessFor(totalpersHouse);
-    slidePage.style.marginLeft = "-33%" 
+    slidePage.style.marginLeft = "-98%" 
     bullet[current -1].classList.add("active");
     progressCheck[current -1].classList.add("active");
     current +=1;
@@ -149,7 +148,7 @@ nextBtnFive.addEventListener("click", function(){
          setErrorFor(asiento, "requerido");
 
      }else{
-        slidePage.style.marginLeft = "-63%" 
+        slidePage.style.marginLeft = "-156%" 
         bullet[current -1].classList.add("active");
         progressCheck[current -1].classList.add("active");
         current +=1;
@@ -159,35 +158,7 @@ nextBtnFive.addEventListener("click", function(){
          setSuccessFor(transbordo);
          setSuccessFor(tarifa);
          setSuccessFor(asiento);*/
-         /**
-        * Variables para calcular los valores de los botones
-         */
-         document.getElementById("btn1").innerHTML=valorbtn1;
-         document.getElementById("btn7").innerHTML=valorbtn7;
-         document.getElementById("btn13").innerHTML=valorbtn13;
-         document.getElementById("btn2").innerHTML=valorbtn2;
-         document.getElementById("btn8").innerHTML=valorbtn8;
-         document.getElementById("btn14").innerHTML=valorbtn14;
-         document.getElementById("btn3").innerHTML=valorbtn3;
-         document.getElementById("btn9").innerHTML=valorbtn9;
-         document.getElementById("btn15").innerHTML=valorbtn15;
-         document.getElementById("btn4").innerHTML=tarifaValue;
-         document.getElementById("btn10").innerHTML=tarifaValue;
-         document.getElementById("btn16").innerHTML=tarifaValue;
-         document.getElementById("btn5").innerHTML=transbordoValue;
-         document.getElementById("btn11").innerHTML=transbordoValue;
-         document.getElementById("btn17").innerHTML=transbordoValue;
-         document.getElementById("btn6").innerHTML=asientoValue;
-         document.getElementById("btn12").innerHTML=asientoValue;
-         document.getElementById("btn18").innerHTML=asientoValue;
-
-         console.log(valorbtn1);
-         console.log(valortiempocaminataValue);
-         console.log(tiempoviajeValue);
-         console.log(tiempoesperaValue);
-         console.log(tarifaValue);
-         console.log(transbordoValue);
-         console.log(asientoValue);
+        
      }
     
 });
