@@ -1,4 +1,3 @@
-
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
   -webkit-appearance: none; 
@@ -17,66 +16,7 @@ body{
     min-height: 100vh;
     background: white;
 }
-/*
-.drops{
-    position:relative ;
-    margin-top: -40%;
-    display: flex;
 
-}
-.drop{
-    position: relative;
-    width: 80px;
-    height:80px;
-    background: transparent;
-    border-radius: 57% 43% 37% 63% / 45% 52% 48% 55%;
-    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.05),
-                15px 25px 10px rgba(0, 0, 0, 0.1),
-                15px 20px 20px rgba(0, 0, 0, 0.05),
-                inset -10px -10px 15px rgba(255, 255, 255, 0.9);
-
-
-}
-.drop::before{
-    content: '';
-    position: absolute;
-    top: 25px;
-    left: 35px;
-    background: #fff;
-    width: 20px;
-    height: 20px;
-    border-radius: 25% 75% 37% 63%/ 40% 43% 57% 60%;
-}
-
-.drop::after{
-    content: '';
-    position: absolute;
-    top: 25px;
-    left: 65px;
-    background: #fff;
-    width: 10px;
-    height: 20px;
-    border-radius: 57% 43% 37% 63%/ 48% 37% 63% 52%;
-}
-.drop:nth-child(2){
-    transform: scale(0.5) translate(-200px,180px);
-    border-radius: 64% 36% 42% 58% / 42% 37% 63% 58%;
-}
-.drop:nth-child(3){
-    transform: scale(0.5) translate(-200px,180px);
-    border-radius: 64% 36% 42% 58% / 42% 37% 63% 58%;
-}
-.drop:nth-child(4){
-    transform: scale(0.3) translate(-600px,380px);
-    border-radius: 64% 36% 42% 58% / 42% 37% 63% 58%;
-    
-}
-
-.drop:nth-child(5){
-    transform: scale(0.3) translate(-200px,-180px);
-    border-radius: 64% 36% 42% 58% / 42% 37% 63% 58%;
-    
-}*/
 .container{
     width: 900px;
    height: auto;
@@ -101,7 +41,7 @@ body{
 }
 .form-outer form{
     display: flex;
-    width: 600%;
+    width: 1600%;
 }
 .form-outer form .page{
     width: 25%;
@@ -472,9 +412,7 @@ form .page .field select{
     top: 50%;
     left: 50%;
     justify-content: center;
-
 }
-
 .img{
     width: 10%;
     background-image: url(../img/logo_facultad_universidad_de_chile\ -\ copia.jpg);
@@ -493,7 +431,6 @@ form .page .field select{
     margin-top: 20px;
     font-size: 16px;
 }
-
 @keyframes modale {
     100%{
         visibility: visible;
@@ -544,6 +481,7 @@ form .page .field select{
     width: 60%;
     padding: 50px;
    
+   
 }
 .container-text h1{
     font-size: 30px;
@@ -552,6 +490,66 @@ form .page .field select{
     margin-top: 20px;
     font-size: 16px;
 }
+/*CSS encuesta1 screen1*/
+.prueba{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.prueba button{
+  padding: 6px;
+  margin-right: 10px;
+    
+}
+.grupolabel1,
+.grupolabel2,
+.grupolabel3,
+.grupolabel4,
+.grupolabel5,
+.grupolabel6
+{
+    padding: 2px;
+}
+.grupolabel2 label, 
+.grupolabel1 label,
+.grupolabel3 label,
+.grupolabel4 label,
+.grupolabel4 label,
+.grupolabel5 label,
+.grupolabel6 label{
+    margin-right: 40px;
+}
+
+.prueba .rutaA span{
+    margin-left: 6px;
+    text-align: justify;
+    
+    
+}
+
+.btn-next4 {
+    border: none;
+    padding: 15px 35px;
+    background-color: red;
+    color: #fff;
+    float: left;
+    border-radius: 27px;
+    margin: 15px;
+    transition: 0.4s all;
+    margin-top: 1%;
+    width: 8%;
+    margin-left: -47%;
+  }
+  
+  .btn-next4:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: green;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+  }
+
+
+
 
 /*INICIO MEDIA QUERY PARA LOS DISPOSITIVOS MOVILES*/
 @media screen and (max-width:600px){
@@ -779,6 +777,3 @@ form .page .field select{
     }
     
 }
-
-
-
