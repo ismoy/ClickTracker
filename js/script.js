@@ -1,6 +1,4 @@
-$(document).ready(function () {
-    $("#modal").show();
-});
+
 const slidePage = document.querySelector(".slidepage");
 const firstNextBtn = document.querySelector(".nextBtn");
 const prevBtnSec = document.querySelector(".prev-1");
@@ -11,12 +9,20 @@ const prevBtnFourth = document.querySelector(".prev-3");
 const nextBtnFourth = document.querySelector(".next-3");
 const prevBtnFive = document.querySelector(".prev-4");
 const nextBtnFive = document.querySelector(".next-4");
+const prevBtnSix = document.querySelector(".prev-5");
+const nextBtnSix = document.querySelector(".next-5");
 const progressText = document.querySelectorAll(".step p");
 const progressCheck = document.querySelectorAll(".step .check");
 const bullet = document.querySelectorAll(".step .bullet");
 const title = document.querySelector(".title");
-let max = 5;
+
+
+
+
+let max = 6;
 let current = 1;
+
+
 
 const genero = document.getElementById('genero');
 const edad = document.getElementById('edad');
@@ -27,7 +33,12 @@ const viajeday = document.getElementById('viajeday');
 const tarjetabip = document.getElementById('tarjetabip');
 const rentamensual = document.getElementById('rentamensual');
 const totalpersHouse = document.getElementById('totalpersHouse');
-
+const tiempocaminata = document.getElementById('tiempocaminata');
+const tiempoespera = document.getElementById('tiempoespera');
+const tiempoviaje = document.getElementById('tiempoviaje');
+const tarifa = document.getElementById('tarifa');
+const transbordo = document.getElementById('transbordo');
+const asiento = document.getElementById('asiento');
 function setErrorFor(input, message) {
     const formControl = input.parentElement;
     const small = formControl.querySelector('small');
@@ -49,18 +60,18 @@ firstNextBtn.addEventListener("click", function(){
     if(edadValue === '' || generoValue === ''){
         setErrorFor(edad,"requerido");
        // setErrorFor(genero,"requerido");
- 
     }
     else{
        
         setSuccessFor(edad);
         setSuccessFor(genero);
-        slidePage.style.marginLeft = "-20%" 
+        slidePage.style.marginLeft = "-6%" 
     bullet[current -1].classList.add("active");
     progressCheck[current -1].classList.add("active");
     current +=1;
     }
 });
+
 
 nextBtnSec.addEventListener("click", function(){
     const nivelestudioValue = nivelestudio.value.trim();
@@ -72,7 +83,7 @@ nextBtnSec.addEventListener("click", function(){
     else{
         setSuccessFor(nivelestudio);
         setSuccessFor(ocupacion);
-    slidePage.style.marginLeft = "-50%" 
+    slidePage.style.marginLeft = "-14%" 
     bullet[current -1].classList.add("active");
     progressCheck[current -1].classList.add("active");
     current +=1;
@@ -88,7 +99,7 @@ nextBtnThird.addEventListener("click", function(){
     }else{
         setSuccessFor(viajeday);
         setSuccessFor(tarjetabip);
-    slidePage.style.marginLeft = "-75%" 
+    slidePage.style.marginLeft = "-23%" 
     bullet[current -1].classList.add("active");
     progressCheck[current -1].classList.add("active");
     current +=1;
@@ -105,13 +116,83 @@ nextBtnFourth.addEventListener("click", function(){
     }else{
         setSuccessFor(rentamensual);
         setSuccessFor(totalpersHouse);
-    slidePage.style.marginLeft = "-100%" 
+    slidePage.style.marginLeft = "-33%" 
     bullet[current -1].classList.add("active");
     progressCheck[current -1].classList.add("active");
     current +=1;
    
     }
 });
+nextBtnFive.addEventListener("click", function(){
+    const valortiempocaminataValue = tiempocaminata.value.trim();
+    const tiempoesperaValue = tiempoespera.value.trim();
+    const tiempoviajeValue = tiempoviaje.value.trim();
+    const transbordoValue = transbordo.value.trim();
+    const tarifaValue = tarifa.value.trim();
+    const asientoValue = asiento.value.trim();
+    let valorbtn1 = valortiempocaminataValue * 1.2;
+    let valorbtn7 = valortiempocaminataValue * 1.2;
+    let valorbtn13 = valortiempocaminataValue * 0.5;
+    let valorbtn2 = tiempoesperaValue * 0.5;
+    let valorbtn8 = tiempoesperaValue * 0.85;
+    let valorbtn14 = tiempoesperaValue * 1.85;
+    let valorbtn3 = tiempoviajeValue * 1;
+    let valorbtn9 = tiempoviajeValue * 1.85;
+    let valorbtn15 = tiempoviajeValue * 1.85;
+     if (valortiempocaminataValue === '' ||tiempoesperaValue ==='' || tiempoviajeValue === ''
+         || tarifaValue === '' || transbordoValue === '' || asientoValue === ''){
+         setErrorFor(tiempocaminata, "requerido");
+         setErrorFor(tiempoespera, "requerido");
+         setErrorFor(tiempoviaje, "requerido");
+         setErrorFor(tarifa, "requerido");
+         setErrorFor(transbordo, "requerido");
+         setErrorFor(asiento, "requerido");
+
+     }else{
+        slidePage.style.marginLeft = "-63%" 
+        bullet[current -1].classList.add("active");
+        progressCheck[current -1].classList.add("active");
+        current +=1;
+        /* setSuccessFor(tiempocaminata);
+         setSuccessFor(tiempoespera);
+         setSuccessFor(tiempoviaje);
+         setSuccessFor(transbordo);
+         setSuccessFor(tarifa);
+         setSuccessFor(asiento);*/
+         /**
+        * Variables para calcular los valores de los botones
+         */
+         document.getElementById("btn1").innerHTML=valorbtn1;
+         document.getElementById("btn7").innerHTML=valorbtn7;
+         document.getElementById("btn13").innerHTML=valorbtn13;
+         document.getElementById("btn2").innerHTML=valorbtn2;
+         document.getElementById("btn8").innerHTML=valorbtn8;
+         document.getElementById("btn14").innerHTML=valorbtn14;
+         document.getElementById("btn3").innerHTML=valorbtn3;
+         document.getElementById("btn9").innerHTML=valorbtn9;
+         document.getElementById("btn15").innerHTML=valorbtn15;
+         document.getElementById("btn4").innerHTML=tarifaValue;
+         document.getElementById("btn10").innerHTML=tarifaValue;
+         document.getElementById("btn16").innerHTML=tarifaValue;
+         document.getElementById("btn5").innerHTML=transbordoValue;
+         document.getElementById("btn11").innerHTML=transbordoValue;
+         document.getElementById("btn17").innerHTML=transbordoValue;
+         document.getElementById("btn6").innerHTML=asientoValue;
+         document.getElementById("btn12").innerHTML=asientoValue;
+         document.getElementById("btn18").innerHTML=asientoValue;
+
+         console.log(valorbtn1);
+         console.log(valortiempocaminataValue);
+         console.log(tiempoviajeValue);
+         console.log(tiempoesperaValue);
+         console.log(tarifaValue);
+         console.log(transbordoValue);
+         console.log(asientoValue);
+     }
+    
+});
+
+
 prevBtnSec.addEventListener("click", function(){
 
     slidePage.style.marginLeft = "0%"
@@ -135,3 +216,10 @@ prevBtnFive.addEventListener("click", function(){
     slidePage.style.marginLeft = "-75%" 
     title.style.display="block" 
 });
+
+prevBtnSix.addEventListener("click", function(){
+
+    slidePage.style.marginLeft = "-75%" 
+    title.style.display="block" 
+});
+

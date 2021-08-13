@@ -76,6 +76,13 @@
 				</div>
 				<div class="check fas fa-check"></div>
 			</div>
+			<div class="step">
+				<p>name</p>
+				<div class="bullet">
+					<span>5</span>
+				</div>
+				<div class="check fas fa-check"></div>
+			</div>
 			</div>
 		<div class="form-outer">
 			<form action="#" id="form">
@@ -209,17 +216,17 @@
 					
 						<div class="field2">
 							<label>Tiempo de caminata [min]:</label>
-							<input type="number" class="fieldnumber">
+							<input type="number" class="fieldnumber" id="tiempocaminata">
 							
 						</div>
 						<div class="field2">
 							<label>Tiempo de espera [min]:</label>
-							<input type="number" class="fieldnumber">
+							<input type="number" class="fieldnumber" id="tiempoespera">
 						
 						</div>
 						<div class="field2">
 						<label>Tiempo de viaje [min]:</label>
-						<input type="number" class="fieldnumber" />
+						<input type="number" class="fieldnumber" id="tiempoviaje"/>
 						
 						</div>
 						<button class="btn-next2 prev-4">Back</button>
@@ -229,26 +236,559 @@
 				<div class="page">
 					<div class="field3">
 						<label >Tarifa [$]:</label>
-						<input type="number" class="fieldnumber tarifa"/>
+						<input type="number" class="fieldnumber tarifa" id="tarifa"/>
 					
 						</div>
 						<div class="field3">
 						<label>Trasbordo [-]:</label>					
-						<input type="number" class="fieldnumber transbordo"/>
+						<input type="number" class="fieldnumber transbordo" id="transbordo"/>
 		
 						</div>
 						<div class="field3">
 						<label>¿Hay asiento?</label>
-						<select class="fieldnumber disponibilidad">
-							<option>Hay disponibilidad</option>
-							<option>No</option>
+						<select class="fieldnumber disponibilidad" id="asiento">
+							<option value="1">Hay disponibilidad</option>
+							<option value="0">No</option>
 						</select>
 				
 					</div>
 				</div>
+
+
+				<div class="page">
+					<div class="prueba">
+						<div class="rutaA">
+							<span>Ruta A</span>
+							<span>Ruta B</span>
+							<span>Ruta C</span>
+						</div>
+						
+						<div class="grupolabel1">
+							<label for="">Tiempo de caminata [min]:</label>
+							<button><span id="btn1"></span>ver</button>
+							<button><span id="btn7"></span>ver</button>
+							<button><span id="btn13"></span>ver</button>        
+						</div>
+						
+		
+						<div class="grupolabel2">
+							<label for="">Tiempo de espera [min]:</label>
+							<button><span id="btn2"></span>ver</button>
+							<button><span id="btn8"></span>ver</button>
+							<button><span id="btn14"></span>ver</button>        
+						</div>
+		
+						<div class="grupolabel3">
+							<label for="">Tiempo de viaje [min]:</label>
+							<button><span id="btn3"></span>ver</button>
+							<button><span id="btn9"></span>ver</button>
+							<button><span id="btn15"></span>ver</button>        
+						</div>
+						<div class="grupolabel4">
+							<label for="">Tarifa [$]:</label>
+							<button><span id="btn4"></span>ver</button>
+							<button><span id="btn10"></span>ver</button>
+							<button><span id="btn16"></span>ver</button>        
+						</div>
+						<div class="grupolabel5">
+							<label for="">Trasbordo [-]:</label>
+							<button><span id="btn5"></span>ver</button>
+							<button><span id="btn11"></span>ver</button>
+							<button><span id="btn17"></span>ver</button>        
+						</div>
+						<div class="grupolabel6">
+							<label for="">¿Hay asiento?</label>
+							<button><span id="btn6"></span>ver</button>
+							<button><span id="btn12"></span>ver</button>
+							<button><span id="btn18"></span>ver</button>        
+						</div>
+						
+					</div>
+					<button class="btn-next5 prev-5">Back</button>
+					<button class="btn-next5 next-5">Siguiente</button>
+				</div>
+
+				<div class="page">
+					<div class="prueba">
+						<div class="rutaA">
+							<span>Ruta A</span>
+							<span>Ruta B</span>
+							<span>Ruta C</span>
+						</div>
+						
+						<div class="grupolabel1">
+							<label for="">tiempocaminata</label>
+							<button><span id="btn1"></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						
+		
+						<div class="grupolabel2">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+		
+						<div class="grupolabel3">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						<div class="grupolabel4">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						<div class="grupolabel5">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						<div class="grupolabel6">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						
+					</div>
+					<button class="btn-next5 prev-5">Back</button>
+					<button class="btn-next5 next-5">Siguiente</button>
+				</div>
+
+				<div class="page">
+					<div class="prueba">
+						<div class="rutaA">
+							<span>Ruta A</span>
+							<span>Ruta B</span>
+							<span>Ruta C</span>
+						</div>
+						
+						<div class="grupolabel1">
+							<label for="">tiempocaminata</label>
+							<button><span id="btn1"></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						
+		
+						<div class="grupolabel2">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+		
+						<div class="grupolabel3">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						<div class="grupolabel4">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						<div class="grupolabel5">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						<div class="grupolabel6">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						
+					</div>
+					<button class="btn-next5 prev-5">Back</button>
+					<button class="btn-next5 next-5">Siguiente</button>
+				</div>
+
+				<div class="page">
+					<div class="prueba">
+						<div class="rutaA">
+							<span>Ruta A</span>
+							<span>Ruta B</span>
+							<span>Ruta C</span>
+						</div>
+						
+						<div class="grupolabel1">
+							<label for="">tiempocaminata</label>
+							<button><span id="btn1"></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						
+		
+						<div class="grupolabel2">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+		
+						<div class="grupolabel3">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						<div class="grupolabel4">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						<div class="grupolabel5">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						<div class="grupolabel6">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						
+					</div>
+					<button class="btn-next5 prev-5">Back</button>
+					<button class="btn-next5 next-5">Siguiente</button>
+				</div>
+
+				<div class="page">
+					<div class="prueba">
+						<div class="rutaA">
+							<span>Ruta A</span>
+							<span>Ruta B</span>
+							<span>Ruta C</span>
+						</div>
+						
+						<div class="grupolabel1">
+							<label for="">tiempocaminata</label>
+							<button><span id="btn1"></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						
+		
+						<div class="grupolabel2">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+		
+						<div class="grupolabel3">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						<div class="grupolabel4">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						<div class="grupolabel5">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						<div class="grupolabel6">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						
+					</div>
+					<button class="btn-next5 prev-5">Back</button>
+					<button class="btn-next5 next-5">Siguiente</button>
+				</div>
+
+				<div class="page">
+					<div class="prueba">
+						<div class="rutaA">
+							<span>Ruta A</span>
+							<span>Ruta B</span>
+							<span>Ruta C</span>
+						</div>
+						
+						<div class="grupolabel1">
+							<label for="">tiempocaminata</label>
+							<button><span id="btn1"></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						
+		
+						<div class="grupolabel2">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+		
+						<div class="grupolabel3">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						<div class="grupolabel4">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						<div class="grupolabel5">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						<div class="grupolabel6">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						
+					</div>
+					<button class="btn-next5 prev-5">Back</button>
+					<button class="btn-next5 next-5">Siguiente</button>
+				</div>
+
+				<div class="page">
+					<div class="prueba">
+						<div class="rutaA">
+							<span>Ruta A</span>
+							<span>Ruta B</span>
+							<span>Ruta C</span>
+						</div>
+						
+						<div class="grupolabel1">
+							<label for="">tiempocaminata</label>
+							<button><span id="btn1"></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						
+		
+						<div class="grupolabel2">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+		
+						<div class="grupolabel3">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						<div class="grupolabel4">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						<div class="grupolabel5">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						<div class="grupolabel6">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						
+					</div>
+					<button class="btn-next5 prev-5">Back</button>
+					<button class="btn-next5 next-5">Siguiente</button>
+				</div>
+
+				<div class="page">
+					<div class="prueba">
+						<div class="rutaA">
+							<span>Ruta A</span>
+							<span>Ruta B</span>
+							<span>Ruta C</span>
+						</div>
+						
+						<div class="grupolabel1">
+							<label for="">tiempocaminata</label>
+							<button><span id="btn1"></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						
+		
+						<div class="grupolabel2">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+		
+						<div class="grupolabel3">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						<div class="grupolabel4">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						<div class="grupolabel5">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						<div class="grupolabel6">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						
+					</div>
+					<button class="btn-next5 prev-5">Back</button>
+					<button class="btn-next5 next-5">Siguiente</button>
+				</div>
+
+				<div class="page">
+					<div class="prueba">
+						<div class="rutaA">
+							<span>Ruta A</span>
+							<span>Ruta B</span>
+							<span>Ruta C</span>
+						</div>
+						
+						<div class="grupolabel1">
+							<label for="">tiempocaminata</label>
+							<button><span id="btn1"></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						
+		
+						<div class="grupolabel2">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+		
+						<div class="grupolabel3">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						<div class="grupolabel4">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						<div class="grupolabel5">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						<div class="grupolabel6">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						
+					</div>
+					<button class="btn-next5 prev-5">Back</button>
+					<button class="btn-next5 next-5">Siguiente</button>
+				</div>
+
+				<div class="page">
+					<div class="prueba">
+						<div class="rutaA">
+							<span>Ruta A</span>
+							<span>Ruta B</span>
+							<span>Ruta C</span>
+						</div>
+						
+						<div class="grupolabel1">
+							<label for="">tiempocaminata</label>
+							<button><span id="btn1"></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						
+		
+						<div class="grupolabel2">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+		
+						<div class="grupolabel3">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						<div class="grupolabel4">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						<div class="grupolabel5">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						<div class="grupolabel6">
+							<label for="">tiempocaminata</label>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>
+							<button><span></span>ver</button>        
+						</div>
+						
+					</div>
+					<button class="btn-next5 prev-5">Back</button>
+					<button class="btn-next5 next-5">Siguiente</button>
+				</div>
 				
 			</form>
+			
 		</div>
+		
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="js/script.js"></script>
