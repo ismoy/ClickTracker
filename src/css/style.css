@@ -1,391 +1,364 @@
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
-*{
-    margin: 0;
-    padding: 0;
-    outline: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background: white;
-}
-
-.container{
-    width: 900px;
-   height: auto;
-    background: white;
-    border-radius: 5px;
-    text-align: center;
-    padding: 50px 35px 10px 35px;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
-
-}
-.container header{
-    font-size: 35px;
-    font-weight: 600;
-    margin: 0 0 30px 0;
-
-}
-.container .form-outer{
-    width: 100%;
-   overflow: hidden;
-}
-.form-outer form{
-    display: flex;
-    width: 1600%;
-}
-.form-outer form .page{
-    width: 25%;
-    transition: margin-left 0.3s ease-in-out;
-
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: white;
 }
 
-
-.form-outer form .page .title{
-    text-align: left;
-    font-size: 90%;
-    width: 100%;
-    position: relative;
-    z-index: 2;
-    font-weight: 500px;
+.container {
+  width: 900px;
+  height: auto;
+  background: white;
+  border-radius: 5px;
+  text-align: center;
+  padding: 50px 35px 10px 35px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
 }
-.form-outer form .page .field{
-    height: 45px;
-    width: 330px;
-    margin: 45px 0;
-    position: relative;
-    display: flex;
-
-
+.container header {
+  font-size: 35px;
+  font-weight: 600;
+  margin: 0 0 30px 0;
 }
-.form-outer form .page .field .label{
-    position: absolute;
-    top: -30px;
-    margin-bottom: 10px;
-    display: inline-block;
-    font-weight: 500;
+.container .form-outer {
+  width: 100%;
+  /* overflow: hidden; */
 }
-.form-outer form .page .field .label-custom{
-    position: absolute;
-    top: -60%;
-    display: inline-block;
-    font-weight: 500;
-
+.form-outer form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.form-outer form .page {
+  width: 25%;
+  transition: margin-left 0.3s ease-in-out;
 }
 
-.form-outer form .page .field .label-custom2{
-    position: absolute;
-    top: 20%;
-    display: inline-block;
-    font-weight: 500;
-
+.form-outer form .page .title {
+  text-align: left;
+  font-size: 90%;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  font-weight: 500px;
+}
+.form-outer form .page .field {
+  height: 45px;
+  width: 330px;
+  margin: 45px 0;
+  position: relative;
+  display: flex;
+}
+.form-outer form .page .field .label {
+  position: absolute;
+  top: -30px;
+  margin-bottom: 10px;
+  display: inline-block;
+  font-weight: 500;
+}
+.form-outer form .page .field .label-custom {
+  position: absolute;
+  top: -60%;
+  display: inline-block;
+  font-weight: 500;
 }
 
-.form-outer form .page .field .label-custom3{
-    position: absolute;
-    top: 0%;
-    display: inline-block;
-    font-weight: 500;
-
-}
-.select-custom{
-    position: relative;
-    top:130% ;
-    
+.form-outer form .page .field .label-custom2 {
+  position: absolute;
+  top: 20%;
+  display: inline-block;
+  font-weight: 500;
 }
 
-.select-custom2{
-    position: relative;
-    top:40% ;
-    
+.form-outer form .page .field .label-custom3 {
+  position: absolute;
+  top: 0%;
+  display: inline-block;
+  font-weight: 500;
 }
-.input-custom{
-    position: relative;
-    top: 90%;
-    margin-bottom: 10px;
-}
-
-.input-custom2{
-    position: relative;
-    top: 104%;
+.select-custom {
+  position: relative;
+  top: 130%;
 }
 
-
-.form-outer form .page .field input{
-    height: 100%;
-    width: 100%;
-    border-radius: 5px;
-    border: 1px solid lightgray;
-    font-size: 18px;
-    padding-left: 20px;
+.select-custom2 {
+  position: relative;
+  top: 40%;
+}
+.input-custom {
+  position: relative;
+  top: 90%;
+  margin-bottom: 10px;
 }
 
-form .page .field select{
-    width: 100%;
-    padding-left: 10px;
-    font-size: 17px;
-    font-weight: 500;
+.input-custom2 {
+  position: relative;
+  top: 104%;
+}
 
+.form-outer form .page .field input {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+form .page .field select {
+  width: 100%;
+  padding-left: 10px;
+  font-size: 17px;
+  font-weight: 500;
 }
 .logo {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    margin-left: 2in;
-    padding-left: 30px;
-  }
-
-  .btn-next {
-    border: none;
-    padding: 15px 35px;
-    background-color: red;
-    color: #fff;
-    float: left;
-    border-radius: 27px;
-    margin: 15px;
-    transition: 0.4s all;
-    margin-top: -2%;
-  }
-  
-  .btn-next:hover {
-    cursor: pointer;
-    background-color: #fff;
-    color: green;
-    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
-  }
-
-  .btn-next1 {
-    border: none;
-    padding: 15px 35px;
-    background-color: red;
-    color: #fff;
-    float: left;
-    border-radius: 27px;
-    margin: 15px;
-    transition: 0.4s all;
-    margin-top: 2%;
-  }
-  
-  .btn-next1:hover {
-    cursor: pointer;
-    background-color: #fff;
-    color: green;
-    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
-  }
-
-  .btn-next2 {
-    border: none;
-    padding: 15px 35px;
-    background-color: red;
-    color: #fff;
-    float: left;
-    border-radius: 27px;
-    margin: 15px;
-    transition: 0.4s all;
-    margin-top: 1%;
-  }
-  
-  .btn-next2:hover {
-    cursor: pointer;
-    background-color: #fff;
-    color: green;
-    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
-  }
-
-
-
-.container .progress-bar{
-    display: flex;
-    margin: 40px 0;
-    margin-left: 22%;
-
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-left: 2in;
+  padding-left: 30px;
 }
 
-.container .progress-bar .step{
-    position: relative;
-    text-align: center;
-    width: 69px;
-    left: 25%;
-}
-.progress-bar .step p{
-
-    font-size: 18px;
-    font-weight: 500px;
-    color: black;
-    margin-bottom: 8px;
-    display: none;
-
-}
-.progress-bar .step .bullet{
-    position: relative;
-    height: 25px;
-    width: 25px;
-    border: 2px solid #000;
-    display: inline-block;
-    border-radius: 50%;
-    transition: 0.2s;
-
+.btn-next {
+  border: none;
+  padding: 15px 35px;
+  background-color: red;
+  color: #fff;
+  float: left;
+  border-radius: 27px;
+  margin: 15px;
+  transition: 0.4s all;
+  margin-top: -2%;
 }
 
-.progress-bar .step .bullet.active{
-    border-color: green;
-    background: green;
-    color: white;
+.btn-next:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: green;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.btn-next1 {
+  border: none;
+  padding: 15px 35px;
+  background-color: red;
+  color: #fff;
+  float: left;
+  border-radius: 27px;
+  margin: 15px;
+  transition: 0.4s all;
+  margin-top: 2%;
+}
+
+.btn-next1:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: green;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.btn-next2 {
+  border: none;
+  padding: 15px 35px;
+  background-color: red;
+  color: #fff;
+  float: left;
+  border-radius: 27px;
+  margin: 15px;
+  transition: 0.4s all;
+  margin-top: 1%;
+}
+
+.btn-next2:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: green;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.container .progress-bar {
+  display: flex;
+  margin: 40px 0;
+  margin-left: 22%;
+}
+
+.container .progress-bar .step {
+  position: relative;
+  text-align: center;
+  width: 69px;
+  left: 25%;
+}
+.progress-bar .step p {
+  font-size: 18px;
+  font-weight: 500px;
+  color: black;
+  margin-bottom: 8px;
+  display: none;
+}
+.progress-bar .step .bullet {
+  position: relative;
+  height: 25px;
+  width: 25px;
+  border: 2px solid #000;
+  display: inline-block;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+
+.progress-bar .step .bullet.active {
+  border-color: green;
+  background: green;
+  color: white;
 }
 .progress-bar .step:last-child .bullet:before,
-.progress-bar .step:last-child .bullet:after{
-    display: none;
+.progress-bar .step:last-child .bullet:after {
+  display: none;
 }
-
 
 .progress-bar .step .bullet:before,
-.progress-bar .step .bullet:after{
-    position: absolute;
-    content: '';
-    bottom: 11px;
-    right: -44px;
-    height: 3px;
-    width: 44px;
-    background: #262626;
-
+.progress-bar .step .bullet:after {
+  position: absolute;
+  content: "";
+  bottom: 11px;
+  right: -44px;
+  height: 3px;
+  width: 44px;
+  background: #262626;
 }
-.progress-bar .step .bullet.active:after{
-    background: red;
-    transform: scaleX(0);
-    transform-origin: left;
-    animation: animate 0.3s linear forwards;
+.progress-bar .step .bullet.active:after {
+  background: red;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 0.3s linear forwards;
 }
 @keyframes animate {
-    100%{
-        transform: scaleX(1);
-    }
+  100% {
+    transform: scaleX(1);
+  }
 }
 
-.progress-bar .step .bullet span{
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 20px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%)
+.progress-bar .step .bullet span {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
-.progress-bar .step .bullet.active span{
-    display: none;
-}
-
-.progress-bar .step .check{
-    position: absolute;
-    left: 52%;
-    top: 64%;
-    font-size: 15px;
-    transform: translate(-50%,-50%);
-    display: none;
-}
-.progress-bar .step .check.active{
-    display: block;
-    top: 46%;
-    color: white;
-}
-.field2{
-    border-radius: 5px;
-    font-size: 18px;
-    display: inline-flex;
+.progress-bar .step .bullet.active span {
+  display: none;
 }
 
-.form-outer form .page .field2 .fieldnumber{
-    height: 100%;
-    width: 35%;
-    margin-left: 5px;
-    border-radius: 5px;
-    border: 1px solid lightgray;
-    font-size: 18px;
-    padding-left: 15px;
+.progress-bar .step .check {
+  position: absolute;
+  left: 52%;
+  top: 64%;
+  font-size: 15px;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.progress-bar .step .check.active {
+  display: block;
+  top: 46%;
+  color: white;
+}
+.field2 {
+  border-radius: 5px;
+  font-size: 18px;
+  display: inline-flex;
 }
 
-.form-outer form .page .field2{
-    height: 25px;
-    width: 263px;
-    margin: 45px 0;
-    position: relative;
-    display: flex;
-
-
+.form-outer form .page .field2 .fieldnumber {
+  height: 100%;
+  width: 35%;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  font-size: 18px;
+  padding-left: 15px;
 }
 
-.form-outer form .page .field3{
-    height: 25px;
-    width: 28%;
-    margin: 45px 0;
-    top: 5%;
-    left: -70%;
-    position: relative;
-    display: flex;
-
-
+.form-outer form .page .field2 {
+  height: 25px;
+  width: 263px;
+  margin: 45px 0;
+  position: relative;
+  display: flex;
 }
-.form-outer form .page .field3 .fieldnumber{
-    height: 100%;
-    width: 35%;
-    margin-left: 5px;
-    border-radius: 5px;
-    border: 1px solid lightgray;
-    font-size: 18px;
-    padding-left: 30px;
-    padding-left: 15px;
+
+.form-outer form .page .field3 {
+  height: 25px;
+  width: 28%;
+  margin: 45px 0;
+  top: 5%;
+  left: -70%;
+  position: relative;
+  display: flex;
+}
+.form-outer form .page .field3 .fieldnumber {
+  height: 100%;
+  width: 35%;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  font-size: 18px;
+  padding-left: 30px;
+  padding-left: 15px;
 }
 .form-outer form .page .field input:focus {
-	outline: 0;
-	border-color: #777;
+  outline: 0;
+  border-color: #777;
 }
 
 .form-outer form .page .field.success input {
-	border-color: #2ecc71;
+  border-color: #2ecc71;
 }
 
-
-.form-outer form .page .field.error input{
-
-    border-color: red;
+.form-outer form .page .field.error input {
+  border-color: red;
 }
 
 .form-outer form .page .field i {
-	visibility: hidden;
-	position: absolute;
-	top: 17px;
-	right: 10px;
+  visibility: hidden;
+  position: absolute;
+  top: 17px;
+  right: 10px;
 }
 
 .form-outer form .page .field.success i.fa-check-circle {
-	color: #2ecc71;
-	visibility: visible;
-    
+  color: #2ecc71;
+  visibility: visible;
 }
 
 .form-outer form .page .field.error i.fa-exclamation-circle {
-	color: #e74c3c;
-	visibility: visible;
+  color: #e74c3c;
+  visibility: visible;
 }
 
 .form-outer form .page .field small {
-	color: #e74c3c;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	visibility: hidden;
+  color: #e74c3c;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
 }
 
 .form-outer form .page .field.error small {
-	visibility: visible;
-    margin-left: 40%;
+  visibility: visible;
+  margin-left: 40%;
 }
 /*MODAL*/
 /*.container-all{
@@ -438,96 +411,191 @@ form .page .field select{
     }
 }*/
 
-
-.container-all{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    justify-content: center;
-    opacity: 1;
-    background: rgba(0, 0, 0, 0.8);
-    animation: animmodal 0.5s 1s forwards;
-
- 
+.container-all {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  justify-content: center;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.8);
+  animation: animmodal 0.5s 1s forwards;
 }
-.container-all:target .popup{
+.container-all:target .popup {
   top: 50%;
   left: 50%;
- 
 }
-.container-all:target{
-    background: rgba(0, 0, 0, 0.8);
-    visibility: visible;
-    opacity: 1;
+.container-all:target {
+  background: rgba(0, 0, 0, 0.8);
+  visibility: visible;
+  opacity: 1;
 }
-.popup{
-    width: 100%;
-    max-width: 800px;
-    height: 100%;
-    position: relative;
-    display: flex;
-    top: 50%;
-    left: 30%;
-    background: white;
+.popup {
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+  position: relative;
+  display: flex;
+  top: 50%;
+  left: 30%;
+  background: white;
 }
-   
+
 /*.img{
     width: 10%;
     background-image: url(../img/logo_facultad_universidad_de_chile\ -\ copia.jpg);
     background-size: cover;
     background-position: center;
 }*/
-.container-text{
-    width: 60%;
-    padding: 50px;
-   
-   
+.container-text {
+  width: 60%;
+  padding: 50px;
 }
-.container-text h1{
-    font-size: 30px;
+.container-text h1 {
+  font-size: 30px;
 }
-.container-text p{
-    margin-top: 20px;
-    font-size: 16px;
+.container-text p {
+  margin-top: 20px;
+  font-size: 16px;
 }
 /*CSS encuesta1 screen1*/
-.prueba{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.prueba {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.prueba button{
+.prueba button {
   padding: 6px;
   margin-right: 10px;
-    
 }
 .grupolabel1,
 .grupolabel2,
 .grupolabel3,
 .grupolabel4,
 .grupolabel5,
-.grupolabel6
-{
-    padding: 2px;
+.grupolabel6 {
+  padding: 2px;
 }
-.grupolabel2 label, 
+.grupolabel2 label,
 .grupolabel1 label,
 .grupolabel3 label,
 .grupolabel4 label,
 .grupolabel4 label,
 .grupolabel5 label,
-.grupolabel6 label{
-    margin-right: 40px;
+.grupolabel6 label {
+  margin-right: 40px;
 }
 
-.prueba .rutaA span{
-    margin-left: 6px;
-    text-align: justify;
-    
-    
+.prueba .rutaA span {
+  margin-left: 6px;
+  text-align: justify;
 }
 
 .btn-next4 {
+  border: none;
+  padding: 15px 35px;
+  background-color: red;
+  color: #fff;
+  float: left;
+  border-radius: 27px;
+  margin: 15px;
+  transition: 0.4s all;
+  margin-top: 1%;
+  width: 8%;
+  margin-left: -47%;
+}
+
+.btn-next4:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: green;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+/*INICIO MEDIA QUERY PARA LOS DISPOSITIVOS MOVILES*/
+@media screen and (max-width: 600px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .logo {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-left: 1in;
+    padding-left: 38px;
+    transform: scale(2);
+  }
+  .container .progress-bar {
+    display: flex;
+    margin: 40px 0;
+    margin-left: -30%;
+  }
+  .container .form-outer {
+    width: 100%;
+    overflow: hidden;
+    margin-left: 0%;
+  }
+  .container {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .btn-next {
+    border: none;
+    padding: 15px 35px;
+    background-color: red;
+    color: #fff;
+    /* float: left; */
+    border-radius: 27px;
+    margin: 15px;
+    transition: 0.4s all;
+    margin-top: -2%;
+  }
+  .salto {
+    display: block;
+  }
+
+  .form-outer form .page .title {
+    font-size: 4vw;
+    font-weight: 500px;
+  }
+
+  .form-outer form .page .field .label {
+    position: absolute;
+    top: -30px;
+    font-weight: 500px;
+  }
+  .form-outer form .page .field .label-custom {
+    position: absolute;
+    top: -30px;
+    margin-left: -0.1%;
+    font-weight: 500px;
+  }
+  .form-outer form .page .field input {
+    height: 100%;
+    width: 100%;
+    margin-right: 20%;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 18px;
+    padding-left: 15px;
+  }
+  form .page .field select {
+    width: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-right: 20%;
+  }
+
+  .btn-next1 {
     border: none;
     padding: 15px 35px;
     background-color: red;
@@ -536,244 +604,115 @@ form .page .field select{
     border-radius: 27px;
     margin: 15px;
     transition: 0.4s all;
-    margin-top: 1%;
-    width: 8%;
-    margin-left: -47%;
+    margin-top: 7%;
   }
-  
-  .btn-next4:hover {
+
+  .btn-next1:hover {
     cursor: pointer;
     background-color: #fff;
     color: green;
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
   }
 
+  .select-custom2 {
+    position: relative;
+    top: 40%;
+  }
+  .form-outer form .page .field2 .fieldnumber {
+    height: 100%;
+    width: 35%;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 18px;
+    padding-left: 15px;
+    margin-top: -15%;
+  }
+  .form-outer form .page .field2 label {
+    margin-top: -15%;
+  }
+  .form-outer form .page .field3 .fieldnumber {
+    height: 100%;
+    width: 35%;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 18px;
+    padding-left: 15px;
+    margin-top: 155%;
+    margin-left: 99%;
+  }
+  .form-outer form .page .field3 .tarifa {
+    height: 100%;
+    width: 85%;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 18px;
+    padding-left: 15px;
+    margin-top: 155%;
+    margin-left: 79%;
+  }
 
+  .form-outer form .page .field3 .transbordo {
+    height: 100%;
+    width: 85%;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 18px;
+    padding-left: 15px;
+    margin-top: 155%;
+    margin-left: 60%;
+  }
 
+  .form-outer form .page .field3 .disponibilidad {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 18px;
+    padding-left: 15px;
+    margin-top: 165%;
+    margin-left: 50%;
+  }
 
-/*INICIO MEDIA QUERY PARA LOS DISPOSITIVOS MOVILES*/
-@media screen and (max-width:600px){
+  .form-outer form .page .field3 label {
+    margin-top: 159%;
+    margin-left: -80%;
+  }
+  .btn-next2 {
+    border: none;
+    padding: 15px 35px;
+    background-color: red;
+    color: #fff;
+    float: left;
+    border-radius: 27px;
+    margin: 15px;
+    transition: 0.4s all;
+    margin-top: 35%;
+  }
 
-    body {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .container {
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        justify-content: center;
-    
-    }
-    
-    .logo {
-        display: flex;
-        width: 100%;
-        height: 100%;
-        margin-left: 1in;
-        padding-left: 38px;
-        transform: scale(2);
-      
-    }
-    .container .progress-bar {
-        display: flex;
-        margin: 40px 0;
-        margin-left: -30%;
-    }
-    .container .form-outer {
-        width: 100%;
-        overflow: hidden;
-        margin-left: 0%;
-    }
-    .container{
-        overflow-x: hidden;
-        overflow-y: hidden;
-
-    }
-    .btn-next {
-        border: none;
-        padding: 15px 35px;
-        background-color: red;
-        color: #fff;
-        /* float: left; */
-        border-radius: 27px;
-        margin: 15px;
-        transition: 0.4s all;
-        margin-top: -2%;
-    }
-    .salto{
-        display: block;
-    }
-   
-
-    .form-outer form .page .title {
-        font-size: 4vw;
-        font-weight: 500px;
-    }
-  
-    .form-outer form .page .field .label {
-        position: absolute;
-        top: -30px;
-        font-weight: 500px;
-    }
-    .form-outer form .page .field .label-custom {
-        position: absolute;
-        top: -30px;
-        margin-left: -0.1%;
-        font-weight: 500px;
-    }
-    .form-outer form .page .field input {
-        height: 100%;
-        width: 100%;
-        margin-right: 20%;
-        border-radius: 5px;
-        border: 1px solid lightgray;
-        font-size: 18px;
-        padding-left: 15px;
-  
-    }
-    form .page .field select {
-        width: 100%;
-        padding-left: 10px;
-        font-size: 17px;
-        font-weight: 500;
-        margin-right: 20%;
-    
-    }
-
-    .btn-next1 {
-        border: none;
-        padding: 15px 35px;
-        background-color: red;
-        color: #fff;
-        float: left;
-        border-radius: 27px;
-        margin: 15px;
-        transition: 0.4s all;
-        margin-top: 7%;
-      }
-      
-      .btn-next1:hover {
-        cursor: pointer;
-        background-color: #fff;
-        color: green;
-        box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
-      }
-
-      
-
-    .select-custom2{
-        position: relative;
-        top:40% ;
-        
-    }
-    .form-outer form .page .field2 .fieldnumber{
-        height: 100%;
-        width: 35%;
-        margin-left: 5px;
-        border-radius: 5px;
-        border: 1px solid lightgray;
-        font-size: 18px;
-        padding-left: 15px;
-        margin-top: -15%;
-    }
-    .form-outer form .page .field2 label{
-     margin-top: -15%;
-    
-    }
-    .form-outer form .page .field3 .fieldnumber{
-        height: 100%;
-        width: 35%;
-        border-radius: 5px;
-        border: 1px solid lightgray;
-        font-size: 18px;
-        padding-left: 15px;
-        margin-top: 155%;
-        margin-left: 99%;
-    }
-    .form-outer form .page .field3 .tarifa{
-        height: 100%;
-        width: 85%;
-        border-radius: 5px;
-        border: 1px solid lightgray;
-        font-size: 18px;
-        padding-left: 15px;
-        margin-top: 155%;
-        margin-left: 79%;
-    }
-
-    .form-outer form .page .field3 .transbordo{
-        height: 100%;
-        width: 85%;
-        border-radius: 5px;
-        border: 1px solid lightgray;
-        font-size: 18px;
-        padding-left: 15px;
-        margin-top: 155%;
-        margin-left: 60%;
-    }
-
-    .form-outer form .page .field3 .disponibilidad{
-        width: 100%;
-        height: 100%;
-        border-radius: 5px;
-        border: 1px solid lightgray;
-        font-size: 18px;
-        padding-left: 15px;
-        margin-top: 165%;
-        margin-left: 50%;
-    }
-    
-    
-    
-    .form-outer form .page .field3 label{
-       margin-top: 159%;
-       margin-left: -80%;
-      
-       
-       }
-       .btn-next2 {
-        border: none;
-        padding: 15px 35px;
-        background-color: red;
-        color: #fff;
-        float: left;
-        border-radius: 27px;
-        margin: 15px;
-        transition: 0.4s all;
-        margin-top: 35%;
-      }
-      
-      .btn-next2:hover {
-        cursor: pointer;
-        background-color: #fff;
-        color: green;
-        box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
-      }
-     
-
+  .btn-next2:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: green;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+  }
 }
 /*MODAL RESPONSIVE*/
-@media screen and (max-width:900px) {
-    
-    .container-all {
-        width: 100%;
-        height: 100%;
-        position: relative;
-        animation: animmodal 0.5s 1s forwards;
-    }
-    .popup{
-        flex-direction: column;
-        height: 100%;
-        max-height: 800px;
-     
-    }
-  
-    .container-text{
-        width: 100%;
-        height: 60%;
-   
-    }
-    
+@media screen and (max-width: 900px) {
+  .container-all {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    animation: animmodal 0.5s 1s forwards;
+  }
+  .popup {
+    flex-direction: column;
+    height: 100%;
+    max-height: 800px;
+  }
+
+  .container-text {
+    width: 100%;
+    height: 60%;
+  }
 }
