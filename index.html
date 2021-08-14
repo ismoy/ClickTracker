@@ -9,36 +9,7 @@
 	<script src="https://kit.fontawesome.com/b959c0c03b.js" crossorigin="anonymous"></script>
 </head>
 <body>
-	<!--<div class="drops">
-		<div class="drop"></div>
-		<div class="drop"></div>
-		<div class="drop"></div>
-		<div class="drop"></div>
-		<div class="drop"></div>
-		
-	</div>-->
-	<!--<div class="container-all" id="modal">
-	<div class="popup">
-		<div class="img"></div>
-		<div class="container-text">
-			<h1>Investigación del comportamiento de elección </h1>
-			<p>
-				Esta encuesta tiene por objetivo estudiar el proceso de deliberación de las personas al elegir
-				 alternativas de viajes en transporte público. </p>
-				<p>Agradecemos su colaboración respondiendo la presente encuesta,
-				 la cual le tomará alrededor de 8 minutos. Los datos que usted indique serán utilizados solamente para el 
-				 desarrollo de una Tesis de Magister en Ingeniería de Transporte de la Universidad de Chile.</p>
-			   <p> Al dar click en “Acepto”, da su consentimiento para continuar y 
-				participar en la encuesta.
-				  Si tiene alguna duda, sugerencia y/o 
-				  comentario, por favor no dude en comunicarse al correo electrónico 
-				  gabriel.nova@ug.uchile.cl
 
-			</p>
-			<input type="checkbox" name="aceptarterminos" id="aceptarterminos"/>Acepto y doy mi consentimiento para continuar con la encuesta 
-		</div>
-	</div>
-</div>-->
 	<div class="container" >
 		
 		<header>
@@ -47,7 +18,7 @@
 				
             </div>
 		</header>
-		<div class="progress-bar">
+		<div class="progress-bar" style="display: none;">
 			<div class="step">
 				<p>name</p>
 				<div class="bullet">
@@ -86,7 +57,7 @@
 			</div>
 		<div class="form-outer">
 			<form action="#" id="form">
-				<div class="page slidepage" style="margin-left: 4%;">
+				<div class="page slidepage" style="margin-left: 2%;">
 					<div class="title">Para efecto de clasificación estadística, <span class="salto">indique características 
 						socioeconómicas</span> <span class="salto">y de movilidad</span> <h4> antes de la pandemia </div>
 					<div class="field">
@@ -111,7 +82,7 @@
 					<button class="btn-next nextBtn" type="button" id="next" >Siguiente</button>
 				
 				</div>
-                <div class="page">
+                <div class="page" >
 					<div class="title">Para efecto de clasificación estadística, <span class="salto"> indique características 
 						socioeconómicas</span> <span class="salto"> y de movilidad </span><h4> antes de la pandemia </div>
 					<div class="field">
@@ -149,7 +120,7 @@
 					
 				</div>
 
-				<div class="page">
+				<div class="page" >
 					<div class="title">Para efecto de clasificación estadística,<span class="salto"> indique características 
 						socioeconómicas<span class="salto"></span> y de movilidad </span><h4> antes de la pandemia</h4> </div>
 					<div class="field">
@@ -178,7 +149,7 @@
 				</div>
 
 
-				<div class="page">
+				<div class="page" >
 					<div class="title">Para efecto de clasificación estadística, <span class="salto"> indique características 
 						socioeconómicas</span> <span class="salto"> y de movilidad</span> <h4> antes de la pandemia</h4> </div>
 					<div class="field">
@@ -210,7 +181,7 @@
 
 				</div>
 
-				<div class="page">
+				<div class="page" >
 					<div class="title">Describa por favor cómo era su viaje habitual <span class="salto">
 						en transporte publico al trabajo/estudio </span> antes de la pandemia </div>
 					
@@ -255,34 +226,70 @@
 				</div>
 
 				<div class="page">
+					<p>
+						¿Cuál de estas 3 ruta de transporte Público elegiría para viajar al trabajo/estudio en punta mañana?<br>
+                        Para ver los atributos de cada ruta marque “ver” las veces que estime conveniente.<br>
+						Cuando este seguro, indique se ruta elegida
+ 
+					</p>
+					
 					<div class="prueba">
 						<div class="rutaA">
 							<span>Ruta A</span>
 							<span>Ruta B</span>
 							<span>Ruta C</span>
 						</div>
-						
-						<div class="grupolabel1">
-							<label for="">Tiempo de caminata [min]:</label>
-							<input type="button" name="btn1" data-value="" value="ver"/>
-							<input type="button" name="btn7" data-value="" value="ver"/>
-							<input type="button" name="btn13" data-value="" value="ver"/>       
+
+						<div class="interview-content ">
+
+							<div class="grupolabel1">
+								<label for="">Tiempo de caminata [min]:</label>
+								<input type="button" name="btn1" data-value="" value="ver"/>
+								<input type="button" name="btn7" data-value="" value="ver"/>
+								<input type="button" name="btn13" data-value="" value="ver"/>       
+							</div>
+			
+							<div class="grupolabel2">
+								<label for="">Tiempo de espera [min]:</label>
+								<input type="button" name="btn2" data-value="" value="ver"/>
+								<input type="button" name="btn8" data-value="" value="ver"/>
+								<input type="button" name="btn14" data-value="" value="ver"/>      
+							</div>
+			
+							<div class="grupolabel3">
+								<label for="">Tiempo de viaje [min]:</label>
+								<input type="button" name="btn3" data-value="" value="ver"/>
+								<input type="button" name="btn9" data-value="" value="ver"/>
+								<input type="button" name="btn15" data-value="" value="ver"/>       
+							</div>
+							<div class="grupolabel4">
+								<label for="">Tarifa [$]:</label>
+								<input type="button" name="btn4" data-value="" value="ver"/>
+								<input type="button" name="btn10" data-value="" value="ver"/>
+								<input type="button" name="btn16" data-value="" value="ver"/>       
+							</div>
+							<div class="grupolabel5">
+								<label for="">Trasbordo [-]:</label>
+								<input type="button" name="btn5" data-value="" value="ver"/>
+								<input type="button" name="btn11" data-value="" value="ver"/>
+								<input type="button" name="btn1" data-value="" value="ver"/>        
+							</div>
+							<div class="grupolabel6">
+								<label for="">¿Hay asiento?</label>
+								<input type="button" name="btn6" data-value="" value="ver"/>
+								<input type="button" name="btn12" data-value="" value="ver"/>
+								<input type="button" name="btn18" data-value="" value="ver"/>    
+							</div>
 						</div>
 						
-		
-						<div class="grupolabel2">
-							<label for="">Tiempo de espera [min]:</label>
-							<input type="button" name="btn2" data-value="" value="ver"/>
-							<input type="button" name="btn8" data-value="" value="ver"/>
-							<input type="button" name="btn14" data-value="" value="ver"/>      
-						</div>
-		
-						<div class="grupolabel3">
-							<label for="">Tiempo de viaje [min]:</label>
-							<input type="button" name="btn3" data-value="" value="ver"/>
-							<input type="button" name="btn9" data-value="" value="ver"/>
-							<input type="button" name="btn15" data-value="" value="ver"/>       
-						</div>
+					</div>
+				
+					<button class="btn-next4 next-5">Siguiente</button>
+				</div>
+
+				<div class="page pg2">
+					
+					<div class="interview-content">
 						<div class="grupolabel4">
 							<label for="">Tarifa [$]:</label>
 							<input type="button" name="btn4" data-value="" value="ver"/>
@@ -301,77 +308,13 @@
 							<input type="button" name="btn12" data-value="" value="ver"/>
 							<input type="button" name="btn18" data-value="" value="ver"/>    
 						</div>
-						
 					</div>
-					<button class="btn-next4 prev-5">Back</button>
-					<button class="btn-next4 next-5">Siguiente</button>
+					<button class="btn-next4 next-6">dale</button>
 				</div>
 
-				<div class="page" hidden>
-					<div class="prueba">
-						<div class="rutaA">
-							<span>Ruta A</span>
-							<span>Ruta B</span>
-							<span>Ruta C</span>
-						</div>
-						
-						<div class="grupolabel1">
-							<label for="">Tiempo de caminata [min]:</label>
-							<input type="button" name="btn1" data-value="" value="ver"/>
-							<input type="button" name="btn7" data-value="" value="ver"/>
-							<input type="button" name="btn13" data-value="" value="ver"/>       
-						</div>
-						
-		
-						<div class="grupolabel2">
-							<label for="">Tiempo de espera [min]:</label>
-							<input type="button" name="btn2" data-value="" value="ver"/>
-							<input type="button" name="btn8" data-value="" value="ver"/>
-							<input type="button" name="btn14" data-value="" value="ver"/>      
-						</div>
-		
-						<div class="grupolabel3">
-							<label for="">Tiempo de viaje [min]:</label>
-							<input type="button" name="btn3" data-value="" value="ver"/>
-							<input type="button" name="btn9" data-value="" value="ver"/>
-							<input type="button" name="btn15" data-value="" value="ver"/>       
-						</div>
-				
-						
-					</div>
-					<button class="btn-next4 prev-5">Back</button>
-					<button class="btn-next4 next-5">Siguiente</button>
-				</div>
 
-				<div class="page" hidden>
-					<div class="prueba">
-						<div class="rutaA">
-							<span>Ruta A</span>
-							<span>Ruta B</span>
-							<span>Ruta C</span>
-						</div>
-						
-						<div class="grupolabel1">
-							<label for="">Tiempo de caminata [min]:</label>
-							<input type="button" name="btn1" data-value="" value="ver"/>
-							<input type="button" name="btn7" data-value="" value="ver"/>
-							<input type="button" name="btn13" data-value="" value="ver"/>       
-						</div>
-						
-		
-						<div class="grupolabel2">
-							<label for="">Tiempo de espera [min]:</label>
-							<input type="button" name="btn2" data-value="" value="ver"/>
-							<input type="button" name="btn8" data-value="" value="ver"/>
-							<input type="button" name="btn14" data-value="" value="ver"/>      
-						</div>
-		
-						<div class="grupolabel3">
-							<label for="">Tiempo de viaje [min]:</label>
-							<input type="button" name="btn3" data-value="" value="ver"/>
-							<input type="button" name="btn9" data-value="" value="ver"/>
-							<input type="button" name="btn15" data-value="" value="ver"/>       
-						</div>
+				<div class="page">
+					<div class="interview-content">
 						<div class="grupolabel4">
 							<label for="">Tarifa [$]:</label>
 							<input type="button" name="btn4" data-value="" value="ver"/>
@@ -384,109 +327,136 @@
 							<input type="button" name="btn11" data-value="" value="ver"/>
 							<input type="button" name="btn1" data-value="" value="ver"/>        
 						</div>
-					
-						
+						<div class="grupolabel6">
+							<label for="">¿Hay asiento?</label>
+							<input type="button" name="btn6" data-value="" value="ver"/>
+							<input type="button" name="btn12" data-value="" value="ver"/>
+							<input type="button" name="btn18" data-value="" value="ver"/>    
+						</div>
 					</div>
-					<button class="btn-next4 prev-5">Back</button>
-					<button class="btn-next4 next-5">Siguiente</button>
+					<button class="btn-next4 next-7">dale</button>
 				</div>
 
-				<div class="page" hidden>
-					<div class="prueba">
-						<div class="rutaA">
-							<span>Ruta A</span>
-							<span>Ruta B</span>
-							<span>Ruta C</span>
-						</div>
-						
-						<div class="grupolabel1">
-							<label for="">Tiempo de caminata [min]:</label>
-							<input type="button" name="btn1" data-value="" value="ver"/>
-							<input type="button" name="btn7" data-value="" value="ver"/>
-							<input type="button" name="btn13" data-value="" value="ver"/>       
-						</div>
-						
-		
-						<div class="grupolabel2">
-							<label for="">Tiempo de espera [min]:</label>
-							<input type="button" name="btn2" data-value="" value="ver"/>
-							<input type="button" name="btn8" data-value="" value="ver"/>
-							<input type="button" name="btn14" data-value="" value="ver"/>      
-						</div>
-		
-						<div class="grupolabel3">
-							<label for="">Tiempo de viaje [min]:</label>
-							<input type="button" name="btn3" data-value="" value="ver"/>
-							<input type="button" name="btn9" data-value="" value="ver"/>
-							<input type="button" name="btn15" data-value="" value="ver"/>       
-						</div>
+				<div class="page">
+					<div class="interview-content">
 						<div class="grupolabel4">
 							<label for="">Tarifa [$]:</label>
 							<input type="button" name="btn4" data-value="" value="ver"/>
 							<input type="button" name="btn10" data-value="" value="ver"/>
 							<input type="button" name="btn16" data-value="" value="ver"/>       
 						</div>
-						
-						
+						<div class="grupolabel5">
+							<label for="">Trasbordo [-]:</label>
+							<input type="button" name="btn5" data-value="" value="ver"/>
+							<input type="button" name="btn11" data-value="" value="ver"/>
+							<input type="button" name="btn1" data-value="" value="ver"/>        
+						</div>
+						<div class="grupolabel6">
+							<label for="">¿Hay asiento?</label>
+							<input type="button" name="btn6" data-value="" value="ver"/>
+							<input type="button" name="btn12" data-value="" value="ver"/>
+							<input type="button" name="btn18" data-value="" value="ver"/>    
+						</div>
 					</div>
-					<button class="btn-next4 prev-5">Back</button>
-					<button class="btn-next4 next-5">Siguiente</button>
+					<button class="btn-next4 next-8">dale</button>
 				</div>
 
 
-				<div class="page" hidden>
-					<div class="prueba">
-						<div class="rutaA">
-							<span>Ruta A</span>
-							<span>Ruta B</span>
-							<span>Ruta C</span>
-						</div>
-						
-						<div class="grupolabel1">
-							<label for="">Tiempo de caminata [min]:</label>
-							<input type="button" name="btn1" data-value="" value="ver"/>
-							<input type="button" name="btn7" data-value="" value="ver"/>
-							<input type="button" name="btn13" data-value="" value="ver"/>       
-						</div>
-						
-		
-						<div class="grupolabel2">
-							<label for="">Tiempo de espera [min]:</label>
-							<input type="button" name="btn2" data-value="" value="ver"/>
-							<input type="button" name="btn8" data-value="" value="ver"/>
-							<input type="button" name="btn14" data-value="" value="ver"/>      
-						</div>
-						
-					</div>
-					<button class="btn-next4 prev-5">Back</button>
-					<button class="btn-next4 next-5">Siguiente</button>
-				</div>
-
-				<div class="page" hidden>
-					<div class="prueba">
-						<div class="rutaA">
-							<span>Ruta A</span>
-							<span>Ruta B</span>
-							<span>Ruta C</span>
-						</div>
-						
-						<div class="grupolabel1">
-							<label for="">Tiempo de caminata [min]:</label>
-							<input type="button" name="btn1" data-value="" value="ver"/>
-							<input type="button" name="btn7" data-value="" value="ver"/>
-							<input type="button" name="btn13" data-value="" value="ver"/>       
-						</div>
+				<div class="page">
+					<div class="interview-content">
 						<div class="grupolabel4">
 							<label for="">Tarifa [$]:</label>
 							<input type="button" name="btn4" data-value="" value="ver"/>
 							<input type="button" name="btn10" data-value="" value="ver"/>
 							<input type="button" name="btn16" data-value="" value="ver"/>       
 						</div>
-					
-						
+						<div class="grupolabel5">
+							<label for="">Trasbordo [-]:</label>
+							<input type="button" name="btn5" data-value="" value="ver"/>
+							<input type="button" name="btn11" data-value="" value="ver"/>
+							<input type="button" name="btn1" data-value="" value="ver"/>        
+						</div>
+						<div class="grupolabel6">
+							<label for="">¿Hay asiento?</label>
+							<input type="button" name="btn6" data-value="" value="ver"/>
+							<input type="button" name="btn12" data-value="" value="ver"/>
+							<input type="button" name="btn18" data-value="" value="ver"/>    
+						</div>
 					</div>
-					<button class="btn-next4 prev-5">Back</button>
-					<button class="btn-next4 next-5">Siguiente</button>
+					<button class="btn-next4 next-9">dale</button>
+				</div>
+
+
+				<div class="page">
+					<div class="interview-content">
+						<div class="grupolabel4">
+							<label for="">Tarifa [$]:</label>
+							<input type="button" name="btn4" data-value="" value="ver"/>
+							<input type="button" name="btn10" data-value="" value="ver"/>
+							<input type="button" name="btn16" data-value="" value="ver"/>       
+						</div>
+						<div class="grupolabel5">
+							<label for="">Trasbordo [-]:</label>
+							<input type="button" name="btn5" data-value="" value="ver"/>
+							<input type="button" name="btn11" data-value="" value="ver"/>
+							<input type="button" name="btn1" data-value="" value="ver"/>        
+						</div>
+						<div class="grupolabel6">
+							<label for="">¿Hay asiento?</label>
+							<input type="button" name="btn6" data-value="" value="ver"/>
+							<input type="button" name="btn12" data-value="" value="ver"/>
+							<input type="button" name="btn18" data-value="" value="ver"/>    
+						</div>
+					</div>
+					<button class="btn-next4 next-10">dale</button>
+				</div>
+
+				<div class="page">
+					<div class="interview-content">
+						<div class="grupolabel4">
+							<label for="">Tarifa [$]:</label>
+							<input type="button" name="btn4" data-value="" value="ver"/>
+							<input type="button" name="btn10" data-value="" value="ver"/>
+							<input type="button" name="btn16" data-value="" value="ver"/>       
+						</div>
+						<div class="grupolabel5">
+							<label for="">Trasbordo [-]:</label>
+							<input type="button" name="btn5" data-value="" value="ver"/>
+							<input type="button" name="btn11" data-value="" value="ver"/>
+							<input type="button" name="btn1" data-value="" value="ver"/>        
+						</div>
+						<div class="grupolabel6">
+							<label for="">¿Hay asiento?</label>
+							<input type="button" name="btn6" data-value="" value="ver"/>
+							<input type="button" name="btn12" data-value="" value="ver"/>
+							<input type="button" name="btn18" data-value="" value="ver"/>    
+						</div>
+					</div>
+					<button class="btn-next4 next-11">dale</button>
+				</div>
+
+				<div class="page">
+					<div class="interview-content">
+						<div class="grupolabel4">
+							<label for="">Tarifa [$]:</label>
+							<input type="button" name="btn4" data-value="" value="ver"/>
+							<input type="button" name="btn10" data-value="" value="ver"/>
+							<input type="button" name="btn16" data-value="" value="ver"/>       
+						</div>
+						<div class="grupolabel5">
+							<label for="">Trasbordo [-]:</label>
+							<input type="button" name="btn5" data-value="" value="ver"/>
+							<input type="button" name="btn11" data-value="" value="ver"/>
+							<input type="button" name="btn1" data-value="" value="ver"/>        
+						</div>
+						<div class="grupolabel6">
+							<label for="">¿Hay asiento?</label>
+							<input type="button" name="btn6" data-value="" value="ver"/>
+							<input type="button" name="btn12" data-value="" value="ver"/>
+							<input type="button" name="btn18" data-value="" value="ver"/>    
+						</div>
+					</div>
+					<button class="btn-next4 next-12">ultimo</button>
 				</div>
 
 			</form>
@@ -494,8 +464,7 @@
 		</div>
 		
 	</div>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
 	<script src="js/script.js"></script>
-	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>

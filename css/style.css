@@ -42,7 +42,7 @@ body{
 }
 .form-outer form{
     display: flex;
-    width: 700%;
+    width: 1200%;
 }
 .form-outer form .page{
     width: 25%;
@@ -67,6 +67,10 @@ body{
     display: flex;
 
 
+}
+
+.pg2{
+    margin-top: 1%;
 }
 .form-outer form .page .field .label{
     position: absolute;
@@ -499,6 +503,7 @@ form .page .field select{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-top: 63px;
 }
 .prueba input{
   padding: 6px;
@@ -602,7 +607,7 @@ form .page .field select{
     .container .progress-bar {
         display: flex;
         margin: 40px 0;
-        margin-left: -30%;
+        margin-left: -46%;
     }
     .container .form-outer {
         width: 100%;
@@ -633,6 +638,7 @@ form .page .field select{
     .form-outer form .page .title {
         font-size: 4vw;
         font-weight: 500px;
+        margin-left: -75px;
     }
   
     .form-outer form .page .field .label {

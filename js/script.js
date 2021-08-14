@@ -9,8 +9,14 @@ const prevBtnFourth = document.querySelector(".prev-3");
 const nextBtnFourth = document.querySelector(".next-3");
 const prevBtnFive = document.querySelector(".prev-4");
 const nextBtnFive = document.querySelector(".next-4");
-const prevBtnSix = document.querySelector(".prev-5");
 const nextBtnSix = document.querySelector(".next-5");
+const nextBtnSeven = document.querySelector(".next-6");
+const nextBtnHeight = document.querySelector(".next-7");
+const nextBtnNine = document.querySelector(".next-8");
+const nextBtnTen = document.querySelector(".next-9");
+const nextBtnElv = document.querySelector(".next-10");
+const nextBtntwelv = document.querySelector(".next-11");
+const nextBtntherti = document.querySelector(".next-12");
 const progressText = document.querySelectorAll(".step p");
 const progressCheck = document.querySelectorAll(".step .check");
 const bullet = document.querySelectorAll(".step .bullet");
@@ -19,7 +25,7 @@ const title = document.querySelector(".title");
 
 
 
-let max = 6;
+let max = 13;
 let current = 1;
 
 
@@ -64,7 +70,7 @@ firstNextBtn.addEventListener("click", function(){
        
         setSuccessFor(edad);
         setSuccessFor(genero);
-        slidePage.style.marginLeft = "-12%" 
+        slidePage.style.marginLeft = "-6%" 
     bullet[current -1].classList.add("active");
     progressCheck[current -1].classList.add("active");
     current +=1;
@@ -82,7 +88,7 @@ nextBtnSec.addEventListener("click", function(){
     else{
         setSuccessFor(nivelestudio);
         setSuccessFor(ocupacion);
-    slidePage.style.marginLeft = "-34%" 
+    slidePage.style.marginLeft = "-14%" 
     bullet[current -1].classList.add("active");
     progressCheck[current -1].classList.add("active");
     current +=1;
@@ -98,7 +104,7 @@ nextBtnThird.addEventListener("click", function(){
     }else{
         setSuccessFor(viajeday);
         setSuccessFor(tarjetabip);
-    slidePage.style.marginLeft = "-68%" 
+    slidePage.style.marginLeft = "-24%" 
     bullet[current -1].classList.add("active");
     progressCheck[current -1].classList.add("active");
     current +=1;
@@ -115,7 +121,7 @@ nextBtnFourth.addEventListener("click", function(){
     }else{
         setSuccessFor(rentamensual);
         setSuccessFor(totalpersHouse);
-    slidePage.style.marginLeft = "-98%" 
+    slidePage.style.marginLeft = "-38%" 
     bullet[current -1].classList.add("active");
     progressCheck[current -1].classList.add("active");
     current +=1;
@@ -148,9 +154,7 @@ nextBtnFive.addEventListener("click", function(){
          setErrorFor(asiento, "requerido");
 
      }else{
-        slidePage.style.marginLeft = "-156%" 
-        bullet[current -1].classList.add("active");
-        progressCheck[current -1].classList.add("active");
+        slidePage.style.marginLeft = "-81%" 
         current +=1;
         /* setSuccessFor(tiempocaminata);
          setSuccessFor(tiempoespera);
@@ -163,34 +167,76 @@ nextBtnFive.addEventListener("click", function(){
     
 });
 
+nextBtnSix.addEventListener("click",function(){
+    slidePage.style.marginLeft = "-108%" 
+    current +=1;
+});
+
+nextBtnSeven.addEventListener("click",function(){
+    slidePage.style.marginLeft = "-144%" 
+  
+    current +=1;
+});
+
+nextBtnHeight.addEventListener("click",function(){
+    slidePage.style.marginLeft = "-197%" 
+  
+    current +=1;
+});
+
+nextBtnNine.addEventListener("click",function(){
+    slidePage.style.marginLeft = "-259%" 
+
+    current +=1;
+});
+
+nextBtnTen.addEventListener("click",function(){
+    slidePage.style.marginLeft = "-284%" 
+ 
+    current +=1;
+});
+
+nextBtnElv.addEventListener("click",function(){
+    slidePage.style.marginLeft = "-309%" 
+ 
+    current +=1;
+});
+
+nextBtntwelv.addEventListener("click",function(){
+    slidePage.style.marginLeft = "-334%" 
+
+    current +=1;
+});
+
+nextBtntherti.addEventListener("click",function(){
+    slidePage.style.marginLeft = "-334%" 
+
+    current +=1;
+});
 
 prevBtnSec.addEventListener("click", function(){
 
-    slidePage.style.marginLeft = "0%"
+    slidePage.style.marginLeft = "4%"
     title.style.display="block" 
 });
 
 prevBtnThird.addEventListener("click", function(){
 
-    slidePage.style.marginLeft = "-20%" 
+    slidePage.style.marginLeft = "-12%" 
     title.style.display="block" 
 });
 prevBtnFourth.addEventListener("click", function(){
 
-    slidePage.style.marginLeft = "-50%" 
+    slidePage.style.marginLeft = "-34%" 
     title.style.display="block" 
     
 });
 
 prevBtnFive.addEventListener("click", function(){
 
-    slidePage.style.marginLeft = "-75%" 
+    slidePage.style.marginLeft = "-68%" 
     title.style.display="block" 
 });
 
-prevBtnSix.addEventListener("click", function(){
 
-    slidePage.style.marginLeft = "-75%" 
-    title.style.display="block" 
-});
 
