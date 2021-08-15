@@ -467,21 +467,10 @@ form .page .field select {
   padding: 6px;
   margin-right: 10px;
 }
-.grupolabel1,
-.grupolabel2,
-.grupolabel3,
-.grupolabel4,
-.grupolabel5,
-.grupolabel6 {
+.grupolabel{
   padding: 2px;
 }
-.grupolabel2 label,
-.grupolabel1 label,
-.grupolabel3 label,
-.grupolabel4 label,
-.grupolabel4 label,
-.grupolabel5 label,
-.grupolabel6 label {
+.grupolabel2 label{
   margin-right: 40px;
 }
 

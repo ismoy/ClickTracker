@@ -1,45 +1,55 @@
 const interviews = [
     {
-        interview: "Click tracker 36",
+        interview: "click-tracker-36",
         content: `
-        <div class="grupolabel1">
-        <label for="">Tiempo de caminata [min]:</label>
-        <input  name="btn1"  data-value="" value="Ver">
-        <input  name="btn17" data-value="" value="Ver">
-        <input  name="btn13" data-value="" value="Ver">
-    </div>
-    
-    <div class="grupolabel2">
-        <label for="">Tiempo de espera [min]:</label>
-        <input  name="btn2"  data-value="" value="Ver">
-        <input  name="btn8"  data-value="" value="Ver">
-        <input  name="btn14" data-value="" value="Ver">
-    </div>
-
-    <div class="grupolabel3">
-        <label for="">Tiempo de viaje [min]:</label>
-        <input  name="btn3"  data-value="" value="Ver">
-        <input  name="btn9"  data-value="" value="Ver">
-        <input  name="btn15" data-value="" value="Ver">
-    </div>
-    <div class="grupolabel4"  
-        <label for="">Tarifa [$]:</label>
-        <input  name="btn4"  data-value="" value="Ver">
-        <input  name="btn10" data-value="" value="Ver">
-        <input  name="btn16" data-value="" value="Ver">
-    </div>
-    <div class="grupolabel5">
-        <label for="">Trasbordo [-]:</label>
-        <input  name="btn5"  data-value="" value="Ver">
-        <input  name="btn11" data-value="" value="Ver">
-        <input  name="btn17" data-value="" value="Ver">
-    </div>
-    <div class="grupolabel6">
-        <label for="">¿Hay asiento?</label>
-        <input  name="btn6"  data-value="" value="Ver">
-        <input  name="btn12" data-value="" value="Ver">
-        <input  name="btn18" data-value="" value="Ver">
-    </div>
+        <div class="form-group">
+            <label for="">Tiempo de caminata [min]:</label>
+            <div class="grupolabel">
+                <input  name="btn1"  data-value="" value="Ver">
+                <input  name="btn17" data-value="" value="Ver">
+                <input  name="btn13" data-value="" value="Ver">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="">Tiempo de espera [min]:</label>            
+            <div class="grupolabel">
+                <input  name="btn2"  data-value="" value="Ver">
+                <input  name="btn8"  data-value="" value="Ver">
+                <input  name="btn14" data-value="" value="Ver">
+            </div>
+        </div>
+        <div class="form-group">    
+            <label for="">Tiempo de viaje [min]:</label>
+            <div class="grupolabel">
+                <input  name="btn3"  data-value="" value="Ver">
+                <input  name="btn9"  data-value="" value="Ver">
+                <input  name="btn15" data-value="" value="Ver">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="">Tarifa [$]:</label>
+            <div class="grupolabel"  
+                <input  name="btn4"  data-value="" value="Ver">
+                <input  name="btn10" data-value="" value="Ver">
+                <input  name="btn16" data-value="" value="Ver">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="">Trasbordo [-]:</label>
+            <div class="grupolabel">
+                <input  name="btn5"  data-value="" value="Ver">
+                <input  name="btn11" data-value="" value="Ver">
+                <input  name="btn17" data-value="" value="Ver">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="">¿Hay asiento?</label>
+            <div class="grupolabel">
+                <input  name="btn6"  data-value="" value="Ver">
+                <input  name="btn12" data-value="" value="Ver">
+                <input  name="btn18" data-value="" value="Ver">
+            </div>
+        </div>
     `,
         screens: [
             {
@@ -235,45 +245,46 @@ const interviews = [
     {
         interview: "Click tracker 35"
         , content: `
-        <div class="grupolabel1">
-							<label for="">tiempocaminata</label>
-							<button><span id="btn1"></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						
-		
-						<div class="grupolabel2">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-		
-						<div class="grupolabel3">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						<div class="grupolabel4">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						<div class="grupolabel5">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						<div class="grupolabel6">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
+        <div class="form-group">
+            <label for="">Tiempo de caminata [min]:</label>
+            <div class="grupolabel">
+                <input  name="btn1"  data-value="" value="Ver">
+                <input  name="btn17" data-value="" value="Ver">
+                <input  name="btn13" data-value="" value="Ver">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="">Tiempo de espera [min]:</label>            
+            <div class="grupolabel">
+                <input  name="btn2"  data-value="" value="Ver">
+                <input  name="btn8"  data-value="" value="Ver">
+                <input  name="btn14" data-value="" value="Ver">
+            </div>
+        </div>
+        <div class="form-group">    
+            <label for="">Tiempo de viaje [min]:</label>
+            <div class="grupolabel">
+                <input  name="btn3"  data-value="" value="Ver">
+                <input  name="btn9"  data-value="" value="Ver">
+                <input  name="btn15" data-value="" value="Ver">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="">Tarifa [$]:</label>
+            <div class="grupolabel"  
+                <input  name="btn4"  data-value="" value="Ver">
+                <input  name="btn10" data-value="" value="Ver">
+                <input  name="btn16" data-value="" value="Ver">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="">Trasbordo [-]:</label>
+            <div class="grupolabel">
+                <input  name="btn5"  data-value="" value="Ver">
+                <input  name="btn11" data-value="" value="Ver">
+                <input  name="btn17" data-value="" value="Ver">
+            </div>
+        </div>
     `, screens: [
             {
                 screen: 1,
@@ -443,47 +454,41 @@ const interviews = [
     },
     
     {
-        interview: "Click tracker 34"
+        interview: "click-tracker-34"
         , content: `
-        <div class="grupolabel1">
-							<label for="">tiempocaminata</label>
-							<button><span id="btn1"></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						
-		
-						<div class="grupolabel2">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-		
-						<div class="grupolabel3">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						<div class="grupolabel4">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						<div class="grupolabel5">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						<div class="grupolabel6">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
+        <div class="form-group">
+            <label for="">Tiempo de caminata [min]:</label>
+            <div class="grupolabel">
+                <input  name="btn1"  data-value="" value="Ver">
+                <input  name="btn17" data-value="" value="Ver">
+                <input  name="btn13" data-value="" value="Ver">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="">Tiempo de espera [min]:</label>            
+            <div class="grupolabel">
+                <input  name="btn2"  data-value="" value="Ver">
+                <input  name="btn8"  data-value="" value="Ver">
+                <input  name="btn14" data-value="" value="Ver">
+            </div>
+        </div>
+        <div class="form-group">    
+            <label for="">Tiempo de viaje [min]:</label>
+            <div class="grupolabel">
+                <input  name="btn3"  data-value="" value="Ver">
+                <input  name="btn9"  data-value="" value="Ver">
+                <input  name="btn15" data-value="" value="Ver">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="">Tarifa [$]:</label>
+            <div class="grupolabel"  
+                <input  name="btn4"  data-value="" value="Ver">
+                <input  name="btn10" data-value="" value="Ver">
+                <input  name="btn16" data-value="" value="Ver">
+            </div>
+        </div>
+
     `, screens: [
             {
                 screen: 1,
@@ -621,47 +626,33 @@ const interviews = [
     },
 
     {
-        interview: "Click tracker 33"
+        interview: "click-tracker-33"
         , content: `
-        <div class="grupolabel1">
-							<label for="">tiempocaminata</label>
-							<button><span id="btn1"></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						
-		
-						<div class="grupolabel2">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-		
-						<div class="grupolabel3">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						<div class="grupolabel4">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						<div class="grupolabel5">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						<div class="grupolabel6">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
+        <div class="form-group">
+            <label for="">Tiempo de caminata [min]:</label>
+            <div class="grupolabel">
+                <input  name="btn1"  data-value="" value="Ver">
+                <input  name="btn17" data-value="" value="Ver">
+                <input  name="btn13" data-value="" value="Ver">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="">Tiempo de espera [min]:</label>            
+            <div class="grupolabel">
+                <input  name="btn2"  data-value="" value="Ver">
+                <input  name="btn8"  data-value="" value="Ver">
+                <input  name="btn14" data-value="" value="Ver">
+            </div>
+        </div>
+        <div class="form-group">    
+            <label for="">Tiempo de viaje [min]:</label>
+            <div class="grupolabel">
+                <input  name="btn3"  data-value="" value="Ver">
+                <input  name="btn9"  data-value="" value="Ver">
+                <input  name="btn15" data-value="" value="Ver">
+            </div>
+        </div>
+ 
     `, screens: [
             {
                 screen: 1,
@@ -775,47 +766,25 @@ const interviews = [
     },
 
     {
-        interview: "Click tracker 32"
+        interview: "click-tracker-32"
         , content: `
-        <div class="grupolabel1">
-							<label for="">tiempocaminata</label>
-							<button><span id="btn1"></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						
-		
-						<div class="grupolabel2">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-		
-						<div class="grupolabel3">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						<div class="grupolabel4">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						<div class="grupolabel5">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						<div class="grupolabel6">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
+        <div class="form-group">
+            <label for="">Tiempo de caminata [min]:</label>
+            <div class="grupolabel">
+                <input  name="btn1"  data-value="" value="Ver">
+                <input  name="btn17" data-value="" value="Ver">
+                <input  name="btn13" data-value="" value="Ver">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="">Tiempo de espera [min]:</label>            
+            <div class="grupolabel">
+                <input  name="btn2"  data-value="" value="Ver">
+                <input  name="btn8"  data-value="" value="Ver">
+                <input  name="btn14" data-value="" value="Ver">
+            </div>
+        </div>
+
     `, screens: [
             {
                 screen: 1,
@@ -906,47 +875,51 @@ const interviews = [
     },
 
     {
-        interview: "Click tracker 26"
+        interview: "click-tracker-26"
         , content: `
-        <div class="grupolabel1">
-							<label for="">tiempocaminata</label>
-							<button><span id="btn1"></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						
-		
-						<div class="grupolabel2">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-		
-						<div class="grupolabel3">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						<div class="grupolabel4">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						<div class="grupolabel5">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						<div class="grupolabel6">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
+        <div class="form-group">
+            <label for="">Tiempo de caminata [min]:</label>
+            <div class="grupolabel">
+                <input  name="btn1"  data-value="" value="Ver">
+                <input  name="btn17" data-value="" value="Ver">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="">Tiempo de espera [min]:</label>            
+            <div class="grupolabel">
+                <input  name="btn2"  data-value="" value="Ver">
+                <input  name="btn8"  data-value="" value="Ver">
+            </div>
+        </div>
+        <div class="form-group">    
+            <label for="">Tiempo de viaje [min]:</label>
+            <div class="grupolabel">
+                <input  name="btn3"  data-value="" value="Ver">
+                <input  name="btn9"  data-value="" value="Ver">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="">Tarifa [$]:</label>
+            <div class="grupolabel"  
+                <input  name="btn4"  data-value="" value="Ver">
+                <input  name="btn10" data-value="" value="Ver">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="">Trasbordo [-]:</label>
+            <div class="grupolabel">
+                <input  name="btn5"  data-value="" value="Ver">
+                <input  name="btn11" data-value="" value="Ver">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="">¿Hay asiento?</label>
+            <div class="grupolabel">
+                <input  name="btn6"  data-value="" value="Ver">
+                <input  name="btn12" data-value="" value="Ver">
+            </div>
+        </div>
+    
     `, screens: [
             {
                 screen: 1,
@@ -1085,47 +1058,43 @@ const interviews = [
     },
 
     {
-        interview: "Click tracker 25"
+        interview: "click-tracker-25"
         , content: `
-        <div class="grupolabel1">
-							<label for="">tiempocaminata</label>
-							<button><span id="btn1"></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						
-		
-						<div class="grupolabel2">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-		
-						<div class="grupolabel3">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						<div class="grupolabel4">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						<div class="grupolabel5">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						<div class="grupolabel6">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
+        <div class="form-group">
+            <label for="">Tiempo de caminata [min]:</label>
+            <div class="grupolabel">
+                <input  name="btn1"  data-value="" value="Ver">
+                <input  name="btn17" data-value="" value="Ver">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="">Tiempo de espera [min]:</label>            
+            <div class="grupolabel">
+                <input  name="btn2"  data-value="" value="Ver">
+                <input  name="btn8"  data-value="" value="Ver">
+            </div>
+        </div>
+        <div class="form-group">    
+            <label for="">Tiempo de viaje [min]:</label>
+            <div class="grupolabel">
+                <input  name="btn3"  data-value="" value="Ver">
+                <input  name="btn9"  data-value="" value="Ver">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="">Tarifa [$]:</label>
+            <div class="grupolabel"  
+                <input  name="btn4"  data-value="" value="Ver">
+                <input  name="btn10" data-value="" value="Ver">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="">Trasbordo [-]:</label>
+            <div class="grupolabel">
+                <input  name="btn5"  data-value="" value="Ver">
+                <input  name="btn11" data-value="" value="Ver">
+            </div>
+        </div>
     `, screens: [
             {
                 screen: 1,
@@ -1249,47 +1218,36 @@ const interviews = [
     },
 
     {
-        interview: "Click tracker 24"
+        interview: "click-tracker-24"
         , content: `
-        <div class="grupolabel1">
-							<label for="">tiempocaminata</label>
-							<button><span id="btn1"></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						
-		
-						<div class="grupolabel2">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-		
-						<div class="grupolabel3">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						<div class="grupolabel4">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						<div class="grupolabel5">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						<div class="grupolabel6">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
+        <div class="form-group">
+            <label for="">Tiempo de caminata [min]:</label>
+            <div class="grupolabel">
+                <input  name="btn1"  data-value="" value="Ver">
+                <input  name="btn17" data-value="" value="Ver">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="">Tiempo de espera [min]:</label>            
+            <div class="grupolabel">
+                <input  name="btn2"  data-value="" value="Ver">
+                <input  name="btn8"  data-value="" value="Ver">
+            </div>
+        </div>
+        <div class="form-group">    
+            <label for="">Tiempo de viaje [min]:</label>
+            <div class="grupolabel">
+                <input  name="btn3"  data-value="" value="Ver">
+                <input  name="btn9"  data-value="" value="Ver">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="">Tarifa [$]:</label>
+            <div class="grupolabel"  
+                <input  name="btn4"  data-value="" value="Ver">
+                <input  name="btn10" data-value="" value="Ver">
+            </div>
+        </div>
     `, screens: [
             {
                 screen: 1,
@@ -1399,47 +1357,29 @@ const interviews = [
     },
 
     {
-        interview: "Click tracker 23"
+        interview: "click-tracker-23"
         , content: `
-        <div class="grupolabel1">
-							<label for="">tiempocaminata</label>
-							<button><span id="btn1"></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						
-		
-						<div class="grupolabel2">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-		
-						<div class="grupolabel3">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						<div class="grupolabel4">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						<div class="grupolabel5">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						<div class="grupolabel6">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
+        <div class="form-group">
+            <label for="">Tiempo de caminata [min]:</label>
+            <div class="grupolabel">
+                <input  name="btn1"  data-value="" value="Ver">
+                <input  name="btn17" data-value="" value="Ver">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="">Tiempo de espera [min]:</label>            
+            <div class="grupolabel">
+                <input  name="btn2"  data-value="" value="Ver">
+                <input  name="btn8"  data-value="" value="Ver">
+            </div>
+        </div>
+        <div class="form-group">    
+            <label for="">Tiempo de viaje [min]:</label>
+            <div class="grupolabel">
+                <input  name="btn3"  data-value="" value="Ver">
+                <input  name="btn9"  data-value="" value="Ver">
+            </div>
+        </div>
     `, screens: [
             {
                 screen: 1,
@@ -1537,47 +1477,22 @@ const interviews = [
     },
 
     {
-        interview: "Click tracker 22"
+        interview: "click-tracker-22"
         , content: `
-        <div class="grupolabel1">
-							<label for="">tiempocaminata</label>
-							<button><span id="btn1"></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						
-		
-						<div class="grupolabel2">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-		
-						<div class="grupolabel3">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						<div class="grupolabel4">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						<div class="grupolabel5">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
-						<div class="grupolabel6">
-							<label for="">tiempocaminata</label>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>
-							<button><span></span>ver</button>        
-						</div>
+        <div class="form-group">
+            <label for="">Tiempo de caminata [min]:</label>
+            <div class="grupolabel">
+                <input  name="btn1"  data-value="" value="Ver">
+                <input  name="btn17" data-value="" value="Ver">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="">Tiempo de espera [min]:</label>            
+            <div class="grupolabel">
+                <input  name="btn2"  data-value="" value="Ver">
+                <input  name="btn8"  data-value="" value="Ver">
+            </div>
+        </div>
     `, screens: [
             {
                 screen: 1,
@@ -1656,7 +1571,6 @@ const interviews = [
             }
 
         ]
-
     }
 
 ];
