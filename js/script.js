@@ -1,4 +1,32 @@
 
+
+/**
+ * SCRIP MODAL JS
+ */
+
+ window.addEventListener("load",function(){
+    setTimeout(
+        function open(event){
+         document.querySelector(".modal-container").style.display = "block";
+        },
+        500
+    )
+ });
+ document.querySelector("#close").addEventListener("click",function(){
+     document.querySelector(".modal-container").style.display ="none";
+ });
+
+ document.querySelector(".next-3").addEventListener("click",function(){
+    document.querySelector(".modal-container2").style.display = "block";
+ });
+ document.querySelector("#close2").addEventListener("click",function(){
+    document.querySelector(".modal-container2").style.display ="none";
+});
+/**
+ * FIN SCRIP MODAL JS
+ */
+
+
 const slidePage = document.querySelector(".slidepage");
 const firstNextBtn = document.querySelector(".nextBtn");
 const prevBtnSec = document.querySelector(".prev-1");
@@ -21,10 +49,6 @@ const progressText = document.querySelectorAll(".step p");
 const progressCheck = document.querySelectorAll(".step .check");
 const bullet = document.querySelectorAll(".step .bullet");
 const title = document.querySelector(".title");
-
-
-
-
 let max = 13;
 let current = 1;
 

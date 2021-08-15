@@ -10,14 +10,83 @@
 </head>
 <body>
 
+	<!--<div class="popup">
+		<h1>This is the title.</h1>
+		<p>
+			Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+			Cum voluptate unde ipsam aperiam consectetur fugit assumenda! Quod sint in maxime,
+			 ea voluptatem repellendus quidem obcaecati odio distinctio libero inventore corrupti?
+		</p>
+		<input type="checkbox" id="close" >
+	</div>-->
+
 	<div class="container" >
+		<div class="modal-container" id="modal-container">
+         <div class="modal" id="modal">
+			 <div class="modal-content">
+				 <div class="header">
+					<div class="logo2">
+						<img src="img/logo_facultad_universidad_de_chile.jpg" width="50%" height="100%"  alt="logo">
+						
+					</div>
+					 <h2 class="h2" >Investigación del comportamiento de elección </h2>
+					 <p>Esta encuesta tiene por objetivo estudiar el proceso de deliberación de las 
+						 personas al elegir alternativas de viajes en transporte público.</p>
+						<p> Agradecemos su colaboración respondiendo la presente encuesta, la cual le tomará alrededor de 8 minutos.
+							 Los datos que usted indique serán utilizados solamente para el desarrollo de una Tesis de Magíster 
+							 en Ingeniería de Transporte de la Universidad de Chile.</p>
+						<p> Al dar click en "Siguiente", da su consentimiento para continuar y participar en la encuesta. 
+							Si tiene alguna duda, sugerencia y/o comentario, por favor no dude en comunicarse al correo electrónico
+							<a href="mailto:gabriel.nova@ug.uchile.cl">gabriel.nova@ug.uchile.cl</a>
+						
+						 </p>
+					 <input type="checkbox" id="close"> <p class="aceptar">Acepto y doy mi consentimiento para continuar con la encuesta</p>
+
+				 </div>
+				 
+			 </div>
+		 </div>
+		</div>
 		
+		<div class="modal-container2" id="modal-container2">
+			<div class="modal2" id="modal2">
+				<div class="modal-content2">
+					<div class="header2">
+					   <div class="logo3">
+						   <img src="img/logo_facultad_universidad_de_chile.jpg" width="50%" height="100%"  alt="logo">
+						   
+					   </div>
+						<h2 class="h3" >Descripción de la situación de elección  </h2>
+						<p>
+							A continuación, se le mostrarán 8 situaciones hipotéticas de elección
+							 de ruta de transporte público para un viaje de ida al trabajo/estudio en punta mañana.
+							  Usted tiene 3 rutas disponibles que se diferencian en los siguientes atributos:
+
+						</p>
+						<p>
+							•	Tiempo de caminata: Minutos caminados desde su hogar hasta el primer paradero y desde el paradero de bajada hasta su destino.
+							•	Tiempo de espera: Minutos esperando en todos los paraderos de su viaje.
+							•	Tiempo de viaje en el vehículo: Minutos estando a bordo del bus/metro durante su viaje.
+							•	Costo: Tarifa pagada para realizar su viaje.
+							•	#Transbordos: Número de cambios de modos de transporte.
+							•	Disponibilidad de asiento: Posibilidad de sentarse durante el viaje.
+					   </p> 
+
+						<input type="checkbox" id="close2"> <p class="aceptar2">Comenzar con preguntas hipotéticas</p>
+   
+					</div>
+					
+				</div>
+			</div>
+		   </div>
 		<header>
 			<div class="logo">
                 <img src="img/logo_facultad_universidad_de_chile.jpg" width="50%" height="100%"  alt="logo">
 				
             </div>
 		</header>
+
+		
 		<div class="progress-bar" style="display: none;">
 			<div class="step">
 				<p>name</p>
@@ -119,6 +188,8 @@
 					<button class="btn-next next-1">Siguiente</button>
 					
 				</div>
+
+
 
 				<div class="page" >
 					<div class="title">Para efecto de clasificación estadística,<span class="salto"> indique características 
@@ -464,7 +535,6 @@
 		</div>
 		
 	</div>
-
 	<script src="js/script.js"></script>
 </body>
 </html>
