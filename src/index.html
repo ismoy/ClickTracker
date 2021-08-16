@@ -11,78 +11,14 @@
 </head>
 
 <body>
-
-	<!--<div class="drops">
-		<div class="drop"></div>
-		<div class="drop"></div>
-		<div class="drop"></div>
-		<div class="drop"></div>
-		<div class="drop"></div>
-		
-	</div>-->
-	<!--<div class="container-all" id="modal">
-	<div class="popup">
-		<div class="img"></div>
-		<div class="container-text">
-			<h1>Investigación del comportamiento de elección </h1>
-			<p>
-				Esta encuesta tiene por objetivo estudiar el proceso de deliberación de las personas al elegir
-				 alternativas de viajes en transporte público. </p>
-				<p>Agradecemos su colaboración respondiendo la presente encuesta,
-				 la cual le tomará alrededor de 8 minutos. Los datos que usted indique serán utilizados solamente para el 
-				 desarrollo de una Tesis de Magister en Ingeniería de Transporte de la Universidad de Chile.</p>
-			   <p> Al dar click en “Acepto”, da su consentimiento para continuar y 
-				participar en la encuesta.
-				  Si tiene alguna duda, sugerencia y/o 
-				  comentario, por favor no dude en comunicarse al correo electrónico 
-				  gabriel.nova@ug.uchile.cl
-
-			</p>
-			<input type="checkbox" name="aceptarterminos" id="aceptarterminos"/>Acepto y doy mi consentimiento para continuar con la encuesta 
-		</div>
-	</div>
-</div>-->
 	<div class="container">
-
 		<header>
 			<div class="logo">
 				<img src="img/logo_facultad_universidad_de_chile.jpg" width="50%" height="100%" alt="logo">
-
 			</div>
 		</header>
-		<div class="progress-bar">
-			<div class="step">
-				<p>name</p>
-				<div class="bullet">
-					<span>1</span>
-				</div>
-				<div class="check fas fa-check"></div>
-			</div>
-			<div class="step">
-				<p>name</p>
-				<div class="bullet">
-					<span>2</span>
-				</div>
-				<div class="check fas fa-check"></div>
-			</div>
-			<div class="step">
-				<p>name</p>
-				<div class="bullet">
-					<span>3</span>
-				</div>
-				<div class="check fas fa-check"></div>
-			</div>
-			<div class="step">
-				<p>name</p>
-				<div class="bullet">
-					<span>4</span>
-				</div>
-				<div class="check fas fa-check"></div>
-			</div>
-		</div>
 		<div class="form-outer">
 			<form action="#" id="form">
-				<input type="button" data-value="5" value="ver">
 				<div class="page slidepage">
 					<div class="title">Para efecto de clasificación estadística, <span class="salto">indique
 							características
@@ -91,7 +27,7 @@
 					</div>
 					<div class="field">
 						<div class="label">¿Cuál es su edad?</div>
-						<input type="number" placeholder="Ej 20" id="edad">
+						<input type="number" placeholder="Ej 20" id="edad" name="edad">
 						<i class="fas fa-check-circle"></i>
 						<i class="fas fa-exclamation-circle"></i>
 						<small>Error message</small>
@@ -184,6 +120,8 @@
 					<button class="btn-next1 next-2">Siguiente</button>
 
 				</div>
+
+
 				<div class="page">
 					<div class="title">Para efecto de clasificación estadística, <span class="salto"> indique
 							características
@@ -220,23 +158,24 @@
 					<button class="btn-next1 next-3">Siguiente</button>
 
 				</div>
+
 				<div class="page">
 					<div class="title">Describa por favor cómo era su viaje habitual <span class="salto">
 							en transporte publico al trabajo/estudio </span> antes de la pandemia </div>
 
 					<div class="field2">
 						<label>Tiempo de caminata [min]:</label>
-						<input type="number" class="fieldnumber">
+						<input type="number" class="fieldnumber" id="tiempocaminata">
 
 					</div>
 					<div class="field2">
 						<label>Tiempo de espera [min]:</label>
-						<input type="number" class="fieldnumber">
+						<input type="number" class="fieldnumber" id="tiempoespera">
 
 					</div>
 					<div class="field2">
 						<label>Tiempo de viaje [min]:</label>
-						<input type="number" class="fieldnumber" />
+						<input type="number" class="fieldnumber" id="tiempoviaje" />
 
 					</div>
 					<button class="btn-next2 prev-4">Back</button>
@@ -246,23 +185,24 @@
 				<div class="page">
 					<div class="field3">
 						<label>Tarifa [$]:</label>
-						<input type="number" class="fieldnumber tarifa" />
+						<input type="number" class="fieldnumber tarifa" name="ta" id="tarifa" />
 
 					</div>
 					<div class="field3">
 						<label>Trasbordo [-]:</label>
-						<input type="number" class="fieldnumber transbordo" />
+						<input type="number" class="fieldnumber transbordo" id="transbordo" />
 
 					</div>
 					<div class="field3">
 						<label>¿Hay asiento?</label>
-						<select class="fieldnumber disponibilidad">
-							<option>Hay disponibilidad</option>
-							<option>No</option>
+						<select class="fieldnumber disponibilidad" id="asiento">
+							<option value="1">Hay disponibilidad</option>
+							<option value="0">No</option>
 						</select>
 
 					</div>
 				</div>
+
 				<div class="page">
 					<div class="prueba">
 						<div class="rutaA">
@@ -270,24 +210,16 @@
 							<span>Ruta B</span>
 							<span>Ruta C</span>
 						</div>
-
-						<div class="interview-content">
-						</div>
-
 					</div>
-
-					<button class="btn-next5 prev-5">Back</button>
-					<button class="btn-next5 next-5">Siguiente</button>
 				</div>
-			</form>
 		</div>
+		</form>
+
 	</div>
 
-	<script src="js/script.js"></script>
+	</div>
 	<script src="js/main.js" type="module"></script>
-	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-</body>
-<script>
-</script>
+	<script>
+	</script>
 
 </html>

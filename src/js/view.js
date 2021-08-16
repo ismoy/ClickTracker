@@ -5,49 +5,49 @@ const interviews = [
         <div class="form-group">
             <label for="">Tiempo de caminata [min]:</label>
             <div class="grupolabel">
-                <input  name="btn1"  data-value="" value="Ver">
-                <input  name="btn17" data-value="" value="Ver">
-                <input  name="btn13" data-value="" value="Ver">
+                <input type="button"   name="btn1"  data-value="" value="Ver">
+                <input type="button"   name="btn17" data-value="" value="Ver">
+                <input type="button"   name="btn13" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">
             <label for="">Tiempo de espera [min]:</label>            
             <div class="grupolabel">
-                <input  name="btn2"  data-value="" value="Ver">
-                <input  name="btn8"  data-value="" value="Ver">
-                <input  name="btn14" data-value="" value="Ver">
+                <input type="button"   name="btn2"  data-value="" value="Ver">
+                <input type="button"   name="btn8"  data-value="" value="Ver">
+                <input type="button"   name="btn14" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">    
             <label for="">Tiempo de viaje [min]:</label>
             <div class="grupolabel">
-                <input  name="btn3"  data-value="" value="Ver">
-                <input  name="btn9"  data-value="" value="Ver">
-                <input  name="btn15" data-value="" value="Ver">
+                <input type="button"   name="btn3"  data-value="" value="Ver">
+                <input type="button"   name="btn9"  data-value="" value="Ver">
+                <input type="button"   name="btn15" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">
             <label for="">Tarifa [$]:</label>
-            <div class="grupolabel"  
-                <input  name="btn4"  data-value="" value="Ver">
-                <input  name="btn10" data-value="" value="Ver">
-                <input  name="btn16" data-value="" value="Ver">
+            <div class="grupolabel" > 
+                <input type="button"   name="btn4"  data-value="" value="Ver">
+                <input type="button"   name="btn10" data-value="" value="Ver">
+                <input type="button"   name="btn16" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">
             <label for="">Trasbordo [-]:</label>
             <div class="grupolabel">
-                <input  name="btn5"  data-value="" value="Ver">
-                <input  name="btn11" data-value="" value="Ver">
-                <input  name="btn17" data-value="" value="Ver">
+                <input type="button"   name="btn5"  data-value="" value="Ver">
+                <input type="button"   name="btn11" data-value="" value="Ver">
+                <input type="button"   name="btn17" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">
             <label for="">¿Hay asiento?</label>
             <div class="grupolabel">
-                <input  name="btn6"  data-value="" value="Ver">
-                <input  name="btn12" data-value="" value="Ver">
-                <input  name="btn18" data-value="" value="Ver">
+                <input type="button"   name="btn6"  data-value="" value="Ver">
+                <input type="button"   name="btn12" data-value="" value="Ver">
+                <input type="button"   name="btn18" data-value="" value="Ver">
             </div>
         </div>
     `,
@@ -248,41 +248,41 @@ const interviews = [
         <div class="form-group">
             <label for="">Tiempo de caminata [min]:</label>
             <div class="grupolabel">
-                <input  name="btn1"  data-value="" value="Ver">
-                <input  name="btn17" data-value="" value="Ver">
-                <input  name="btn13" data-value="" value="Ver">
+                <input type="button"   name="btn1"  data-value="" value="Ver">
+                <input type="button"   name="btn17" data-value="" value="Ver">
+                <input type="button"   name="btn13" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">
             <label for="">Tiempo de espera [min]:</label>            
             <div class="grupolabel">
-                <input  name="btn2"  data-value="" value="Ver">
-                <input  name="btn8"  data-value="" value="Ver">
-                <input  name="btn14" data-value="" value="Ver">
+                <input type="button"   name="btn2"  data-value="" value="Ver">
+                <input type="button"   name="btn8"  data-value="" value="Ver">
+                <input type="button"   name="btn14" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">    
             <label for="">Tiempo de viaje [min]:</label>
             <div class="grupolabel">
-                <input  name="btn3"  data-value="" value="Ver">
-                <input  name="btn9"  data-value="" value="Ver">
-                <input  name="btn15" data-value="" value="Ver">
+                <input type="button"   name="btn3"  data-value="" value="Ver">
+                <input type="button"   name="btn9"  data-value="" value="Ver">
+                <input type="button"   name="btn15" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">
             <label for="">Tarifa [$]:</label>
-            <div class="grupolabel"  
-                <input  name="btn4"  data-value="" value="Ver">
-                <input  name="btn10" data-value="" value="Ver">
-                <input  name="btn16" data-value="" value="Ver">
+            <div class="grupolabel">  
+                <input type="button"   name="btn4"  data-value="" value="Ver">
+                <input type="button"   name="btn10" data-value="" value="Ver">
+                <input type="button"   name="btn16" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">
             <label for="">Trasbordo [-]:</label>
             <div class="grupolabel">
-                <input  name="btn5"  data-value="" value="Ver">
-                <input  name="btn11" data-value="" value="Ver">
-                <input  name="btn17" data-value="" value="Ver">
+                <input type="button"   name="btn5"  data-value="" value="Ver">
+                <input type="button"   name="btn11" data-value="" value="Ver">
+                <input type="button"   name="btn17" data-value="" value="Ver">
             </div>
         </div>
     `, screens: [
@@ -459,33 +459,33 @@ const interviews = [
         <div class="form-group">
             <label for="">Tiempo de caminata [min]:</label>
             <div class="grupolabel">
-                <input  name="btn1"  data-value="" value="Ver">
-                <input  name="btn17" data-value="" value="Ver">
-                <input  name="btn13" data-value="" value="Ver">
+                <input type="button"   name="btn1"  data-value="" value="Ver">
+                <input type="button"   name="btn17" data-value="" value="Ver">
+                <input type="button"   name="btn13" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">
             <label for="">Tiempo de espera [min]:</label>            
             <div class="grupolabel">
-                <input  name="btn2"  data-value="" value="Ver">
-                <input  name="btn8"  data-value="" value="Ver">
-                <input  name="btn14" data-value="" value="Ver">
+                <input type="button"   name="btn2"  data-value="" value="Ver">
+                <input type="button"   name="btn8"  data-value="" value="Ver">
+                <input type="button"   name="btn14" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">    
             <label for="">Tiempo de viaje [min]:</label>
             <div class="grupolabel">
-                <input  name="btn3"  data-value="" value="Ver">
-                <input  name="btn9"  data-value="" value="Ver">
-                <input  name="btn15" data-value="" value="Ver">
+                <input type="button"   name="btn3"  data-value="" value="Ver">
+                <input type="button"   name="btn9"  data-value="" value="Ver">
+                <input type="button"   name="btn15" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">
             <label for="">Tarifa [$]:</label>
-            <div class="grupolabel"  
-                <input  name="btn4"  data-value="" value="Ver">
-                <input  name="btn10" data-value="" value="Ver">
-                <input  name="btn16" data-value="" value="Ver">
+            <div class="grupolabel">  
+                <input type="button"   name="btn4"  data-value="" value="Ver">
+                <input type="button"   name="btn10" data-value="" value="Ver">
+                <input type="button"   name="btn16" data-value="" value="Ver">
             </div>
         </div>
 
@@ -631,25 +631,25 @@ const interviews = [
         <div class="form-group">
             <label for="">Tiempo de caminata [min]:</label>
             <div class="grupolabel">
-                <input  name="btn1"  data-value="" value="Ver">
-                <input  name="btn17" data-value="" value="Ver">
-                <input  name="btn13" data-value="" value="Ver">
+                <input type="button"   name="btn1"  data-value="" value="Ver">
+                <input type="button"   name="btn17" data-value="" value="Ver">
+                <input type="button"   name="btn13" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">
             <label for="">Tiempo de espera [min]:</label>            
             <div class="grupolabel">
-                <input  name="btn2"  data-value="" value="Ver">
-                <input  name="btn8"  data-value="" value="Ver">
-                <input  name="btn14" data-value="" value="Ver">
+                <input type="button"   name="btn2"  data-value="" value="Ver">
+                <input type="button"   name="btn8"  data-value="" value="Ver">
+                <input type="button"   name="btn14" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">    
             <label for="">Tiempo de viaje [min]:</label>
             <div class="grupolabel">
-                <input  name="btn3"  data-value="" value="Ver">
-                <input  name="btn9"  data-value="" value="Ver">
-                <input  name="btn15" data-value="" value="Ver">
+                <input type="button"   name="btn3"  data-value="" value="Ver">
+                <input type="button"   name="btn9"  data-value="" value="Ver">
+                <input type="button"   name="btn15" data-value="" value="Ver">
             </div>
         </div>
  
@@ -771,17 +771,17 @@ const interviews = [
         <div class="form-group">
             <label for="">Tiempo de caminata [min]:</label>
             <div class="grupolabel">
-                <input  name="btn1"  data-value="" value="Ver">
-                <input  name="btn17" data-value="" value="Ver">
-                <input  name="btn13" data-value="" value="Ver">
+                <input type="button"   name="btn1"  data-value="" value="Ver">
+                <input type="button"   name="btn17" data-value="" value="Ver">
+                <input type="button"   name="btn13" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">
             <label for="">Tiempo de espera [min]:</label>            
             <div class="grupolabel">
-                <input  name="btn2"  data-value="" value="Ver">
-                <input  name="btn8"  data-value="" value="Ver">
-                <input  name="btn14" data-value="" value="Ver">
+                <input type="button"   name="btn2"  data-value="" value="Ver">
+                <input type="button"   name="btn8"  data-value="" value="Ver">
+                <input type="button"   name="btn14" data-value="" value="Ver">
             </div>
         </div>
 
@@ -880,43 +880,43 @@ const interviews = [
         <div class="form-group">
             <label for="">Tiempo de caminata [min]:</label>
             <div class="grupolabel">
-                <input  name="btn1"  data-value="" value="Ver">
-                <input  name="btn17" data-value="" value="Ver">
+                <input type="button"   name="btn1"  data-value="" value="Ver">
+                <input type="button"   name="btn17" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">
             <label for="">Tiempo de espera [min]:</label>            
             <div class="grupolabel">
-                <input  name="btn2"  data-value="" value="Ver">
-                <input  name="btn8"  data-value="" value="Ver">
+                <input type="button"   name="btn2"  data-value="" value="Ver">
+                <input type="button"   name="btn8"  data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">    
             <label for="">Tiempo de viaje [min]:</label>
             <div class="grupolabel">
-                <input  name="btn3"  data-value="" value="Ver">
-                <input  name="btn9"  data-value="" value="Ver">
+                <input type="button"   name="btn3"  data-value="" value="Ver">
+                <input type="button"   name="btn9"  data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">
             <label for="">Tarifa [$]:</label>
-            <div class="grupolabel"  
-                <input  name="btn4"  data-value="" value="Ver">
-                <input  name="btn10" data-value="" value="Ver">
+            <div class="grupolabel" > 
+                <input type="button"   name="btn4"  data-value="" value="Ver">
+                <input type="button"   name="btn10" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">
             <label for="">Trasbordo [-]:</label>
             <div class="grupolabel">
-                <input  name="btn5"  data-value="" value="Ver">
-                <input  name="btn11" data-value="" value="Ver">
+                <input type="button"   name="btn5"  data-value="" value="Ver">
+                <input type="button"   name="btn11" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">
             <label for="">¿Hay asiento?</label>
             <div class="grupolabel">
-                <input  name="btn6"  data-value="" value="Ver">
-                <input  name="btn12" data-value="" value="Ver">
+                <input type="button"   name="btn6"  data-value="" value="Ver">
+                <input type="button"   name="btn12" data-value="" value="Ver">
             </div>
         </div>
     
@@ -1063,36 +1063,36 @@ const interviews = [
         <div class="form-group">
             <label for="">Tiempo de caminata [min]:</label>
             <div class="grupolabel">
-                <input  name="btn1"  data-value="" value="Ver">
-                <input  name="btn17" data-value="" value="Ver">
+                <input type="button"   name="btn1"  data-value="" value="Ver">
+                <input type="button"   name="btn17" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">
             <label for="">Tiempo de espera [min]:</label>            
             <div class="grupolabel">
-                <input  name="btn2"  data-value="" value="Ver">
-                <input  name="btn8"  data-value="" value="Ver">
+                <input type="button"   name="btn2"  data-value="" value="Ver">
+                <input type="button"   name="btn8"  data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">    
             <label for="">Tiempo de viaje [min]:</label>
             <div class="grupolabel">
-                <input  name="btn3"  data-value="" value="Ver">
-                <input  name="btn9"  data-value="" value="Ver">
+                <input type="button"   name="btn3"  data-value="" value="Ver">
+                <input type="button"   name="btn9"  data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">
             <label for="">Tarifa [$]:</label>
-            <div class="grupolabel"  
-                <input  name="btn4"  data-value="" value="Ver">
-                <input  name="btn10" data-value="" value="Ver">
+            <div class="grupolabel">  
+                <input type="button"   name="btn4"  data-value="" value="Ver">
+                <input type="button"   name="btn10" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">
             <label for="">Trasbordo [-]:</label>
             <div class="grupolabel">
-                <input  name="btn5"  data-value="" value="Ver">
-                <input  name="btn11" data-value="" value="Ver">
+                <input type="button"   name="btn5"  data-value="" value="Ver">
+                <input type="button"   name="btn11" data-value="" value="Ver">
             </div>
         </div>
     `, screens: [
@@ -1223,29 +1223,29 @@ const interviews = [
         <div class="form-group">
             <label for="">Tiempo de caminata [min]:</label>
             <div class="grupolabel">
-                <input  name="btn1"  data-value="" value="Ver">
-                <input  name="btn17" data-value="" value="Ver">
+                <input type="button"   name="btn1"  data-value="" value="Ver">
+                <input type="button"   name="btn17" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">
             <label for="">Tiempo de espera [min]:</label>            
             <div class="grupolabel">
-                <input  name="btn2"  data-value="" value="Ver">
-                <input  name="btn8"  data-value="" value="Ver">
+                <input type="button"   name="btn2"  data-value="" value="Ver">
+                <input type="button"   name="btn8"  data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">    
             <label for="">Tiempo de viaje [min]:</label>
             <div class="grupolabel">
-                <input  name="btn3"  data-value="" value="Ver">
-                <input  name="btn9"  data-value="" value="Ver">
+                <input type="button"   name="btn3"  data-value="" value="Ver">
+                <input type="button"   name="btn9"  data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">
             <label for="">Tarifa [$]:</label>
-            <div class="grupolabel"  
-                <input  name="btn4"  data-value="" value="Ver">
-                <input  name="btn10" data-value="" value="Ver">
+            <div class="grupolabel" > 
+                <input type="button"   name="btn4"  data-value="" value="Ver">
+                <input type="button"   name="btn10" data-value="" value="Ver">
             </div>
         </div>
     `, screens: [
@@ -1362,22 +1362,22 @@ const interviews = [
         <div class="form-group">
             <label for="">Tiempo de caminata [min]:</label>
             <div class="grupolabel">
-                <input  name="btn1"  data-value="" value="Ver">
-                <input  name="btn17" data-value="" value="Ver">
+                <input type="button"   name="btn1"  data-value="" value="Ver">
+                <input type="button"   name="btn17" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">
             <label for="">Tiempo de espera [min]:</label>            
             <div class="grupolabel">
-                <input  name="btn2"  data-value="" value="Ver">
-                <input  name="btn8"  data-value="" value="Ver">
+                <input type="button"   name="btn2"  data-value="" value="Ver">
+                <input type="button"   name="btn8"  data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">    
             <label for="">Tiempo de viaje [min]:</label>
             <div class="grupolabel">
-                <input  name="btn3"  data-value="" value="Ver">
-                <input  name="btn9"  data-value="" value="Ver">
+                <input type="button"   name="btn3"  data-value="" value="Ver">
+                <input type="button"   name="btn9"  data-value="" value="Ver">
             </div>
         </div>
     `, screens: [
@@ -1482,15 +1482,15 @@ const interviews = [
         <div class="form-group">
             <label for="">Tiempo de caminata [min]:</label>
             <div class="grupolabel">
-                <input  name="btn1"  data-value="" value="Ver">
-                <input  name="btn17" data-value="" value="Ver">
+                <input type="button"   name="btn1"  data-value="" value="Ver">
+                <input type="button"   name="btn17" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">
             <label for="">Tiempo de espera [min]:</label>            
             <div class="grupolabel">
-                <input  name="btn2"  data-value="" value="Ver">
-                <input  name="btn8"  data-value="" value="Ver">
+                <input type="button"   name="btn2"  data-value="" value="Ver">
+                <input type="button"   name="btn8"  data-value="" value="Ver">
             </div>
         </div>
     `, screens: [
