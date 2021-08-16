@@ -27,7 +27,8 @@
 					</div>
 					<div class="field">
 						<div class="label">¿Cuál es su edad?</div>
-						<input type="number" placeholder="Ej 20" id="edad" name="edad">
+						<input type="hidden" name="question" value="1">
+						<input type="number" placeholder="Ej 20" id="edad" name="edad" value="20">
 						<i class="fas fa-check-circle"></i>
 						<i class="fas fa-exclamation-circle"></i>
 						<small>Error message</small>
@@ -35,8 +36,9 @@
 					</div>
 					<div class="field">
 						<div class="label">¿Con que genero se siente identificado?</div>
-						<select id="genero">
-							<option>Masculino</option>
+						<input type="hidden" name="question" value="2">
+						<select id="genero" name="genero">
+							<option selected>Masculino</option>
 							<option>Femenino</option>
 							<option>Otro</option>
 						</select>
@@ -55,8 +57,9 @@
 					</div>
 					<div class="field">
 						<div class="label">¿Cuál es su situación laboral actual?</div>
-						<select id="ocupacion">
-							<option>Estudiando</option>
+						<input type="hidden" name="question" value="3">
+						<select id="ocupacion" name="ocupacion">
+							<option selected>Estudiando</option>
 							<option>Trabajando</option>
 							<option>Cesante</option>
 							<option>Jubilado</option>
@@ -68,9 +71,10 @@
 					</div>
 					<div class="field">
 						<div class="label">¿Cuál es su máximo nivel educacional?</div>
-						<select id="nivelestudio">
+						<input type="hidden" name="question" value="4">
+						<select id="nivelestudio" name="nivelestudio">
 							<option>Ninguno</option>
-							<option>Preescolar</option>
+							<option selected>Preescolar</option>
 							<option>Básica</option>
 							<option>Media Científica-Humanista</option>
 							<option>Media Técnico-Profesional</option>
@@ -98,7 +102,8 @@
 						<div class="label-custom">¿Cuántos días de la semana laboral <span class="salto"> usaba
 								transporte público
 								para ir al </span> trabajo o estudio antes de la pandemia?</div>
-						<input type="text" class="input-custom" id="viajeday">
+						<input type="hidden" name="question" value="5">
+						<input type="text" class="input-custom" id="viajeday" name="viajeday" value="2">
 						<i class="fas fa-check-circle"></i>
 						<i class="fas fa-exclamation-circle"></i>
 						<small>Error message</small>
@@ -106,8 +111,9 @@
 					<div class="field">
 						<div class="label-custom2">¿Tiene tarjeta Bip!, pase escolar<span class="salto"> o adulto
 								mayor?</span></div>
-						<select class="select-custom" id="tarjetabip">
-							<option>Tarjeta Bip!</option>
+						<input type="hidden" name="question" value="6">
+						<select class="select-custom" id="tarjetabip" name="tarjetabip">
+							<option selected>Tarjeta Bip!</option>
 							<option>Pase escolar</option>
 							<option>Tarjeta de adulto mayor</option>
 
@@ -131,8 +137,9 @@
 					<div class="field">
 						<div class="label">¿En qué rango estima usted <span class="salto">que se encuentra el ingreso
 								líquido</span> <span class="salto">mensual de su hogar?</span></div>
-						<select class="select-custom2" id="rentamensual">
-							<option>Menos de $324.000</option>
+						<input type="hidden" name="question" value="7">
+						<select class="select-custom2" id="rentamensual" name="rentamensual">
+							<option selected>Menos de $324.000</option>
 							<option>Entre $324.000 y $562.000</option>
 							<option>Entre $562.000 y $899.000</option>
 							<option>Entre $899.000 y $1.360.000</option>
@@ -149,7 +156,8 @@
 					<div class="field">
 						<div class="label-custom3">¿Cuántas personas componen <span class="salto"> su hogar
 								incluyéndose?</span></div>
-						<input type="number" class="input-custom2" id="totalpersHouse">
+						<input type="hidden" name="question" value="8">
+						<input type="number" class="input-custom2" id="totalpersHouse" name="totalpersHouse" value="2">
 						<i class="fas fa-check-circle"></i>
 						<i class="fas fa-exclamation-circle"></i>
 						<small>Error message</small>
@@ -165,37 +173,39 @@
 
 					<div class="field2">
 						<label>Tiempo de caminata [min]:</label>
-						<input type="number" class="fieldnumber" id="tiempocaminata">
+						<input type="number" class="fieldnumber" id="tiempocaminata" name="tipocaminata" value="2">
 
 					</div>
 					<div class="field2">
 						<label>Tiempo de espera [min]:</label>
-						<input type="number" class="fieldnumber" id="tiempoespera">
+						<input type="number" class="fieldnumber" id="tiempoespera" name="tiempoespera" value="2">
 
 					</div>
 					<div class="field2">
 						<label>Tiempo de viaje [min]:</label>
-						<input type="number" class="fieldnumber" id="tiempoviaje" />
+						<input type="number" class="fieldnumber" id="tiempoviaje" name="tiempoviaje" value="2"/>
 
 					</div>
-					<button class="btn-next2 prev-4">Back</button>
 					<button class="btn-next2 next-4">Siguiente</button>
 
 				</div>
 				<div class="page">
 					<div class="field3">
 						<label>Tarifa [$]:</label>
-						<input type="number" class="fieldnumber tarifa" name="ta" id="tarifa" />
+						<input type="hidden" name="question" value="9.4">
+						<input type="number" class="fieldnumber tarifa" name="tarifa" id="tarifa" value="2"/>
 
 					</div>
 					<div class="field3">
 						<label>Trasbordo [-]:</label>
-						<input type="number" class="fieldnumber transbordo" id="transbordo" />
+						<input type="hidden" name="question" value="9.5">
+						<input type="number" class="fieldnumber transbordo" name="transbordo" id="transbordo" value="2"/>
 
 					</div>
 					<div class="field3">
 						<label>¿Hay asiento?</label>
-						<select class="fieldnumber disponibilidad" id="asiento">
+						<input type="hidden" name="question" value="9.6">
+						<select class="fieldnumber disponibilidad" id="asiento" name="asiento">
 							<option value="1">Hay disponibilidad</option>
 							<option value="0">No</option>
 						</select>
@@ -209,6 +219,11 @@
 							<span>Ruta A</span>
 							<span>Ruta B</span>
 							<span>Ruta C</span>
+						</div>
+						<div class="input-group">
+							<button value="A">A</button>
+							<button value="A">B</button>
+							<button value="A">C</button>
 						</div>
 					</div>
 				</div>
