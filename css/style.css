@@ -826,7 +826,17 @@ input[type=checkbox] {
         border-radius: 5px;   
     }
 
-   
+    /*.btn-next1 {
+        border: none;
+        padding: 15px 35px;
+        background-color: red;
+        color: #fff;
+        float: left;
+        border-radius: 27px;
+        transition: 0.4s all;
+        margin-top: 7%;
+        margin-left: -17%;
+    }*/
     .page .field .select-custom2 {
         width: 80%;
         padding-left: 10px;
@@ -863,7 +873,14 @@ input[type=checkbox] {
         top:40% ;
         
     }
-   
+    .form-outer form .page .field2 {
+        height: 25px;
+        width: 263px;
+        margin: 45px 0;
+        position: relative;
+        display: flex;
+        margin-left: -13%;
+    }
     .form-outer form .page .field2 .fieldnumber {
         height: 100%;
         width: 35%;
@@ -972,31 +989,3 @@ input[type=checkbox] {
 .interview-content:nth-of-type(2) {
     background-color: aqua
 }
-
-.form-outer form .page .titledescriba {
-    font-size: 4vw;
-    font-weight: 500px;
-    margin-left: -4%;
-    width: 329px;
-    align-items: center;
-}
-.form-outer form .page .field2 {
-    height: 25px;
-    width: 263px;
-    margin: 45px 0;
-    position: relative;
-    display: flex;
-    margin-left: -2%;
-}
-
-.form-outer form .page .field3 {
-    height: 25px;
-    width: 18%;
-    margin: 45px 0;
-    /* top: -19%; */
-    left: -99%;
-    position: relative;
-    display: flex;
-    margin-top: 270px;
-}
-  
