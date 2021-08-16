@@ -29,13 +29,9 @@
 
 const slidePage = document.querySelector(".slidepage");
 const firstNextBtn = document.querySelector(".nextBtn");
-const prevBtnSec = document.querySelector(".prev-1");
 const nextBtnSec = document.querySelector(".next-1");
-const prevBtnThird = document.querySelector(".prev-2");
 const nextBtnThird = document.querySelector(".next-2");
-const prevBtnFourth = document.querySelector(".prev-3");
 const nextBtnFourth = document.querySelector(".next-3");
-const prevBtnFive = document.querySelector(".prev-4");
 const nextBtnFive = document.querySelector(".next-4");
 const nextBtnSix = document.querySelector(".next-5");
 const nextBtnSeven = document.querySelector(".next-6");
@@ -238,29 +234,7 @@ nextBtntherti.addEventListener("click",function(){
     current +=1;
 });
 
-prevBtnSec.addEventListener("click", function(){
 
-    slidePage.style.marginLeft = "4%"
-    title.style.display="block" 
-});
-
-prevBtnThird.addEventListener("click", function(){
-
-    slidePage.style.marginLeft = "-12%" 
-    title.style.display="block" 
-});
-prevBtnFourth.addEventListener("click", function(){
-
-    slidePage.style.marginLeft = "-34%" 
-    title.style.display="block" 
-    
-});
-
-prevBtnFive.addEventListener("click", function(){
-
-    slidePage.style.marginLeft = "-68%" 
-    title.style.display="block" 
-});
 
 
 
