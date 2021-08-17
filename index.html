@@ -7,10 +7,530 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<<<<<<< HEAD
+=======
+<body>
+
+
+
+	<div class="container" >
+		<div class="modal-container" id="modal-container">
+         <div class="modal" id="modal">
+			 <div class="modal-content">
+				 <div class="header">
+					<div class="logo2">
+						<img src="img/logo_facultad_universidad_de_chile.jpg" width="50%" height="100%"  alt="logo">
+						
+					</div>
+					 <h2 class="h2" >Investigación del comportamiento de elección </h2>
+					 <p>Esta encuesta tiene por objetivo estudiar el proceso de deliberación de las 
+						 personas al elegir alternativas de viajes en transporte público.</p>
+						<p> Agradecemos su colaboración respondiendo la presente encuesta, la cual le tomará alrededor de 8 minutos.
+							 Los datos que usted indique serán utilizados solamente para el desarrollo de una Tesis de Magíster 
+							 en Ingeniería de Transporte de la Universidad de Chile.</p>
+						<p> Al dar click en "Siguiente", da su consentimiento para continuar y participar en la encuesta. 
+							Si tiene alguna duda, sugerencia y/o comentario, por favor no dude en comunicarse al correo electrónico
+							<a href="mailto:gabriel.nova@ug.uchile.cl">gabriel.nova@ug.uchile.cl</a>
+						
+						 </p>
+					 <input type="checkbox" id="close"> <p class="aceptar">Acepto y doy mi consentimiento para continuar con la encuesta</p>
+
+				 </div>
+				 
+			 </div>
+		 </div>
+		</div>
+		
+		<div class="modal-container2" id="modal-container2">
+			<div class="modal2" id="modal2">
+				<div class="modal-content2">
+					<div class="header2">
+					   <div class="logo3">
+						   <img src="img/logo_facultad_universidad_de_chile.jpg" width="50%" height="100%"  alt="logo">
+						   
+					   </div>
+						<h2 class="h3" >Descripción de la situación de elección  </h2>
+						<p>
+							A continuación, se le mostrarán 8 situaciones hipotéticas de elección
+							 de ruta de transporte público para un viaje de ida al trabajo/estudio en punta mañana.
+							  Usted tiene 3 rutas disponibles que se diferencian en los siguientes atributos:
+
+						</p>
+						<p>
+							•	Tiempo de caminata: Minutos caminados desde su hogar hasta el primer paradero y desde el paradero de bajada hasta su destino.
+							•	Tiempo de espera: Minutos esperando en todos los paraderos de su viaje.
+							•	Tiempo de viaje en el vehículo: Minutos estando a bordo del bus/metro durante su viaje.
+							•	Costo: Tarifa pagada para realizar su viaje.
+							•	#Transbordos: Número de cambios de modos de transporte.
+							•	Disponibilidad de asiento: Posibilidad de sentarse durante el viaje.
+					   </p> 
+
+						<input type="checkbox" id="close2"> <p class="aceptar2">Comenzar con preguntas hipotéticas</p>
+   
+					</div>
+					
+				</div>
+			</div>
+		   </div>
+		<header>
+			<div class="logo">
+                <img src="img/logo_facultad_universidad_de_chile.jpg" width="50%" height="100%"  alt="logo">
+				
+            </div>
+		</header>
+
+		
+		<div class="progress-bar" style="display: none;">
+			<div class="step">
+				<p>name</p>
+				<div class="bullet">
+					<span>1</span>
+				</div>
+				<div class="check fas fa-check"></div>
+			</div>
+			<div class="step">
+				<p>name</p>
+				<div class="bullet">
+					<span>2</span>
+				</div>
+				<div class="check fas fa-check"></div>
+			</div>
+			<div class="step">
+				<p>name</p>
+				<div class="bullet">
+					<span>3</span>
+				</div>
+				<div class="check fas fa-check"></div>
+			</div>
+			<div class="step">
+				<p>name</p>
+				<div class="bullet">
+					<span>4</span>
+				</div>
+				<div class="check fas fa-check"></div>
+			</div>
+			<div class="step">
+				<p>name</p>
+				<div class="bullet">
+					<span>5</span>
+				</div>
+				<div class="check fas fa-check"></div>
+			</div>
+			</div>
+		<div class="form-outer">
+			<form action="#" id="form">
+				<div class="page slidepage" style="margin-left: 2%;">
+					<div class="title">Para efecto de clasificación estadística, <span class="salto">indique características 
+						socioeconómicas</span> <span class="salto">y de movilidad</span> <h4> antes de la pandemia </div>
+					<div class="field">
+						<div class="label">¿Cuál es su edad?</div>
+						<input type="number" placeholder="Ej 20" id="edad">
+						<i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+
+					</div>
+					<div class="field">
+						<div class="label">¿Con que genero se siente identificado?</div>
+						<select id="genero">
+							<option>Masculino</option>
+							<option>Femenino</option>
+							<option>Otro</option>
+						</select>
+						<i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+					</div>
+					<button class="btn-next nextBtn" type="button" id="next" >Siguiente</button>
+				
+				</div>
+                <div class="page" >
+					<div class="title">Para efecto de clasificación estadística, <span class="salto"> indique características 
+						socioeconómicas</span> <span class="salto"> y de movilidad </span><h4> antes de la pandemia </div>
+					<div class="field">
+						<div class="label">¿Cuál es su situación laboral actual?</div>
+						<select id="ocupacion">
+							<option>Estudiando</option>
+							<option>Trabajando</option>
+							<option>Cesante</option>
+							<option>Jubilado</option>
+							<option>Otro</option>
+						</select>
+						<i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+					</div>
+					<div class="field">
+						<div class="label">¿Cuál es su máximo nivel educacional?</div>
+						<select id="nivelestudio">
+							<option>Ninguno</option>
+							<option>Preescolar</option>
+							<option>Básica</option>
+							<option>Media Científica-Humanista</option>
+							<option>Media Técnico-Profesional</option>
+							<option>Centro de Formación Técnica</option>
+							<option>Instituto Profesional</option>
+							<option>Universitaria</option>
+						   
+						</select>
+						<i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+					</div>
+					<button class="btn-next next-1">Siguiente</button>
+					
+				</div>
+
+
+
+				<div class="page" >
+					<div class="title">Para efecto de clasificación estadística,<span class="salto"> indique características 
+						socioeconómicas<span class="salto"></span> y de movilidad </span><h4> antes de la pandemia</h4> </div>
+					<div class="field">
+						<div class="label-custom">¿Cuántos días de la semana laboral <span class="salto"> usaba transporte público 
+							para ir al </span> trabajo o estudio antes de la pandemia?</div>
+						<input type="text" class="input-custom" id="viajeday">
+						<i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+					</div>
+					<div class="field">
+						<div class="label-custom2">¿Tiene tarjeta Bip!, pase escolar<span class="salto"> o adulto mayor?</span></div>
+						<select class="select-custom" id="tarjetabip">
+							<option>Tarjeta Bip!</option>
+							<option>Pase escolar</option>
+							<option>Tarjeta de adulto mayor</option>
+							
+						</select>
+						<i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+					</div>
+					<button class="btn-next1 next-2">Siguiente</button>
+
+				</div>
+>>>>>>> main
 
 <body>
 
+<<<<<<< HEAD
     <iframe src="./botones.html" height="100%" width="100%"></iframe>
+=======
+				<div class="page" >
+					<div class="title">Para efecto de clasificación estadística, <span class="salto"> indique características 
+						socioeconómicas</span> <span class="salto"> y de movilidad</span> <h4> antes de la pandemia</h4> </div>
+					<div class="field">
+						<div class="label">¿En qué rango estima usted <span class="salto">que se encuentra el ingreso líquido</span> <span class="salto">mensual de su hogar?</span></div>
+						<select class="select-custom2" id="rentamensual">
+							<option>Menos de $324.000</option>
+							<option>Entre $324.000 y $562.000</option>
+							<option>Entre $562.000 y $899.000</option>
+							<option>Entre $899.000 y $1.360.000</option>
+							<option>Entre $1.360.000 y $1.986.000</option>
+							<option>Entre $1.986.000 y $2.739.000</option>
+							<option>Más de $2.739.000</option>
+							<option>Prefiero no responder</option>
+							
+						</select>
+						<i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+					</div>
+					<div class="field">
+						<div class="label-custom3">¿Cuántas personas componen <span class="salto"> su hogar incluyéndose?</span></div>
+						<input type="number" class="input-custom2" id="totalpersHouse">
+						<i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+					</div>
+					<button class="btn-next1 next-3">Siguiente</button>
+
+				</div>
+
+				<div class="page" >
+					<div class="title-custom title">Describa por favor cómo era su viaje habitual <span class="salto">
+						en transporte publico al trabajo/estudio </span> antes de la pandemia </div>
+					
+						<div class="field2">
+							<label>Tiempo de caminata [min]:</label>
+							<input type="number" class="fieldnumber" id="tiempocaminata">
+							
+						</div>
+						<div class="field2">
+							<label>Tiempo de espera [min]:</label>
+							<input type="number" class="fieldnumber" id="tiempoespera">
+						
+						</div>
+						<div class="field2">
+						<label>Tiempo de viaje [min]:</label>
+						<input type="number" class="fieldnumber" id="tiempoviaje"/>
+						
+						</div>
+						<button class="btn-next2 next-4">Siguiente</button>
+
+				</div>
+				<div class="page">
+					<div class="field3">
+						<label >Tarifa [$]:</label>
+						<input type="number" class="fieldnumber tarifa" id="tarifa"/>
+					
+						</div>
+						<div class="field3">
+						<label>Trasbordo [-]:</label>					
+						<input type="number" class="fieldnumber transbordo" id="transbordo"/>
+		
+						</div>
+						<div class="field3">
+						<label>¿Hay asiento?</label>
+						<select class="fieldnumber disponibilidad" id="asiento">
+							<option value="1">Hay disponibilidad</option>
+							<option value="0">No</option>
+						</select>
+				
+					</div>
+				</div>
+
+				<div class="page">
+					<p>
+						¿Cuál de estas 3 ruta de transporte Público elegiría para viajar al trabajo/estudio en punta mañana?<br>
+                        Para ver los atributos de cada ruta marque “ver” las veces que estime conveniente.<br>
+						Cuando este seguro, indique se ruta elegida
+ 
+					</p>
+					
+					<div class="prueba">
+						<div class="rutaA">
+							<span>Ruta A</span>
+							<span>Ruta B</span>
+							<span>Ruta C</span>
+						</div>
+
+						<div class="interview-content ">
+
+							<div class="grupolabel1">
+								<label for="">Tiempo de caminata [min]:</label>
+								<input type="button" name="btn1" data-value="" value="ver"/>
+								<input type="button" name="btn7" data-value="" value="ver"/>
+								<input type="button" name="btn13" data-value="" value="ver"/>       
+							</div>
+			
+							<div class="grupolabel2">
+								<label for="">Tiempo de espera [min]:</label>
+								<input type="button" name="btn2" data-value="" value="ver"/>
+								<input type="button" name="btn8" data-value="" value="ver"/>
+								<input type="button" name="btn14" data-value="" value="ver"/>      
+							</div>
+			
+							<div class="grupolabel3">
+								<label for="">Tiempo de viaje [min]:</label>
+								<input type="button" name="btn3" data-value="" value="ver"/>
+								<input type="button" name="btn9" data-value="" value="ver"/>
+								<input type="button" name="btn15" data-value="" value="ver"/>       
+							</div>
+							<div class="grupolabel4">
+								<label for="">Tarifa [$]:</label>
+								<input type="button" name="btn4" data-value="" value="ver"/>
+								<input type="button" name="btn10" data-value="" value="ver"/>
+								<input type="button" name="btn16" data-value="" value="ver"/>       
+							</div>
+							<div class="grupolabel5">
+								<label for="">Trasbordo [-]:</label>
+								<input type="button" name="btn5" data-value="" value="ver"/>
+								<input type="button" name="btn11" data-value="" value="ver"/>
+								<input type="button" name="btn1" data-value="" value="ver"/>        
+							</div>
+							<div class="grupolabel6">
+								<label for="">¿Hay asiento?</label>
+								<input type="button" name="btn6" data-value="" value="ver"/>
+								<input type="button" name="btn12" data-value="" value="ver"/>
+								<input type="button" name="btn18" data-value="" value="ver"/>    
+							</div>
+						</div>
+						
+					</div>
+				
+					<button class="btn-next4 next-5">Siguiente</button>
+				</div>
+
+				<div class="page pg2">
+					
+					<div class="interview-content">
+						<div class="grupolabel4">
+							<label for="">Tarifa [$]:</label>
+							<input type="button" name="btn4" data-value="" value="ver"/>
+							<input type="button" name="btn10" data-value="" value="ver"/>
+							<input type="button" name="btn16" data-value="" value="ver"/>       
+						</div>
+						<div class="grupolabel5">
+							<label for="">Trasbordo [-]:</label>
+							<input type="button" name="btn5" data-value="" value="ver"/>
+							<input type="button" name="btn11" data-value="" value="ver"/>
+							<input type="button" name="btn1" data-value="" value="ver"/>        
+						</div>
+						<div class="grupolabel6">
+							<label for="">¿Hay asiento?</label>
+							<input type="button" name="btn6" data-value="" value="ver"/>
+							<input type="button" name="btn12" data-value="" value="ver"/>
+							<input type="button" name="btn18" data-value="" value="ver"/>    
+						</div>
+					</div>
+					<button class="btn-next4 next-6">dale</button>
+				</div>
+
+
+				<div class="page">
+					<div class="interview-content">
+						<div class="grupolabel4">
+							<label for="">Tarifa [$]:</label>
+							<input type="button" name="btn4" data-value="" value="ver"/>
+							<input type="button" name="btn10" data-value="" value="ver"/>
+							<input type="button" name="btn16" data-value="" value="ver"/>       
+						</div>
+						<div class="grupolabel5">
+							<label for="">Trasbordo [-]:</label>
+							<input type="button" name="btn5" data-value="" value="ver"/>
+							<input type="button" name="btn11" data-value="" value="ver"/>
+							<input type="button" name="btn1" data-value="" value="ver"/>        
+						</div>
+						<div class="grupolabel6">
+							<label for="">¿Hay asiento?</label>
+							<input type="button" name="btn6" data-value="" value="ver"/>
+							<input type="button" name="btn12" data-value="" value="ver"/>
+							<input type="button" name="btn18" data-value="" value="ver"/>    
+						</div>
+					</div>
+					<button class="btn-next4 next-7">dale</button>
+				</div>
+
+				<div class="page">
+					<div class="interview-content">
+						<div class="grupolabel4">
+							<label for="">Tarifa [$]:</label>
+							<input type="button" name="btn4" data-value="" value="ver"/>
+							<input type="button" name="btn10" data-value="" value="ver"/>
+							<input type="button" name="btn16" data-value="" value="ver"/>       
+						</div>
+						<div class="grupolabel5">
+							<label for="">Trasbordo [-]:</label>
+							<input type="button" name="btn5" data-value="" value="ver"/>
+							<input type="button" name="btn11" data-value="" value="ver"/>
+							<input type="button" name="btn1" data-value="" value="ver"/>        
+						</div>
+						<div class="grupolabel6">
+							<label for="">¿Hay asiento?</label>
+							<input type="button" name="btn6" data-value="" value="ver"/>
+							<input type="button" name="btn12" data-value="" value="ver"/>
+							<input type="button" name="btn18" data-value="" value="ver"/>    
+						</div>
+					</div>
+					<button class="btn-next4 next-8">dale</button>
+				</div>
+
+
+				<div class="page">
+					<div class="interview-content">
+						<div class="grupolabel4">
+							<label for="">Tarifa [$]:</label>
+							<input type="button" name="btn4" data-value="" value="ver"/>
+							<input type="button" name="btn10" data-value="" value="ver"/>
+							<input type="button" name="btn16" data-value="" value="ver"/>       
+						</div>
+						<div class="grupolabel5">
+							<label for="">Trasbordo [-]:</label>
+							<input type="button" name="btn5" data-value="" value="ver"/>
+							<input type="button" name="btn11" data-value="" value="ver"/>
+							<input type="button" name="btn1" data-value="" value="ver"/>        
+						</div>
+						<div class="grupolabel6">
+							<label for="">¿Hay asiento?</label>
+							<input type="button" name="btn6" data-value="" value="ver"/>
+							<input type="button" name="btn12" data-value="" value="ver"/>
+							<input type="button" name="btn18" data-value="" value="ver"/>    
+						</div>
+					</div>
+					<button class="btn-next4 next-9">dale</button>
+				</div>
+
+
+				<div class="page">
+					<div class="interview-content">
+						<div class="grupolabel4">
+							<label for="">Tarifa [$]:</label>
+							<input type="button" name="btn4" data-value="" value="ver"/>
+							<input type="button" name="btn10" data-value="" value="ver"/>
+							<input type="button" name="btn16" data-value="" value="ver"/>       
+						</div>
+						<div class="grupolabel5">
+							<label for="">Trasbordo [-]:</label>
+							<input type="button" name="btn5" data-value="" value="ver"/>
+							<input type="button" name="btn11" data-value="" value="ver"/>
+							<input type="button" name="btn1" data-value="" value="ver"/>        
+						</div>
+						<div class="grupolabel6">
+							<label for="">¿Hay asiento?</label>
+							<input type="button" name="btn6" data-value="" value="ver"/>
+							<input type="button" name="btn12" data-value="" value="ver"/>
+							<input type="button" name="btn18" data-value="" value="ver"/>    
+						</div>
+					</div>
+					<button class="btn-next4 next-10">dale</button>
+				</div>
+
+				<div class="page">
+					<div class="interview-content">
+						<div class="grupolabel4">
+							<label for="">Tarifa [$]:</label>
+							<input type="button" name="btn4" data-value="" value="ver"/>
+							<input type="button" name="btn10" data-value="" value="ver"/>
+							<input type="button" name="btn16" data-value="" value="ver"/>       
+						</div>
+						<div class="grupolabel5">
+							<label for="">Trasbordo [-]:</label>
+							<input type="button" name="btn5" data-value="" value="ver"/>
+							<input type="button" name="btn11" data-value="" value="ver"/>
+							<input type="button" name="btn1" data-value="" value="ver"/>        
+						</div>
+						<div class="grupolabel6">
+							<label for="">¿Hay asiento?</label>
+							<input type="button" name="btn6" data-value="" value="ver"/>
+							<input type="button" name="btn12" data-value="" value="ver"/>
+							<input type="button" name="btn18" data-value="" value="ver"/>    
+						</div>
+					</div>
+					<button class="btn-next4 next-11">dale</button>
+				</div>
+
+				<div class="page">
+					<div class="interview-content">
+						<div class="grupolabel4">
+							<label for="">Tarifa [$]:</label>
+							<input type="button" name="btn4" data-value="" value="ver"/>
+							<input type="button" name="btn10" data-value="" value="ver"/>
+							<input type="button" name="btn16" data-value="" value="ver"/>       
+						</div>
+						<div class="grupolabel5">
+							<label for="">Trasbordo [-]:</label>
+							<input type="button" name="btn5" data-value="" value="ver"/>
+							<input type="button" name="btn11" data-value="" value="ver"/>
+							<input type="button" name="btn1" data-value="" value="ver"/>        
+						</div>
+						<div class="grupolabel6">
+							<label for="">¿Hay asiento?</label>
+							<input type="button" name="btn6" data-value="" value="ver"/>
+							<input type="button" name="btn12" data-value="" value="ver"/>
+							<input type="button" name="btn18" data-value="" value="ver"/>    
+						</div>
+					</div>
+					<button class="btn-next4 next-12">ultimo</button>
+				</div>
+
+			</form>
+			
+		</div>
+		
+	</div>
+	<script src="js/script.js"></script>
+>>>>>>> main
 </body>
 
 </html>
