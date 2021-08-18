@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <style>
+        * {
+            font-size: 16px;
+            padding: 0;
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .group-form {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .group-form .grupolabel {
+            margin: 0 1.56rem;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+
+            gap: 10px 20px;
+        }
+
+        
+        /*  .interview-content {
+            display: none;
+            background-color: antiquewhite;
+        }
+
+        .interview-content:nth-of-type(2) {
+            background-color: aqua;
+        }
+
+
+        .active {
+            display: block;
+        } */
+    </style>
+    <div class=" container">
+
+        <div class="page">
+            <div class="title titledescriba">Describa por favor cómo era su viaje habitual <span class="salto">
+                    en transporte publico al trabajo/estudio </span> antes de la pandemia </div>
+
+            <div class="field2">
+                <label>Tiempo de caminata [min]:</label>
+                <input type="number" class="fieldnumber" id="tiempocaminata" value="2">
+
+            </div>
+            <div class="field2">
+                <label>Tiempo de espera [min]:</label>
+                <input type="number" class="fieldnumber" id="tiempoespera" value="2">
+
+            </div>
+            <div class="field2">
+                <label>Tiempo de viaje [min]:</label>
+                <input type="number" class="fieldnumber" id="tiempoviaje" value="2" />
+
+            </div>
+            <div class="field3">
+                <label>Tarifa [$]:</label>
+                <input type="number" class="fieldnumber tarifa" name="ta" id="tarifa" value="2" />
+
+            </div>
+            <div class="field3">
+                <label>Trasbordo [-]:</label>
+                <input type="number" class="fieldnumber transbordo" id="transbordo" value="2" />
+
+            </div>
+            <div class="field3">
+                <label>¿Hay asiento?</label>
+                <select class="fieldnumber disponibilidad" id="asiento">
+                    <option value="1">Hay disponibilidad</option>
+                    <option value="0" selected>No</option>
+                </select>
+
+            </div>
+            <button class="btn-next">Siguiente</button>
+        </div>
+
+        <div class="page interview-random">
+            <div class="prueba">
+                <div class="rutaA">
+                    <span>Ruta A</span>
+                    <span>Ruta B</span>
+                    <span>Ruta C</span>
+                </div>
+                <div class="inner">
+                    <div class="interview-content">
+                    </div>
+                    <button class="btn-next-screen">Siguiente</button>
+                </div>
+                <button class="btn-next2 next-4">Siguiente</button>
+            </div>
+        </div>
+        <script src="js/main.js" type="module"></script>
+        <script>
+            window.addEventListener("click", e => {
+                let { target } = e;
+                
+
+                if (target.classList.contains("btn")) {
+                    const parent = target.closest(".interview-content");
+                    const next = parent.nextElementSibling;
+                    const back = parent.previousElementSibling;
+
+                    if (next !== null) {
+                        parent.classList.remove("active");
+                        next.classList.add("active");
+                    }
+                    if (back !== null) {
+                        parent.classList.remove("active");
+                        back.classList.add("active");
+                    }
+
+
+                }
+                
+            })
+        </script>
+</body>
+
+</html>

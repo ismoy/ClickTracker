@@ -4,7 +4,7 @@
  * SCRIP MODAL JS
  */
 
- window.addEventListener("load",function(){
+ /*window.addEventListener("load",function(){
     setTimeout(
         function open(event){
          document.querySelector(".modal-container").style.display = "block";
@@ -21,7 +21,7 @@
  });
  document.querySelector("#close2").addEventListener("click",function(){
     document.querySelector(".modal-container2").style.display ="none";
-});
+});*/
 /**
  * FIN SCRIP MODAL JS
  */
@@ -90,10 +90,8 @@ firstNextBtn.addEventListener("click", function(){
        
         setSuccessFor(edad);
         setSuccessFor(genero);
-        slidePage.style.marginLeft = "-6%" 
-    bullet[current -1].classList.add("active");
-    progressCheck[current -1].classList.add("active");
-    current +=1;
+        slidePage.style.marginLeft = "-14%" 
+        current +=1;
     }
 });
 
@@ -108,10 +106,8 @@ nextBtnSec.addEventListener("click", function(){
     else{
         setSuccessFor(nivelestudio);
         setSuccessFor(ocupacion);
-    slidePage.style.marginLeft = "-14%" 
-    bullet[current -1].classList.add("active");
-    progressCheck[current -1].classList.add("active");
-    current +=1;
+        slidePage.style.marginLeft = "-37%" 
+        current +=1;
     }
 });
 
@@ -124,10 +120,8 @@ nextBtnThird.addEventListener("click", function(){
     }else{
         setSuccessFor(viajeday);
         setSuccessFor(tarjetabip);
-    slidePage.style.marginLeft = "-24%" 
-    bullet[current -1].classList.add("active");
-    progressCheck[current -1].classList.add("active");
-    current +=1;
+        slidePage.style.marginLeft = "-71%" 
+        current +=1;
     }
 });
 
@@ -141,9 +135,7 @@ nextBtnFourth.addEventListener("click", function(){
     }else{
         setSuccessFor(rentamensual);
         setSuccessFor(totalpersHouse);
-    slidePage.style.marginLeft = "-38%" 
-    bullet[current -1].classList.add("active");
-    progressCheck[current -1].classList.add("active");
+    slidePage.style.marginLeft = "-99%" 
     current +=1;
    
     }
@@ -174,7 +166,7 @@ nextBtnFive.addEventListener("click", function(){
          setErrorFor(asiento, "requerido");
 
      }else{
-        slidePage.style.marginLeft = "-81%" 
+        slidePage.style.marginLeft = "-161%" 
         current +=1;
         /* setSuccessFor(tiempocaminata);
          setSuccessFor(tiempoespera);
@@ -187,7 +179,7 @@ nextBtnFive.addEventListener("click", function(){
     
 });
 
-nextBtnSix.addEventListener("click",function(){
+/*nextBtnSix.addEventListener("click",function(){
     slidePage.style.marginLeft = "-108%" 
     current +=1;
 });
@@ -233,7 +225,7 @@ nextBtntherti.addEventListener("click",function(){
 
     current +=1;
 });
-
+*/
 
 
 

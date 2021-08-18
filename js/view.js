@@ -74,6 +74,7 @@ const interviews = [
                     { button: "btn17", value: 0, shouldMultiply: false, row: 5 },
                     { button: "btn18", value: 1, shouldMultiply: false, row: 6 },
 
+
                 ]
             },
             {
@@ -97,10 +98,10 @@ const interviews = [
                     { button: "btn16", value: 830, shouldMultiply: false, row: 4 },
                     { button: "btn17", value: 1, shouldMultiply: false, row: 5 },
                     { button: "btn18", value: 0, shouldMultiply: false, row: 6 },
-
                 ]
             }, {
                 screen: 3,
+
                 buttons: [
                     { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
                     { button: "btn2", value: 0.85, shouldMultiply: true, row: 2 },
@@ -120,6 +121,7 @@ const interviews = [
                     { button: "btn16", value: 750, shouldMultiply: false, row: 4 },
                     { button: "btn17", value: 1, shouldMultiply: false, row: 5 },
                     { button: "btn18", value: 0, shouldMultiply: false, row: 6 },
+
 
                 ]
             }, {
@@ -216,6 +218,7 @@ const interviews = [
                 ]
             }, {
                 screen: 8,
+
                 buttons: [
                     { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
                     { button: "btn2", value: 0.85, shouldMultiply: true, row: 1 },
@@ -235,6 +238,7 @@ const interviews = [
                     { button: "btn16", value: 830, shouldMultiply: false, row: 1 },
                     { button: "btn17", value: 0, shouldMultiply: false, row: 1 },
                     { button: "btn18", value: 1, shouldMultiply: false, row: 1 },
+
                 ]
             }
 
@@ -242,46 +246,46 @@ const interviews = [
     },
 
     {
-        interview: "Click tracker 35"
+        interview: "Click-tracker-35"
         , content: `
         <div class="form-group">
             <label for="">Tiempo de caminata [min]:</label>
             <div class="grupolabel">
                 <input type="button"   name="btn1"  data-value="" value="Ver">
-                <input type="button"   name="btn17" data-value="" value="Ver">
-                <input type="button"   name="btn13" data-value="" value="Ver">
+                <input type="button"   name="btn6" data-value="" value="Ver">
+                <input type="button"   name="btn11" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">
             <label for="">Tiempo de espera [min]:</label>            
             <div class="grupolabel">
                 <input type="button"   name="btn2"  data-value="" value="Ver">
-                <input type="button"   name="btn8"  data-value="" value="Ver">
-                <input type="button"   name="btn14" data-value="" value="Ver">
+                <input type="button"   name="btn7"  data-value="" value="Ver">
+                <input type="button"   name="btn12" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">    
             <label for="">Tiempo de viaje [min]:</label>
             <div class="grupolabel">
                 <input type="button"   name="btn3"  data-value="" value="Ver">
-                <input type="button"   name="btn9"  data-value="" value="Ver">
-                <input type="button"   name="btn15" data-value="" value="Ver">
+                <input type="button"   name="btn8"  data-value="" value="Ver">
+                <input type="button"   name="btn13" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">
             <label for="">Tarifa [$]:</label>
             <div class="grupolabel">  
                 <input type="button"   name="btn4"  data-value="" value="Ver">
-                <input type="button"   name="btn10" data-value="" value="Ver">
-                <input type="button"   name="btn16" data-value="" value="Ver">
+                <input type="button"   name="btn9" data-value="" value="Ver">
+                <input type="button"   name="btn14" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group">
             <label for="">Trasbordo [-]:</label>
             <div class="grupolabel">
                 <input type="button"   name="btn5"  data-value="" value="Ver">
-                <input type="button"   name="btn11" data-value="" value="Ver">
-                <input type="button"   name="btn17" data-value="" value="Ver">
+                <input type="button"   name="btn10" data-value="" value="Ver">
+                <input type="button"   name="btn15" data-value="" value="Ver">
             </div>
         </div>
     `, screens: [
@@ -304,6 +308,7 @@ const interviews = [
                     { button: "btn14", value: 830, shouldMultiply: false, row: 4 },
                     { button: "btn15", value: 0, shouldMultiply: false, row: 5 }
 
+
                 ]
             },
             {
@@ -324,7 +329,6 @@ const interviews = [
                     { button: "btn13", value: 1.85, shouldMultiply: true, row: 3 },
                     { button: "btn14", value: 750, shouldMultiply: false, row: 4 },
                     { button: "btn15", value: 1, shouldMultiply: false, row: 5 }
-
 
                 ]
             }, {
@@ -365,26 +369,26 @@ const interviews = [
                     { button: "btn14", value: 750, shouldMultiply: false, row: 4 },
                     { button: "btn15", value: 2, shouldMultiply: false, row: 5 },
 
-
                 ]
             }, {
                 screen: 5,
                 buttons: [
                     { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
-                    { button: "btn2", value: 0.5, shouldMultiply: true, row: 1 },
-                    { button: "btn3", value: 1.85, shouldMultiply: true, row: 1 },
-                    { button: "btn4", value: 700, shouldMultiply: false, row: 1 },
-                    { button: "btn5", value: 2, shouldMultiply: false, row: 1 },
+                    { button: "btn2", value: 0.5, shouldMultiply: true, row: 2 },
+                    { button: "btn3", value: 1.85, shouldMultiply: true, row: 3 },
+                    { button: "btn4", value: 700, shouldMultiply: false, row: 4 },
+                    { button: "btn5", value: 2, shouldMultiply: false, row: 5 },
                     { button: "btn6", value: 1.2, shouldMultiply: true, row: 1 },
-                    { button: "btn7", value: 1.2, shouldMultiply: true, row: 1 },
-                    { button: "btn8", value: 0.85, shouldMultiply: true, row: 1 },
-                    { button: "btn9", value: 750, shouldMultiply: false, row: 1 },
-                    { button: "btn10", value: 0, shouldMultiply: false, row: 1 },
+                    { button: "btn7", value: 1.2, shouldMultiply: true, row: 2 },
+                    { button: "btn8", value: 0.85, shouldMultiply: true, row: 3 },
+                    { button: "btn9", value: 750, shouldMultiply: false, row: 4 },
+                    { button: "btn10", value: 0, shouldMultiply: false, row: 5},
                     { button: "btn11", value: 0.85, shouldMultiply: true, row: 1 },
-                    { button: "btn12", value: 1.85, shouldMultiply: true, row: 1 },
-                    { button: "btn13", value: 0.5, shouldMultiply: true, row: 1 },
-                    { button: "btn14", value: 700, shouldMultiply: false, row: 1 },
-                    { button: "btn15", value: 0, shouldMultiply: false, row: 1 },
+                    { button: "btn12", value: 1.85, shouldMultiply: true, row: 2 },
+                    { button: "btn13", value: 0.5, shouldMultiply: true, row: 3 },
+                    { button: "btn14", value: 700, shouldMultiply: false, row: 4 },
+                    { button: "btn15", value: 0, shouldMultiply: false, row: 5 },
+
 
                 ]
             },
@@ -406,6 +410,7 @@ const interviews = [
                     { button: "btn13", value: 1.85, shouldMultiply: true, row: 1 },
                     { button: "btn14", value: 700, shouldMultiply: false, row: 1 },
                     { button: "btn15", value: 0, shouldMultiply: false, row: 1 },
+
 
                 ]
             }, {
@@ -446,11 +451,11 @@ const interviews = [
                     { button: "btn14", value: 700, shouldMultiply: false, row: 1 },
                     { button: "btn15", value: 2, shouldMultiply: false, row: 1 },
 
+
                 ]
             }
         ]
     },
-
     {
         interview: "click-tracker-34"
         , content: `
@@ -491,6 +496,7 @@ const interviews = [
             {
                 screen: 1,
                 buttons: [
+
                     { btn1: 0.85, shouldMultiply: true },
                     { btn2: 1.85, shouldMultiply: true },
                     { btn3: 0.5, shouldMultiply: true },
@@ -508,6 +514,7 @@ const interviews = [
             {
                 screen: 2,
                 buttons: [
+
                     { btn1: 0.85, shouldMultiply: true },
                     { btn2: 0.5, shouldMultiply: true },
                     { btn3: 0.85, shouldMultiply: true },
@@ -524,6 +531,7 @@ const interviews = [
             }, {
                 screen: 3,
                 buttons: [
+
                     { btn1: 0.5, shouldMultiply: true },
                     { btn2: 1.85, shouldMultiply: true },
                     { btn3: 1.2, shouldMultiply: true },
@@ -539,7 +547,9 @@ const interviews = [
                 ]
             }, {
                 screen: 4,
+
                 buttons: [
+
                     { btn1: 1.2, shouldMultiply: true },
                     { btn2: 1.2, shouldMultiply: true },
                     { btn3: 1.2, shouldMultiply: true },
@@ -556,6 +566,7 @@ const interviews = [
             }, {
                 screen: 5,
                 buttons: [
+
                     { btn1: 1.85, shouldMultiply: true },
                     { btn2: 0.5, shouldMultiply: true },
                     { btn3: 0.85, shouldMultiply: true },
@@ -573,6 +584,7 @@ const interviews = [
             {
                 screen: 6,
                 buttons: [
+
                     { btn1: 1.85, shouldMultiply: true },
                     { btn2: 1.2, shouldMultiply: true },
                     { btn3: 0.5, shouldMultiply: true },
@@ -588,7 +600,9 @@ const interviews = [
                 ]
             }, {
                 screen: 7,
+
                 buttons: [
+
                     { btn1: 1.2, shouldMultiply: true },
                     { btn2: 0.85, shouldMultiply: true },
                     { btn3: 1.85, shouldMultiply: true },
@@ -604,7 +618,9 @@ const interviews = [
                 ]
             }, {
                 screen: 8,
+
                 buttons: [
+
                     { btn1: 0.5, shouldMultiply: true },
                     { btn2: 0.85, shouldMultiply: true },
                     { btn3: 1.85, shouldMultiply: true },
@@ -654,7 +670,9 @@ const interviews = [
     `, screens: [
             {
                 screen: 1,
+
                 buttons: [
+
                     { btn1: 0.5, shouldMultiply: true },
                     { btn2: 1.2, shouldMultiply: true },
                     { btn3: 750, shouldMultiply: false },
@@ -668,7 +686,11 @@ const interviews = [
             },
             {
                 screen: 2,
+
                 buttons: [
+
+
+
                     { btn1: 1.2, shouldMultiply: true },
                     { btn2: 1.85, shouldMultiply: true },
                     { btn3: 700, shouldMultiply: false },
@@ -681,7 +703,9 @@ const interviews = [
                 ]
             }, {
                 screen: 3,
+
                 buttons: [
+
                     { btn1: 0.85, shouldMultiply: true },
                     { btn2: 0.5, shouldMultiply: true },
                     { btn3: 700, shouldMultiply: false },
@@ -694,7 +718,9 @@ const interviews = [
                 ]
             }, {
                 screen: 4,
+
                 buttons: [
+
                     { btn1: 1.2, shouldMultiply: true },
                     { btn2: 1.2, shouldMultiply: true },
                     { btn3: 750, shouldMultiply: false },
@@ -707,7 +733,9 @@ const interviews = [
                 ]
             }, {
                 screen: 5,
+
                 buttons: [
+
                     { btn1: 1.85, shouldMultiply: true },
                     { btn2: 0.5, shouldMultiply: true },
                     { btn3: 830, shouldMultiply: true },
@@ -722,7 +750,11 @@ const interviews = [
             },
             {
                 screen: 6,
+
                 buttons: [
+
+
+
                     { btn1: 0.85, shouldMultiply: true },
                     { btn2: 0.85, shouldMultiply: true },
                     { btn3: 830, shouldMultiply: false },
@@ -735,7 +767,11 @@ const interviews = [
                 ]
             }, {
                 screen: 7,
+
                 buttons: [
+
+
+
                     { btn1: 1.85, shouldMultiply: true },
                     { btn2: 0.85, shouldMultiply: true },
                     { btn3: 700, shouldMultiply: false },
@@ -748,7 +784,11 @@ const interviews = [
                 ]
             }, {
                 screen: 8,
+
                 buttons: [
+
+
+
                     { btn1: 0.5, shouldMultiply: true },
                     { btn2: 1.85, shouldMultiply: true },
                     { btn3: 750, shouldMultiply: false },
@@ -786,7 +826,11 @@ const interviews = [
     `, screens: [
             {
                 screen: 1,
+
                 buttons: [
+
+
+
                     { btn1: 1.85, shouldMultiply: true },
                     { btn2: 750, shouldMultiply: false },
                     { btn3: 1.2, shouldMultiply: true },
@@ -797,7 +841,11 @@ const interviews = [
             },
             {
                 screen: 2,
+
                 buttons: [
+
+
+
                     { btn1: 0.5, shouldMultiply: true },
                     { btn2: 750, shouldMultiply: false },
                     { btn3: 0.85, shouldMultiply: true },
@@ -807,7 +855,11 @@ const interviews = [
                 ]
             }, {
                 screen: 3,
+
                 buttons: [
+
+
+
                     { btn1: 1.85, shouldMultiply: true },
                     { btn2: 750, shouldMultiply: false },
                     { btn3: 1.85, shouldMultiply: true },
@@ -817,7 +869,11 @@ const interviews = [
                 ]
             }, {
                 screen: 4,
+
                 buttons: [
+
+
+
                     { btn1: 1.2, shouldMultiply: true },
                     { btn2: 700, shouldMultiply: false },
                     { btn3: 0.5, shouldMultiply: true },
@@ -827,7 +883,11 @@ const interviews = [
                 ]
             }, {
                 screen: 5,
+
                 buttons: [
+
+
+
                     { btn1: 0.85, shouldMultiply: true },
                     { btn2: 700, shouldMultiply: false },
                     { btn3: 0.85, shouldMultiply: true },
@@ -839,7 +899,11 @@ const interviews = [
             },
             {
                 screen: 6,
+
                 buttons: [
+
+
+
                     { btn1: 0.85, shouldMultiply: true },
                     { btn2: 830, shouldMultiply: false },
                     { btn3: 1.2, shouldMultiply: true },
@@ -849,7 +913,11 @@ const interviews = [
                 ]
             }, {
                 screen: 7,
+
                 buttons: [
+
+
+
                     { btn1: 0.5, shouldMultiply: true },
                     { btn2: 700, shouldMultiply: false },
                     { btn3: 0.5, shouldMultiply: true },
@@ -859,7 +927,11 @@ const interviews = [
                 ]
             }, {
                 screen: 8,
+
                 buttons: [
+
+
+
                     { btn1: 1.2, shouldMultiply: true },
                     { btn2: 830, shouldMultiply: false },
                     { btn3: 1.85, shouldMultiply: true },
@@ -921,7 +993,11 @@ const interviews = [
     `, screens: [
             {
                 screen: 1,
+
                 buttons: [
+
+
+
                     { btn1: 0.5, shouldMultiply: true },
                     { btn2: 1.2, shouldMultiply: true },
                     { btn3: 0.5, shouldMultiply: true },
@@ -938,7 +1014,11 @@ const interviews = [
             },
             {
                 screen: 2,
+
                 buttons: [
+
+
+
                     { btn1: 1.85, shouldMultiply: true },
                     { btn2: 1.85, shouldMultiply: true },
                     { btn3: 1.85, shouldMultiply: true },
@@ -954,7 +1034,11 @@ const interviews = [
                 ]
             }, {
                 screen: 3,
+
                 buttons: [
+
+
+
                     { btn1: 0.5, shouldMultiply: true },
                     { btn2: 0.5, shouldMultiply: true },
                     { btn3: 1.2, shouldMultiply: true },
@@ -970,7 +1054,11 @@ const interviews = [
                 ]
             }, {
                 screen: 4,
+
                 buttons: [
+
+
+
                     { btn1: 1.2, shouldMultiply: true },
                     { btn2: 1.2, shouldMultiply: true },
                     { btn3: 1.2, shouldMultiply: true },
@@ -986,7 +1074,11 @@ const interviews = [
                 ]
             }, {
                 screen: 5,
+
                 buttons: [
+
+
+
                     { btn1: 0.85, shouldMultiply: true },
                     { btn2: 0.85, shouldMultiply: true },
                     { btn3: 0.85, shouldMultiply: true },
@@ -1003,7 +1095,11 @@ const interviews = [
             },
             {
                 screen: 6,
+
                 buttons: [
+
+
+
                     { btn1: 1.2, shouldMultiply: true },
                     { btn2: 0.5, shouldMultiply: true },
                     { btn3: 0.5, shouldMultiply: true },
@@ -1020,7 +1116,11 @@ const interviews = [
                 ]
             }, {
                 screen: 7,
+
                 buttons: [
+
+
+
                     { btn1: 0.85, shouldMultiply: true },
                     { btn2: 0.85, shouldMultiply: true },
                     { btn3: 0.85, shouldMultiply: true },
@@ -1036,7 +1136,11 @@ const interviews = [
                 ]
             }, {
                 screen: 8,
+
                 buttons: [
+
+
+
                     { btn1: 1.85, shouldMultiply: true },
                     { btn2: 1.85, shouldMultiply: true },
                     { btn3: 1.85, shouldMultiply: true },
@@ -1096,7 +1200,11 @@ const interviews = [
     `, screens: [
             {
                 screen: 1,
+
                 buttons: [
+
+
+
                     { btn1: 0.5, shouldMultiply: true },
                     { btn2: 1.2, shouldMultiply: true },
                     { btn3: 1.85, shouldMultiply: true },
@@ -1111,7 +1219,11 @@ const interviews = [
             },
             {
                 screen: 2,
+
                 buttons: [
+
+
+
                     { btn1: 1.85, shouldMultiply: true },
                     { btn2: 1.85, shouldMultiply: true },
                     { btn3: 0.5, shouldMultiply: true },
@@ -1126,7 +1238,11 @@ const interviews = [
                 ]
             }, {
                 screen: 3,
+
                 buttons: [
+
+
+
                     { btn1: 1.85, shouldMultiply: true },
                     { btn2: 0.5, shouldMultiply: true },
                     { btn3: 1.2, shouldMultiply: true },
@@ -1140,7 +1256,11 @@ const interviews = [
                 ]
             }, {
                 screen: 4,
+
                 buttons: [
+
+
+
                     { btn1: 0.85, shouldMultiply: true },
                     { btn2: 1.2, shouldMultiply: true },
                     { btn3: 0.5, shouldMultiply: true },
@@ -1154,7 +1274,11 @@ const interviews = [
                 ]
             }, {
                 screen: 5,
+
                 buttons: [
+
+
+
                     { btn1: 0.5, shouldMultiply: true },
                     { btn2: 0.85, shouldMultiply: true },
                     { btn3: 1.2, shouldMultiply: true },
@@ -1170,7 +1294,11 @@ const interviews = [
             },
             {
                 screen: 6,
+
                 buttons: [
+
+
+
                     { btn1: 1.2, shouldMultiply: true },
                     { btn2: 0.5, shouldMultiply: true },
                     { btn3: 0.85, shouldMultiply: true },
@@ -1184,7 +1312,11 @@ const interviews = [
                 ]
             }, {
                 screen: 7,
+
                 buttons: [
+
+
+
                     { btn1: 1.2, shouldMultiply: true },
                     { btn2: 0.85, shouldMultiply: true },
                     { btn3: 0.85, shouldMultiply: true },
@@ -1198,7 +1330,11 @@ const interviews = [
                 ]
             }, {
                 screen: 8,
+
                 buttons: [
+
+
+
                     { btn1: 0.85, shouldMultiply: true },
                     { btn2: 1.85, shouldMultiply: true },
                     { btn3: 1.85, shouldMultiply: true },
@@ -1249,7 +1385,11 @@ const interviews = [
     `, screens: [
             {
                 screen: 1,
+
                 buttons: [
+
+
+
                     { btn1: 1.85, shouldMultiply: true },
                     { btn2: 1.2, shouldMultiply: true },
                     { btn3: 1.85, shouldMultiply: true },
@@ -1263,7 +1403,11 @@ const interviews = [
             },
             {
                 screen: 2,
+
                 buttons: [
+
+
+
                     { btn1: 1.2, shouldMultiply: true },
                     { btn2: 0.5, shouldMultiply: true },
                     { btn3: 0.5, shouldMultiply: true },
@@ -1276,7 +1420,11 @@ const interviews = [
                 ]
             }, {
                 screen: 3,
+
                 buttons: [
+
+
+
                     { btn1: 1.85, shouldMultiply: true },
                     { btn2: 0.85, shouldMultiply: true },
                     { btn3: 1.2, shouldMultiply: true },
@@ -1289,7 +1437,11 @@ const interviews = [
                 ]
             }, {
                 screen: 4,
+
                 buttons: [
+
+
+
                     { btn1: 0.5, shouldMultiply: true },
                     { btn2: 0.85, shouldMultiply: true },
                     { btn3: 0.5, shouldMultiply: true },
@@ -1302,7 +1454,11 @@ const interviews = [
                 ]
             }, {
                 screen: 5,
+
                 buttons: [
+
+
+
                     { btn1: 0.85, shouldMultiply: true },
                     { btn2: 1.85, shouldMultiply: true },
                     { btn3: 0.85, shouldMultiply: true },
@@ -1316,7 +1472,11 @@ const interviews = [
             },
             {
                 screen: 6,
+
                 buttons: [
+
+
+
                     { btn1: 0.5, shouldMultiply: true },
                     { btn2: 0.5, shouldMultiply: true },
                     { btn3: 1.85, shouldMultiply: true },
@@ -1328,7 +1488,11 @@ const interviews = [
                 ]
             }, {
                 screen: 7,
+
                 buttons: [
+
+
+
                     { btn1: 0.85, shouldMultiply: true },
                     { btn2: 1.85, shouldMultiply: true },
                     { btn3: 0.85, shouldMultiply: true },
@@ -1340,7 +1504,11 @@ const interviews = [
                 ]
             }, {
                 screen: 8,
+
                 buttons: [
+
+
+
                     { btn1: 1.2, shouldMultiply: true },
                     { btn2: 1.2, shouldMultiply: true },
                     { btn3: 1.2, shouldMultiply: true },
@@ -1381,7 +1549,11 @@ const interviews = [
     `, screens: [
             {
                 screen: 1,
+
                 buttons: [
+
+
+
                     { btn1: 0.85, shouldMultiply: true },
                     { btn2: 1.85, shouldMultiply: true },
                     { btn3: 750, shouldMultiply: false },
@@ -1393,7 +1565,11 @@ const interviews = [
             },
             {
                 screen: 2,
+
                 buttons: [
+
+
+
                     { btn1: 1.85, shouldMultiply: true },
                     { btn2: 1.85, shouldMultiply: true },
                     { btn3: 830, shouldMultiply: false },
@@ -1404,7 +1580,11 @@ const interviews = [
                 ]
             }, {
                 screen: 3,
+
                 buttons: [
+
+
+
                     { btn1: 0.85, shouldMultiply: true },
                     { btn2: 1.2, shouldMultiply: true },
                     { btn3: 750, shouldMultiply: false },
@@ -1415,7 +1595,11 @@ const interviews = [
                 ]
             }, {
                 screen: 4,
+
                 buttons: [
+
+
+
                     { btn1: 1.2, shouldMultiply: true },
                     { btn2: 0.85, shouldMultiply: true },
                     { btn3: 700, shouldMultiply: false },
@@ -1426,7 +1610,11 @@ const interviews = [
                 ]
             }, {
                 screen: 5,
+
                 buttons: [
+
+
+
                     { btn1: 1.85, shouldMultiply: true },
                     { btn2: 0.85, shouldMultiply: true },
                     { btn3: 750, shouldMultiply: false },
@@ -1438,7 +1626,11 @@ const interviews = [
             },
             {
                 screen: 6,
+
                 buttons: [
+
+
+
                     { btn1: 0.5, shouldMultiply: true },
                     { btn2: 1.2, shouldMultiply: true },
                     { btn3: 700, shouldMultiply: false },
@@ -1449,7 +1641,11 @@ const interviews = [
                 ]
             }, {
                 screen: 7,
+
                 buttons: [
+
+
+
                     { btn1: 0.5, shouldMultiply: true },
                     { btn2: 0.5, shouldMultiply: true },
                     { btn3: 830, shouldMultiply: false },
@@ -1460,7 +1656,11 @@ const interviews = [
                 ]
             }, {
                 screen: 8,
+
                 buttons: [
+
+
+
                     { btn1: 1.2, shouldMultiply: true },
                     { btn2: 0.5, shouldMultiply: true },
                     { btn3: 700, shouldMultiply: false },
@@ -1494,7 +1694,11 @@ const interviews = [
     `, screens: [
             {
                 screen: 1,
+
                 buttons: [
+
+
+
                     { btn1: 0.5, shouldMultiply: true },
                     { btn2: 830, shouldMultiply: false },
                     { btn3: 1.2, shouldMultiply: true },
@@ -1504,7 +1708,11 @@ const interviews = [
             },
             {
                 screen: 2,
+
                 buttons: [
+
+
+
                     { btn1: 0.5, shouldMultiply: true },
                     { btn2: 830, shouldMultiply: false },
                     { btn3: 1.85, shouldMultiply: true },
@@ -1513,7 +1721,11 @@ const interviews = [
                 ]
             }, {
                 screen: 3,
+
                 buttons: [
+
+
+
                     { btn1: 1.85, shouldMultiply: true },
                     { btn2: 750, shouldMultiply: false },
                     { btn3: 0.5, shouldMultiply: true },
@@ -1522,7 +1734,11 @@ const interviews = [
                 ]
             }, {
                 screen: 4,
+
                 buttons: [
+
+
+
                     { btn1: 1.2, shouldMultiply: true },
                     { btn2: 750, shouldMultiply: false },
                     { btn3: 0.5, shouldMultiply: true },
@@ -1531,7 +1747,11 @@ const interviews = [
                 ]
             }, {
                 screen: 5,
+
                 buttons: [
+
+
+
                     { btn1: 1.2, shouldMultiply: true },
                     { btn2: 700, shouldMultiply: false },
                     { btn3: 0.85, shouldMultiply: true },
@@ -1541,7 +1761,11 @@ const interviews = [
             },
             {
                 screen: 6,
+
                 buttons: [
+
+
+
                     { btn1: 0.85, shouldMultiply: true },
                     { btn2: 830, shouldMultiply: false },
                     { btn3: 1.2, shouldMultiply: true },
@@ -1550,7 +1774,11 @@ const interviews = [
                 ]
             }, {
                 screen: 7,
+
                 buttons: [
+
+
+
                     { btn1: 0.85, shouldMultiply: true },
                     { btn2: 830, shouldMultiply: false },
                     { btn3: 1.85, shouldMultiply: true },
@@ -1559,7 +1787,11 @@ const interviews = [
                 ]
             }, {
                 screen: 8,
+
                 buttons: [
+
+
+
                     { btn1: 1.85, shouldMultiply: true },
                     { btn2: 750, shouldMultiply: false },
                     { btn3: 0.85, shouldMultiply: true },
