@@ -809,6 +809,14 @@ input[type=checkbox] {
     margin-right: 12px;
 }
 
+.botonesalter label{
+    position: absolute;
+}
+.botonesalter button{
+    margin-top: 30px;
+    margin-left: 24px;
+}
+
 .interview-content #formgroup7,
 #formgroup1{ margin-left:20px;}
 .interview-content #formgroup8 ,
