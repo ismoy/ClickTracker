@@ -4,7 +4,7 @@
  * SCRIP MODAL JS
  */
 
- /*window.addEventListener("load",function(){
+ window.addEventListener("load",function(){
     setTimeout(
         function open(event){
          document.querySelector(".modal-container").style.display = "block";
@@ -21,7 +21,7 @@
  });
  document.querySelector("#close2").addEventListener("click",function(){
     document.querySelector(".modal-container2").style.display ="none";
-});*/
+});
 /**
  * FIN SCRIP MODAL JS
  */
@@ -41,11 +41,8 @@ const nextBtnTen = document.querySelector(".next-9");
 const nextBtnElv = document.querySelector(".next-10");
 const nextBtntwelv = document.querySelector(".next-11");
 const nextBtntherti = document.querySelector(".next-12");
-const progressText = document.querySelectorAll(".step p");
-const progressCheck = document.querySelectorAll(".step .check");
-const bullet = document.querySelectorAll(".step .bullet");
-const title = document.querySelector(".title");
-let max = 13;
+
+let max = 12;
 let current = 1;
 
 
@@ -65,6 +62,7 @@ const tiempoviaje = document.getElementById('tiempoviaje');
 const tarifa = document.getElementById('tarifa');
 const transbordo = document.getElementById('transbordo');
 const asiento = document.getElementById('asiento');
+
 function setErrorFor(input, message) {
     const formControl = input.parentElement;
     const small = formControl.querySelector('small');
@@ -90,7 +88,7 @@ firstNextBtn.addEventListener("click", function(){
        
         setSuccessFor(edad);
         setSuccessFor(genero);
-        slidePage.style.marginLeft = "-14%" 
+        slidePage.style.marginLeft = "-4%" 
         current +=1;
     }
 });
@@ -106,7 +104,7 @@ nextBtnSec.addEventListener("click", function(){
     else{
         setSuccessFor(nivelestudio);
         setSuccessFor(ocupacion);
-        slidePage.style.marginLeft = "-37%" 
+        slidePage.style.marginLeft = "-26%" 
         current +=1;
     }
 });
@@ -120,7 +118,7 @@ nextBtnThird.addEventListener("click", function(){
     }else{
         setSuccessFor(viajeday);
         setSuccessFor(tarjetabip);
-        slidePage.style.marginLeft = "-71%" 
+        slidePage.style.marginLeft = "-56%" 
         current +=1;
     }
 });
@@ -135,98 +133,66 @@ nextBtnFourth.addEventListener("click", function(){
     }else{
         setSuccessFor(rentamensual);
         setSuccessFor(totalpersHouse);
-    slidePage.style.marginLeft = "-99%" 
+    slidePage.style.marginLeft = "-81%" 
     current +=1;
    
     }
 });
+
+
 nextBtnFive.addEventListener("click", function(){
     const valortiempocaminataValue = tiempocaminata.value.trim();
-    const tiempoesperaValue = tiempoespera.value.trim();
-    const tiempoviajeValue = tiempoviaje.value.trim();
-    const transbordoValue = transbordo.value.trim();
-    const tarifaValue = tarifa.value.trim();
-    const asientoValue = asiento.value.trim();
-    let valorbtn1 = valortiempocaminataValue * 1.2;
-    let valorbtn7 = valortiempocaminataValue * 1.2;
-    let valorbtn13 = valortiempocaminataValue * 0.5;
-    let valorbtn2 = tiempoesperaValue * 0.5;
-    let valorbtn8 = tiempoesperaValue * 0.85;
-    let valorbtn14 = tiempoesperaValue * 1.85;
-    let valorbtn3 = tiempoviajeValue * 1;
-    let valorbtn9 = tiempoviajeValue * 1.85;
-    let valorbtn15 = tiempoviajeValue * 1.85;
-     if (valortiempocaminataValue === '' ||tiempoesperaValue ==='' || tiempoviajeValue === ''
-         || tarifaValue === '' || transbordoValue === '' || asientoValue === ''){
-         setErrorFor(tiempocaminata, "requerido");
-         setErrorFor(tiempoespera, "requerido");
-         setErrorFor(tiempoviaje, "requerido");
-         setErrorFor(tarifa, "requerido");
-         setErrorFor(transbordo, "requerido");
-         setErrorFor(asiento, "requerido");
-
-     }else{
-        slidePage.style.marginLeft = "-161%" 
+    if (valortiempocaminataValue === ''){
+        setErrorFor(tiempocaminata, "requerido");
+   
+    }else{
+        setSuccessFor(tiempocaminata);
+        slidePage.style.marginLeft = "-135%" 
         current +=1;
-        /* setSuccessFor(tiempocaminata);
-         setSuccessFor(tiempoespera);
-         setSuccessFor(tiempoviaje);
-         setSuccessFor(transbordo);
-         setSuccessFor(tarifa);
-         setSuccessFor(asiento);*/
-        
-     }
+    }
     
+});/*
+nextBtnSix.addEventListener("click", function(){
+    slidePage.style.marginLeft = "-110%" 
+        current +=1;
 });
 
-/*nextBtnSix.addEventListener("click",function(){
-    slidePage.style.marginLeft = "-108%" 
-    current +=1;
-});
 
 nextBtnSeven.addEventListener("click",function(){
-    slidePage.style.marginLeft = "-144%" 
-  
+    slidePage.style.marginLeft = "-148%" 
     current +=1;
 });
 
 nextBtnHeight.addEventListener("click",function(){
-    slidePage.style.marginLeft = "-197%" 
-  
+    slidePage.style.marginLeft = "-204%" 
     current +=1;
 });
 
 nextBtnNine.addEventListener("click",function(){
-    slidePage.style.marginLeft = "-259%" 
-
+    slidePage.style.marginLeft = "-260%" 
     current +=1;
 });
-
 nextBtnTen.addEventListener("click",function(){
-    slidePage.style.marginLeft = "-284%" 
- 
+    slidePage.style.marginLeft = "-285%" 
     current +=1;
 });
-
 nextBtnElv.addEventListener("click",function(){
-    slidePage.style.marginLeft = "-309%" 
- 
+    slidePage.style.marginLeft = "-310%" 
     current +=1;
 });
 
 nextBtntwelv.addEventListener("click",function(){
-    slidePage.style.marginLeft = "-334%" 
-
+    slidePage.style.marginLeft = "-335%" 
     current +=1;
 });
 
 nextBtntherti.addEventListener("click",function(){
-    slidePage.style.marginLeft = "-334%" 
-
+    slidePage.style.marginLeft = "-335%" 
     current +=1;
 });
-*/
 
+
+*/
 
 
 
