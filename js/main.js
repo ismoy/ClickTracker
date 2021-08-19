@@ -21,7 +21,9 @@ window.addEventListener("focusin", (e) => {
     console.log(target);
     switch (type) {
         case "button":
+            
             target.value = target.getAttribute("data-value");
+            tracker(target)
             return;
     }
 });
@@ -52,15 +54,15 @@ function saveData(data) {
 }
 
 let page = document.querySelector(".page");
-let data = [];
+
 page.addEventListener("click", (e) => {
 
     tiempoCaminata = parseInt(document.querySelector("#tiempocaminata").value);
     tiempoespera = parseInt(document.querySelector("#tiempoespera").value);
     tiempoviaje = parseInt(document.querySelector("#tiempoviaje").value);
-    tarifa = document.querySelector("#tarifa").value
-    transbordo = document.querySelector("#transbordo").value
-    asiento = document.querySelector("#asiento").value
+    tarifa = document.querySelector("#tarifa").value;
+    transbordo = document.querySelector("#transbordo").value;
+    asiento = document.querySelector("#asiento").value;
 
     let { buttons } = interview.screens[screenCount];
     loadDataInterview(buttons);
