@@ -53,7 +53,7 @@ const interviews = [
     `,
         screens: [
             {
-                screen: 1,
+                screen: 5,
                 buttons: [
                     { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
                     { button: "btn2", value: 0.5, shouldMultiply: true, row: 2 },
@@ -78,7 +78,7 @@ const interviews = [
                 ]
             },
             {
-                screen: 2,
+                screen: 6,
                 buttons: [
                     { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
                     { button: "btn2", value: 1.2, shouldMultiply: true, row: 2 },
@@ -100,7 +100,7 @@ const interviews = [
                     { button: "btn18", value: 0, shouldMultiply: false, row: 6 },
                 ]
             }, {
-                screen: 3,
+                screen: 7,
 
                 buttons: [
                     { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
@@ -125,7 +125,7 @@ const interviews = [
 
                 ]
             }, {
-                screen: 4,
+                screen: 8,
                 buttons: [
                     { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
                     { button: "btn2", value: 1.85, shouldMultiply: true, row: 2 },
@@ -290,7 +290,7 @@ const interviews = [
         </div>
     `, screens: [
             {
-                screen: 1,
+                screen: 5,
                 buttons: [
                     { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
                     { button: "btn2", value: 1.85, shouldMultiply: true, row: 2 },
@@ -312,7 +312,7 @@ const interviews = [
                 ]
             },
             {
-                screen: 2,
+                screen: 6,
                 buttons: [
                     { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
                     { button: "btn2", value: 1.2, shouldMultiply: true, row: 2 },
@@ -332,7 +332,7 @@ const interviews = [
 
                 ]
             }, {
-                screen: 3,
+                screen: 7,
                 buttons: [
                     { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
                     { button: "btn2", value: 0.5, shouldMultiply: true, row: 2 },
@@ -351,7 +351,7 @@ const interviews = [
                     { button: "btn15", value: 1, shouldMultiply: false, row: 5 },
                 ]
             }, {
-                screen: 4,
+                screen: 8,
                 buttons: [
                     { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
                     { button: "btn2", value: 0.85, shouldMultiply: true, row: 2 },
@@ -371,7 +371,7 @@ const interviews = [
 
                 ]
             }, {
-                screen: 5,
+                screen: 9,
                 buttons: [
                     { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
                     { button: "btn2", value: 0.5, shouldMultiply: true, row: 2 },
@@ -393,7 +393,7 @@ const interviews = [
                 ]
             },
             {
-                screen: 6,
+                screen: 10,
                 buttons: [
                     { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
                     { button: "btn2", value: 1.85, shouldMultiply: true, row: 2 },
@@ -414,7 +414,7 @@ const interviews = [
 
                 ]
             }, {
-                screen: 7,
+                screen:11,
                 buttons: [
                     { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
                     { button: "btn2", value: 1.2, shouldMultiply: true, row: 2 },
@@ -433,7 +433,7 @@ const interviews = [
                     { button: "btn15", value: 1, shouldMultiply: false, row: 5 }
                 ]
             }, {
-                screen: 8,
+                screen: 12,
                 buttons: [
                     { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
                     { button: "btn2", value: 0.85, shouldMultiply: true, row: 2 },
@@ -494,7 +494,7 @@ const interviews = [
 
     `, screens: [
             {
-                screen: 1,
+                screen: 5,
                 buttons: [
 
                     { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
@@ -512,7 +512,7 @@ const interviews = [
                 ]
             },
             {
-                screen: 2,
+                screen: 6,
                 buttons: [
 
                     { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
@@ -529,7 +529,7 @@ const interviews = [
                     { button: "btn12", value: 700, shouldMultiply: false, row: 4 }
                 ]
             }, {
-                screen: 3,
+                screen: 7,
                 buttons: [
 
                     { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
@@ -546,7 +546,7 @@ const interviews = [
                     { button: "btn12", value: 830, shouldMultiply: false, row: 4 }
                 ]
             }, {
-                screen: 4,
+                screen: 8,
 
                 buttons: [
 
@@ -564,7 +564,7 @@ const interviews = [
                     { button: "btn12", value: 730, shouldMultiply: false, row: 4 }
                 ]
             }, {
-                screen: 5,
+                screen: 9,
                 buttons: [
 
                     { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
@@ -582,7 +582,7 @@ const interviews = [
                 ]
             },
             {
-                screen: 6,
+                screen: 10,
                 buttons: [
 
                     { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
@@ -599,7 +599,7 @@ const interviews = [
                     { button: "btn12", value: 700, shouldMultiply: false, row: 4 }
                 ]
             }, {
-                screen: 7,
+                screen: 11,
 
                 buttons: [
 
@@ -617,7 +617,7 @@ const interviews = [
                     { button: "btn12", value: 730, shouldMultiply: false, row: 4 }
                 ]
             }, {
-                screen: 8,
+                screen: 12,
 
                 buttons: [
 
@@ -669,7 +669,7 @@ const interviews = [
  
     `, screens: [
             {
-                screen: 1,
+                screen: 5,
 
                 buttons: [
 
@@ -685,7 +685,7 @@ const interviews = [
                 ]
             },
             {
-                screen: 2,
+                screen: 6,
 
                 buttons: [
 
@@ -702,7 +702,7 @@ const interviews = [
                     { button: "btn9", value: 750, shouldMultiply: false, row: 3 }
                 ]
             }, {
-                screen: 3,
+                screen: 7,
 
                 buttons: [
 
@@ -717,7 +717,7 @@ const interviews = [
                     { button: "btn9", value: 700, shouldMultiply: false, row: 3 }
                 ]
             }, {
-                screen: 4,
+                screen: 8,
 
                 buttons: [
 
@@ -732,7 +732,7 @@ const interviews = [
                     { button: "btn9", value: 700, shouldMultiply: false, row: 3 }
                 ]
             }, {
-                screen: 5,
+                screen: 9,
 
                 buttons: [
 
@@ -749,12 +749,9 @@ const interviews = [
                 ]
             },
             {
-                screen: 6,
+                screen: 10,
 
                 buttons: [
-
-
-
                     { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
                     { button: "btn2", value: 0.85, shouldMultiply: true, row: 2 },
                     { button: "btn3", value: 830, shouldMultiply: false, row: 3 },
@@ -766,7 +763,7 @@ const interviews = [
                     { button: "btn9", value: 830, shouldMultiply: false, row: 3 }
                 ]
             }, {
-                screen: 7,
+                screen: 11,
 
                 buttons: [
                     { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
@@ -780,7 +777,7 @@ const interviews = [
                     { button: "btn9", value: 830, shouldMultiply: false, row: 3 }
                 ]
             }, {
-                screen: 8,
+                screen: 12,
 
                 buttons: [
                     { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
@@ -819,7 +816,7 @@ const interviews = [
 
     `, screens: [
             {
-                screen: 1,
+                screen: 5,
 
                 buttons: [
                     { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
@@ -831,7 +828,7 @@ const interviews = [
                 ]
             },
             {
-                screen: 2,
+                screen: 6,
 
                 buttons: [
                     { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
@@ -842,7 +839,7 @@ const interviews = [
                     { button: "btn6", value: 700, shouldMultiply: false, row: 2 }
                 ]
             }, {
-                screen: 3,
+                screen: 7,
 
                 buttons: [
                     { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
@@ -853,7 +850,7 @@ const interviews = [
                     { button: "btn6", value: 700, shouldMultiply: false, row: 2 }
                 ]
             }, {
-                screen: 4,
+                screen: 8,
 
                 buttons: [
                     { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
@@ -864,7 +861,7 @@ const interviews = [
                     { button: "btn6", value: 830, shouldMultiply: false, row: 2 }
                 ]
             }, {
-                screen: 5,
+                screen: 9,
 
                 buttons: [
                     { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
@@ -877,7 +874,7 @@ const interviews = [
                 ]
             },
             {
-                screen: 6,
+                screen: 10,
 
                 buttons: [
                     { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
@@ -888,7 +885,7 @@ const interviews = [
                     { button: "btn6", value: 750, shouldMultiply: false, row: 2 }
                 ]
             }, {
-                screen: 7,
+                screen: 11,
 
                 buttons: [
                     { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
@@ -899,7 +896,7 @@ const interviews = [
                     { button: "btn6", value: 830, shouldMultiply: false, row: 2 }
                 ]
             }, {
-                screen: 8,
+                screen: 12,
 
                 buttons: [
                     { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
@@ -961,7 +958,7 @@ const interviews = [
     
     `, screens: [
             {
-                screen: 1,
+                screen: 5,
 
                 buttons: [
                     { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
@@ -979,7 +976,7 @@ const interviews = [
                 ]
             },
             {
-                screen: 2,
+                screen: 6,
 
                 buttons: [
                     { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
@@ -996,7 +993,7 @@ const interviews = [
                     { button: "btn12", value: 0, shouldMultiply: false, row: 6 }
                 ]
             }, {
-                screen: 3,
+                screen: 7,
 
                 buttons: [
                     { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
@@ -1013,14 +1010,14 @@ const interviews = [
                     { button: "btn12", value: 0, shouldMultiply: false, row: 6 }
                 ]
             }, {
-                screen: 4,
+                screen: 8,
 
                 buttons: [
                     { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
                     { button: "btn2", value: 1.2, shouldMultiply: true, row: 2 },
                     { button: "btn3", value: 1.2, shouldMultiply: true, row: 3 },
                     { button: "btn4", value: 770, shouldMultiply: false, row: 4 },
-                    { button: "btn5", value: 1, shouldMultiply: false, row: 5,
+                    { button: "btn5", value: 1, shouldMultiply: false, row: 5 },
                     { button: "btn6", value: 1, shouldMultiply: false, row: 6 },
                     { button: "btn7", value: 0.85, shouldMultiply: true, row: 1 },
                     { button: "btn8", value: 0.85, shouldMultiply: true, row: 2 },
@@ -1030,7 +1027,7 @@ const interviews = [
                     { button: "btn12", value: 0, shouldMultiply: false, row: 6 }
                 ]
             }, {
-                screen: 5,
+                screen: 9,
 
                 buttons: [
                     { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
@@ -1048,7 +1045,7 @@ const interviews = [
                 ]
             },
             {
-                screen: 6,
+                screen: 10,
 
                 buttons: [
                     { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
@@ -1066,7 +1063,7 @@ const interviews = [
 
                 ]
             }, {
-                screen: 7,
+                screen: 11,
 
                 buttons: [
                     { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
@@ -1083,7 +1080,7 @@ const interviews = [
                     { button: "btn12", value: 1, shouldMultiply: false, row: 6 }
                 ]
             }, {
-                screen: 8,
+                screen: 12,
 
                 buttons: [
                     { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
@@ -1143,7 +1140,7 @@ const interviews = [
         </div>
     `, screens: [
             {
-                screen: 1,
+                screen: 5,
 
                 buttons: [
                     { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
@@ -1159,7 +1156,7 @@ const interviews = [
                 ]
             },
             {
-                screen: 2,
+                screen: 6,
 
                 buttons: [
                     { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
@@ -1175,7 +1172,7 @@ const interviews = [
 
                 ]
             }, {
-                screen: 3,
+                screen: 7,
 
                 buttons: [
 
@@ -1191,7 +1188,7 @@ const interviews = [
                     { button: "btn10", value: 2, shouldMultiply: false, row: 1 }
                 ]
             }, {
-                screen: 4,
+                screen: 8,
 
                 buttons: [
                     { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
@@ -1206,7 +1203,7 @@ const interviews = [
                     { button: "btn10", value: 1, shouldMultiply: false, row: 1 }
                 ]
             }, {
-                screen: 5,
+                screen: 9,
 
                 buttons: [
                     { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
@@ -1223,7 +1220,7 @@ const interviews = [
                 ]
             },
             {
-                screen: 6,
+                screen: 10,
 
                 buttons: [
                     { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
@@ -1238,7 +1235,7 @@ const interviews = [
                     { button: "btn10", value: 0, shouldMultiply: false, row: 1 }
                 ]
             }, {
-                screen: 7,
+                screen: 11,
 
                 buttons: [
                     { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
@@ -1253,7 +1250,7 @@ const interviews = [
                     { button: "btn10", value: 0, shouldMultiply: false, row: 1 }
                 ]
             }, {
-                screen: 8,
+                screen: 12,
 
                 buttons: [
                     { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
@@ -1305,7 +1302,7 @@ const interviews = [
         </div>
     `, screens: [
             {
-                screen: 1,
+                screen: 5,
 
                 buttons: [
                     { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
@@ -1320,7 +1317,7 @@ const interviews = [
                 ]
             },
             {
-                screen: 2,
+                screen: 6,
 
                 buttons: [
                     { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
@@ -1334,7 +1331,7 @@ const interviews = [
 
                 ]
             }, {
-                screen: 3,
+                screen: 7,
 
                 buttons: [
                     { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
@@ -1348,7 +1345,7 @@ const interviews = [
 
                 ]
             }, {
-                screen: 4,
+                screen: 8,
 
                 buttons: [
                     { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
@@ -1362,7 +1359,7 @@ const interviews = [
 
                 ]
             }, {
-                screen: 5,
+                screen: 9,
 
                 buttons: [
                     { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
@@ -1377,7 +1374,7 @@ const interviews = [
                 ]
             },
             {
-                screen: 6,
+                screen: 10,
 
                 buttons: [
                     { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
@@ -1390,7 +1387,7 @@ const interviews = [
                     { button: "btn8", value: 700, shouldMultiply: false, row: 4 }
                 ]
             }, {
-                screen: 7,
+                screen: 11,
 
                 buttons: [
 
@@ -1404,7 +1401,7 @@ const interviews = [
                     { button: "btn8", value: 730, shouldMultiply: false, row: 4 }
                 ]
             }, {
-                screen: 8,
+                screen: 12,
 
                 buttons: [
 
@@ -1447,7 +1444,7 @@ const interviews = [
         </div>
     `, screens: [
             {
-                screen: 1,
+                screen: 5,
 
                 buttons: [
                     { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
@@ -1460,7 +1457,7 @@ const interviews = [
                 ]
             },
             {
-                screen: 2,
+                screen: 6,
 
                 buttons: [
                     { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
@@ -1472,7 +1469,7 @@ const interviews = [
 
                 ]
             }, {
-                screen: 3,
+                screen: 7,
 
                 buttons: [
                     { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
@@ -1484,7 +1481,7 @@ const interviews = [
 
                 ]
             }, {
-                screen: 4,
+                screen: 8,
 
                 buttons: [
                     { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
@@ -1496,7 +1493,7 @@ const interviews = [
 
                 ]
             }, {
-                screen: 5,
+                screen: 9,
 
                 buttons: [
                     { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
@@ -1509,7 +1506,7 @@ const interviews = [
                 ]
             },
             {
-                screen: 6,
+                screen: 10,
 
                 buttons: [
                     { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
@@ -1521,7 +1518,7 @@ const interviews = [
 
                 ]
             }, {
-                screen: 7,
+                screen: 11,
 
                 buttons: [
                     { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
@@ -1533,7 +1530,7 @@ const interviews = [
 
                 ]
             }, {
-                screen: 8,
+                screen: 12,
 
                 buttons: [
                     { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
@@ -1568,7 +1565,7 @@ const interviews = [
         </div>
     `, screens: [
             {
-                screen: 1,
+                screen: 5,
 
                 buttons: [
                     { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
@@ -1579,7 +1576,7 @@ const interviews = [
                 ]
             },
             {
-                screen: 2,
+                screen: 6,
 
                 buttons: [
                     { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
@@ -1589,7 +1586,7 @@ const interviews = [
 
                 ]
             }, {
-                screen: 3,
+                screen: 7,
 
                 buttons: [
                     { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
@@ -1599,7 +1596,7 @@ const interviews = [
 
                 ]
             }, {
-                screen: 4,
+                screen: 8,
 
                 buttons: [
                     { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
@@ -1609,7 +1606,7 @@ const interviews = [
 
                 ]
             }, {
-                screen: 5,
+                screen: 9,
 
                 buttons: [
                     { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
@@ -1620,7 +1617,7 @@ const interviews = [
                 ]
             },
             {
-                screen: 6,
+                screen: 10,
 
                 buttons: [
                     { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
@@ -1630,7 +1627,7 @@ const interviews = [
 
                 ]
             }, {
-                screen: 7,
+                screen: 11,
 
                 buttons: [
                     { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
@@ -1640,7 +1637,7 @@ const interviews = [
 
                 ]
             }, {
-                screen: 8,
+                screen: 12,
 
                 buttons: [
                     { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
