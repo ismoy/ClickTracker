@@ -961,4 +961,1653 @@
 			"count": 191
 		}
 	]
+},
+
+{
+	"status": 0,
+	"data": [
+		{
+			"_id": "611e8b5c7fe81e001cd0a4ee",
+			"plant": {
+				"farmConfig": {
+					"le": 850,
+					"hours": 144
+				},
+				"sunflowerId": 2,
+				"type": 2,
+				"iconUrl": "https://pvu-static.s3.ap-southeast-1.amazonaws.com/farms/mama.svg",
+				"synergy": {}
+			},
+			"land": {
+				"elements": {
+					"fire": 0,
+					"water": 0,
+					"ice": 1,
+					"wind": 1,
+					"electro": 1,
+					"parasite": 0,
+					"light": 0,
+					"dark": 0,
+					"metal": 0
+				},
+				"capacity": {
+					"plant": 30,
+					"motherTree": 5
+				},
+				"landId": 10414,
+				"x": -1,
+				"y": 4,
+				"totalOfElements": 3,
+				"rarity": 2
+			},
+			"isTempPlant": true,
+			"stage": "farming",
+			"ownerId": "0xd2f003e38e215631c2737956779fb9099d27d7ea",
+			"landId": 10414,
+			"plantId": 0,
+			"plantType": 2,
+			"activeTools": [
+				{
+					"count": 2,
+					"_id": "611e8b5c7fe81e001cd0a4ef",
+					"id": 1,
+					"type": "POT",
+					"endTime": "2021-08-29T16:50:43.634Z",
+					"startTime": "2021-08-19T16:50:43.634Z"
+				},
+				{
+					"count": 58,
+					"_id": "611e8b5c7fe81e001cd0a4f1",
+					"id": 3,
+					"type": "WATER",
+					"endTime": "2021-08-20T16:50:43.925Z",
+					"startTime": "2021-08-19T16:50:43.925Z"
+				}
+			],
+			"createdAt": "2021-08-19T16:48:28.414Z",
+			"updatedAt": "2021-08-19T20:34:35.074Z",
+			"__v": 0,
+			"harvestTime": "2021-08-25T16:50:43.925Z",
+			"rate": {
+				"le": 850,
+				"hours": 144
+			},
+			"startTime": "2021-08-19T16:50:43.925Z",
+			"hasSynergy": false,
+			"needWater": false,
+			"hasSeed": false,
+			"inGreenhouse": false,
+			"count": 193
+		},
+		{
+			"_id": "611e8b62232a4900158e4202",
+			"plant": {
+				"farmConfig": {
+					"le": 250,
+					"hours": 72
+				},
+				"sunflowerId": 1,
+				"type": 1,
+				"iconUrl": "https://pvu-static.s3.ap-southeast-1.amazonaws.com/farms/sapling.svg",
+				"synergy": {}
+			},
+			"land": {
+				"elements": {
+					"fire": 0,
+					"water": 0,
+					"ice": 1,
+					"wind": 1,
+					"electro": 1,
+					"parasite": 0,
+					"light": 0,
+					"dark": 0,
+					"metal": 0
+				},
+				"capacity": {
+					"plant": 30,
+					"motherTree": 5
+				},
+				"landId": 10414,
+				"x": -1,
+				"y": 4,
+				"totalOfElements": 3,
+				"rarity": 2
+			},
+			"isTempPlant": true,
+			"stage": "farming",
+			"ownerId": "0xd2f003e38e215631c2737956779fb9099d27d7ea",
+			"landId": 10414,
+			"plantId": 0,
+			"plantType": 1,
+			"activeTools": [
+				{
+					"count": 2,
+					"_id": "611e8b62232a4900158e4203",
+					"id": 1,
+					"type": "POT",
+					"endTime": "2021-08-29T16:50:45.609Z",
+					"startTime": "2021-08-19T16:50:45.609Z"
+				},
+				{
+					"count": 58,
+					"_id": "611e8b62232a4900158e4205",
+					"id": 3,
+					"type": "WATER",
+					"endTime": "2021-08-20T16:50:45.904Z",
+					"startTime": "2021-08-19T16:50:45.904Z"
+				}
+			],
+			"createdAt": "2021-08-19T16:48:34.954Z",
+			"updatedAt": "2021-08-19T20:35:09.024Z",
+			"__v": 0,
+			"harvestTime": "2021-08-22T16:50:45.904Z",
+			"rate": {
+				"le": 250,
+				"hours": 72
+			},
+			"startTime": "2021-08-19T16:50:45.904Z",
+			"hasSynergy": false,
+			"needWater": false,
+			"hasSeed": false,
+			"inGreenhouse": false,
+			"count": 79
+		},
+		{
+			"_id": "611e8b64de6e2800132a659c",
+			"plant": {
+				"farmConfig": {
+					"le": 250,
+					"hours": 72
+				},
+				"sunflowerId": 1,
+				"type": 1,
+				"iconUrl": "https://pvu-static.s3.ap-southeast-1.amazonaws.com/farms/sapling.svg",
+				"synergy": {}
+			},
+			"land": {
+				"elements": {
+					"fire": 0,
+					"water": 0,
+					"ice": 1,
+					"wind": 1,
+					"electro": 1,
+					"parasite": 0,
+					"light": 0,
+					"dark": 0,
+					"metal": 0
+				},
+				"capacity": {
+					"plant": 30,
+					"motherTree": 5
+				},
+				"landId": 10414,
+				"x": -1,
+				"y": 4,
+				"totalOfElements": 3,
+				"rarity": 2
+			},
+			"isTempPlant": true,
+			"stage": "farming",
+			"ownerId": "0xd2f003e38e215631c2737956779fb9099d27d7ea",
+			"landId": 10414,
+			"plantId": 0,
+			"plantType": 1,
+			"activeTools": [
+				{
+					"count": 2,
+					"_id": "611e8b64de6e2800132a659d",
+					"id": 1,
+					"type": "POT",
+					"endTime": "2021-08-29T16:50:47.391Z",
+					"startTime": "2021-08-19T16:50:47.391Z"
+				},
+				{
+					"count": 56,
+					"_id": "611e8b64de6e2800132a659f",
+					"id": 3,
+					"type": "WATER",
+					"endTime": "2021-08-20T16:50:47.682Z",
+					"startTime": "2021-08-19T16:50:47.682Z"
+				}
+			],
+			"createdAt": "2021-08-19T16:48:36.891Z",
+			"updatedAt": "2021-08-19T20:33:39.174Z",
+			"__v": 0,
+			"harvestTime": "2021-08-22T16:50:47.682Z",
+			"rate": {
+				"le": 250,
+				"hours": 72
+			},
+			"startTime": "2021-08-19T16:50:47.682Z",
+			"hasSynergy": false,
+			"needWater": false,
+			"hasSeed": false,
+			"inGreenhouse": false,
+			"count": 54
+		},
+		{
+			"_id": "611e8b667fe81e001cd0a4f5",
+			"plant": {
+				"farmConfig": {
+					"le": 250,
+					"hours": 72
+				},
+				"sunflowerId": 1,
+				"type": 1,
+				"iconUrl": "https://pvu-static.s3.ap-southeast-1.amazonaws.com/farms/sapling.svg",
+				"synergy": {}
+			},
+			"land": {
+				"elements": {
+					"fire": 0,
+					"water": 0,
+					"ice": 1,
+					"wind": 1,
+					"electro": 1,
+					"parasite": 0,
+					"light": 0,
+					"dark": 0,
+					"metal": 0
+				},
+				"capacity": {
+					"plant": 30,
+					"motherTree": 5
+				},
+				"landId": 10414,
+				"x": -1,
+				"y": 4,
+				"totalOfElements": 3,
+				"rarity": 2
+			},
+			"isTempPlant": true,
+			"stage": "farming",
+			"ownerId": "0xd2f003e38e215631c2737956779fb9099d27d7ea",
+			"landId": 10414,
+			"plantId": 0,
+			"plantType": 1,
+			"activeTools": [
+				{
+					"count": 2,
+					"_id": "611e8b667fe81e001cd0a4f6",
+					"id": 1,
+					"type": "POT",
+					"endTime": "2021-08-29T16:50:48.600Z",
+					"startTime": "2021-08-19T16:50:48.600Z"
+				},
+				{
+					"count": 58,
+					"_id": "611e8b667fe81e001cd0a4f8",
+					"id": 3,
+					"type": "WATER",
+					"endTime": "2021-08-20T16:50:48.896Z",
+					"startTime": "2021-08-19T16:50:48.896Z"
+				}
+			],
+			"createdAt": "2021-08-19T16:48:38.479Z",
+			"updatedAt": "2021-08-19T20:35:05.114Z",
+			"__v": 0,
+			"harvestTime": "2021-08-22T16:50:48.896Z",
+			"rate": {
+				"le": 250,
+				"hours": 72
+			},
+			"startTime": "2021-08-19T16:50:48.896Z",
+			"hasSynergy": false,
+			"needWater": false,
+			"hasSeed": false,
+			"inGreenhouse": false,
+			"count": 107
+		},
+		{
+			"_id": "611e8b68cb5d95001aeaf093",
+			"plant": {
+				"farmConfig": {
+					"le": 250,
+					"hours": 72
+				},
+				"sunflowerId": 1,
+				"type": 1,
+				"iconUrl": "https://pvu-static.s3.ap-southeast-1.amazonaws.com/farms/sapling.svg",
+				"synergy": {}
+			},
+			"land": {
+				"elements": {
+					"fire": 0,
+					"water": 0,
+					"ice": 1,
+					"wind": 1,
+					"electro": 1,
+					"parasite": 0,
+					"light": 0,
+					"dark": 0,
+					"metal": 0
+				},
+				"capacity": {
+					"plant": 30,
+					"motherTree": 5
+				},
+				"landId": 10414,
+				"x": -1,
+				"y": 4,
+				"totalOfElements": 3,
+				"rarity": 2
+			},
+			"isTempPlant": true,
+			"stage": "farming",
+			"ownerId": "0xd2f003e38e215631c2737956779fb9099d27d7ea",
+			"landId": 10414,
+			"plantId": 0,
+			"plantType": 1,
+			"activeTools": [
+				{
+					"count": 2,
+					"_id": "611e8b68cb5d95001aeaf094",
+					"id": 1,
+					"type": "POT",
+					"endTime": "2021-08-29T16:50:50.107Z",
+					"startTime": "2021-08-19T16:50:50.107Z"
+				},
+				{
+					"count": 58,
+					"_id": "611e8b68cb5d95001aeaf096",
+					"id": 3,
+					"type": "WATER",
+					"endTime": "2021-08-20T16:50:50.398Z",
+					"startTime": "2021-08-19T16:50:50.398Z"
+				}
+			],
+			"createdAt": "2021-08-19T16:48:40.701Z",
+			"updatedAt": "2021-08-19T20:34:21.608Z",
+			"__v": 0,
+			"harvestTime": "2021-08-22T16:50:50.398Z",
+			"rate": {
+				"le": 250,
+				"hours": 72
+			},
+			"startTime": "2021-08-19T16:50:50.398Z",
+			"hasSynergy": false,
+			"needWater": false,
+			"hasSeed": false,
+			"inGreenhouse": false,
+			"count": 24
+		},
+		{
+			"_id": "611e8b6af371170014fdfe2c",
+			"plant": {
+				"farmConfig": {
+					"le": 250,
+					"hours": 72
+				},
+				"sunflowerId": 1,
+				"type": 1,
+				"iconUrl": "https://pvu-static.s3.ap-southeast-1.amazonaws.com/farms/sapling.svg",
+				"synergy": {}
+			},
+			"land": {
+				"elements": {
+					"fire": 0,
+					"water": 0,
+					"ice": 1,
+					"wind": 1,
+					"electro": 1,
+					"parasite": 0,
+					"light": 0,
+					"dark": 0,
+					"metal": 0
+				},
+				"capacity": {
+					"plant": 30,
+					"motherTree": 5
+				},
+				"landId": 10414,
+				"x": -1,
+				"y": 4,
+				"totalOfElements": 3,
+				"rarity": 2
+			},
+			"isTempPlant": true,
+			"stage": "farming",
+			"ownerId": "0xd2f003e38e215631c2737956779fb9099d27d7ea",
+			"landId": 10414,
+			"plantId": 0,
+			"plantType": 1,
+			"activeTools": [
+				{
+					"count": 2,
+					"_id": "611e8b6af371170014fdfe2d",
+					"id": 1,
+					"type": "POT",
+					"endTime": "2021-08-29T16:50:51.860Z",
+					"startTime": "2021-08-19T16:50:51.860Z"
+				},
+				{
+					"count": 57,
+					"_id": "611e8b6af371170014fdfe2f",
+					"id": 3,
+					"type": "WATER",
+					"endTime": "2021-08-20T16:50:52.158Z",
+					"startTime": "2021-08-19T16:50:52.158Z"
+				}
+			],
+			"createdAt": "2021-08-19T16:48:42.338Z",
+			"updatedAt": "2021-08-19T20:34:39.029Z",
+			"__v": 0,
+			"harvestTime": "2021-08-22T16:50:52.158Z",
+			"rate": {
+				"le": 250,
+				"hours": 72
+			},
+			"startTime": "2021-08-19T16:50:52.158Z",
+			"hasSynergy": false,
+			"needWater": false,
+			"hasSeed": false,
+			"inGreenhouse": false,
+			"count": 164
+		},
+		{
+			"_id": "611e8b9ff371170014fdfe49",
+			"plant": {
+				"farmConfig": {
+					"le": 250,
+					"hours": 72
+				},
+				"sunflowerId": 1,
+				"type": 1,
+				"iconUrl": "https://pvu-static.s3.ap-southeast-1.amazonaws.com/farms/sapling.svg",
+				"synergy": {}
+			},
+			"land": {
+				"elements": {
+					"fire": 0,
+					"water": 0,
+					"ice": 1,
+					"wind": 1,
+					"electro": 1,
+					"parasite": 0,
+					"light": 0,
+					"dark": 0,
+					"metal": 0
+				},
+				"capacity": {
+					"plant": 30,
+					"motherTree": 5
+				},
+				"landId": 10414,
+				"x": -1,
+				"y": 4,
+				"totalOfElements": 3,
+				"rarity": 2
+			},
+			"isTempPlant": true,
+			"stage": "farming",
+			"ownerId": "0xd2f003e38e215631c2737956779fb9099d27d7ea",
+			"landId": 10414,
+			"plantId": 0,
+			"plantType": 1,
+			"activeTools": [
+				{
+					"count": 2,
+					"_id": "611e8b9ff371170014fdfe4a",
+					"id": 1,
+					"type": "POT",
+					"endTime": "2021-08-29T16:50:59.070Z",
+					"startTime": "2021-08-19T16:50:59.070Z"
+				},
+				{
+					"count": 56,
+					"_id": "611e8b9ff371170014fdfe4c",
+					"id": 3,
+					"type": "WATER",
+					"endTime": "2021-08-20T16:50:59.361Z",
+					"startTime": "2021-08-19T16:50:59.361Z"
+				}
+			],
+			"createdAt": "2021-08-19T16:49:35.316Z",
+			"updatedAt": "2021-08-19T20:32:47.295Z",
+			"__v": 0,
+			"harvestTime": "2021-08-22T16:50:59.361Z",
+			"rate": {
+				"le": 250,
+				"hours": 72
+			},
+			"startTime": "2021-08-19T16:50:59.361Z",
+			"hasSynergy": false,
+			"needWater": false,
+			"hasSeed": false,
+			"inGreenhouse": false,
+			"count": 5
+		},
+		{
+			"_id": "611e8ba1a72e1a001b5d1fb4",
+			"plant": {
+				"farmConfig": {
+					"le": 250,
+					"hours": 72
+				},
+				"sunflowerId": 1,
+				"type": 1,
+				"iconUrl": "https://pvu-static.s3.ap-southeast-1.amazonaws.com/farms/sapling.svg",
+				"synergy": {}
+			},
+			"land": {
+				"elements": {
+					"fire": 0,
+					"water": 0,
+					"ice": 1,
+					"wind": 1,
+					"electro": 1,
+					"parasite": 0,
+					"light": 0,
+					"dark": 0,
+					"metal": 0
+				},
+				"capacity": {
+					"plant": 30,
+					"motherTree": 5
+				},
+				"landId": 10414,
+				"x": -1,
+				"y": 4,
+				"totalOfElements": 3,
+				"rarity": 2
+			},
+			"isTempPlant": true,
+			"stage": "farming",
+			"ownerId": "0xd2f003e38e215631c2737956779fb9099d27d7ea",
+			"landId": 10414,
+			"plantId": 0,
+			"plantType": 1,
+			"activeTools": [
+				{
+					"count": 2,
+					"_id": "611e8ba1a72e1a001b5d1fb5",
+					"id": 1,
+					"type": "POT",
+					"endTime": "2021-08-29T16:50:57.243Z",
+					"startTime": "2021-08-19T16:50:57.243Z"
+				},
+				{
+					"count": 57,
+					"_id": "611e8ba1a72e1a001b5d1fb7",
+					"id": 3,
+					"type": "WATER",
+					"endTime": "2021-08-20T16:50:57.542Z",
+					"startTime": "2021-08-19T16:50:57.542Z"
+				}
+			],
+			"createdAt": "2021-08-19T16:49:37.371Z",
+			"updatedAt": "2021-08-19T20:34:51.136Z",
+			"__v": 0,
+			"harvestTime": "2021-08-22T16:50:57.542Z",
+			"rate": {
+				"le": 250,
+				"hours": 72
+			},
+			"startTime": "2021-08-19T16:50:57.542Z",
+			"hasSynergy": false,
+			"needWater": false,
+			"hasSeed": false,
+			"inGreenhouse": false,
+			"count": 120
+		},
+		{
+			"_id": "611e8ba23fbfde0014f41b14",
+			"plant": {
+				"farmConfig": {
+					"le": 250,
+					"hours": 72
+				},
+				"sunflowerId": 1,
+				"type": 1,
+				"iconUrl": "https://pvu-static.s3.ap-southeast-1.amazonaws.com/farms/sapling.svg",
+				"synergy": {}
+			},
+			"land": {
+				"elements": {
+					"fire": 0,
+					"water": 0,
+					"ice": 1,
+					"wind": 1,
+					"electro": 1,
+					"parasite": 0,
+					"light": 0,
+					"dark": 0,
+					"metal": 0
+				},
+				"capacity": {
+					"plant": 30,
+					"motherTree": 5
+				},
+				"landId": 10414,
+				"x": -1,
+				"y": 4,
+				"totalOfElements": 3,
+				"rarity": 2
+			},
+			"isTempPlant": true,
+			"stage": "farming",
+			"ownerId": "0xd2f003e38e215631c2737956779fb9099d27d7ea",
+			"landId": 10414,
+			"plantId": 0,
+			"plantType": 1,
+			"activeTools": [
+				{
+					"count": 2,
+					"_id": "611e8ba23fbfde0014f41b15",
+					"id": 1,
+					"type": "POT",
+					"endTime": "2021-08-29T16:50:55.538Z",
+					"startTime": "2021-08-19T16:50:55.538Z"
+				},
+				{
+					"count": 59,
+					"_id": "611e8ba23fbfde0014f41b17",
+					"id": 3,
+					"type": "WATER",
+					"endTime": "2021-08-20T16:50:55.844Z",
+					"startTime": "2021-08-19T16:50:55.844Z"
+				}
+			],
+			"createdAt": "2021-08-19T16:49:38.588Z",
+			"updatedAt": "2021-08-19T20:35:17.444Z",
+			"__v": 0,
+			"harvestTime": "2021-08-22T16:50:55.844Z",
+			"rate": {
+				"le": 250,
+				"hours": 72
+			},
+			"startTime": "2021-08-19T16:50:55.844Z",
+			"hasSynergy": false,
+			"needWater": false,
+			"hasSeed": false,
+			"inGreenhouse": false,
+			"count": 50
+		},
+		{
+			"_id": "611e8ba4232a4900158e4218",
+			"plant": {
+				"farmConfig": {
+					"le": 250,
+					"hours": 72
+				},
+				"sunflowerId": 1,
+				"type": 1,
+				"iconUrl": "https://pvu-static.s3.ap-southeast-1.amazonaws.com/farms/sapling.svg",
+				"synergy": {}
+			},
+			"land": {
+				"elements": {
+					"fire": 0,
+					"water": 0,
+					"ice": 1,
+					"wind": 1,
+					"electro": 1,
+					"parasite": 0,
+					"light": 0,
+					"dark": 0,
+					"metal": 0
+				},
+				"capacity": {
+					"plant": 30,
+					"motherTree": 5
+				},
+				"landId": 10414,
+				"x": -1,
+				"y": 4,
+				"totalOfElements": 3,
+				"rarity": 2
+			},
+			"isTempPlant": true,
+			"stage": "farming",
+			"ownerId": "0xd2f003e38e215631c2737956779fb9099d27d7ea",
+			"landId": 10414,
+			"plantId": 0,
+			"plantType": 1,
+			"activeTools": [
+				{
+					"count": 2,
+					"_id": "611e8ba4232a4900158e4219",
+					"id": 1,
+					"type": "POT",
+					"endTime": "2021-08-29T16:51:00.833Z",
+					"startTime": "2021-08-19T16:51:00.833Z"
+				},
+				{
+					"count": 59,
+					"_id": "611e8ba4232a4900158e421b",
+					"id": 3,
+					"type": "WATER",
+					"endTime": "2021-08-20T16:51:01.124Z",
+					"startTime": "2021-08-19T16:51:01.124Z"
+				}
+			],
+			"createdAt": "2021-08-19T16:49:40.314Z",
+			"updatedAt": "2021-08-19T20:35:28.568Z",
+			"__v": 0,
+			"harvestTime": "2021-08-22T16:51:01.124Z",
+			"rate": {
+				"le": 250,
+				"hours": 72
+			},
+			"startTime": "2021-08-19T16:51:01.124Z",
+			"hasSynergy": false,
+			"needWater": false,
+			"hasSeed": false,
+			"inGreenhouse": false,
+			"count": 10
+		}
+	],
+	"total": 247
+},
+{
+	"status": 0,
+	"data": [
+		{
+			"_id": "6110129b03c0ad002456fb20",
+			"plant": {
+				"farmConfig": {
+					"le": 951,
+					"hours": 96
+				},
+				"stats": {
+					"type": "wind",
+					"hp": 0,
+					"defPhysics": 0,
+					"defMagic": 0,
+					"damagePhysics": 0,
+					"damageMagic": 351,
+					"damagePure": 0,
+					"damageHpLoss": 0,
+					"damageHpRemove": 0
+				},
+				"type": 1,
+				"iconUrl": "https://pvuresources.s3.ap-southeast-2.amazonaws.com/icon/plant/16_1.png",
+				"rarity": 0,
+				"synergy": {
+					"requirement": 10,
+					"description": "Reduce Harvest time by 10% for all plants/trees on this land."
+				}
+			},
+			"land": {
+				"elements": {
+					"fire": 0,
+					"water": 0,
+					"ice": 0,
+					"wind": 1,
+					"electro": 0,
+					"parasite": 0,
+					"light": 0,
+					"dark": 1,
+					"metal": 0
+				},
+				"capacity": {
+					"plant": 25,
+					"motherTree": 4
+				},
+				"landId": 10341,
+				"x": 6,
+				"y": 6,
+				"totalOfElements": 2,
+				"rarity": 1
+			},
+			"stage": "farming",
+			"ownerId": "0x01a676c60dcf1d8b7857e967ef99a44dd2edb372",
+			"landId": 10341,
+			"plantId": 1001615106,
+			"plantUnitId": 10016151,
+			"plantType": 1,
+			"plantElement": "wind",
+			"createdAt": "2021-08-08T17:21:31.589Z",
+			"updatedAt": "2021-08-19T20:39:58.485Z",
+			"__v": 0,
+			"harvestTime": "2021-08-23T16:23:47.350Z",
+			"rate": {
+				"le": 951,
+				"hours": 96
+			},
+			"startTime": "2021-08-19T16:22:54.437Z",
+			"activeTools": [
+				{
+					"count": 2,
+					"_id": "611e184b1cd6d595f071815f",
+					"id": 2,
+					"type": "POT",
+					"startTime": "2021-08-08T17:24:02.130Z",
+					"endTime": "2021-09-07T17:24:02.130Z"
+				},
+				{
+					"count": 61,
+					"_id": "611e184b1cd6d595f0718161",
+					"id": 3,
+					"type": "WATER",
+					"endTime": "2021-08-20T16:33:12.151Z",
+					"startTime": "2021-08-19T17:33:12.151Z"
+				}
+			],
+			"isTempPlant": false,
+			"hasSynergy": true,
+			"needWater": false,
+			"hasSeed": false,
+			"hasCrow": false,
+			"pausedTime": null,
+			"inGreenhouse": false,
+			"count": 164
+		},
+		{
+			"_id": "611012a64dc2be001ccf5d49",
+			"plant": {
+				"farmConfig": {
+					"le": 454,
+					"hours": 48
+				},
+				"stats": {
+					"type": "fire",
+					"hp": 0,
+					"defPhysics": 0,
+					"defMagic": 0,
+					"damagePhysics": 1054,
+					"damageMagic": 0,
+					"damagePure": 0,
+					"damageHpLoss": 0,
+					"damageHpRemove": 0
+				},
+				"type": 1,
+				"iconUrl": "https://pvuresources.s3.ap-southeast-2.amazonaws.com/icon/plant/0_1.png",
+				"rarity": 0,
+				"synergy": {
+					"requirement": 5,
+					"description": "This land is immune to: Tsunami, Hurricanne, Snowy, Rain, Cold Wave, Winter Storm."
+				}
+			},
+			"land": {
+				"elements": {
+					"fire": 0,
+					"water": 0,
+					"ice": 0,
+					"wind": 1,
+					"electro": 0,
+					"parasite": 0,
+					"light": 0,
+					"dark": 1,
+					"metal": 0
+				},
+				"capacity": {
+					"plant": 25,
+					"motherTree": 4
+				},
+				"landId": 10341,
+				"x": 6,
+				"y": 6,
+				"totalOfElements": 2,
+				"rarity": 1
+			},
+			"stage": "farming",
+			"ownerId": "0x01a676c60dcf1d8b7857e967ef99a44dd2edb372",
+			"landId": 10341,
+			"plantId": 1000015400,
+			"plantUnitId": 10000154,
+			"plantType": 1,
+			"plantElement": "fire",
+			"createdAt": "2021-08-08T17:21:42.389Z",
+			"updatedAt": "2021-08-19T20:39:14.576Z",
+			"__v": 0,
+			"harvestTime": "2021-08-20T21:48:00.898Z",
+			"rate": {
+				"le": 454,
+				"hours": 48
+			},
+			"startTime": "2021-08-16T18:39:25.136Z",
+			"activeTools": [
+				{
+					"count": 1,
+					"_id": "611e184b1cd6d595f0718155",
+					"id": 2,
+					"type": "POT",
+					"startTime": "2021-08-08T17:24:06.858Z",
+					"endTime": "2021-09-07T17:24:06.858Z"
+				},
+				{
+					"count": 60,
+					"_id": "611e184b1cd6d595f0718157",
+					"id": 3,
+					"type": "WATER",
+					"endTime": "2021-08-20T20:39:25.136Z",
+					"startTime": "2021-08-19T19:39:25.136Z"
+				}
+			],
+			"isTempPlant": false,
+			"hasSynergy": true,
+			"needWater": false,
+			"hasSeed": false,
+			"hasCrow": false,
+			"pausedTime": null,
+			"inGreenhouse": false,
+			"count": 80
+		},
+		{
+			"_id": "611012c0783c39002285024e",
+			"plant": {
+				"farmConfig": {
+					"le": 458,
+					"hours": 48
+				},
+				"stats": {
+					"type": "fire",
+					"hp": 0,
+					"defPhysics": 0,
+					"defMagic": 0,
+					"damagePhysics": 1058,
+					"damageMagic": 0,
+					"damagePure": 0,
+					"damageHpLoss": 0,
+					"damageHpRemove": 0
+				},
+				"type": 1,
+				"iconUrl": "https://pvuresources.s3.ap-southeast-2.amazonaws.com/icon/plant/0_1.png",
+				"rarity": 0,
+				"synergy": {
+					"requirement": 5,
+					"description": "This land is immune to: Tsunami, Hurricanne, Snowy, Rain, Cold Wave, Winter Storm."
+				}
+			},
+			"land": {
+				"elements": {
+					"fire": 0,
+					"water": 0,
+					"ice": 0,
+					"wind": 1,
+					"electro": 0,
+					"parasite": 0,
+					"light": 0,
+					"dark": 1,
+					"metal": 0
+				},
+				"capacity": {
+					"plant": 25,
+					"motherTree": 4
+				},
+				"landId": 10341,
+				"x": 6,
+				"y": 6,
+				"totalOfElements": 2,
+				"rarity": 1
+			},
+			"stage": "farming",
+			"ownerId": "0x01a676c60dcf1d8b7857e967ef99a44dd2edb372",
+			"landId": 10341,
+			"plantId": 1000015804,
+			"plantUnitId": 10000158,
+			"plantType": 1,
+			"plantElement": "fire",
+			"createdAt": "2021-08-08T17:22:08.733Z",
+			"updatedAt": "2021-08-19T20:39:48.299Z",
+			"__v": 0,
+			"harvestTime": "2021-08-21T04:56:44.162Z",
+			"rate": {
+				"le": 458,
+				"hours": 48
+			},
+			"startTime": "2021-08-16T17:31:10.877Z",
+			"activeTools": [
+				{
+					"count": 1,
+					"_id": "611e184b1cd6d595f0718146",
+					"id": 2,
+					"type": "POT",
+					"startTime": "2021-08-08T17:24:10.343Z",
+					"endTime": "2021-09-07T17:24:10.343Z"
+				},
+				{
+					"count": 62,
+					"_id": "611e184b1cd6d595f0718148",
+					"id": 3,
+					"type": "WATER",
+					"endTime": "2021-08-20T17:31:10.877Z",
+					"startTime": "2021-08-19T17:31:10.877Z"
+				}
+			],
+			"isTempPlant": false,
+			"hasSynergy": true,
+			"needWater": false,
+			"hasSeed": false,
+			"hasCrow": false,
+			"pausedTime": null,
+			"inGreenhouse": false,
+			"count": 112
+		},
+		{
+			"_id": "611012c982a3ac002f2391e7",
+			"plant": {
+				"farmConfig": {
+					"le": 763,
+					"hours": 72
+				},
+				"stats": {
+					"type": "fire",
+					"hp": 0,
+					"defPhysics": 0,
+					"defMagic": 0,
+					"damagePhysics": 406,
+					"damageMagic": 0,
+					"damagePure": 0,
+					"damageHpLoss": 0,
+					"damageHpRemove": 0
+				},
+				"type": 1,
+				"iconUrl": "https://pvuresources.s3.ap-southeast-2.amazonaws.com/icon/plant/17_2.png",
+				"rarity": 1,
+				"synergy": {
+					"requirement": 5,
+					"description": "This land is immune to: Tsunami, Hurricanne, Snowy, Rain, Cold Wave, Winter Storm."
+				}
+			},
+			"land": {
+				"elements": {
+					"fire": 0,
+					"water": 0,
+					"ice": 0,
+					"wind": 1,
+					"electro": 0,
+					"parasite": 0,
+					"light": 0,
+					"dark": 1,
+					"metal": 0
+				},
+				"capacity": {
+					"plant": 25,
+					"motherTree": 4
+				},
+				"landId": 10341,
+				"x": 6,
+				"y": 6,
+				"totalOfElements": 2,
+				"rarity": 1
+			},
+			"stage": "farming",
+			"ownerId": "0x01a676c60dcf1d8b7857e967ef99a44dd2edb372",
+			"landId": 10341,
+			"plantId": 1001726306,
+			"plantUnitId": 10017263,
+			"plantType": 1,
+			"plantElement": "fire",
+			"createdAt": "2021-08-08T17:22:17.761Z",
+			"updatedAt": "2021-08-19T20:39:52.127Z",
+			"__v": 0,
+			"harvestTime": "2021-08-20T14:49:29.684Z",
+			"rate": {
+				"le": 763,
+				"hours": 72
+			},
+			"startTime": "2021-08-14T17:29:07.585Z",
+			"activeTools": [
+				{
+					"count": 1,
+					"_id": "611e184b1cd6d595f0718141",
+					"id": 2,
+					"type": "POT",
+					"startTime": "2021-08-08T17:24:12.671Z",
+					"endTime": "2021-09-07T17:24:12.671Z"
+				},
+				{
+					"count": 61,
+					"_id": "611e184b1cd6d595f0718143",
+					"id": 3,
+					"type": "WATER",
+					"endTime": "2021-08-20T16:29:07.585Z",
+					"startTime": "2021-08-19T17:29:07.585Z"
+				}
+			],
+			"isTempPlant": false,
+			"hasSynergy": true,
+			"needWater": false,
+			"hasSeed": false,
+			"hasCrow": false,
+			"pausedTime": null,
+			"inGreenhouse": false,
+			"count": 19
+		},
+		{
+			"_id": "611012d2b6821c0022a2f7ae",
+			"plant": {
+				"farmConfig": {
+					"le": 1880,
+					"hours": 216
+				},
+				"stats": {
+					"type": "dark",
+					"hp": 0,
+					"defPhysics": 0,
+					"defMagic": 0,
+					"damagePhysics": 148,
+					"damageMagic": 0,
+					"damagePure": 0,
+					"damageHpLoss": 0,
+					"damageHpRemove": 0
+				},
+				"type": 1,
+				"iconUrl": "https://pvuresources.s3.ap-southeast-2.amazonaws.com/icon/plant/33_1.png",
+				"rarity": 0,
+				"synergy": {
+					"requirement": 5,
+					"description": "Every 5 Darks, increase productivity by 10% for all other elements (stackable)."
+				}
+			},
+			"land": {
+				"elements": {
+					"fire": 0,
+					"water": 0,
+					"ice": 0,
+					"wind": 1,
+					"electro": 0,
+					"parasite": 0,
+					"light": 0,
+					"dark": 1,
+					"metal": 0
+				},
+				"capacity": {
+					"plant": 25,
+					"motherTree": 4
+				},
+				"landId": 10341,
+				"x": 6,
+				"y": 6,
+				"totalOfElements": 2,
+				"rarity": 1
+			},
+			"stage": "farming",
+			"ownerId": "0x01a676c60dcf1d8b7857e967ef99a44dd2edb372",
+			"landId": 10341,
+			"plantId": 1003314806,
+			"plantUnitId": 10033148,
+			"plantType": 1,
+			"plantElement": "dark",
+			"createdAt": "2021-08-08T17:22:26.175Z",
+			"updatedAt": "2021-08-19T20:39:20.265Z",
+			"__v": 0,
+			"harvestTime": "2021-08-20T04:43:38.170Z",
+			"rate": {
+				"le": 1880,
+				"hours": 216
+			},
+			"startTime": "2021-08-08T17:24:30.862Z",
+			"activeTools": [
+				{
+					"count": 1,
+					"_id": "611e184b1cd6d595f0718169",
+					"id": 2,
+					"type": "POT",
+					"startTime": "2021-08-08T17:24:30.538Z",
+					"endTime": "2021-09-07T17:24:30.538Z"
+				},
+				{
+					"count": 59,
+					"_id": "611e184b1cd6d595f071816b",
+					"id": 3,
+					"type": "WATER",
+					"endTime": "2021-08-20T18:24:30.862Z",
+					"startTime": "2021-08-19T17:24:30.862Z"
+				}
+			],
+			"isTempPlant": false,
+			"hasSynergy": true,
+			"needWater": false,
+			"hasSeed": false,
+			"hasCrow": false,
+			"pausedTime": null,
+			"inGreenhouse": false,
+			"count": 152
+		},
+		{
+			"_id": "611012d8490fa2002ab54155",
+			"plant": {
+				"farmConfig": {
+					"le": 439,
+					"hours": 48
+				},
+				"stats": {
+					"type": "fire",
+					"hp": 0,
+					"defPhysics": 0,
+					"defMagic": 0,
+					"damagePhysics": 339,
+					"damageMagic": 0,
+					"damagePure": 0,
+					"damageHpLoss": 0,
+					"damageHpRemove": 0
+				},
+				"type": 1,
+				"iconUrl": "https://pvuresources.s3.ap-southeast-2.amazonaws.com/icon/plant/7_1.png",
+				"rarity": 0,
+				"synergy": {
+					"requirement": 5,
+					"description": "This land is immune to: Tsunami, Hurricanne, Snowy, Rain, Cold Wave, Winter Storm."
+				}
+			},
+			"land": {
+				"elements": {
+					"fire": 0,
+					"water": 0,
+					"ice": 0,
+					"wind": 1,
+					"electro": 0,
+					"parasite": 0,
+					"light": 0,
+					"dark": 1,
+					"metal": 0
+				},
+				"capacity": {
+					"plant": 25,
+					"motherTree": 4
+				},
+				"landId": 10341,
+				"x": 6,
+				"y": 6,
+				"totalOfElements": 2,
+				"rarity": 1
+			},
+			"stage": "farming",
+			"ownerId": "0x01a676c60dcf1d8b7857e967ef99a44dd2edb372",
+			"landId": 10341,
+			"plantId": 1000713906,
+			"plantUnitId": 10007139,
+			"plantType": 1,
+			"plantElement": "fire",
+			"createdAt": "2021-08-08T17:22:32.910Z",
+			"updatedAt": "2021-08-19T20:39:40.213Z",
+			"__v": 0,
+			"harvestTime": "2021-08-21T10:03:28.423Z",
+			"rate": {
+				"le": 439,
+				"hours": 48
+			},
+			"startTime": "2021-08-16T17:36:48.261Z",
+			"activeTools": [
+				{
+					"count": 1,
+					"_id": "611e184b1cd6d595f071815a",
+					"id": 2,
+					"type": "POT",
+					"startTime": "2021-08-08T17:24:33.026Z",
+					"endTime": "2021-09-07T17:24:33.026Z"
+				},
+				{
+					"count": 60,
+					"_id": "611e184b1cd6d595f071815c",
+					"id": 3,
+					"type": "WATER",
+					"endTime": "2021-08-20T17:36:48.261Z",
+					"startTime": "2021-08-19T17:36:48.261Z"
+				}
+			],
+			"isTempPlant": false,
+			"hasSynergy": true,
+			"needWater": false,
+			"hasSeed": false,
+			"hasCrow": false,
+			"pausedTime": null,
+			"inGreenhouse": false,
+			"count": 11
+		},
+		{
+			"_id": "61116dcc6147c20023d607e6",
+			"plant": {
+				"farmConfig": {
+					"le": 1950,
+					"hours": 216
+				},
+				"stats": {
+					"type": "dark",
+					"hp": 0,
+					"defPhysics": 0,
+					"defMagic": 0,
+					"damagePhysics": 155,
+					"damageMagic": 0,
+					"damagePure": 0,
+					"damageHpLoss": 0,
+					"damageHpRemove": 0
+				},
+				"type": 1,
+				"iconUrl": "https://pvuresources.s3.ap-southeast-2.amazonaws.com/icon/plant/33_1.png",
+				"rarity": 0,
+				"synergy": {
+					"requirement": 5,
+					"description": "Every 5 Darks, increase productivity by 10% for all other elements (stackable)."
+				}
+			},
+			"land": {
+				"elements": {
+					"fire": 0,
+					"water": 0,
+					"ice": 0,
+					"wind": 1,
+					"electro": 0,
+					"parasite": 0,
+					"light": 0,
+					"dark": 1,
+					"metal": 0
+				},
+				"capacity": {
+					"plant": 25,
+					"motherTree": 4
+				},
+				"landId": 10341,
+				"x": 6,
+				"y": 6,
+				"totalOfElements": 2,
+				"rarity": 1
+			},
+			"stage": "farming",
+			"ownerId": "0x01a676c60dcf1d8b7857e967ef99a44dd2edb372",
+			"landId": 10341,
+			"plantId": 1003315500,
+			"plantUnitId": 10033155,
+			"plantType": 1,
+			"plantElement": "dark",
+			"createdAt": "2021-08-09T18:02:52.811Z",
+			"updatedAt": "2021-08-19T20:38:56.870Z",
+			"__v": 0,
+			"harvestTime": "2021-08-20T13:04:23.037Z",
+			"rate": {
+				"le": 1950,
+				"hours": 216
+			},
+			"startTime": "2021-08-09T18:03:32.004Z",
+			"activeTools": [
+				{
+					"count": 1,
+					"_id": "611e18921cd6d595f07190be",
+					"id": 2,
+					"type": "POT",
+					"startTime": "2021-08-09T18:03:31.718Z",
+					"endTime": "2021-09-08T18:03:31.718Z"
+				},
+				{
+					"count": 59,
+					"_id": "611e18921cd6d595f07190c0",
+					"id": 3,
+					"type": "WATER",
+					"endTime": "2021-08-20T17:03:32.004Z",
+					"startTime": "2021-08-19T17:03:32.004Z"
+				}
+			],
+			"isTempPlant": false,
+			"hasSynergy": true,
+			"needWater": false,
+			"hasSeed": false,
+			"pausedTime": null,
+			"inGreenhouse": false,
+			"count": 157
+		},
+		{
+			"_id": "611436003819e84f0cb5183d",
+			"plant": {
+				"farmConfig": {
+					"le": 1550,
+					"hours": 192
+				},
+				"stats": {
+					"type": "dark",
+					"hp": 0,
+					"defPhysics": 0,
+					"defMagic": 0,
+					"damagePhysics": 0,
+					"damageMagic": 335,
+					"damagePure": 0,
+					"damageHpLoss": 0,
+					"damageHpRemove": 0
+				},
+				"type": 1,
+				"iconUrl": "https://pvuresources.s3.ap-southeast-2.amazonaws.com/icon/plant/31_1.png",
+				"rarity": 0,
+				"synergy": {
+					"requirement": 5,
+					"description": "Every 5 Darks, increase productivity by 10% for all other elements (stackable)."
+				}
+			},
+			"land": {
+				"elements": {
+					"fire": 0,
+					"water": 0,
+					"ice": 0,
+					"wind": 1,
+					"electro": 0,
+					"parasite": 0,
+					"light": 0,
+					"dark": 1,
+					"metal": 0
+				},
+				"capacity": {
+					"plant": 25,
+					"motherTree": 4
+				},
+				"landId": 10341,
+				"x": 6,
+				"y": 6,
+				"totalOfElements": 2,
+				"rarity": 1
+			},
+			"stage": "farming",
+			"ownerId": "0x01a676c60dcf1d8b7857e967ef99a44dd2edb372",
+			"landId": 10341,
+			"plantId": 1003113506,
+			"plantUnitId": 10031135,
+			"plantType": 1,
+			"plantElement": "dark",
+			"createdAt": "2021-08-11T20:41:36.056Z",
+			"updatedAt": "2021-08-19T20:40:10.817Z",
+			"__v": 0,
+			"harvestTime": "2021-08-20T02:36:06.981Z",
+			"rate": {
+				"le": 1550,
+				"hours": 192
+			},
+			"startTime": "2021-08-11T20:42:18.551Z",
+			"activeTools": [
+				{
+					"count": 1,
+					"_id": "611e14751cd6d595f070a721",
+					"id": 2,
+					"type": "POT",
+					"startTime": "2021-08-11T20:42:18.262Z",
+					"endTime": "2021-09-10T20:42:18.262Z"
+				},
+				{
+					"count": 61,
+					"_id": "611e14751cd6d595f070a723",
+					"id": 3,
+					"type": "WATER",
+					"endTime": "2021-08-20T18:42:18.551Z",
+					"startTime": "2021-08-19T19:42:18.551Z"
+				}
+			],
+			"isTempPlant": false,
+			"hasSynergy": true,
+			"needWater": false,
+			"hasSeed": false,
+			"pausedTime": null,
+			"inGreenhouse": false,
+			"count": 37
+		},
+		{
+			"_id": "6115495bc39c57001976f3fd",
+			"plant": {
+				"farmConfig": {
+					"le": 2320,
+					"hours": 216
+				},
+				"stats": {
+					"type": "dark",
+					"hp": 0,
+					"defPhysics": 0,
+					"defMagic": 0,
+					"damagePhysics": 0,
+					"damageMagic": 544,
+					"damagePure": 0,
+					"damageHpLoss": 0,
+					"damageHpRemove": 0
+				},
+				"type": 1,
+				"iconUrl": "https://pvuresources.s3.ap-southeast-2.amazonaws.com/icon/plant/35_2.png",
+				"rarity": 1,
+				"synergy": {
+					"requirement": 5,
+					"description": "Every 5 Darks, increase productivity by 10% for all other elements (stackable)."
+				}
+			},
+			"land": {
+				"elements": {
+					"fire": 0,
+					"water": 0,
+					"ice": 0,
+					"wind": 1,
+					"electro": 0,
+					"parasite": 0,
+					"light": 0,
+					"dark": 1,
+					"metal": 0
+				},
+				"capacity": {
+					"plant": 25,
+					"motherTree": 4
+				},
+				"landId": 10341,
+				"x": 6,
+				"y": 6,
+				"totalOfElements": 2,
+				"rarity": 1
+			},
+			"stage": "farming",
+			"ownerId": "0x01a676c60dcf1d8b7857e967ef99a44dd2edb372",
+			"landId": 10341,
+			"plantId": 1003528206,
+			"plantUnitId": 10035282,
+			"plantType": 1,
+			"plantElement": "dark",
+			"createdAt": "2021-08-12T16:16:27.975Z",
+			"updatedAt": "2021-08-19T20:40:14.179Z",
+			"__v": 0,
+			"harvestTime": "2021-08-25T00:38:01.879Z",
+			"rate": {
+				"le": 2320,
+				"hours": 216
+			},
+			"startTime": "2021-08-12T16:17:19.089Z",
+			"activeTools": [
+				{
+					"count": 1,
+					"_id": "611e19491cd6d595f071b8c8",
+					"id": 2,
+					"type": "POT",
+					"startTime": "2021-08-12T16:17:18.799Z",
+					"endTime": "2021-09-11T16:17:18.799Z"
+				},
+				{
+					"count": 61,
+					"_id": "611e19491cd6d595f071b8ca",
+					"id": 3,
+					"type": "WATER",
+					"endTime": "2021-08-20T18:17:19.089Z",
+					"startTime": "2021-08-19T17:17:19.089Z"
+				}
+			],
+			"isTempPlant": false,
+			"hasSynergy": true,
+			"needWater": false,
+			"hasSeed": false,
+			"pausedTime": null,
+			"inGreenhouse": false,
+			"count": 136
+		},
+		{
+			"_id": "6115495f4da89d0013104c1f",
+			"plant": {
+				"farmConfig": {
+					"le": 775,
+					"hours": 72
+				},
+				"stats": {
+					"type": "wind",
+					"hp": 0,
+					"defPhysics": 0,
+					"defMagic": 0,
+					"damagePhysics": 375,
+					"damageMagic": 0,
+					"damagePure": 0,
+					"damageHpLoss": 0,
+					"damageHpRemove": 0
+				},
+				"type": 1,
+				"iconUrl": "https://pvuresources.s3.ap-southeast-2.amazonaws.com/icon/plant/10_1.png",
+				"rarity": 0,
+				"synergy": {
+					"requirement": 10,
+					"description": "Reduce Harvest time by 10% for all plants/trees on this land."
+				}
+			},
+			"land": {
+				"elements": {
+					"fire": 0,
+					"water": 0,
+					"ice": 0,
+					"wind": 1,
+					"electro": 0,
+					"parasite": 0,
+					"light": 0,
+					"dark": 1,
+					"metal": 0
+				},
+				"capacity": {
+					"plant": 25,
+					"motherTree": 4
+				},
+				"landId": 10341,
+				"x": 6,
+				"y": 6,
+				"totalOfElements": 2,
+				"rarity": 1
+			},
+			"stage": "farming",
+			"ownerId": "0x01a676c60dcf1d8b7857e967ef99a44dd2edb372",
+			"landId": 10341,
+			"plantId": 1001012506,
+			"plantUnitId": 10010125,
+			"plantType": 1,
+			"plantElement": "wind",
+			"createdAt": "2021-08-12T16:16:31.029Z",
+			"updatedAt": "2021-08-19T20:38:49.118Z",
+			"__v": 0,
+			"harvestTime": "2021-08-21T22:00:14.095Z",
+			"rate": {
+				"le": 775,
+				"hours": 72
+			},
+			"startTime": "2021-08-15T16:21:59.810Z",
+			"activeTools": [
+				{
+					"count": 1,
+					"_id": "611e19491cd6d595f071b8b9",
+					"id": 2,
+					"type": "POT",
+					"startTime": "2021-08-12T16:17:20.530Z",
+					"endTime": "2021-09-11T16:17:20.530Z"
+				},
+				{
+					"count": 60,
+					"_id": "611e19491cd6d595f071b8bb",
+					"id": 3,
+					"type": "WATER",
+					"endTime": "2021-08-20T17:21:59.810Z",
+					"startTime": "2021-08-19T17:21:59.810Z"
+				}
+			],
+			"isTempPlant": false,
+			"hasSynergy": true,
+			"needWater": false,
+			"hasSeed": false,
+			"pausedTime": null,
+			"inGreenhouse": false,
+			"count": 134
+		}
+	],
+	"total": 29
 }

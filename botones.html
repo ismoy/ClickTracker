@@ -38,7 +38,7 @@
             gap: 10px 20px;
         }
 
-        
+
         /*  .interview-content {
             display: none;
             background-color: antiquewhite;
@@ -55,86 +55,232 @@
     </style>
     <div class=" container">
 
-        <div class="page">
-            <div class="title titledescriba">Describa por favor cómo era su viaje habitual <span class="salto">
-                    en transporte publico al trabajo/estudio </span> antes de la pandemia </div>
-
-            <div class="field2">
-                <label>Tiempo de caminata [min]:</label>
-                <input type="number" class="fieldnumber" id="tiempocaminata" value="2">
-
-            </div>
-            <div class="field2">
-                <label>Tiempo de espera [min]:</label>
-                <input type="number" class="fieldnumber" id="tiempoespera" value="2">
-
-            </div>
-            <div class="field2">
-                <label>Tiempo de viaje [min]:</label>
-                <input type="number" class="fieldnumber" id="tiempoviaje" value="2" />
-
-            </div>
-            <div class="field3">
-                <label>Tarifa [$]:</label>
-                <input type="number" class="fieldnumber tarifa" name="ta" id="tarifa" value="2" />
-
-            </div>
-            <div class="field3">
-                <label>Trasbordo [-]:</label>
-                <input type="number" class="fieldnumber transbordo" id="transbordo" value="2" />
-
-            </div>
-            <div class="field3">
-                <label>¿Hay asiento?</label>
-                <select class="fieldnumber disponibilidad" id="asiento">
-                    <option value="1">Hay disponibilidad</option>
-                    <option value="0" selected>No</option>
-                </select>
-
-            </div>
-            <button class="btn-next">Siguiente</button>
-        </div>
-
-        <div class="page interview-random">
-            <div class="prueba">
-                <div class="rutaA">
-                    <span>Ruta A</span>
-                    <span>Ruta B</span>
-                    <span>Ruta C</span>
-                </div>
-                <div class="inner">
-                    <div class="interview-content">
+        <div class="form-outer">
+            <form action="#" id="form">
+                <div class="page slidepage" style="margin-left: 2%;">
+                    <div class="title">Para efecto de clasificación estadística, <span class="salto">indique
+                            características
+                            socioeconómicas y de movilidad</span>
+                        <h4> antes de la pandemia
                     </div>
-                    <button class="btn-next-screen">Siguiente</button>
+                    <div class="field">
+                        <div class="label">¿Cuál es su edad?</div>
+                        <input type="number" placeholder="Ej 20" id="edad" name="pregunta-1" value="20">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+
+                    </div>
+                    <div class="field">
+                        <div class="label">¿Con que genero se siente identificado?</div>
+                        <select id="genero" name="pregunta-2">
+                            <option>Masculino</option>
+                            <option>Femenino</option>
+                            <option>Otro</option>
+                        </select>
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+                    <button class="btn-next nextBtn" type="button" id="next">Siguiente</button>
+
                 </div>
-                <button class="btn-next2 next-4">Siguiente</button>
-            </div>
+                <div class="page">
+                    <div class="title">Para efecto de clasificación estadística, <span class="salto"> indique
+                            características
+                            socioeconómicas</span> <span class="salto"> y de movilidad </span>
+                        <h4> antes de la pandemia
+                    </div>
+                    <div class="field">
+                        <div class="label">¿Cuál es su situación laboral actual?</div>
+                        <select id="ocupacion" name="pregunta-3">
+                            <option>Estudiando</option>
+                            <option>Trabajando</option>
+                            <option selected>Cesante</option>
+                            <option>Jubilado</option>
+                            <option>Otro</option>
+                        </select>
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+                    <div class="field">
+                        <div class="label">¿Cuál es su máximo nivel educacional?</div>
+                        <select id="nivelestudio" name="pregunta-4">
+                            <option>Ninguno</option>
+                            <option>Preescolar</option>
+                            <option>Básica</option>
+                            <option selected>Media Científica-Humanista</option>
+                            <option>Media Técnico-Profesional</option>
+                            <option>Centro de Formación Técnica</option>
+                            <option>Instituto Profesional</option>
+                            <option>Universitaria</option>
+
+                        </select>
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+                    <button class="btn-next next-1">Siguiente</button>
+
+                </div>
+
+                <div class="page">
+                    <div class="title">Para efecto de clasificación estadística,<span class="salto"> indique
+                            características
+                            socioeconómicas<span class="salto"></span> y de movilidad </span>
+                        <h4> antes de la pandemia</h4>
+                    </div>
+                    <div class="field">
+                        <div class="label-custom">¿Cuántos días de la semana laboral <span class="salto"> usaba
+                                transporte público
+                                para ir al </span> trabajo o estudio antes de la pandemia?</div>
+                        <input type="text" class="input-custom" id="viajeday" value="2" name="pregunta-5">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+                    <div class="field">
+                        <div class="label-custom2">¿Tiene tarjeta Bip!, pase escolar<span class="salto"> o adulto
+                                mayor?</span></div>
+                        <select class="select-custom" id="tarjetabip" name="pregunta-6">
+                            <option>Tarjeta Bip!</option>
+                            <option selected>Pase escolar</option>
+                            <option>Tarjeta de adulto mayor</option>
+
+                        </select>
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+                    <button class="btn-next1 next-2">Siguiente</button>
+
+                </div>
+
+
+                <div class="page">
+                    <div class="title">Para efecto de clasificación estadística, <span class="salto"> indique
+                            características
+                            socioeconómicas</span> <span class="salto"> y de movilidad</span>
+                        <h4> antes de la pandemia</h4>
+                    </div>
+
+                    <div class="page">
+                        <div class="title titlecrear">Para efecto de clasificación estadística, <span class="salto">
+                                indique
+                                características
+                                socioeconómicas</span> <span class="salto"> y de movilidad</span>
+                            <h4> antes de la pandemia</h4>
+                        </div>
+
+                        <div class="field">
+                            <div class="label">¿En qué rango estima usted <span class="salto">que se encuentra el
+                                    ingreso
+                                    líquido</span> <span class="salto">mensual de su hogar?</span></div>
+                            <select class="select-custom2" id="rentamensual" name="pregunta-7">
+                                <option>Menos de $324.000</option>
+                                <option>Entre $324.000 y $562.000</option>
+                                <option>Entre $562.000 y $899.000</option>
+                                <option>Entre $899.000 y $1.360.000</option>
+                                <option selected>Entre $1.360.000 y $1.986.000</option>
+                                <option>Entre $1.986.000 y $2.739.000</option>
+                                <option>Más de $2.739.000</option>
+                                <option>Prefiero no responder</option>
+
+                            </select>
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Error message</small>
+                        </div>
+                        <div class="field">
+                            <div class="label-custom3">¿Cuántas personas componen <span class="salto"> su hogar
+                                    incluyéndose?</span></div>
+                            <input type="number" class="input-custom2" id="totalpersHouse" value="5" name="pregunta-8">
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Error message</small>
+                        </div>
+                        <button class="btn-next1 next-3">Siguiente</button>
+
+                    </div>
+                    <div class="page data">
+                        <div class="title titledescriba">Describa por favor cómo era su viaje habitual <span
+                                class="salto">
+                                en transporte publico al trabajo/estudio </span> antes de la pandemia </div>
+
+                        <div class="field2">
+                            <label>Tiempo de caminata [min]:</label>
+                            <input type="number" class="fieldnumber" id="tiempocaminata" value="2" name="pregunta-9.1">
+
+                        </div>
+                        <div class="field2">
+                            <label>Tiempo de espera [min]:</label>
+                            <input type="number" class="fieldnumber" id="tiempoespera" value="2" name="pregunta-9.2">
+
+                        </div>
+                        <div class="field2">
+                            <label>Tiempo de viaje [min]:</label>
+                            <input type="number" class="fieldnumber" id="tiempoviaje" value="2" name="pregunta-9.3" />
+
+                        </div>
+                        <div class="field3">
+                            <label>Tarifa [$]:</label>
+                            <input type="number" class="fieldnumber tarifa" name="pregunta-9.4" id="tarifa" value="2"
+                                name="pregunta-9.4" />
+
+                        </div>
+                        <div class="field3">
+                            <label>Trasbordo [-]:</label>
+                            <input type="number" class="fieldnumber transbordo" id="transbordo" value="2"
+                                name="pregunta-9.5" />
+
+                        </div>
+                        <div class="field3">
+                            <label>¿Hay asiento?</label>
+                            <select class="fieldnumber disponibilidad" id="asiento" name="pregunta-9.6">
+                                <option value="1">Hay disponibilidad</option>
+                                <option value="0" selected>No</option>
+                            </select>
+
+                        </div>
+                        <button type="button" class="btn-next2">Siguiente</button>
+                    </div>
+
+                    <div class="page interview-random">
+                        <div class="prueba">
+                            <div class="rutaA">
+                                <span>Ruta A</span>
+                                <span>Ruta B</span>
+                                <span>Ruta C</span>
+                            </div>
+                            <div class="inner">
+                                <div class="interview-content">
+                                </div>
+                                <div class="alternative">
+                                    <input type="button" value="A" name="pregunta-10.1" id="btnA">
+                                    <input type="button" value="B" name="pregunta-10.1" id="btnB">
+                                    <input type="button" value="C" name="pregunta-10.1" id="btnC">
+                                </div>
+                                <button type="button" class="btn-next-screen">Siguiente</button>
+                            </div>
+                            <button class="">Siguiente</button>
+                        </div>
+                    </div>
+
+                    <div class="page">
+                        <label for="Correo" Correo></label>
+                        <input type="email" name="pregunta-11" id="email" value="test@gmail.com">
+                    </div>
+
+                    <input type="submit">
+            </form>
+
         </div>
-        <script src="js/main.js" type="module"></script>
-        <script>
-            window.addEventListener("click", e => {
-                let { target } = e;
-                
-
-                if (target.classList.contains("btn")) {
-                    const parent = target.closest(".interview-content");
-                    const next = parent.nextElementSibling;
-                    const back = parent.previousElementSibling;
-
-                    if (next !== null) {
-                        parent.classList.remove("active");
-                        next.classList.add("active");
-                    }
-                    if (back !== null) {
-                        parent.classList.remove("active");
-                        back.classList.add("active");
-                    }
+    </div>
 
 
-                }
-                
-            })
-        </script>
+    <script src="js/main.js" type="module"></script>
+
 </body>
 
 </html>
