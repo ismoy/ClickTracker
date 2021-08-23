@@ -110,7 +110,6 @@ nextBtnSec.addEventListener("click", function(){
 });
 
 nextBtnThird.addEventListener("click", function(){
-    alert("estas presionando el boton malo ");
     const viajedayValue = viajeday.value.trim();
     const tarjetabipValue = tarjetabip.value.trim();
     if(viajedayValue === '' || tarjetabipValue === ''){
