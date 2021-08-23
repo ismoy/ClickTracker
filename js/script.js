@@ -88,7 +88,7 @@ firstNextBtn.addEventListener("click", function(){
        
         setSuccessFor(edad);
         setSuccessFor(genero);
-        slidePage.style.marginLeft = "-4%" 
+        slidePage.style.marginLeft = "-3%" 
         current +=1;
     }
 });
@@ -104,7 +104,7 @@ nextBtnSec.addEventListener("click", function(){
     else{
         setSuccessFor(nivelestudio);
         setSuccessFor(ocupacion);
-        slidePage.style.marginLeft = "-26%" 
+        slidePage.style.marginLeft = "-21%" 
         current +=1;
     }
 });
@@ -118,7 +118,7 @@ nextBtnThird.addEventListener("click", function(){
     }else{
         setSuccessFor(viajeday);
         setSuccessFor(tarjetabip);
-        slidePage.style.marginLeft = "-56%" 
+        slidePage.style.marginLeft = "-46%" 
         current +=1;
     }
 });

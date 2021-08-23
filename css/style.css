@@ -193,7 +193,7 @@ form .page .field select {
     left: 2%;
 }
 
-.btnnext2 {
+.page #btnnext2 {
     border: none;
     padding: 15px 35px;
     background-color: red;
@@ -815,6 +815,14 @@ input[type=checkbox] {
 .botonesalter button{
     margin-top: 30px;
     margin-left: 24px;
+}
+.contenido {
+    margin-left: -229%;
+    text-align: center;
+    align-items: center;
+    margin-top: -5%;
+    margin-bottom: 51px;
+    font-style: normal;
 }
 
 .interview-content #formgroup7,
