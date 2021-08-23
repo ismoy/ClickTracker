@@ -7,7 +7,11 @@ $dbname = "clicktrackerdb";
 $user = "kame";
 $pwd = "1234";
 
+<<<<<<< HEAD
 $queryInterview = "Insert into tb_interview(interviewId) values(?)";
+=======
+$queryInterview = "Insert into tb_interview(interviewId, name,email) values(?,?,?)";
+>>>>>>> origin/preview
 $queryQuestion = "Insert into tb_question(question,answer,interviewId) values(?,?,?)";
 $queryTrack = "Insert into tb_tracker(button,value,screen,interviewId) values(?,?,?,?)";
 
@@ -17,6 +21,7 @@ if ($contentType === "application/json") {
 
     $content = trim(file_get_contents("php://input"));
     $decoded = json_decode($content, true);
+<<<<<<< HEAD
 
     try {
         
@@ -36,6 +41,26 @@ if ($contentType === "application/json") {
         foreach ($decoded["tracks"] as $key) {
            $smtp = $db->prepare($queryTrack);
            $smtp->execute([$key["button"], $key["value"], $key["screen"], $id]);
+=======
+    try {
+
+        $id = uniqid();
+
+        $decoded["interviewId"] = $id;
+        $db = new PDO('mysql:host=' . $host . ';port=' . $port . ';dbname=' . $dbname, $user, $pwd, array(PDO::ATTR_PERSISTENT => false));
+        $smtp = $db->prepare($queryInterview);
+        $smtp->execute([$id, $decoded["name"], $decoded["email"]]);
+        $smtp = null;
+
+        foreach ($decoded["questions"] as $key) {
+            $smtp = $db->prepare($queryQuestion);
+            $smtp->execute([$key["question"], $key["answer"], $id]);
+        }
+        $smtp = null;
+        foreach ($decoded["tracks"] as $key) {
+            $smtp = $db->prepare($queryTrack);
+            $smtp->execute([$key["name"], $key["value"], $key["screen"], $id]);
+>>>>>>> origin/preview
         }
         $smtp = null;
         $db = null;

@@ -88,7 +88,7 @@ firstNextBtn.addEventListener("click", function(){
        
         setSuccessFor(edad);
         setSuccessFor(genero);
-        slidePage.style.marginLeft = "-3%" 
+        slidePage.style.marginLeft = "-4%" 
         current +=1;
     }
 });
@@ -104,12 +104,13 @@ nextBtnSec.addEventListener("click", function(){
     else{
         setSuccessFor(nivelestudio);
         setSuccessFor(ocupacion);
-        slidePage.style.marginLeft = "-21%" 
+        slidePage.style.marginLeft = "-26%" 
         current +=1;
     }
 });
 
 nextBtnThird.addEventListener("click", function(){
+    alert("estas presionando el boton malo ");
     const viajedayValue = viajeday.value.trim();
     const tarjetabipValue = tarjetabip.value.trim();
     if(viajedayValue === '' || tarjetabipValue === ''){
@@ -118,7 +119,7 @@ nextBtnThird.addEventListener("click", function(){
     }else{
         setSuccessFor(viajeday);
         setSuccessFor(tarjetabip);
-        slidePage.style.marginLeft = "-46%" 
+        slidePage.style.marginLeft = "-56%" 
         current +=1;
     }
 });

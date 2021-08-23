@@ -1,3 +1,8 @@
 {
+<<<<<<< HEAD
     "liveServer.settings.port": 5502
+=======
+    "liveServer.settings.port": 5501,
+    "php.validate.executablePath": "H:/xampp/php/php.exe"
+>>>>>>> origin/preview
 }
