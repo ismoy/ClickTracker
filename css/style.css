@@ -496,7 +496,7 @@ form .page .field select {
     height: 25px;
     width: 43%;
     margin: 45px 0;
-    top: -34%;
+    top: -44%;
     left: -64%;
     position: relative;
     display: flex;
@@ -1011,6 +1011,35 @@ input[type="checkbox"] {
     display: none;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*INICIO MEDIA QUERY PARA LOS DISPOSITIVOS MOVILES*/
 @media screen and (max-width: 600px) {
   body {
@@ -1045,7 +1074,7 @@ input[type="checkbox"] {
     margin-left: -75%;
     width: 315px;
     align-items: center;
-    margin-top: 2%;
+    margin-top: 5%;
 }
 
 .form-outer form .page .field {
@@ -1059,24 +1088,22 @@ input[type="checkbox"] {
     padding-bottom: 15px;
 }
 
-
-
 .form-outer form .page .fieldocu {
     height: 45px;
     width: 329px;
     margin: 45px 0;
     position: relative;
     display: flex;
-    margin-left: -70%;
+    margin-left: -73%;
     margin-top: 1%;
     padding-bottom: 15px;
 }
 
 .form-outer form .page #titlelabolar {
-    font-size: 91%;
+    font-size: 94%;
     font-weight: 500px;
-    margin-left: -75%;
-    width: 312px;
+    margin-left: -80%;
+    width: 315px;
     align-items: center;
     margin-top: 5%;
 }
@@ -1108,8 +1135,8 @@ form .page .field select {
     border-radius: 27px;
     margin: 15px;
     transition: 0.4s all;
-    margin-top: 1%;
-    margin-left: -72%;
+    margin-top: 4%;
+    margin-left: -74%;
     /* margin-right: 19%; */
     width: 15%;
 }
@@ -1117,7 +1144,7 @@ form .page .field select {
 .form-outer form .page #titleresponsive {
     font-size: 94%;
     font-weight: 500px;
-    margin-left: -76%;
+    margin-left: -80%;
     width: 315px;
     align-items: center;
     margin-top: 2%;
@@ -1129,7 +1156,7 @@ form .page .field select {
     margin: 45px 0;
     position: relative;
     display: flex;
-    margin-left: -73%;
+    margin-left: -76%;
     margin-top: 2%;
     padding-bottom: 15px;
 }
@@ -1139,7 +1166,7 @@ form .page .field select {
     margin: 45px 0;
     position: relative;
     display: flex;
-    margin-left: -73%;
+    margin-left: -77%;
     margin-top: 1%;
     padding-bottom: 15px;
 }
@@ -1153,14 +1180,14 @@ form .page .field select {
     margin-left: -25%;
 }
 
-.form-outer form .page .field .input-custom2 {
-    height: 100%;
-    width: 84%;
-    border-radius: 5px;
-    border: 1px solid black;
-    font-size: 18px;
-    top: -39%;
-    left: -24%;
+.form-outer form .page .field .label-custom2 {
+    position: absolute;
+    top: -19%;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    left: -22%;
+    width: 335px;
 }
 
 form .page .field .select-custom {
@@ -1181,18 +1208,25 @@ form .page .field .select-custom {
     margin: 15px;
     transition: 0.4s all;
     width: 8%;
-    margin-left: -72%;
+    margin-left: -70%;
     display: block;
     cursor: pointer;
-    margin-top: 4%;
+    margin-top: 9%;
 }
 
-
+.form-outer form .page .title {
+    font-size: 94%;
+    font-weight: 500px;
+    margin-left: -80%;
+    width: 315px;
+    align-items: center;
+    margin-top: 2%;
+}
 
 .form-outer form .page #titleprimero {
     font-size: 94%;
     font-weight: 500px;
-    margin-left: -76%;
+    margin-left: -75%;
     width: 315px;
     align-items: center;
     margin-top: 2%;
@@ -1204,33 +1238,11 @@ form .page .field .select-custom {
     margin: 45px 0;
     position: relative;
     display: flex;
-    margin-left: -73%;
+    margin-left: -78%;
     margin-top: 4%;
     padding-bottom: 15px;
-
-
 }
 
-.form-outer form .page .field .label-custom2 {
-    position: absolute;
-    top: -17px;
-    width: 300px;
-    margin-bottom: 10px;
-    display: inline-block;
-    font-weight: 500;
-    margin-left: -66px;
-}
-
-.form-outer form .page #fie20 {
-    height: 45px;
-    width: 329px;
-    margin: 45px 0;
-    position: relative;
-    display: flex;
-    margin-left: 44%;
-    margin-top: 7%;
-    padding-bottom: 15px;
-}
 .form-outer form .page .field #labelrango {
     position: absolute;
     top: -104px;
@@ -1252,10 +1264,21 @@ form .page .field .select-custom {
     position: absolute;
     display: inline-block;
     font-weight: 500;
-    margin-left: -199px;
+    margin-left: -289px;
     top: -122%;
     width: 374px;
 }
+
+.form-outer form .page .field .input-custom2 {
+    height: 100%;
+    width: 86%;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 18px;
+    top: -39%;
+    left: -51%;
+}
+
 .btnnex2 {
     border: none;
     padding: 15px 35px;
@@ -1267,18 +1290,8 @@ form .page .field .select-custom {
     transition: 0.4s all;
     margin-top: 4px;
     width: 6%;
-    margin-left: -72%;
+    margin-left: -76%;
     cursor: pointer;
-}
-form-outer form .page .fie20 {
-    height: 45px;
-    width: 329px;
-    margin: 45px 0;
-    position: relative;
-    display: flex;
-    margin-left: 44%;
-    margin-top: 6%;
-    padding-bottom: 15px;
 }
 .form-outer form .page .titledescriba {
     font-size: 94%;
@@ -1330,19 +1343,6 @@ form-outer form .page .fie20 {
     margin-left: 11%;
 }
 
-#btnnex4 {
-    border: none;
-    padding: 15px 35px;
-    background-color: red;
-    color: #fff;
-    border-radius: 27px;
-    margin: 15px;
-    transition: 0.4s all;
-    margin-top: 287px;
-    width: 1%;
-    margin-left: -14%;
-    height: 50px;
-}
 
 .next-4 {
     border: none;
@@ -1565,6 +1565,17 @@ form-outer form .page .fie20 {
     width: 11%;
     margin-left: -7%;
   }
-  
+
+  #giftcard {
+    display: flex;
+    position: absolute;
+    margin-top: -23%;
+    /* margin-left: -36%; */
+    /* width: 464px; */
+    left: -33%;
+    float: left;
+    width: 100%;
+    font-size: 94%;
+}
 
 }
