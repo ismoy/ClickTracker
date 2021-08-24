@@ -13,11 +13,19 @@ let tiempoCaminata, tiempoespera, tiempoviaje, tarifa, transbordo, asiento;
 window.addEventListener("load", () => {
     const random = Math.floor(Math.random() * interviews.length);
     interview = interviews[random];
-    console.log(interview);
     view.innerHTML = interview.content;
+    optional(interview.interview)
 });
 
-
+function optional(interview) {
+    let elements = document.querySelectorAll(".optional");
+    let optionals = ["click-tracker-22", "click-tracker-23", "click-tracker-24", "click-tracker-25", "click-tracker-26"]
+    elements.forEach(element => {
+        if (optionals.includes(interview)) {
+            element.style.display = "none";
+        }
+    })
+}
 
 
 function tracker({ name, value }) {
@@ -68,6 +76,12 @@ divRandom.addEventListener("click", (e) => {
                 btn.disabled = false;
                 btn.name = "pregunta-10.".concat(count)
             });
+        }
+        if (count == 8) {
+            target.style.display = "none";
+            let btnNext = document.querySelector(".btn-next4.next-4");
+
+            btnNext.classList.remove("hide");
         }
     }
 
