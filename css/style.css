@@ -492,11 +492,11 @@ form .page .field select {
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
   }
 
-  .form-outer form .page .field3 {
+.form-outer form .page .field3 {
     height: 25px;
     width: 43%;
     margin: 45px 0;
-    top: -43%;
+    top: -34%;
     left: -64%;
     position: relative;
     display: flex;
@@ -522,7 +522,7 @@ form .page .field select {
 
 .alternative label {
     position: fixed;
-    margin-top: 1%;
+    margin-top: 2%;
     font-weight: 500;
     margin-left: -1%;
 }
@@ -1042,7 +1042,7 @@ input[type="checkbox"] {
   .form-outer form .page .title {
     font-size: 94%;
     font-weight: 500px;
-    margin-left: -76%;
+    margin-left: -75%;
     width: 315px;
     align-items: center;
     margin-top: 2%;
@@ -1059,15 +1059,6 @@ input[type="checkbox"] {
     padding-bottom: 15px;
 }
 
-.page .field .select-custom2 {
-    width: 92%;
-    padding-left: 10px;
-    font-size: 17px;
-    font-weight: 500;
-    margin-left: -39%;
-    border-radius: 5px;
-    top: -67%;
-}
 
 
 .form-outer form .page .fieldocu {
@@ -1126,7 +1117,7 @@ form .page .field select {
 .form-outer form .page #titleresponsive {
     font-size: 94%;
     font-weight: 500px;
-    margin-left: -77%;
+    margin-left: -76%;
     width: 315px;
     align-items: center;
     margin-top: 2%;
@@ -1169,7 +1160,7 @@ form .page .field select {
     border: 1px solid black;
     font-size: 18px;
     top: -39%;
-    left: -29%;
+    left: -24%;
 }
 
 form .page .field .select-custom {
@@ -1244,15 +1235,24 @@ form .page .field .select-custom {
     position: absolute;
     top: -104px;
     font-weight: 500px;
-    left: -25%;
+    left: -17%;
     width: 314px;
+}
+.page .field .select-custom2 {
+    width: 92%;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: -33%;
+    border-radius: 5px;
+    top: -67%;
 }
 
 .form-outer form .page .field .label-custom3 {
     position: absolute;
     display: inline-block;
     font-weight: 500;
-    margin-left: -227px;
+    margin-left: -199px;
     top: -122%;
     width: 374px;
 }
@@ -1566,16 +1566,5 @@ form-outer form .page .fie20 {
     margin-left: -7%;
   }
   
-  #giftcard {
-    display: flex;
-    position: absolute;
-    margin-top: -23%;
-    /* margin-left: -36%; */
-    /* width: 464px; */
-    left: -33%;
-    float: left;
-    width: 100%;
-    font-size: 94%;
-}
 
 }

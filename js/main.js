@@ -79,8 +79,6 @@ divRandom.addEventListener("click", (e) => {
         }
         if (count == 8) {
             target.style.display = "none";
-            let btnNext = document.querySelector(".btn-next4.next-5");
-
             btnNext.classList.remove("hide");
         }
     }
