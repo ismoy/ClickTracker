@@ -104,7 +104,7 @@ nextBtnSec.addEventListener("click", function(){
     else{
         setSuccessFor(nivelestudio);
         setSuccessFor(ocupacion);
-        slidePage.style.marginLeft = "-26%" 
+        slidePage.style.marginLeft = "-24%" 
         current +=1;
     }
 });
@@ -118,7 +118,7 @@ nextBtnThird.addEventListener("click", function(){
     }else{
         setSuccessFor(viajeday);
         setSuccessFor(tarjetabip);
-        slidePage.style.marginLeft = "-56%" 
+        slidePage.style.marginLeft = "-53%" 
         current +=1;
     }
 });
@@ -151,48 +151,12 @@ nextBtnFive.addEventListener("click", function(){
         current +=1;
     }
     
-});/*
+});
 nextBtnSix.addEventListener("click", function(){
-    slidePage.style.marginLeft = "-110%" 
+    slidePage.style.marginLeft = "-160%" 
         current +=1;
 });
 
-
-nextBtnSeven.addEventListener("click",function(){
-    slidePage.style.marginLeft = "-148%" 
-    current +=1;
-});
-
-nextBtnHeight.addEventListener("click",function(){
-    slidePage.style.marginLeft = "-204%" 
-    current +=1;
-});
-
-nextBtnNine.addEventListener("click",function(){
-    slidePage.style.marginLeft = "-260%" 
-    current +=1;
-});
-nextBtnTen.addEventListener("click",function(){
-    slidePage.style.marginLeft = "-285%" 
-    current +=1;
-});
-nextBtnElv.addEventListener("click",function(){
-    slidePage.style.marginLeft = "-310%" 
-    current +=1;
-});
-
-nextBtntwelv.addEventListener("click",function(){
-    slidePage.style.marginLeft = "-335%" 
-    current +=1;
-});
-
-nextBtntherti.addEventListener("click",function(){
-    slidePage.style.marginLeft = "-335%" 
-    current +=1;
-});
-
-
-*/
 
 
 
