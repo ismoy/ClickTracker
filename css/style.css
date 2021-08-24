@@ -48,6 +48,15 @@ body {
   transition: margin-left 0.3s ease-in-out;
 }
 
+/*.form-outer form .page .title {
+    text-align: left;
+    font-size: 90%;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    font-weight: 500px;
+    margin-left: -80%;
+}*/
 .form-outer form .page .title {
   text-align: left;
   font-size: 90%;
@@ -57,64 +66,43 @@ body {
   font-weight: 500px;
   margin-left: -73%;
 }
-
-.form-outer form .page .field {
-    height: 45px;
-    width: 350px;
-    margin: 2% 0px 45px -66%;
-    position: relative;
-    display: flex;
-    top: 7%;
-}
-
-.form-outer form .page .fieldday {
+/*.form-outer form .page .field {
     height: 45px;
     width: 350px;
     margin: 45px 0;
     position: relative;
     display: flex;
-    margin-left: -66%;
-    margin-top: 1%;
-    margin-bottom: 3%;
+    margin-left: -67%;
+}*/
+
+.form-outer form .page .field {
+  height: 45px;
+  width: 350px;
+  margin: 45px 0;
+  position: relative;
+  display: flex;
+  margin-left: -70%;
+  margin-top: 2%;
 }
 
-.form-outer form .page .fie20 {
-    height: 45px;
-    width: 350px;
-    margin: 2% 0px 45px -66%;
-    position: relative;
-    display: flex;
-    top: 7%;
-    margin-left: 46%;
-    border-color: black;
+.form-outer form .page .fieldday {
+  height: 45px;
+  width: 350px;
+  margin: 45px 0;
+  position: relative;
+  display: flex;
+  margin-left: -68%;
+  margin-top: 1%;
 }
 
-.btnxet1 {
-    border: none;
-    padding: 15px 35px;
-    background-color: red;
-    color: #fff;
-    border-radius: 27px;
-    margin: 15px;
-    transition: 0.4s all;
-    margin-top: 2%;
-    width: 8%;
-    margin-left: -64%;
-    display: block;
-    cursor: pointer;
-}
-.btnxet1:hover {
-    cursor: pointer;
-    background-color: #fff;
-    color: green;
-    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
-  }
 .form-outer form .page .field .label-custom2 {
-    position: absolute;
-    top: -30px;
-    margin-bottom: 10px;
-    display: inline-block;
-    font-weight: 500;
+  position: absolute;
+  top: -49%;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 1vw;
+  left: 28%;
+  width: 300px;
 }
 
 form .page .field select {
@@ -134,25 +122,32 @@ form .page .field select {
   top: -30px;
   margin-bottom: 10px;
   display: inline-block;
-  font-weight: 500;
 }
 .form-outer form .page .field .label-custom {
-    position: absolute;
-    top: -15%;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: 500;
+  position: absolute;
+  top: -8%;
+  display: inline-block;
+  font-size: 1vw;
+  font-weight: 500;
 }
 
-
-
-.select-custom {
-    width: 100%;
-    padding-left: 10px;
-    font-size: 17px;
+/*.form-outer form .page .field .label-custom2 {
+    position: absolute;
+    top: 70%;
+    display: inline-block;
     font-weight: 500;
-    left: -18%;
-    top: 38%;
+    font-size: 1vw;
+}*/
+
+.form-outer form .page .field .label-custom3 {
+  position: absolute;
+  top: 0%;
+  display: inline-block;
+  font-weight: 500;
+}
+.select-custom {
+  position: relative;
+  top: 130%;
 }
 
 .select-custom2 {
@@ -204,28 +199,13 @@ form .page .field select {
   width: 6%;
   margin-left: -69%;
 }
+/*form .page .field select{
+    width: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 500;
 
-.btnnex2 {
-    border: none;
-    padding: 15px 35px;
-    background-color: red;
-    color: #fff;
-    float: left;
-    border-radius: 27px;
-    margin: 15px;
-    transition: 0.4s all;
-    margin-top: 3px;
-    width: 6%;
-    margin-left: -64%;
-    cursor: pointer;
-}
-
-.btnnex2:hover {
-    cursor: pointer;
-    background-color: #fff;
-    color: green;
-    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
-  }
+}*/
 .logo {
   display: flex;
   width: 100%;
@@ -234,6 +214,19 @@ form .page .field select {
   padding-left: 30px;
 }
 
+/* .btn-next {
+    border: none;
+    padding: 15px 35px;
+    background-color: red;
+    color: #fff;
+    float: left;
+    border-radius: 27px;
+    margin: 15px;
+    transition: 0.4s all;
+    margin-top: -1%;
+    width: 39%;
+    margin-left: -65%;
+}*/
 
 .btn-nex {
   border: none;
@@ -250,19 +243,19 @@ form .page .field select {
 }
 
 .btn-next {
-    border: none;
-    padding: 15px 35px;
-    background-color: red;
-    color: #fff;
-    float: left;
-    border-radius: 27px;
-    margin: 15px;
-    transition: 0.4s all;
-    margin-top: -14px;
-    width: 10%;
-    margin-left: -64%;
-    margin-top: 1%;
+  border: none;
+  padding: 15px 35px;
+  background-color: red;
+  color: #fff;
+  float: left;
+  border-radius: 27px;
+  margin: 15px;
+  transition: 0.4s all;
+  margin-top: -14px;
+  width: 10%;
+  margin-left: -68%;
 }
+
 .btn-nex:hover {
   cursor: pointer;
   background-color: #fff;
@@ -271,18 +264,17 @@ form .page .field select {
 }
 
 .btnnext {
-    border: none;
-    padding: 15px 35px;
-    background-color: red;
-    color: #fff;
-    float: left;
-    border-radius: 27px;
-    margin: 15px;
-    transition: 0.4s all;
-    margin-top: -14px;
-    width: 10%;
-    margin-left: -64%;
-    margin-top: 1%;
+  border: none;
+  padding: 15px 35px;
+  background-color: red;
+  color: #fff;
+  float: left;
+  border-radius: 27px;
+  margin: 15px;
+  transition: 0.4s all;
+  margin-top: -14px;
+  width: 10%;
+  margin-left: -69%;
 }
 
 .btn-next:hover {
@@ -439,7 +431,7 @@ form .page .field select {
   width: 35%;
   margin-left: 5px;
   border-radius: 5px;
-  border: 1px solid black;
+  border: 1px solid lightgray;
   font-size: 18px;
   padding-left: 15px;
 }
@@ -472,41 +464,21 @@ form .page .field select {
   margin-left: -69%;
 }
 
-.btn-next-screen {
-    border: none;
-    padding: 15px 35px;
-    background-color: red;
-    color: #fff;
-    border-radius: 27px;
-    margin: 15px;
-    transition: 0.4s all;
-    margin-top: 1%;
-    width: 3%;
-    margin-left: 5%;
-}
-
-.btn-next-screen:hover {
-    cursor: pointer;
-    background-color: #fff;
-    color: green;
-    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
-  }
-
 .form-outer form .page .field3 {
-    height: 25px;
-    width: 43%;
-    margin: 45px 0;
-    top: -44%;
-    left: -64%;
-    position: relative;
-    display: flex;
+  height: 25px;
+  width: 43%;
+  margin: 45px 0;
+  top: -39%;
+  left: -64%;
+  position: relative;
+  display: flex;
 }
 .form-outer form .page .field3 .fieldnumber {
   height: 100%;
   width: 10%;
   margin-left: 5px;
   border-radius: 5px;
-  border: 1px solid black;
+  border: 1px solid lightgray;
   font-size: 18px;
   padding-left: 30px;
   padding-left: 15px;
@@ -514,37 +486,6 @@ form .page .field select {
 .form-outer form .page .field input:focus {
   outline: 0;
   border-color: #777;
-}
-
-.alternative{
-    margin-left: 1%;
-}
-
-.alternative label {
-    position: fixed;
-    margin-top: 2%;
-    font-weight: 500;
-    margin-left: -1%;
-}
-.btn-option{
-    padding: 10px;
-    margin-top: 43px;
-    margin-right: 30px;
-
-}
-.prueba .rutaA{
-    margin-left: 2%;
-}
-.prueba .rutaA span{
-    padding: 20px;
-}
-.valor{
-    margin-left: 5%;
-    margin-bottom: 20px;
-    color: red;
-}
-.valor span{
-    color: black;
 }
 
 .form-outer form .page .field.success input {
@@ -697,13 +638,7 @@ h1 {
   transform: translate(-50%, -50%);
   max-width: 100%;
   width: 600px;
-  height: 453px;
-}
-
-#giftcard{
-    display: flex;
-    position: absolute;
-    margin-top: -23%;
+  height: 400px;
 }
 .modal-content2 {
   padding: 1.2rem;
@@ -802,12 +737,12 @@ input[type="checkbox"] {
   top: 49%;
 }
 .form-outer form .page .field .label-custom3 {
-        position: absolute;
-        display: inline-block;
-        font-weight: 500;
-        margin-left: -41px;
-        top: -89%;
-        width: 475px;
+  position: absolute;
+  display: inline-block;
+  font-weight: 500;
+  margin-left: -41px;
+  top: -109%;
+  width: 475px;
 }
 .form-outer form .page .title-custom {
   font-size: 4vw;
@@ -831,27 +766,6 @@ input[type="checkbox"] {
 }
 
 .btn-next4:hover {
-  cursor: pointer;
-  background-color: #fff;
-  color: green;
-  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
-}
-
-#btnnex4 {
-    border: none;
-    padding: 15px 35px;
-    background-color: red;
-    color: #fff;
-    border-radius: 27px;
-    margin: 15px;
-    transition: 0.4s all;
-    margin-top: 217px;
-    width: 1%;
-    margin-left: -13%;
-    height: 50px;
-}
-
-#btnnex4:hover {
   cursor: pointer;
   background-color: #fff;
   color: green;
@@ -899,6 +813,18 @@ input[type="checkbox"] {
   margin-bottom: 51px;
   font-style: normal;
 }
+
+/*.interview-content #formgroup7,
+#formgroup1{ margin-left:20px;}
+.interview-content #formgroup8 ,
+#formgroup2 {margin-left:32px;}
+.interview-content #formgroup9 ,
+#formgroup3 {margin-left:44px;}
+.interview-content #formgroup10 ,
+#formgroup4{margin-left:132px;}
+.interview-content #formgroup11 ,
+#formgroup5 ,
+#formgroup6{margin-left:99px;}*/
 
 .interview-content #trac261 {
   margin-left: 10px;
@@ -1010,36 +936,6 @@ input[type="checkbox"] {
 .hide{
     display: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*INICIO MEDIA QUERY PARA LOS DISPOSITIVOS MOVILES*/
 @media screen and (max-width: 600px) {
   body {
@@ -1062,71 +958,17 @@ input[type="checkbox"] {
     padding-left: 38px;
     transform: scale(2);
   }
-
+  .container .progress-bar {
+    display: flex;
+    margin: 40px 0;
+    margin-left: -46%;
+  }
   .container .form-outer {
     width: 500px;
     overflow: hidden;
   }
 
-  .form-outer form .page .title {
-    font-size: 94%;
-    font-weight: 500px;
-    margin-left: -75%;
-    width: 315px;
-    align-items: center;
-    margin-top: 5%;
-}
-
-.form-outer form .page .field {
-    height: 45px;
-    width: 329px;
-    margin: 45px 0;
-    position: relative;
-    display: flex;
-    margin-left: -68%;
-    margin-top: 1%;
-    padding-bottom: 15px;
-}
-
-.form-outer form .page .fieldocu {
-    height: 45px;
-    width: 329px;
-    margin: 45px 0;
-    position: relative;
-    display: flex;
-    margin-left: -73%;
-    margin-top: 1%;
-    padding-bottom: 15px;
-}
-
-.form-outer form .page #titlelabolar {
-    font-size: 94%;
-    font-weight: 500px;
-    margin-left: -80%;
-    width: 315px;
-    align-items: center;
-    margin-top: 5%;
-}
-form .page .field select {
-    margin-left: -29%;
-    width: 286px;
-    font-weight: 500;
-    border-radius: 5px;
-}
-
-.form-outer form .page .field .label {
-    position: absolute;
-    top: -28px;
-    font-weight: 500px;
-    left: -50%;
-    width: 430px;
-}
- 
-.form-outer form .page .field #edad20{
-    margin-top: 4px;
-}
-
-.btn-next {
+  .btn-next {
     border: none;
     padding: 15px 35px;
     background-color: red;
@@ -1135,303 +977,31 @@ form .page .field select {
     border-radius: 27px;
     margin: 15px;
     transition: 0.4s all;
-    margin-top: 4%;
-    margin-left: -74%;
+    margin-top: -2%;
+    margin-left: -9%;
     /* margin-right: 19%; */
     width: 15%;
-}
-
-.form-outer form .page #titleresponsive {
-    font-size: 94%;
-    font-weight: 500px;
-    margin-left: -80%;
-    width: 315px;
-    align-items: center;
-    margin-top: 2%;
-}
-
-.form-outer form .page .fieldday {
-    height: 45px;
-    width: 241px;
-    margin: 45px 0;
-    position: relative;
-    display: flex;
-    margin-left: -76%;
-    margin-top: 2%;
-    padding-bottom: 15px;
-}
-.form-outer form .page #fieldbip {
-    height: 45px;
-    width: 329px;
-    margin: 45px 0;
-    position: relative;
-    display: flex;
-    margin-left: -77%;
-    margin-top: 1%;
-    padding-bottom: 15px;
-}
-
-.form-outer form .page .field .input-custom {
-    height: 100%;
-    width: 107%;
-    border-radius: 5px;
-    border: 1px solid black;
-    font-size: 18px;
-    margin-left: -25%;
-}
-
-.form-outer form .page .field .label-custom2 {
-    position: absolute;
-    top: -19%;
-    display: inline-block;
-    font-weight: 500;
-    font-size: 16px;
-    left: -22%;
-    width: 335px;
-}
-
-form .page .field .select-custom {
-    margin-left: -15%;
-    width: 286px;
-    font-weight: 500;
-    border-radius: 5px;
-    margin-top: 10%;
-    height: 45px;
-}
-
-.btnxet1 {
-    border: none;
-    padding: 15px 35px;
-    background-color: red;
-    color: #fff;
-    border-radius: 27px;
-    margin: 15px;
-    transition: 0.4s all;
-    width: 8%;
-    margin-left: -70%;
+  }
+  .salto {
     display: block;
-    cursor: pointer;
-    margin-top: 9%;
-}
-
-.form-outer form .page .title {
-    font-size: 94%;
-    font-weight: 500px;
-    margin-left: -80%;
-    width: 315px;
-    align-items: center;
-    margin-top: 2%;
-}
-
-.form-outer form .page #titleprimero {
-    font-size: 94%;
-    font-weight: 500px;
-    margin-left: -75%;
-    width: 315px;
-    align-items: center;
-    margin-top: 2%;
-}
-
-.form-outer form .page #fieldrango {
-    height: 45px;
-    width: 309px;
-    margin: 45px 0;
-    position: relative;
-    display: flex;
-    margin-left: -78%;
-    margin-top: 4%;
-    padding-bottom: 15px;
-}
-
-.form-outer form .page .field #labelrango {
-    position: absolute;
-    top: -104px;
-    font-weight: 500px;
-    left: -17%;
-    width: 314px;
-}
-.page .field .select-custom2 {
-    width: 92%;
-    padding-left: 10px;
-    font-size: 17px;
-    font-weight: 500;
-    margin-left: -33%;
-    border-radius: 5px;
-    top: -67%;
-}
-
-.form-outer form .page .field .label-custom3 {
-    position: absolute;
-    display: inline-block;
-    font-weight: 500;
-    margin-left: -289px;
-    top: -122%;
-    width: 374px;
-}
-
-.form-outer form .page .field .input-custom2 {
-    height: 100%;
-    width: 86%;
-    border-radius: 5px;
-    border: 1px solid black;
-    font-size: 18px;
-    top: -39%;
-    left: -51%;
-}
-
-.btnnex2 {
-    border: none;
-    padding: 15px 35px;
-    background-color: red;
-    color: #fff;
-    float: left;
-    border-radius: 27px;
-    margin: 15px;
-    transition: 0.4s all;
-    margin-top: 4px;
-    width: 6%;
-    margin-left: -76%;
-    cursor: pointer;
-}
-.form-outer form .page .titledescriba {
-    font-size: 94%;
-    font-weight: 500px;
-    margin-left: -76%;
-    width: 315px;
-    align-items: center;
-    margin-top: 1%;
-    margin-bottom: 2%;
-}
-
-.form-outer form .page .field2 {
-    height: 25px;
-    width: 263px;
-    margin: 45px 0;
-    position: relative;
-    display: flex;
-    margin-left: -76%;
-    margin-top: -1%;
-}
-
-.form-outer form .page .field3 {
-    height: 25px;
-    width: 21%;
-    margin: 45px 0;
-    top: -2%;
-    left: -76%;
-    position: relative;
-    display: flex;
-}
-
-.form-outer form .page .field3 .fieldnumber {
-    height: 100%;
-    width: 19%;
-    margin-left: 30px;
-    border-radius: 5px;
-    border: 1px solid black;
-    font-size: 18px;
-    padding-left: 1px;
-}
-.form-outer form .page .field3 #tarifa {
-    margin-left: 19%;
-}
-
-.form-outer form .page .field3 .transbordo {
-    margin-left: 12%;
-}
-.form-outer form .page .field3 #asiento {
-    margin-left: 11%;
-}
-
-
-.next-4 {
-    border: none;
-    padding: 15px 35px;
-    background-color: red;
-    color: #fff;
-    float: left;
-    border-radius: 27px;
-    margin: 15px;
-    transition: 0.4s all;
-    margin-top: -1%;
-    margin-left: -74%;
-    display: block;
-}
-
-
-.next4:hover {
-    cursor: pointer;
-    background-color: #fff;
-    color: green;
-    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
   }
 
-  .interview-content {
-    margin-left: -149px;
-}
-.valor {
-    margin-left: -3%;
-    margin-bottom: 20px;
-    color: red;
-}
-.prueba .rutaA {
-    margin-left: -2%;
-}
-
-.prueba .rutaA span {
-    padding: 2px;
-}
-.alternative {
-    margin-left: -1%;
-}
-
-.alternative label {
-    position: fixed;
-    margin-top: 2%;
-    font-weight: 500;
+  .form-outer form .page .title {
+    font-size: 4vw;
+    font-weight: 500px;
     margin-left: -10%;
-}
+    width: 280px;
+    align-items: center;
+  }
 
-.grupolabel input {
-    padding: 9px;
-    margin-right: -12px;
-    margin-top: 20px;
-}
-
-.form-group .grupolabel {
-    margin: -5px 0.56rem;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px 20px;
-}
-.interview-random{
-    width: 24%;
-}
-.btn-next-screen {
-    border: none;
-    padding: 15px 35px;
-    background-color: red;
-    color: #fff;
-    border-radius: 27px;
-    margin: 15px;
-    transition: 0.4s all;
-    margin-top: 15px;
-    width: 7%;
-    margin-left: -1%;
-}
-
-.btn-next4 {
-    border: none;
-    padding: 15px 35px;
-    background-color: red;
-    color: #fff;
-    border-radius: 27px;
-    margin: 15px;
-    transition: 0.4s all;
-    margin-top: 1%;
-    width: 6%;
-    margin-left: -6%;
-}
+  #titlecrear {
+    font-size: 4vw;
+    font-weight: 500px;
+    margin-left: -10%;
+    width: 339px;
+    justify-items: start;
+    align-items: center;
+  }
   .modal {
     color: black;
     background-color: white;
@@ -1491,7 +1061,12 @@ form .page .field .select-custom {
   .h3 {
     width: 100%;
   }
- 
+  .form-outer form .page .field .label {
+    position: absolute;
+    top: -30px;
+    font-weight: 500px;
+    left: -28%;
+  }
   .form-outer form .page .field .label-custom {
     position: absolute;
     top: -60%;
@@ -1500,7 +1075,13 @@ form .page .field .select-custom {
     align-items: center;
     left: -35%;
   }
-
+  .form-outer form .page .field .label-custom2 {
+    position: absolute;
+    top: 20%;
+    display: inline-block;
+    font-weight: 500;
+    left: -25%;
+  }
   .form-outer form .page #edad {
     height: 100%;
     width: 80%;
@@ -1518,6 +1099,33 @@ form .page .field .select-custom {
     margin-left: -35%;
   }
 
+  form .page .field select {
+    width: 87%;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: -28%;
+    border-radius: 5px;
+  }
+
+  form .page .field .select-custom {
+    width: 90%;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: -28%;
+    border-radius: 5px;
+  }
+
+  .form-outer form .page .field {
+    height: 45px;
+    width: 330px;
+    margin: 45px 0;
+    position: relative;
+    display: flex;
+    margin-left: -4%;
+  }
+
   .form-outer form .page .field input {
     height: 100%;
     width: 80%;
@@ -1532,9 +1140,89 @@ form .page .field .select-custom {
     color: green;
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
   }
- 
+  .select-custom2 {
+    position: relative;
+    top: 40%;
+  }
+  .form-outer form .page .field2 {
+    height: 25px;
+    width: 263px;
+    margin: 45px 0;
+    position: relative;
+    display: flex;
+    margin-left: -3%;
+  }
+  .form-outer form .page .field2 .fieldnumber {
+    height: 100%;
+    width: 35%;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 18px;
+    padding-left: 15px;
+  }
+  .form-outer form .page .field3 {
+    height: 25px;
+    width: 21%;
+    margin: 45px 0;
+    top: 5%;
+    left: -101%;
+    position: relative;
+    display: flex;
+    margin-top: 16%;
+  }
 
+  .form-outer form .page #field4 {
+    height: 25px;
+    width: 22%;
+    margin: 45px 0;
+    top: 5%;
+    left: -103%;
+    position: relative;
+    display: flex;
+    margin-top: 2%;
+  }
+  .form-outer form .page #field5 {
+    height: 25px;
+    width: 22%;
+    margin: 45px 0;
+    top: 5%;
+    left: -102%;
+    position: relative;
+    display: flex;
+    margin-top: 2%;
+    margin-left: -20px;
+  }
 
+  .form-outer form .page .field3 .fieldnumber {
+    height: 100%;
+    width: 37%;
+    margin-left: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-left: 1px;
+  }
+
+  .next-4 {
+    border: none;
+    padding: 15px 35px;
+    background-color: red;
+    color: #fff;
+    float: left;
+    border-radius: 27px;
+    margin: 15px;
+    transition: 0.4s all;
+    margin-top: 11%;
+  }
+
+  .next4:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: green;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+  }
 
   .form-outer form .page .field .label-custom {
     position: absolute;
@@ -1565,17 +1253,20 @@ form .page .field .select-custom {
     width: 11%;
     margin-left: -7%;
   }
-
-  #giftcard {
-    display: flex;
-    position: absolute;
-    margin-top: -23%;
-    /* margin-left: -36%; */
-    /* width: 464px; */
-    left: -33%;
-    float: left;
-    width: 100%;
-    font-size: 94%;
-}
+  #titlecrear {
+    font-size: 4vw;
+    font-weight: 500px;
+    margin-left: -9%;
+    width: 280px;
+    justify-items: start;
+    align-items: center;
+  }
+  .form-outer form .page #titledescriba {
+    font-size: 4vw;
+    font-weight: 500px;
+    margin-left: -4%;
+    width: 291px;
+    align-items: center;
+  }
 
 }

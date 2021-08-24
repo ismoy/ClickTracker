@@ -3,9 +3,17 @@ import interviews from "./view.js"
 
 localStorage.setItem("tracker", JSON.stringify([]))
 const view = document.querySelector(".interview-content");
+//cambio
+let steppregunta = document.getElementById('index');
+//agregado
+const btnNextQuestion = document.querySelector(".btn-next-screen");
+btnNextQuestion.disabled = true;
+//
+
 let interview;
 let mp = [];
 let count = 1;
+let clickCount = 0;
 let screenCount = 0;
 let tiempoCaminata, tiempoespera, tiempoviaje, tarifa, transbordo, asiento;
 
@@ -14,10 +22,10 @@ window.addEventListener("load", () => {
     const random = Math.floor(Math.random() * interviews.length);
     interview = interviews[random];
     view.innerHTML = interview.content;
-    optional(interview.interview)
+    optionalElement(interview.interview)
 });
 
-function optional(interview) {
+function optionalElement(interview) {
     let elements = document.querySelectorAll(".optional");
     let optionals = ["click-tracker-22", "click-tracker-23", "click-tracker-24", "click-tracker-25", "click-tracker-26"]
     elements.forEach(element => {
@@ -46,60 +54,72 @@ let page = document.querySelector(".page.data");
 page.addEventListener("click", (e) => {
 
     if (e.target.name == "btnNext") {
-        console.log("next");
         tiempoCaminata = parseInt(document.querySelector("#tiempocaminata").value);
         tiempoespera = parseInt(document.querySelector("#tiempoespera").value);
         tiempoviaje = parseInt(document.querySelector("#tiempoviaje").value);
         tarifa = document.querySelector("#tarifa").value;
         transbordo = document.querySelector("#transbordo").value;
         asiento = document.querySelector("#asiento").value;
-
         let { buttons } = interview.screens[screenCount];
         loadDataInterview(buttons);
     }
 })
 let divRandom = document.querySelector(".page.interview-random");
 
+//cambio
+divRandom.addEventListener("click", (evt) => {
+    let { target } = evt;
+    let btnCliks = document.querySelectorAll(".btn-click");
+    let btnOptions = document.querySelectorAll(".btn-option");
+    console.log(clickCount);
+    if (clickCount > 0) {
+        btnNextQuestion.disabled = false;
 
-divRandom.addEventListener("click", (e) => {
-    let { target } = e;
-    let btns = document.querySelectorAll(".btn-option");
-    if (target.className == "btn-next-screen") {
+        if (target.className == "btn-next-screen") {
+            if (++screenCount <= 7) {
+                let { buttons } = interview.screens[screenCount];
+                loadDataInterview(buttons)
+                ++count;
 
-        if (++screenCount <= 7) {
-            let { buttons } = interview.screens[screenCount];
-            loadDataInterview(buttons)
-            ++count;
-            let steppregunta = document.getElementById('valor1');
-            steppregunta.textContent = count;
-            btns.forEach(btn => {
-                btn.disabled = false;
-                btn.name = "pregunta-10.".concat(count)
-            });
+                steppregunta.textContent = count;
+
+                btnOptions.forEach(btn => {
+                    btn.disabled = false;
+                    btn.name = "pregunta-10.".concat(count)
+                });
+                btnCliks.forEach(x => x.disabled = false);
+            }
+            if (count == 8) {
+                target.style.display = "none";
+                let btnNext = document.querySelector(".btn-next4.next-4");
+                btnNext.classList.remove("hide");
+            }
+            clickCount = 0;
+            btnNextQuestion.disabled = true;
         }
-        if (count == 8) {
-            target.style.display = "none";
-            let btnNext = document.querySelector(".btn-next4.next-5");
 
-            btnNext.classList.remove("hide");
+
+        if (target.classList.contains("btn-option")) {
+            mp.push({ question: target.name, answer: target.value });
+
+            btnCliks.forEach(x => x.disabled = true);
+
         }
-    }
-
-    if (target.className == "btn-option") {
-        mp.push({ question: target.name, answer: target.value });
-        console.log(mp);
-        btns.forEach(x => x.disabled = true);
 
     }
-
 })
 
+//cambio
 divRandom.addEventListener("focusin", (e) => {
+
     let target = e.target;
     let { type } = target;
     switch (type) {
         case "button":
+
             if (/[btn]\d{1,2}/.test(target.name)) {
+                clickCount++;
+                console.log(/[btn]\d{1,2}/.test(target.name), target.name, clickCount);
                 target.value = target.getAttribute("data-value");
                 tracker(target)
             }
@@ -172,7 +192,7 @@ function interview32_22(row, value) {
             return value;
     }
 }
-/*
+//cambio
 function save(evt) {
     evt.preventDefault();
     let form = Object.fromEntries(new FormData(document.forms[0]))
@@ -185,8 +205,7 @@ function save(evt) {
     }
     obj.tracks = JSON.parse(localStorage.getItem("tracker"))
 
-    console.log(obj);
-   fetch("http://localhost/clicktracker/server/server.php", {
+    fetch("http://localhost/clicktracker/server/server.php", {
         method: "POST",
         headers: {
             "content-type": "application/json"
@@ -194,8 +213,11 @@ function save(evt) {
         body: JSON.stringify(obj)
     })
         .then(r => r.json())
-        .then(d => console.log("resultado", d))
+        .then(d => {
+            alert("Gracias por contestar !!");
+            location.reload(); 
+        })
 
-}*/
+}
 
-//document.forms[0].addEventListener("submit", save);
+document.forms[0].addEventListener("submit", save);

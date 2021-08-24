@@ -53,23 +53,20 @@
 						</div>
 						<h2 class="h3">Descripción de la situación de elección </h2>
 						<p>
+							A continuación, se le mostrarán 8 situaciones hipotéticas de elección
+							de ruta de transporte público para un viaje de ida al trabajo/estudio en punta mañana.
+							Usted tiene 3 rutas disponibles que se diferencian en los siguientes atributos:
 
-							En esta sección, se busca identificar cómo eran las condiciones de sus viajes habituales antes de la pandemia a través de los siguientes atributos:
-
-							Tiempo de caminata: Minutos caminados desde su hogar hasta el primer paradero y desde el paradero de bajada hasta su destino.
-							Tiempo de espera: Minutos esperando en todos los paraderos de su viaje.
-							Tiempo de viaje en el vehículo: Minutos estando a bordo del bus/metro durante su viaje.
-							Costo: Tarifa pagada para realizar su viaje.
-							#Transbordos: Número de cambios de modos de transporte.
-							Disponibilidad de asiento: Posibilidad de sentarse durante el viaje.
-							
 						</p>
 						<p>
-							A continuación, se le mostrarán 8 situaciones hipotéticas de elección de ruta 
-							de transporte público para un viaje de ida al trabajo/estudio en punta mañana. 
-							Cabe destacar 
-							que tiene 3 rutas disponibles que se diferencian los atributos
-							 señalados anteriormente.  	</p>
+							• Tiempo de caminata: Minutos caminados desde su hogar hasta el primer paradero y desde el
+							paradero de bajada hasta su destino.
+							• Tiempo de espera: Minutos esperando en todos los paraderos de su viaje.
+							• Tiempo de viaje en el vehículo: Minutos estando a bordo del bus/metro durante su viaje.
+							• Costo: Tarifa pagada para realizar su viaje.
+							• #Transbordos: Número de cambios de modos de transporte.
+							• Disponibilidad de asiento: Posibilidad de sentarse durante el viaje.
+						</p>
 
 						<input type="checkbox" id="close2">
 						<p class="aceptar2">Comenzar con preguntas hipotéticas</p>
@@ -86,14 +83,14 @@
 		</header>
 		<div class="form-outer">
 			<form action="#" id="form">
-				<div class="page slidepage" style="margin-left: 11%;">
-					<div class="title" id="titleprimero">Para efecto de clasificación estadística,indique
+				<div class="page slidepage" style="margin-left: 12%;">
+					<div class="title">Para efecto de clasificación estadística,indique
 						características
 						<span class="salto"> socioeconómicas y de movilidad</span>
 						<h4> antes de la pandemia</h4>
 					</div>
 					<div class="field">
-						<div class="label" id="edad20">¿Cuál es su edad?</div>
+						<div class="label">¿Cuál es su edad?</div>
 						<input type="number" placeholder="Ej 20" id="edad" name="pregunta-1" value="20">
 						<i class="fas fa-check-circle"></i>
 						<i class="fas fa-exclamation-circle"></i>
@@ -115,7 +112,7 @@
 
 				</div>
 				<div class="page">
-					<div class="title" id="titlelabolar">Para efecto de clasificación estadística, <span class="salto"> indique
+					<div class="title">Para efecto de clasificación estadística, <span class="salto"> indique
 							características
 							socioeconómicas</span> <span class="salto"> y de movilidad </span>
 						<h4> antes de la pandemia
@@ -155,7 +152,7 @@
 				</div>
 
 				<div class="page">
-					<div class="title " id="titleresponsive">Para efecto de clasificación estadística,<span class="salto"> indique
+					<div class="title">Para efecto de clasificación estadística,<span class="salto"> indique
 							características
 							socioeconómicas<span class="salto"></span> y de movilidad </span>
 						<h4> antes de la pandemia</h4>
@@ -169,10 +166,9 @@
 						<i class="fas fa-exclamation-circle"></i>
 						<small>Error message</small>
 					</div>
-					<div class="field" id="fieldbip">
-						<div class="label-custom2">¿Tiene tarjeta Bip!, pase escolar o adulto
-								mayor?</div>
-						
+					<div class="field">
+						<div class="label-custom2">¿Tiene tarjeta Bip!, pase escolar<span class="salto"> o adulto
+								mayor?</span></div>
 						<select class="select-custom" id="tarjetabip" name="pregunta-6">
 							<option>Tarjeta Bip!</option>
 							<option>Pase escolar</option>
@@ -183,20 +179,20 @@
 						<i class="fas fa-exclamation-circle"></i>
 						<small>Error message</small>
 					</div>
-					<button type="button" class="next-2 btnxet1" >Siguiente</button>
+					<button type="button" class="btn-next1 next-2">Siguiente</button>
 
 				</div>
 
 
 				<div class="page">
-					<div class="title" >Para efecto de clasificación estadística, <span class="salto">
+					<div class="title" id="titlecrear">Para efecto de clasificación estadística, <span class="salto">
 							indique
 							características
 							socioeconómicas</span> <span class="salto"> y de movilidad</span>
 						<h4> antes de la pandemia</h4>
 					</div>
-					<div class="field" id="fieldrango">
-						<div class="label" id="labelrango">¿En qué rango estima usted <span class="salto">que se encuentra el ingreso
+					<div class="field">
+						<div class="label">¿En qué rango estima usted <span class="salto">que se encuentra el ingreso
 								líquido</span> <span class="salto">mensual de su hogar?</span></div>
 						<select class="select-custom2" id="rentamensual" name="pregunta-7">
 							<option>Menos de $324.000</option>
@@ -221,7 +217,7 @@
 						<i class="fas fa-exclamation-circle"></i>
 						<small>Error message</small>
 					</div>
-					<button type="button" class="btnnex2 next-3">Siguiente</button>
+					<button type="button" class="btnnext2 next-3">Siguiente</button>
 
 				</div>
 
@@ -268,8 +264,9 @@
 				</div>
 
 				<div class="page interview-random">
+					<!--Cambio-->
 					<div class="progress">
-						<div class="valor"><p>Pregunta <span id="valor1">1</span>/8</p></div>
+						<div class="valor">Pregunta <span id="index">1</span>/8</div>
 					</div>
 					<div class="prueba">
 				
@@ -281,29 +278,23 @@
 						<div class="inner">
 							<div class="interview-content">
 							</div>
+							<!--Cambio-->
 							<div class="alternative">
-								<label for="">¿Que ALTERNATIVA elege?</label>
-								<input type="button" class="btn-option" value="A" name="pregunta-10.1" id="btnA">
-								<input type="button" class="btn-option" value="B" name="pregunta-10.1" id="btnB">
-								<input type="button" class="btn-option optional" value="C" name="pregunta-10.1" id="btnC">
+								<input type="button" class="btn-option btn-click" value="A" name="pregunta-10.1" id="btnA">
+								<input type="button" class="btn-option btn-click" value="B" name="pregunta-10.1" id="btnB">
+								<input type="button" class="btn-option btn-click optional" value="C" name="pregunta-10.1" id="btnC">
 							</div>
 							<button type="button" type="button" class="btn-next-screen">Siguiente</button>
 						</div>
-						<button type="button" class="btn-next4 next-5 hide">Siguiente</button>
+						<button type="button" class="btn-next4 next-4 hide">Siguiente</button>
 					</div>
 				</div>
 				<div class="page">
-					<div class="fie20 field" id="fie20">
-						<p id="giftcard">Por haber respondido esta encuesta, 
-							ingrese su correo electrónico para  participar
-							 por una giftcard de $20.000 en tiendas Cencosud </p>
 					<label for="Correo" Correo></label>
 					<input type="email" name="pregunta-11" id="email" value="test@gmail.com">
 				</div>
-				</div>
 
-				<input type="submit" class="btn-next4" id="btnnex4">
-				
+				<input type="submit">
 
 			</form>
 

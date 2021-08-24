@@ -1,3 +1,4 @@
+//cambio
 const interviews = [
     {
         interview: "click-tracker-36",
@@ -5,49 +6,49 @@ const interviews = [
         <div class="form-group" id="tracker361">
             <label for="">Tpo. de  [min]:</label>
             <div class="grupolabel">
-                <input type="button"   name="btn1"  data-value="" value="Ver">
-                <input type="button"   name="btn7" data-value="" value="Ver">
-                <input type="button"   name="btn13" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn1"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn7" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn13" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="tracker362">
             <label for="">Tpo. de espera [min]:</label>            
             <div class="grupolabel">
-                <input type="button"   name="btn2"  data-value="" value="Ver">
-                <input type="button"   name="btn8"  data-value="" value="Ver">
-                <input type="button"   name="btn14" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn2"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn8"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn14" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="tracker363">    
             <label for="">Tpo. de viaje [min]:</label>
             <div class="grupolabel">
-                <input type="button"   name="btn3"  data-value="" value="Ver">
-                <input type="button"   name="btn9"  data-value="" value="Ver">
-                <input type="button"   name="btn15" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn3"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn9"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn15" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="tracker364">
             <label for="">Costo[pesos]:</label>
             <div class="grupolabel" > 
-                <input type="button"   name="btn4"  data-value="" value="Ver">
-                <input type="button"   name="btn10" data-value="" value="Ver">
-                <input type="button"   name="btn16" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn4"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn10" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn16" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="tracker365">
             <label for="">##Trasbordoss:</label>
             <div class="grupolabel">
-                <input type="button"   name="btn5"  data-value="" value="Ver">
-                <input type="button"   name="btn11" data-value="" value="Ver">
-                <input type="button"   name="btn17" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn5"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn11" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn17" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="tracker366">
             <label for="">¿Hay asiento?</label>
             <div class="grupolabel">
-                <input type="button"   name="btn6"  data-value="" value="Ver">
-                <input type="button"   name="btn12" data-value="" value="Ver">
-                <input type="button"   name="btn18" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn6"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn12" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn18" data-value="" value="Ver">
             </div>
         </div>
     `,
@@ -251,41 +252,41 @@ const interviews = [
         <div class="form-group" id="tracker351">
             <label for="">Tpo. caminata[min]:</label>
             <div class="grupolabel">
-                <input type="button"   name="btn1"  data-value="" value="Ver">
-                <input type="button"   name="btn6" data-value="" value="Ver">
-                <input type="button"   name="btn11" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn1"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn6" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn11" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="tracker352">
             <label for="">Tpo. de espera [min]:</label>            
             <div class="grupolabel">
-                <input type="button"   name="btn2"  data-value="" value="Ver">
-                <input type="button"   name="btn7"  data-value="" value="Ver">
-                <input type="button"   name="btn12" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn2"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn7"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn12" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="tracker353">    
             <label for="">Tpo. de viaje [min]:</label>
             <div class="grupolabel">
-                <input type="button"   name="btn3"  data-value="" value="Ver">
-                <input type="button"   name="btn8"  data-value="" value="Ver">
-                <input type="button"   name="btn13" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn3"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn8"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn13" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="tracker354">
             <label for="">Costo[pesos]:</label>
             <div class="grupolabel">  
-                <input type="button"   name="btn4"  data-value="" value="Ver">
-                <input type="button"   name="btn9" data-value="" value="Ver">
-                <input type="button"   name="btn14" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn4"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn9" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn14" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="tracker355">
             <label for="">#Trasbordos:</label>
             <div class="grupolabel">
-                <input type="button"   name="btn5"  data-value="" value="Ver">
-                <input type="button"   name="btn10" data-value="" value="Ver">
-                <input type="button"   name="btn15" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn5"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn10" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn15" data-value="" value="Ver">
             </div>
         </div>
     `, screens: [
@@ -462,33 +463,33 @@ const interviews = [
         <div class="form-group" id="track341">
             <label for="">Tpo. caminata[min]:</label>
             <div class="grupolabel">
-                <input type="button"   name="btn1"  data-value="" value="Ver">
-                <input type="button"   name="btn5" data-value="" value="Ver">
-                <input type="button"   name="btn9" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn1"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn5" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn9" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="track342">
             <label for="">Tpo. de espéra [min]:</label>            
             <div class="grupolabel">
-                <input type="button"   name="btn2"  data-value="" value="Ver">
-                <input type="button"   name="btn6"  data-value="" value="Ver">
-                <input type="button"   name="btn10" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn2"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn6"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn10" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="track343">    
             <label for="">Tpo. de viaje [min]:</label>
             <div class="grupolabel">
-                <input type="button"   name="btn3"  data-value="" value="Ver">
-                <input type="button"   name="btn7"  data-value="" value="Ver">
-                <input type="button"   name="btn11" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn3"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn7"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn11" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="track344">
             <label for="">Costo[pesos]:</label>
             <div class="grupolabel">  
-                <input type="button"   name="btn4"  data-value="" value="Ver">
-                <input type="button"   name="btn8" data-value="" value="Ver">
-                <input type="button"   name="btn12" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn4"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn8" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn12" data-value="" value="Ver">
             </div>
         </div>
     `, screens: [
@@ -644,25 +645,25 @@ const interviews = [
         <div class="form-group" id="tacker33-1">
             <label for="">Tpo. caminata y de espera[min]:</label>
             <div class="grupolabel">
-                <input type="button"   name="btn1"  data-value="" value="Ver">
-                <input type="button"   name="btn4" data-value="" value="Ver">
-                <input type="button"   name="btn7" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn1" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn4" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn7" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="tacker33-2">
             <label for="">Tpo. de viaje [min]:</label>            
             <div class="grupolabel">
-                <input type="button"   name="btn2"  data-value="" value="Ver">
-                <input type="button"   name="btn5"  data-value="" value="Ver">
-                <input type="button"   name="btn8" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn2"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn5"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn8" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="tacker33-3">    
             <label for="">Costo[pesos]:</label>
             <div class="grupolabel">
-                <input type="button"   name="btn3"  data-value="" value="Ver">
-                <input type="button"   name="btn6"  data-value="" value="Ver">
-                <input type="button"   name="btn9" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn3"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn6"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn9" data-value="" value="Ver">
             </div>
         </div>
  
@@ -799,17 +800,17 @@ const interviews = [
         <div class="form-group">
             <label for="">Tpo. total de viaje[min]:</label>
             <div class="grupolabel">
-                <input type="button"   name="btn1"  data-value="" value="Ver">
-                <input type="button"   name="btn3" data-value="" value="Ver">
-                <input type="button"   name="btn5" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn1"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn3" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn5" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="tracker322">
             <label for="">Costo[pesos]:</label>            
             <div class="grupolabel">
-                <input type="button"   name="btn2"  data-value="" value="Ver">
-                <input type="button"   name="btn4"  data-value="" value="Ver">
-                <input type="button"   name="btn6" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn2"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn4"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn6" data-value="" value="Ver">
             </div>
         </div>
     `, screens: [
@@ -914,43 +915,43 @@ const interviews = [
         <div class="form-group" id="trac261">
             <label for="">Tpo. caminata[min]:</label>
             <div class="grupolabel">
-                <input type="button"   name="btn1"  data-value="" value="Ver">
-                <input type="button"   name="btn7" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn1"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn7" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="trac262">
             <label for="">Tpo. de espera [min]:</label>            
             <div class="grupolabel">
-                <input type="button"   name="btn2"  data-value="" value="Ver">
-                <input type="button"   name="btn8"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn2"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn8"  data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="trac263">    
             <label for="">Tpo. de viaje [min]:</label>
             <div class="grupolabel">
-                <input type="button"   name="btn3"  data-value="" value="Ver">
-                <input type="button"   name="btn9"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn3"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn9"  data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="trac264">
             <label for="">Costo[pesos]:</label>
             <div class="grupolabel" > 
-                <input type="button"   name="btn4"  data-value="" value="Ver">
-                <input type="button"   name="btn10" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn4"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn10" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="trac265">
             <label for="">#Trasbordos [-]:</label>
             <div class="grupolabel">
-                <input type="button"   name="btn5"  data-value="" value="Ver">
-                <input type="button"   name="btn11" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn5"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn11" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="trac266">
             <label for="">¿Hay asiento?</label>
             <div class="grupolabel">
-                <input type="button"   name="btn6"  data-value="" value="Ver">
-                <input type="button"   name="btn12" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn6"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn12" data-value="" value="Ver">
             </div>
         </div>
     
@@ -1104,36 +1105,36 @@ const interviews = [
         <div class="form-group" id="traker251">
             <label for="">Tpo. caminata[min]:</label>
             <div class="grupolabel">
-                <input type="button"   name="btn1"  data-value="" value="Ver">
-                <input type="button"   name="btn6" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn1"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn6" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="traker252">
             <label for="">Tpo. de espera [min]:</label>            
             <div class="grupolabel">
-                <input type="button"   name="btn2"  data-value="" value="Ver">
-                <input type="button"   name="btn7"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn2"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn7"  data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="traker253">    
             <label for="">Tpo. de viaje [min]:</label>
             <div class="grupolabel">
-                <input type="button"   name="btn3"  data-value="" value="Ver">
-                <input type="button"   name="btn8"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn3"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn8"  data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="traker254">
             <label for="">Costo[pesos]:</label>
             <div class="grupolabel">  
-                <input type="button"   name="btn4"  data-value="" value="Ver">
-                <input type="button"   name="btn9" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn4"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn9" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="traker255">
             <label for="">#Trasbordos [-]:</label>
             <div class="grupolabel">
-                <input type="button"   name="btn5"  data-value="" value="Ver">
-                <input type="button"   name="btn10" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn5"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn10" data-value="" value="Ver">
             </div>
         </div>
     `, screens: [
@@ -1273,29 +1274,29 @@ const interviews = [
         <div class="form-group" id="tracker241">
             <label for="">Tpo. caminata[min]:</label>
             <div class="grupolabel">
-                <input type="button"   name="btn1"  data-value="" value="Ver">
-                <input type="button"   name="btn17" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn1"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn17" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="tracker242">
             <label for="">Tiempo de espera [min]:</label>            
             <div class="grupolabel">
-                <input type="button"   name="btn2"  data-value="" value="Ver">
-                <input type="button"   name="btn8"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn2"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn8"  data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="tracker243">    
             <label for="">Tpo. de viaje [min]:</label>
             <div class="grupolabel">
-                <input type="button"   name="btn3"  data-value="" value="Ver">
-                <input type="button"   name="btn9"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn3"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn9"  data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="tracker244">
             <label for="">Costo[pesos]:</label>
             <div class="grupolabel" > 
-                <input type="button"   name="btn4"  data-value="" value="Ver">
-                <input type="button"   name="btn10" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn4"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn10" data-value="" value="Ver">
             </div>
         </div>
     `, screens: [
@@ -1422,22 +1423,22 @@ const interviews = [
         <div class="form-group" id="tracker231">
             <label for="">Tpo. caminata y de espera[min]:</label>
             <div class="grupolabel">
-                <input type="button"   name="btn1"  data-value="" value="Ver">
-                <input type="button"   name="btn4" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn1"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn4" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="tracker232">
             <label for="">Tpo. de viaje[min]:</label>            
             <div class="grupolabel">
-                <input type="button"   name="btn2"  data-value="" value="Ver">
-                <input type="button"   name="btn5"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn2"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn5"  data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="tracker233">    
             <label for="">Costo[pesos]:</label>
             <div class="grupolabel">
-                <input type="button"   name="btn3"  data-value="" value="Ver">
-                <input type="button"   name="btn6"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn3"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn6"  data-value="" value="Ver">
             </div>
         </div>
     `, screens: [
@@ -1550,15 +1551,15 @@ const interviews = [
         <div class="form-group" id="traker221">
             <label for="">Tpo. total de viaje[min]:</label>
             <div class="grupolabel">
-                <input type="button"   name="btn1"  data-value="" value="Ver">
-                <input type="button"   name="btn3" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn1"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn3" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="traker222">
             <label for="">Costo[pesos]:</label>            
             <div class="grupolabel">
-                <input type="button"   name="btn2"  data-value="" value="Ver">
-                <input type="button"   name="btn4"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn2"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn4"  data-value="" value="Ver">
             </div>
         </div>
     `, screens: [
