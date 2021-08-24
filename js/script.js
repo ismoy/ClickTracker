@@ -7,7 +7,7 @@
  window.addEventListener("load",function(){
     setTimeout(
         function open(event){
-         document.querySelector(".modal-container").style.display = "block";
+        // document.querySelector(".modal-container").style.display = "block";
         },
         500
     )

@@ -38,6 +38,7 @@ let page = document.querySelector(".page.data");
 page.addEventListener("click", (e) => {
 
     if (e.target.name == "btnNext") {
+        console.log("next");
         tiempoCaminata = parseInt(document.querySelector("#tiempocaminata").value);
         tiempoespera = parseInt(document.querySelector("#tiempoespera").value);
         tiempoviaje = parseInt(document.querySelector("#tiempoviaje").value);
