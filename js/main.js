@@ -4,6 +4,8 @@ import interviews from "./view.js"
 localStorage.setItem("tracker", JSON.stringify([]))
 const view = document.querySelector(".interview-content");
 let interview;
+let mp = [];
+let count = 1;
 let screenCount = 0;
 let tiempoCaminata, tiempoespera, tiempoviaje, tarifa, transbordo, asiento;
 
@@ -15,33 +17,12 @@ window.addEventListener("load", () => {
     view.innerHTML = interview.content;
 });
 
-window.addEventListener("focusin", (e) => {
-    let target = e.target;
-    let { type } = target;
-    console.log(target);
-    switch (type) {
-        case "button":
-            target.value = target.getAttribute("data-value");
-            tracker(target)
-            return;
-    }
-});
 
-window.addEventListener("focusout", (e) => {
-    let target = e.target;
-    let { type } = target;
-    console.log(interview.screens[screenCount].screen);
-    switch (type) {
-        case "button":
-            target.value = "ver";
-            return;
-    }
-});
 
 
 function tracker({ name, value }) {
     let data = getLocalStorage();
-    data.push({ name, value, screen: interview.screens[screenCount].screen });
+    data.push({ name, value, screen: `${interview.screens[screenCount].screen}` });
     saveData(data)
 }
 
@@ -56,29 +37,69 @@ let page = document.querySelector(".page.data");
 
 page.addEventListener("click", (e) => {
 
-    tiempoCaminata = parseInt(document.querySelector("#tiempocaminata").value);
-    tiempoespera = parseInt(document.querySelector("#tiempoespera").value);
-    tiempoviaje = parseInt(document.querySelector("#tiempoviaje").value);
-    tarifa = document.querySelector("#tarifa").value;
-    transbordo = document.querySelector("#transbordo").value;
-    asiento = document.querySelector("#asiento").value;
+    if (e.target.name == "btnNext") {
+        tiempoCaminata = parseInt(document.querySelector("#tiempocaminata").value);
+        tiempoespera = parseInt(document.querySelector("#tiempoespera").value);
+        tiempoviaje = parseInt(document.querySelector("#tiempoviaje").value);
+        tarifa = document.querySelector("#tarifa").value;
+        transbordo = document.querySelector("#transbordo").value;
+        asiento = document.querySelector("#asiento").value;
 
-    let { buttons } = interview.screens[screenCount];
-    loadDataInterview(buttons);
+        let { buttons } = interview.screens[screenCount];
+        loadDataInterview(buttons);
+    }
 })
 let divRandom = document.querySelector(".page.interview-random");
 
 divRandom.addEventListener("click", (e) => {
+    let { target } = e;
+    let btns = document.querySelectorAll(".btn-option");
+    if (target.className == "btn-next-screen") {
 
-    if (e.target.className == "btn-next-screen") {
         if (++screenCount <= 7) {
-            console.log(screenCount);
             let { buttons } = interview.screens[screenCount];
             loadDataInterview(buttons)
+            ++count;
+            btns.forEach(btn => {
+                btn.disabled = false;
+                btn.name = "pregunta-10.".concat(count)
+            });
         }
     }
 
+    if (target.className == "btn-option") {
+        mp.push({ question: target.name, answer: target.value });
+        console.log(mp);
+        btns.forEach(x => x.disabled = true);
+
+    }
+
 })
+
+divRandom.addEventListener("focusin", (e) => {
+    let target = e.target;
+    let { type } = target;
+    switch (type) {
+        case "button":
+            if (/[btn]\d{1,2}/.test(target.name)) {
+                target.value = target.getAttribute("data-value");
+                tracker(target)
+            }
+            return;
+    }
+});
+
+divRandom.addEventListener("focusout", (e) => {
+    let target = e.target;
+    let { type } = target;
+    switch (type) {
+        case "button":
+            if (/[btn]\d{1,2}/.test(target.name)) {
+                target.value = "ver";
+            }
+            return;
+    }
+});
 
 function loadDataInterview(buttons) {
 
@@ -140,24 +161,21 @@ function save(evt) {
     let obj = new Object();
     obj.name = interview.interview;
     obj.email = form["pregunta-11"]
-    obj.question = [];
+    obj.questions = mp;
     for (const key of Object.entries(form)) {
-        obj.question.push({ question: key[0], value: key[1] })
+        obj.questions.push({ question: key[0], answer: key[1] })
     }
     obj.tracks = JSON.parse(localStorage.getItem("tracker"))
 
-
-    fetch("http://localhost/pruebas/server.php", {
+    console.log(obj);
+    fetch("http://localhost/clicktracker/server/server.php", {
         method: "POST",
         headers: {
             "content-type": "application/json"
         },
         body: JSON.stringify(obj)
     })
-        .then(r => {
-            console.log(r);
-            return r.json()
-        })
+        .then(r => r.json())
         .then(d => console.log("resultado", d))
 
 }
