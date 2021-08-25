@@ -108,10 +108,9 @@
 					</div>
 					<div class="field">
 						<div class="label" id="edad20">¿Cuál es su edad?</div>
-						<input type="number" placeholder="Ej 20" id="edad" name="pregunta-1" value="20">
+						<input type="number" placeholder="Ej 20" id="edad" name="pregunta-1">
 						<i class="fas fa-check-circle"></i>
-						<i class="fas fa-exclamation-circle"></i>
-						<small>Error message</small>
+						
 
 					</div>
 					<div class="field">
@@ -122,8 +121,7 @@
 							<option>Otro</option>
 						</select>
 						<i class="fas fa-check-circle"></i>
-						<i class="fas fa-exclamation-circle"></i>
-						<small>Error message</small>
+						
 					</div>
 					<button type="button" class="btn-next nextBtn" type="button" id="next">Siguiente</button>
 
@@ -144,8 +142,7 @@
 							<option>Otro</option>
 						</select>
 						<i class="fas fa-check-circle"></i>
-						<i class="fas fa-exclamation-circle"></i>
-						<small>Error message</small>
+					
 					</div>
 					<div class="field fieldocu">
 						<div class="label">¿Cuál es su máximo nivel educacional?</div>
@@ -161,8 +158,6 @@
 
 						</select>
 						<i class="fas fa-check-circle"></i>
-						<i class="fas fa-exclamation-circle"></i>
-						<small>Error message</small>
 					</div>
 					<button type="button" class="btn-next btnnext next-1">Siguiente</button>
 
@@ -178,10 +173,9 @@
 						<div class="label-custom">¿Cuántos días de la semana laboral <span class="salto"> usaba
 								transporte público
 								para ir al </span> trabajo o estudio antes de la pandemia?</div>
-						<input type="text" class="input-custom" id="viajeday" value="2" name="pregunta-5">
+						<input type="number" class="input-custom" id="viajeday"  name="pregunta-5" required>
 						<i class="fas fa-check-circle"></i>
-						<i class="fas fa-exclamation-circle"></i>
-						<small>Error message</small>
+						
 					</div>
 					<div class="field" id="fieldbip">
 						<div class="label-custom2">¿Tiene tarjeta Bip!, pase escolar o adulto
@@ -194,8 +188,7 @@
 
 						</select>
 						<i class="fas fa-check-circle"></i>
-						<i class="fas fa-exclamation-circle"></i>
-						<small>Error message</small>
+					
 					</div>
 					<button type="button" class="next-2 btnxet1" >Siguiente</button>
 
@@ -224,16 +217,12 @@
 
 						</select>
 						<i class="fas fa-check-circle"></i>
-						<i class="fas fa-exclamation-circle"></i>
-						<small>Error message</small>
 					</div>
 					<div class="field">
 						<div class="label-custom3">¿Cuántas personas componen <span class="salto"> su hogar
 								incluyéndose?</span></div>
-						<input type="number" class="input-custom2" id="totalpersHouse" value="5" name="pregunta-8"> <i
+						<input type="number" class="input-custom2" id="totalpersHouse"  name="pregunta-8"> <i
 							class="fas fa-check-circle"></i>
-						<i class="fas fa-exclamation-circle"></i>
-						<small>Error message</small>
 					</div>
 					<button type="button" class="btnnex2 next-3">Siguiente</button>
 
@@ -245,29 +234,29 @@
 
 					<div class="field2">
 						<label>Tiempo de caminata [min]:</label>
-						<input type="number" class="fieldnumber" id="tiempocaminata" value="2" name="pregunta-9.1">
+						<input type="number" class="fieldnumber" id="tiempocaminata"  name="pregunta-9.1" required>
 
 					</div>
 					<div class="field2">
 						<label>Tiempo de espera [min]:</label>
-						<input type="number" class="fieldnumber" id="tiempoespera" value="2" name="pregunta-9.2">
+						<input type="number" class="fieldnumber" id="tiempoespera"  name="pregunta-9.2" required>
 
 					</div>
 					<div class="field2">
 						<label>Tiempo de viaje [min]:</label>
-						<input type="number" class="fieldnumber" id="tiempoviaje" value="2" name="pregunta-9.3">
+						<input type="number" class="fieldnumber" id="tiempoviaje"  name="pregunta-9.3" required>
 
 					</div>
 					<div class="field3">
 						<label>Tarifa [$]:</label>
-						<input type="number" class="fieldnumber tarifa" name="ta" id="tarifa" value="2"
-							name="pregunta-9.4">
+						<input type="number" class="fieldnumber tarifa" name="ta" id="tarifa" 
+							name="pregunta-9.4" required>
 
 					</div>
 					<div class="field3">
 						<label id="trans">Trasbordo [-]:</label>
-						<input type="number" class="fieldnumber transbordo" id="transbordo" value="2"
-							name="pregunta-9.5">
+						<input type="number" class="fieldnumber transbordo" id="transbordo" 
+							name="pregunta-9.5" required>
 
 					</div>
 					<div class="field3" >
@@ -316,7 +305,7 @@
 							<div class="interview-content">
 							</div>
 							<div class="alternative">
-								<label for="">¿Que ALTERNATIVA elege?</label>
+								<label for="">¿Que ALTERNATIVA elige?</label>
 								<input type="button" class="btn-option btn-click" value="A" name="pregunta-10.1" id="btnA">
 								<input type="button" class="btn-option btn-click" value="B" name="pregunta-10.1" id="btnB">
 								<input type="button" class="btn-option btn-click optional" value="C" name="pregunta-10.1" id="btnC">
@@ -332,11 +321,11 @@
 							ingrese su correo electrónico para   participar
 							 por una giftcard de $20.000 en tiendas Cencosud </p>
 					<label for="Correo" Correo></label>
-					<input type="email" name="pregunta-11" id="email" value="test@gmail.com">
+					<input type="email" name="pregunta-11" id="email" required>
 				</div>
 				</div>
 
-				<input type="submit" class="btn-next4" id="btnnex4">
+				<input type="submit" class="btn-next4 btnnex40" value="Terminar encuesta" id="btnnex4">
 				
 
 			</form>

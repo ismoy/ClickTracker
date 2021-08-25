@@ -240,7 +240,7 @@ form .page .field select {
   border-radius: 5px;
   border: 1px solid lightgray;
   font-size: 18px;
-  padding-left: 0px;
+  padding-left: 20px;
 }
 .btnnext2 {
   border: none;
@@ -1240,6 +1240,7 @@ form .page .field select {
   font-size: 18px;
   margin-left: 5%;
   margin-top: -14px;
+  padding-left: 20px;
 }
 
 
@@ -1331,6 +1332,7 @@ form .page .field .select-custom {
   font-size: 18px;
   top: -52%;
   left: -21%;
+  padding-left: 20px;
 }
 
 .btnnex2 {

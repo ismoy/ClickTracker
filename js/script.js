@@ -57,11 +57,9 @@ let max = 7;
 let current = 1;
 
 //function para validar los campos
-function setErrorFor(input, message) {
+function setErrorFor(input) {
     const formControl = input.parentElement;
-    const small = formControl.querySelector('small');
     formControl.className = 'field error';
-    small.innerText = message;
 }
 //funcion de que valida que los campos tienen datos
 function setSuccessFor(input) {
@@ -76,7 +74,7 @@ firstNextBtn.addEventListener("click", function(){
     const edadValue = edad.value.trim();
     const generoValue = genero.value.trim();   
     if(edadValue === '' || generoValue === ''){
-        setErrorFor(edad,"requerido");
+        setErrorFor(edad);
     
     }
     else{
@@ -94,7 +92,7 @@ nextBtnSec.addEventListener("click", function(){
     const nivelestudioValue = nivelestudio.value.trim();
     const ocupacionValue = ocupacion.value.trim();
     if(nivelestudioValue === '' || ocupacionValue === ''){
-        setErrorFor(nivelestudio, "requerido");
+        setErrorFor(nivelestudio);
        
     }
     else{
@@ -111,7 +109,7 @@ nextBtnThird.addEventListener("click", function(){
     const viajedayValue = viajeday.value.trim();
     const tarjetabipValue = tarjetabip.value.trim();
     if(viajedayValue === '' || tarjetabipValue === ''){
-        setErrorFor(viajeday);
+        alert("Los campos no deben estar vacios");
      
     }else{
         setSuccessFor(viajeday);
@@ -127,8 +125,7 @@ nextBtnFourth.addEventListener("click", function(){
     const rentamensualValue = rentamensual.value.trim();
     const totalpersHouseValue = totalpersHouse.value.trim(); 
     if(rentamensualValue === '' || totalpersHouseValue === ''){
-        //setErrorFor(rentamensual);
-        setErrorFor(totalpersHouse, "requerido");
+        setErrorFor(totalpersHouse);
 
     }else{
         setSuccessFor(rentamensual);
@@ -143,8 +140,15 @@ nextBtnFourth.addEventListener("click", function(){
 //y luego llama la otra pagina disponible
 nextBtnFive.addEventListener("click", function(){
     const valortiempocaminataValue = tiempocaminata.value.trim();
-    if (valortiempocaminataValue === ''){
-        setErrorFor(tiempocaminata, "requerido");
+    const valortiempoespera = tiempoespera.value.trim();
+    const valortiempoviaje = tiempoviaje.value.trim();
+    const valortarifa = tarifa.value.trim();
+    const valortransbordo = transbordo.value.trim();
+    const valorasiento = asiento.value.trim();
+    if (valortiempocaminataValue === '' || valortiempoespera === '' || valortiempoviaje === '' ||
+    valortarifa === '' || valortransbordo === '' || valorasiento === ''){
+        
+        alert("Los campos no deben estar vacios");
    
     }else{
         setSuccessFor(tiempocaminata);
@@ -159,6 +163,9 @@ nextBtnSix.addEventListener("click", function(){
     slidePage.style.marginLeft = "-160%" 
         current +=1;
 });
+
+
+
 
 
 
