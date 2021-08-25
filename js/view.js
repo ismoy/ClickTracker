@@ -2,6 +2,7 @@
 //aqui estan todos los botones que van a dar click para ver 
 //son 10 encuestas y cada encuesta contienes 8 paginas
 // en total 80 paginas 
+
 const interviews = [
     {
         interview: "click-tracker-36",
