@@ -17,12 +17,14 @@ let clickCount = 0;
 let screenCount = 0;
 let tiempoCaminata, tiempoespera, tiempoviaje, tarifa, transbordo, asiento;
 
+
 //cargar las encuestas ramdom cada vez se recarga la pagina
 window.addEventListener("load", () => {
     const random = Math.floor(Math.random() * interviews.length);
     interview = interviews[random];
     view.innerHTML = interview.content;
     optionalElement(interview.interview)
+    console.log("Te has tocado la encuesta " ,interview);
 });
 
 function optionalElement(interview) {
@@ -154,7 +156,9 @@ function loadDataInterview(buttons) {
             value = generalInterview(button.row, button.value, asiento)
         }
         document.querySelector(`input[name=${button.button}]`).setAttribute("data-value", value);
+        
     })
+  
 }
 
 function generalInterview(row, value, asiento) {
@@ -176,11 +180,11 @@ function generalInterview(row, value, asiento) {
 function interview33_23(row, value) {
     switch (row) {
         case 1:
-            return value = (tiempoCaminata + tiempoespera) * value;
+            return Math.round(value) = (tiempoCaminata + tiempoespera) * value;
         case 2:
-            return tiempoviaje * value;
+            return Math.round(tiempoviaje * value);
         case 3:
-            return value;
+            return Math.round(value);
     }
 }
 
