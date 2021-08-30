@@ -1272,6 +1272,12 @@ const interviews = [
         ]
     },
 
+    //la verdad no entiendo su excel no puedo llenar los valores 
+    // para hacer cambio solo cambiar no mas si problema 
+    //solo sigue el patron para agregar 
+    //pero si agregar mucho eso perjudicar al diseño 
+    //AL AGREGAR 1 BOTON TAMBIEN TIENES QUE PONER ESE VALOR EN LA PANTALLA QUE QUIERES QUE APARESCA 
+    //INICIO DONDE ESTAN LOS BOTONES CLICKTRACKER 24
     {
         interview: "click-tracker-24"
         , content: `
@@ -1279,21 +1285,25 @@ const interviews = [
             <label for="">Tpo. caminata[min]:</label>
             <div class="grupolabel">
                 <input type="button" class="btn-click"   name="btn1"  data-value="" value="Ver">
-                <input type="button" class="btn-click"   name="btn17" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn5" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn8"  data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="tracker242">
             <label for="">Tiempo de espera [min]:</label>            
             <div class="grupolabel">
                 <input type="button" class="btn-click"   name="btn2"  data-value="" value="Ver">
-                <input type="button" class="btn-click"   name="btn8"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn6" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn9" data-value="" value="Ver">
+            
             </div>
         </div>
         <div class="form-group" id="tracker243">    
             <label for="">Tpo. de viaje [min]:</label>
             <div class="grupolabel">
                 <input type="button" class="btn-click"   name="btn3"  data-value="" value="Ver">
-                <input type="button" class="btn-click"   name="btn9"  data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn7" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn11" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="tracker244">
@@ -1301,6 +1311,9 @@ const interviews = [
             <div class="grupolabel" > 
                 <input type="button" class="btn-click"   name="btn4"  data-value="" value="Ver">
                 <input type="button" class="btn-click"   name="btn10" data-value="" value="Ver">
+                <input type="button" class="btn-click"   name="btn12" data-value="" value="Ver">
+
+                
             </div>
         </div>
     `, screens: [
@@ -1308,18 +1321,22 @@ const interviews = [
                 screen: 5,
 
                 buttons: [
+                    //PARA HACER CAMBIO EN ESOS SCREENS SOLO PONE EL NUEVO VALOR DENTRO EL MATH.ROUND() Y DESPUES
+                    //SI QUIERES CAMBIAR SU POSITION EL ULTIMO VALOR CAMBIARLO
+                    // ME EXPLICO EL BOTON TIEMPO CAMINATA ESTA EN LA ROW = FILA 1 Y EL DE TIEMPO ESPERA ESTA EN ROW FILA 2
+                    // SIGUE ESE PATRON PARA AGREGAR LOS OTROS
                     { button: "btn1", value: Math.round(1.85), shouldMultiply: true, row: 1 },
                     { button: "btn2", value: Math.round(1.85), shouldMultiply: true, row: 2 },
                     { button: "btn3", value: Math.round(0.5), shouldMultiply: true, row: 3 },
                     { button: "btn4", value: "$"+700, shouldMultiply: false, row: 4 },
                     { button: "btn5", value: 0, shouldMultiply: true, row: 1 },
-                    { button: "btn6", value: "Hay", shouldMultiply: true, row: 2 },
+                    { button: "btn6", value: 1.85, shouldMultiply: true, row: 2 },
                     { button: "btn7", value: Math.round(0.5), shouldMultiply: true, row: 3 },
-                    { button: "btn8", value: Math.round(0.85), shouldMultiply: false, row: 4 },
+                    { button: "btn8", value: Math.round(0.85), shouldMultiply: false, row: 1 },
                     { button: "btn9", value: Math.round(1.85), shouldMultiply: false, row: 1 },
-                    { button: "btn10", value: "$"+830, shouldMultiply: false, row: 2 },
+                    { button: "btn10", value: "$"+830, shouldMultiply: false, row: 4 },
                     { button: "btn11", value: 2, shouldMultiply: false, row: 3 },
-                    { button: "btn12", value: "Hay", shouldMultiply: false, row: 4 }
+                    { button: "btn12", value: "$"+750, shouldMultiply: false, row: 4 }
 
 
 
@@ -1461,7 +1478,7 @@ const interviews = [
             }
         ]
     },
-
+//FIN DONDE ESTAN LOS BOTONES CLICKTRACKER 24
     {
         interview: "click-tracker-23"
         , content: `
