@@ -7,7 +7,7 @@
  window.addEventListener("load",function(){
     setTimeout(
         function open(event){
-        // document.querySelector(".modal-container").style.display = "block";
+         document.querySelector(".modal-container").style.display = "block";
         },
         500
     )
@@ -26,7 +26,7 @@
  * FIN SCRIP MODAL JS
  */
 
-
+/* capturar click en el boton siguiente de cada pagina que va pasando  */
 const slidePage = document.querySelector(".slidepage");
 const firstNextBtn = document.querySelector(".nextBtn");
 const nextBtnSec = document.querySelector(".next-1");
@@ -34,19 +34,8 @@ const nextBtnThird = document.querySelector(".next-2");
 const nextBtnFourth = document.querySelector(".next-3");
 const nextBtnFive = document.querySelector(".next-4");
 const nextBtnSix = document.querySelector(".next-5");
-const nextBtnSeven = document.querySelector(".next-6");
-const nextBtnHeight = document.querySelector(".next-7");
-const nextBtnNine = document.querySelector(".next-8");
-const nextBtnTen = document.querySelector(".next-9");
-const nextBtnElv = document.querySelector(".next-10");
-const nextBtntwelv = document.querySelector(".next-11");
-const nextBtntherti = document.querySelector(".next-12");
 
-let max = 12;
-let current = 1;
-
-
-
+//capturar los valores de cada campos en lagina para validarlos
 const genero = document.getElementById('genero');
 const edad = document.getElementById('edad');
 const btnnext = document.getElementById('next');
@@ -63,26 +52,30 @@ const tarifa = document.getElementById('tarifa');
 const transbordo = document.getElementById('transbordo');
 const asiento = document.getElementById('asiento');
 
-function setErrorFor(input, message) {
-    const formControl = input.parentElement;
-    const small = formControl.querySelector('small');
-    formControl.className = 'field error';
-    small.innerText = message;
-}
+//determinar el maximo pagina que va a mostrar en mi caso es 6 
+let max = 7;
+let current = 1;
 
+//function para validar los campos
+function setErrorFor(input) {
+    const formControl = input.parentElement;
+    formControl.className = 'field error';
+}
+//funcion de que valida que los campos tienen datos
 function setSuccessFor(input) {
 	const formControl = input.parentElement;
 	formControl.className = 'field success';
     
 }
 
-
+//cuando da click sobre el primer boton me valida que todos estn OK
+//y luego llama la otra pagina disponible
 firstNextBtn.addEventListener("click", function(){
     const edadValue = edad.value.trim();
     const generoValue = genero.value.trim();   
     if(edadValue === '' || generoValue === ''){
-        setErrorFor(edad,"requerido");
-       // setErrorFor(genero,"requerido");
+        setErrorFor(edad);
+    
     }
     else{
        
@@ -93,42 +86,46 @@ firstNextBtn.addEventListener("click", function(){
     }
 });
 
-
+//cuando da click sobre el segundo boton me valida que todos estn OK
+//y luego llama la otra pagina disponible
 nextBtnSec.addEventListener("click", function(){
     const nivelestudioValue = nivelestudio.value.trim();
     const ocupacionValue = ocupacion.value.trim();
     if(nivelestudioValue === '' || ocupacionValue === ''){
-        setErrorFor(nivelestudio, "requerido");
-       // setErrorFor(ocupacion, "requerido");
+        setErrorFor(nivelestudio);
+       
     }
     else{
         setSuccessFor(nivelestudio);
         setSuccessFor(ocupacion);
-        slidePage.style.marginLeft = "-26%" 
+        slidePage.style.marginLeft = "-24%" 
         current +=1;
     }
 });
 
+//cuando da click sobre el tercer boton me valida que todos estn OK
+//y luego llama la otra pagina disponible
 nextBtnThird.addEventListener("click", function(){
     const viajedayValue = viajeday.value.trim();
     const tarjetabipValue = tarjetabip.value.trim();
     if(viajedayValue === '' || tarjetabipValue === ''){
-        setErrorFor(viajeday);
-       // setErrorFor(tarjetabip);
+        alert("Los campos no deben estar vacios");
+     
     }else{
         setSuccessFor(viajeday);
         setSuccessFor(tarjetabip);
-        slidePage.style.marginLeft = "-56%" 
+        slidePage.style.marginLeft = "-53%" 
         current +=1;
     }
 });
 
+//cuando da click sobre el cuarto boton me valida que todos estn OK
+//y luego llama la otra pagina disponible
 nextBtnFourth.addEventListener("click", function(){
     const rentamensualValue = rentamensual.value.trim();
     const totalpersHouseValue = totalpersHouse.value.trim(); 
     if(rentamensualValue === '' || totalpersHouseValue === ''){
-        //setErrorFor(rentamensual);
-        setErrorFor(totalpersHouse, "requerido");
+        setErrorFor(totalpersHouse);
 
     }else{
         setSuccessFor(rentamensual);
@@ -139,11 +136,19 @@ nextBtnFourth.addEventListener("click", function(){
     }
 });
 
-
+//cuando da click sobre el quinto boton me valida que todos estn OK
+//y luego llama la otra pagina disponible
 nextBtnFive.addEventListener("click", function(){
     const valortiempocaminataValue = tiempocaminata.value.trim();
-    if (valortiempocaminataValue === ''){
-        setErrorFor(tiempocaminata, "requerido");
+    const valortiempoespera = tiempoespera.value.trim();
+    const valortiempoviaje = tiempoviaje.value.trim();
+    const valortarifa = tarifa.value.trim();
+    const valortransbordo = transbordo.value.trim();
+    const valorasiento = asiento.value.trim();
+    if (valortiempocaminataValue === '' || valortiempoespera === '' || valortiempoviaje === '' ||
+    valortarifa === '' || valortransbordo === '' || valorasiento === ''){
+        
+        alert("Los campos no deben estar vacios");
    
     }else{
         setSuccessFor(tiempocaminata);
@@ -151,48 +156,17 @@ nextBtnFive.addEventListener("click", function(){
         current +=1;
     }
     
-});/*
+});
+//cuando da click sobre el sexto boton me valida que todos estn OK
+//y luego llama la otra pagina disponible
 nextBtnSix.addEventListener("click", function(){
-    slidePage.style.marginLeft = "-110%" 
+    slidePage.style.marginLeft = "-160%" 
         current +=1;
 });
 
 
-nextBtnSeven.addEventListener("click",function(){
-    slidePage.style.marginLeft = "-148%" 
-    current +=1;
-});
-
-nextBtnHeight.addEventListener("click",function(){
-    slidePage.style.marginLeft = "-204%" 
-    current +=1;
-});
-
-nextBtnNine.addEventListener("click",function(){
-    slidePage.style.marginLeft = "-260%" 
-    current +=1;
-});
-nextBtnTen.addEventListener("click",function(){
-    slidePage.style.marginLeft = "-285%" 
-    current +=1;
-});
-nextBtnElv.addEventListener("click",function(){
-    slidePage.style.marginLeft = "-310%" 
-    current +=1;
-});
-
-nextBtntwelv.addEventListener("click",function(){
-    slidePage.style.marginLeft = "-335%" 
-    current +=1;
-});
-
-nextBtntherti.addEventListener("click",function(){
-    slidePage.style.marginLeft = "-335%" 
-    current +=1;
-});
 
 
-*/
 
 
 

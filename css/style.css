@@ -1,14 +1,18 @@
+/*Desactivar la opcion de agregar numero con la flecha en los inputs*/
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+/*Fin*/
+/*Estilos de la pagina en pantallas grandes*/
 * {
   margin: 0;
   padding: 0;
   outline: none;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+/*eso afecta a todo el cuerpo de la pagina*/
 body {
   display: flex;
   align-items: center;
@@ -18,7 +22,7 @@ body {
   overflow-y: hidden;
   overflow-x: hidden;
 }
-
+/*afecta solo al contenedor donde esta las encuestas*/
 .container {
   width: 900px;
   height: auto;
@@ -30,33 +34,28 @@ body {
   overflow-y: hidden;
   box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
 }
+/*afecta solo al cabezera*/
 .container header {
   font-size: 35px;
   font-weight: 600;
   margin: 0 0 30px 0;
 }
+/*afecta a todos el formulario*/
 .container .form-outer {
   width: 100%;
   overflow: hidden;
 }
+/*afecta al formulario*/
 .form-outer form {
   display: flex;
   width: 2000%;
 }
+/*afecta a cada pagina de las encuestas*/
 .form-outer form .page {
   width: 25%;
   transition: margin-left 0.3s ease-in-out;
 }
-
-/*.form-outer form .page .title {
-    text-align: left;
-    font-size: 90%;
-    width: 100%;
-    position: relative;
-    z-index: 2;
-    font-weight: 500px;
-    margin-left: -80%;
-}*/
+/*titlulo*/
 .form-outer form .page .title {
   text-align: left;
   font-size: 90%;
@@ -64,45 +63,94 @@ body {
   position: relative;
   z-index: 2;
   font-weight: 500px;
-  margin-left: -73%;
+  margin-left: -71%;
 }
-/*.form-outer form .page .field {
-    height: 45px;
-    width: 350px;
-    margin: 45px 0;
-    position: relative;
-    display: flex;
-    margin-left: -67%;
-}*/
+
+#edad20{
+  margin-left: 86px;
+}
+#identificar{
+  margin-left: 4px;
+}
 
 .form-outer form .page .field {
-  height: 45px;
-  width: 350px;
-  margin: 45px 0;
-  position: relative;
-  display: flex;
-  margin-left: -70%;
-  margin-top: 2%;
+    height: 45px;
+    width: 350px;
+    margin: 2% 0px 45px -66%;
+    position: relative;
+    display: flex;
+    top: 7%;
 }
-
 .form-outer form .page .fieldday {
   height: 45px;
   width: 350px;
   margin: 45px 0;
   position: relative;
   display: flex;
-  margin-left: -68%;
+  margin-left: -69%;
   margin-top: 1%;
+  margin-bottom: 3%;
+}
+.form-outer form .page .fie20 {
+    height: 45px;
+    width: 350px;
+    margin: 2% 0px 45px -66%;
+    position: relative;
+    display: flex;
+    top: 7%;
+    margin-left: 46%;
+    border-color: black;
 }
 
-.form-outer form .page .field .label-custom2 {
-  position: absolute;
-  top: -49%;
-  display: inline-block;
+.btnxet1 {
+  border: none;
+  padding: 15px 35px;
+  background-color: red;
+  color: #fff;
+  border-radius: 27px;
+  margin: 15px;
+  transition: 0.4s all;
+  margin-top: 2%;
+  width: 5%;
+  margin-left: -67%;
+  display: block;
+  cursor: pointer;
+}
+.btnxet1:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: green;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-outer form .page .field #labelrango {
+    position: absolute;
+    top: -30px;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-weight: 500;
+    margin-left: -35%;
+    width: 393px;
+    margin-top: -10%;
+}
+
+  .form-outer form .page .field .label-custom2 {
+    position: absolute;
+    top: -38px;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-weight: 500;
+    margin-left: -30%;
+}
+
+form .page .field #tarjetabip {
+  width: 100%;
+  padding-left: 10px;
+  font-size: 17px;
   font-weight: 500;
-  font-size: 1vw;
-  left: 28%;
-  width: 300px;
+  margin-left: -30%;
+  margin-top: -3%;
+  margin-bottom: 5px;
 }
 
 form .page .field select {
@@ -122,38 +170,37 @@ form .page .field select {
   top: -30px;
   margin-bottom: 10px;
   display: inline-block;
+  font-weight: 500;
 }
 .form-outer form .page .field .label-custom {
   position: absolute;
-  top: -8%;
+  top: -71%;
   display: inline-block;
-  font-size: 1vw;
+  font-size: 16px;
   font-weight: 500;
+  margin-left: -4%;
+  width: 387px;
 }
 
-/*.form-outer form .page .field .label-custom2 {
-    position: absolute;
-    top: 70%;
-    display: inline-block;
-    font-weight: 500;
-    font-size: 1vw;
-}*/
 
-.form-outer form .page .field .label-custom3 {
-  position: absolute;
-  top: 0%;
-  display: inline-block;
-  font-weight: 500;
-}
+
 .select-custom {
-  position: relative;
-  top: 130%;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    left: -18%;
+    top: 38%;
 }
 
-.select-custom2 {
-  position: relative;
-  top: 53%;
-  margin-left: -1%;
+.page .field  #rentamensual {
+  width: 97%;
+  padding-left: 10px;
+  font-size: 17px;
+  font-weight: 500;
+  margin-left: -22%;
+  border-radius: 5px;
+  top: 35%;
 }
 .input-custom {
   position: relative;
@@ -182,10 +229,19 @@ form .page .field select {
   border: 1px solid black;
   font-size: 18px;
   padding-left: 20px;
-  top: -39%;
-  left: 2%;
+  top: -62%;
+  left: -23%;
 }
 
+
+.form-outer form .page .field .input-custom {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  font-size: 18px;
+  padding-left: 20px;
+}
 .btnnext2 {
   border: none;
   padding: 15px 35px;
@@ -199,13 +255,28 @@ form .page .field select {
   width: 6%;
   margin-left: -69%;
 }
-/*form .page .field select{
-    width: 100%;
-    padding-left: 10px;
-    font-size: 17px;
-    font-weight: 500;
 
-}*/
+.btnnex2 {
+  border: none;
+  padding: 15px 35px;
+  background-color: red;
+  color: #fff;
+  float: left;
+  border-radius: 27px;
+  margin: 15px;
+  transition: 0.4s all;
+  margin-top: 3px;
+  width: 4%;
+  margin-left: -66%;
+  cursor: pointer;
+}
+
+.btnnex2:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: green;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+  }
 .logo {
   display: flex;
   width: 100%;
@@ -214,19 +285,25 @@ form .page .field select {
   padding-left: 30px;
 }
 
-/* .btn-next {
-    border: none;
-    padding: 15px 35px;
-    background-color: red;
-    color: #fff;
-    float: left;
-    border-radius: 27px;
-    margin: 15px;
-    transition: 0.4s all;
-    margin-top: -1%;
-    width: 39%;
-    margin-left: -65%;
-}*/
+.form-outer form .page #titlelabolar {
+  text-align: left;
+  font-size: 90%;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  font-weight: 500px;
+  margin-left: -71%;
+}
+
+.form-outer form .page #titleresponsive {
+  text-align: left;
+  font-size: 90%;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  font-weight: 500px;
+  margin-left: -72%;
+}
 
 .btn-nex {
   border: none;
@@ -252,18 +329,17 @@ form .page .field select {
   margin: 15px;
   transition: 0.4s all;
   margin-top: -14px;
-  width: 10%;
-  margin-left: -68%;
+  width: 7%;
+  margin-left: -63%;
+  margin-top: 1%;
 }
-
 .btn-nex:hover {
   cursor: pointer;
   background-color: #fff;
   color: green;
   box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
 }
-
-.btnnext {
+.btn-nex {
   border: none;
   padding: 15px 35px;
   background-color: red;
@@ -272,9 +348,9 @@ form .page .field select {
   border-radius: 27px;
   margin: 15px;
   transition: 0.4s all;
-  margin-top: -14px;
-  width: 10%;
-  margin-left: -69%;
+  margin-top: -91px;
+  width: 4%;
+  margin-left: -67%;
 }
 
 .btn-next:hover {
@@ -391,32 +467,6 @@ form .page .field select {
     transform: scaleX(1);
   }
 }
-
-.progress-bar .step .bullet span {
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 20px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-.progress-bar .step .bullet.active span {
-  display: none;
-}
-
-.progress-bar .step .check {
-  position: absolute;
-  left: 52%;
-  top: 64%;
-  font-size: 15px;
-  transform: translate(-50%, -50%);
-  display: none;
-}
-.progress-bar .step .check.active {
-  display: block;
-  top: 46%;
-  color: white;
-}
 .form-outer form .page .field2 {
   height: 25px;
   width: 378px;
@@ -431,7 +481,7 @@ form .page .field select {
   width: 35%;
   margin-left: 5px;
   border-radius: 5px;
-  border: 1px solid lightgray;
+  border: 1px solid black;
   font-size: 18px;
   padding-left: 15px;
 }
@@ -464,21 +514,41 @@ form .page .field select {
   margin-left: -69%;
 }
 
-.form-outer form .page .field3 {
-  height: 25px;
-  width: 43%;
-  margin: 45px 0;
-  top: -39%;
-  left: -64%;
-  position: relative;
-  display: flex;
+.btn-next-screen {
+  border: none;
+  padding: 15px 35px;
+  background-color: red;
+  color: #fff;
+  border-radius: 27px;
+  margin: 15px;
+  transition: 0.4s all;
+  margin-top: 10px;
+  width: 4%;
+  margin-left: 3%;
+}
+
+.btn-next-screen:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: green;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-outer form .page .field3 {
+    height: 25px;
+    width: 43%;
+    margin: 45px 0;
+    top: -39%;
+    left: -64%;
+    position: relative;
+    display: flex;
 }
 .form-outer form .page .field3 .fieldnumber {
   height: 100%;
   width: 10%;
   margin-left: 5px;
   border-radius: 5px;
-  border: 1px solid lightgray;
+  border: 1px solid black;
   font-size: 18px;
   padding-left: 30px;
   padding-left: 15px;
@@ -486,6 +556,50 @@ form .page .field select {
 .form-outer form .page .field input:focus {
   outline: 0;
   border-color: #777;
+}
+
+.alternative{
+    margin-left: 3%;
+}
+
+.alternative label {
+  position: fixed;
+  margin-top: 11px;
+  font-weight: 500;
+  margin-left: -1%;
+}
+.btn-option{
+    padding: 10px;
+    margin-top: 43px;
+    margin-right: 30px;
+
+}
+.prueba .rutaA{
+  margin-left: 208px;
+}
+.prueba .rutaA span{
+    padding: 20px;
+}
+.valor {
+  margin-left: 2%;
+  margin-bottom: 20px;
+  color: black;
+  font-size: 26px;
+  margin-top: -9px;
+}
+.valor span{
+    color: black;
+}
+
+.pregunta {
+  margin-left: 2px;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  font-size: 97%;
+  margin-bottom: 13px;
+  margin-top: -15px;
+  width: 100%;
 }
 
 .form-outer form .page .field.success input {
@@ -538,7 +652,7 @@ h1 {
   margin-top: 20%;
 }
 .modal-container {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   position: fixed;
   top: 0;
   left: 0;
@@ -559,7 +673,7 @@ h1 {
   transform: translate(-50%, -50%);
   max-width: 100%;
   width: 600px;
-  height: 400px;
+  height: auto;
 }
 .modal-content {
   padding: 1.2rem;
@@ -617,7 +731,7 @@ h1 {
   margin-top: 20%;
 }
 .modal-container2 {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   position: fixed;
   top: 0;
   left: 0;
@@ -638,7 +752,20 @@ h1 {
   transform: translate(-50%, -50%);
   max-width: 100%;
   width: 600px;
-  height: 400px;
+  height: auto;
+}
+.texto {
+  margin-left: -41%;
+  margin-top: 59px;
+  width: 825px;
+}
+
+#giftcard {
+  display: flex;
+  position: absolute;
+  margin-top: -15%;
+  width: 499px;
+  margin-left: -23%;
 }
 .modal-content2 {
   padding: 1.2rem;
@@ -681,7 +808,20 @@ input[type="checkbox"] {
   justify-items: center;
 }
 
+.form-outer form .page .titledescriba {
+  text-align: left;
+  font-size: 94%;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  font-weight: 500px;
+  margin-left: -72%;
+  margin-bottom: 36px;
+}
+
 /*FIN SEGUNDO MODAL*/
+
+
 
 .form-group {
   display: flex;
@@ -740,8 +880,8 @@ input[type="checkbox"] {
   position: absolute;
   display: inline-block;
   font-weight: 500;
-  margin-left: -41px;
-  top: -109%;
+  margin-left: -145px;
+  top: -126%;
   width: 475px;
 }
 .form-outer form .page .title-custom {
@@ -760,12 +900,33 @@ input[type="checkbox"] {
   border-radius: 27px;
   margin: 15px;
   transition: 0.4s all;
-  margin-top: 1%;
-  width: 4%;
-  margin-left: 0%;
+  margin-top: 0%;
+  width: 3%;
+  margin-left: 2%;
 }
 
 .btn-next4:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: green;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+#btnnex4 {
+    border: none;
+    padding: 15px 35px;
+    background-color: red;
+    color: #fff;
+    border-radius: 27px;
+    margin: 15px;
+    transition: 0.4s all;
+    margin-top: 217px;
+    width: 1%;
+    margin-left: -13%;
+    height: 50px;
+}
+
+#btnnex4:hover {
   cursor: pointer;
   background-color: #fff;
   color: green;
@@ -813,18 +974,11 @@ input[type="checkbox"] {
   margin-bottom: 51px;
   font-style: normal;
 }
+/*INICIO CSS PARA LOS BOTONES EN CADA ENCUESTA DONDE ESTA LOS BOTONES PARA DAR CLICK EN VER*/
 
-/*.interview-content #formgroup7,
-#formgroup1{ margin-left:20px;}
-.interview-content #formgroup8 ,
-#formgroup2 {margin-left:32px;}
-.interview-content #formgroup9 ,
-#formgroup3 {margin-left:44px;}
-.interview-content #formgroup10 ,
-#formgroup4{margin-left:132px;}
-.interview-content #formgroup11 ,
-#formgroup5 ,
-#formgroup6{margin-left:99px;}*/
+.interview-content #tacker33-1 {
+  margin-left: -127px;
+}
 
 .interview-content #trac261 {
   margin-left: 10px;
@@ -867,11 +1021,11 @@ input[type="checkbox"] {
 }
 
 .interview-content #tacker33-2 {
-  margin-left: 87px;
+  margin-left: -39px;
 }
 
 .interview-content #tacker33-3 {
-  margin-left: 120px;
+  margin-left: -1px;
 }
 
 .interview-content #tracker232 {
@@ -936,6 +1090,9 @@ input[type="checkbox"] {
 .hide{
     display: none;
 }
+
+/*FIN CSS PARA LOS BOTONES EN CADA ENCUESTA DONDE ESTA LOS BOTONES PARA DAR CLICK EN VER*/
+
 /*INICIO MEDIA QUERY PARA LOS DISPOSITIVOS MOVILES*/
 @media screen and (max-width: 600px) {
   body {
@@ -948,6 +1105,7 @@ input[type="checkbox"] {
     height: 100%;
     text-align: center;
     justify-content: center;
+    overflow: auto;
   }
 
   .logo {
@@ -958,50 +1116,386 @@ input[type="checkbox"] {
     padding-left: 38px;
     transform: scale(2);
   }
-  .container .progress-bar {
-    display: flex;
-    margin: 40px 0;
-    margin-left: -46%;
-  }
+
   .container .form-outer {
     width: 500px;
     overflow: hidden;
   }
 
-  .btn-next {
+  .form-outer form .page .title {
+    font-size: 94%;
+    font-weight: 500px;
+    margin-left: -75%;
+    width: 315px;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.form-outer form .page .field {
+    height: 45px;
+    width: 329px;
+    margin: 45px 0;
+    position: relative;
+    display: flex;
+    margin-left: -68%;
+    margin-top: 1%;
+    padding-bottom: 15px;
+}
+
+.form-outer form .page .fieldocu {
+  height: 45px;
+  width: 329px;
+  margin: 45px 0;
+  position: relative;
+  display: flex;
+  margin-left: -70%;
+  margin-top: 1%;
+  padding-bottom: 15px;
+}
+
+.form-outer form .page #titlelabolar {
+  font-size: 94%;
+  font-weight: 500px;
+  margin-left: -75%;
+  width: 299px;
+  align-items: center;
+  margin-top: 5%;
+}
+form .page .field select {
+    margin-left: -29%;
+    width: 286px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.form-outer form .page .field .label {
+    position: absolute;
+    top: -28px;
+    font-weight: 500px;
+    left: -50%;
+    width: 430px;
+}
+ 
+.form-outer form .page .field #edad20{
+  margin-left: -12px;
+}
+
+.btn-next {
+  border: none;
+  padding: 15px 35px;
+  background-color: red;
+  color: #fff;
+  border-radius: 27px;
+  margin: 15px;
+  transition: 0.4s all;
+  margin-top: 1%;
+  margin-left: -71%;
+  width: 13%;
+}
+
+.form-outer form .page #titleresponsive {
+  font-size: 94%;
+  font-weight: 500px;
+  margin-left: -76%;
+  width: 302px;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.form-outer form .page .fieldday {
+    height: 45px;
+    width: 241px;
+    margin: 45px 0;
+    position: relative;
+    display: flex;
+    margin-left: -76%;
+    margin-top: 2%;
+    padding-bottom: 15px;
+}
+.form-outer form .page #fieldbip {
+  height: 45px;
+  width: 236px;
+  margin: 45px 0;
+  position: relative;
+  display: flex;
+  margin-left: -72%;
+  margin-top: 4%;
+  padding-bottom: 15px;
+}
+
+.form-outer form .page .field .label-custom2 {
+  position: absolute;
+  top: -56px;
+  margin-bottom: 10px;
+  display: inline-block;
+  font-weight: 500;
+  margin-left: -43%;
+}
+
+.form-outer form .page .field .input-custom {
+  height: 100%;
+  width: 129%;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 18px;
+  margin-left: 5%;
+  margin-top: -14px;
+  padding-left: 20px;
+}
+
+
+
+form .page .field .select-custom {
+    margin-left: -15%;
+    width: 286px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 10%;
+    height: 45px;
+}
+
+.btnxet1 {
+  border: none;
+  padding: 15px 35px;
+  background-color: red;
+  color: #fff;
+  border-radius: 27px;
+  margin: 15px;
+  transition: 0.4s all;
+  width: 8%;
+  margin-left: -73%;
+  display: block;
+  cursor: pointer;
+  margin-top: 0%;
+}
+
+.form-outer form .page .title {
+  font-size: 94%;
+  font-weight: 500px;
+  margin-left: -75%;
+  width: 303px;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.form-outer form .page #titleprimero {
+  font-size: 94%;
+  font-weight: 500px;
+  margin-left: -75%;
+  width: 315px;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.form-outer form .page #fieldrango {
+    height: 45px;
+    width: 309px;
+    margin: 45px 0;
+    position: relative;
+    display: flex;
+    margin-left: -78%;
+    margin-top: 4%;
+    padding-bottom: 15px;
+}
+
+.form-outer form .page .field #labelrango {
+  position: absolute;
+  top: -83px;
+  font-weight: 500px;
+  left: 46%;
+  width: 314px;
+}
+.page .field .select-custom2 {
+    width: 92%;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: -33%;
+    border-radius: 5px;
+    top: -67%;
+}
+
+.form-outer form .page .field .label-custom3 {
+  position: absolute;
+  display: inline-block;
+  font-weight: 500;
+  margin-left: -224px;
+  top: -124%;
+  width: 374px;
+}
+
+.form-outer form .page .field .input-custom2 {
+  height: 100%;
+  width: 64%;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 18px;
+  top: -52%;
+  left: -21%;
+  padding-left: 20px;
+}
+
+.btnnex2 {
+  border: none;
+  padding: 15px 35px;
+  background-color: red;
+  color: #fff;
+  float: left;
+  border-radius: 27px;
+  margin: 15px;
+  transition: 0.4s all;
+  margin-top: -11px;
+  width: 7%;
+  margin-left: -73%;
+  cursor: pointer;
+}
+.form-outer form .page .titledescriba {
+    font-size: 94%;
+    font-weight: 500px;
+    margin-left: -76%;
+    width: 315px;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.form-outer form .page .field2 {
+    height: 25px;
+    width: 263px;
+    margin: 45px 0;
+    position: relative;
+    display: flex;
+    margin-left: -76%;
+    margin-top: -1%;
+}
+
+.form-outer form .page .field3 {
+    height: 25px;
+    width: 21%;
+    margin: 45px 0;
+    top: -2%;
+    left: -76%;
+    position: relative;
+    display: flex;
+}
+
+.form-outer form .page .field3 .fieldnumber {
+    height: 100%;
+    width: 19%;
+    margin-left: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 18px;
+    padding-left: 1px;
+}
+.form-outer form .page .field3 #tarifa {
+    margin-left: 19%;
+}
+
+.form-outer form .page .field3 .transbordo {
+    margin-left: 12%;
+}
+.form-outer form .page .field3 #asiento {
+    margin-left: 11%;
+}
+
+
+.next-4 {
+  border: none;
+  padding: 15px 35px;
+  background-color: red;
+  color: #fff;
+  float: left;
+  border-radius: 27px;
+  margin: 15px;
+  transition: 0.4s all;
+  margin-top: 16px;
+  margin-left: -73%;
+  display: block;
+  width: 7%;
+}
+
+
+.next4:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: green;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+  }
+
+  .interview-content {
+    margin-left: -92px;
+}
+.valor {
+  margin-left: -8%;
+  margin-bottom: 20px;
+  color: black;
+}
+.prueba .rutaA {
+    margin-left: -2%;
+}
+
+.prueba .rutaA span {
+    padding: 2px;
+}
+.alternative {
+    margin-left: -1%;
+}
+
+.alternative label {
+  position: fixed;
+  margin-top: 6%;
+  font-weight: 500;
+  margin-left: -34%;
+}
+
+.btn-option {
+  padding: 10px;
+  margin-top: 43px;
+  margin-right: 22px;
+
+}
+
+.grupolabel input {
+    padding: 9px;
+    margin-right: -12px;
+    margin-top: 20px;
+}
+
+.form-group .grupolabel {
+    margin: -5px 0.56rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px 20px;
+}
+.interview-random{
+    width: 24%;
+}
+.btn-next-screen {
     border: none;
     padding: 15px 35px;
     background-color: red;
     color: #fff;
-    /* float: left; */
     border-radius: 27px;
     margin: 15px;
     transition: 0.4s all;
-    margin-top: -2%;
-    margin-left: -9%;
-    /* margin-right: 19%; */
-    width: 15%;
-  }
-  .salto {
-    display: block;
-  }
+    margin-top: 15px;
+    width: 7%;
+    margin-left: -1%;
+}
 
-  .form-outer form .page .title {
-    font-size: 4vw;
-    font-weight: 500px;
-    margin-left: -10%;
-    width: 280px;
-    align-items: center;
-  }
-
-  #titlecrear {
-    font-size: 4vw;
-    font-weight: 500px;
-    margin-left: -10%;
-    width: 339px;
-    justify-items: start;
-    align-items: center;
-  }
+.btn-next4 {
+    border: none;
+    padding: 15px 35px;
+    background-color: red;
+    color: #fff;
+    border-radius: 27px;
+    margin: 15px;
+    transition: 0.4s all;
+    margin-top: 1%;
+    width: 6%;
+    margin-left: -6%;
+}
   .modal {
     color: black;
     background-color: white;
@@ -1061,27 +1555,16 @@ input[type="checkbox"] {
   .h3 {
     width: 100%;
   }
-  .form-outer form .page .field .label {
-    position: absolute;
-    top: -30px;
-    font-weight: 500px;
-    left: -28%;
-  }
   .form-outer form .page .field .label-custom {
     position: absolute;
-    top: -60%;
+    top: -84%;
     display: inline-block;
     font-weight: 500;
     align-items: center;
-    left: -35%;
-  }
-  .form-outer form .page .field .label-custom2 {
-    position: absolute;
-    top: 20%;
-    display: inline-block;
-    font-weight: 500;
-    left: -25%;
-  }
+    left: -1%;
+    width: 318px;
+}
+
   .form-outer form .page #edad {
     height: 100%;
     width: 80%;
@@ -1099,33 +1582,6 @@ input[type="checkbox"] {
     margin-left: -35%;
   }
 
-  form .page .field select {
-    width: 87%;
-    padding-left: 10px;
-    font-size: 17px;
-    font-weight: 500;
-    margin-left: -28%;
-    border-radius: 5px;
-  }
-
-  form .page .field .select-custom {
-    width: 90%;
-    padding-left: 10px;
-    font-size: 17px;
-    font-weight: 500;
-    margin-left: -28%;
-    border-radius: 5px;
-  }
-
-  .form-outer form .page .field {
-    height: 45px;
-    width: 330px;
-    margin: 45px 0;
-    position: relative;
-    display: flex;
-    margin-left: -4%;
-  }
-
   .form-outer form .page .field input {
     height: 100%;
     width: 80%;
@@ -1140,98 +1596,8 @@ input[type="checkbox"] {
     color: green;
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
   }
-  .select-custom2 {
-    position: relative;
-    top: 40%;
-  }
-  .form-outer form .page .field2 {
-    height: 25px;
-    width: 263px;
-    margin: 45px 0;
-    position: relative;
-    display: flex;
-    margin-left: -3%;
-  }
-  .form-outer form .page .field2 .fieldnumber {
-    height: 100%;
-    width: 35%;
-    margin-left: 5px;
-    border-radius: 5px;
-    border: 1px solid black;
-    font-size: 18px;
-    padding-left: 15px;
-  }
-  .form-outer form .page .field3 {
-    height: 25px;
-    width: 21%;
-    margin: 45px 0;
-    top: 5%;
-    left: -101%;
-    position: relative;
-    display: flex;
-    margin-top: 16%;
-  }
+ 
 
-  .form-outer form .page #field4 {
-    height: 25px;
-    width: 22%;
-    margin: 45px 0;
-    top: 5%;
-    left: -103%;
-    position: relative;
-    display: flex;
-    margin-top: 2%;
-  }
-  .form-outer form .page #field5 {
-    height: 25px;
-    width: 22%;
-    margin: 45px 0;
-    top: 5%;
-    left: -102%;
-    position: relative;
-    display: flex;
-    margin-top: 2%;
-    margin-left: -20px;
-  }
-
-  .form-outer form .page .field3 .fieldnumber {
-    height: 100%;
-    width: 37%;
-    margin-left: 30px;
-    border-radius: 5px;
-    border: 1px solid black;
-    font-size: 18px;
-    padding-left: 30px;
-    padding-left: 1px;
-  }
-
-  .next-4 {
-    border: none;
-    padding: 15px 35px;
-    background-color: red;
-    color: #fff;
-    float: left;
-    border-radius: 27px;
-    margin: 15px;
-    transition: 0.4s all;
-    margin-top: 11%;
-  }
-
-  .next4:hover {
-    cursor: pointer;
-    background-color: #fff;
-    color: green;
-    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
-  }
-
-  .form-outer form .page .field .label-custom {
-    position: absolute;
-    top: -60%;
-    display: inline-block;
-    font-weight: 500;
-    align-items: center;
-    left: -27%;
-  }
   .form-outer form .page .field input {
     height: 100%;
     width: 80%;
@@ -1253,20 +1619,106 @@ input[type="checkbox"] {
     width: 11%;
     margin-left: -7%;
   }
-  #titlecrear {
-    font-size: 4vw;
-    font-weight: 500px;
-    margin-left: -9%;
-    width: 280px;
-    justify-items: start;
-    align-items: center;
-  }
-  .form-outer form .page #titledescriba {
-    font-size: 4vw;
-    font-weight: 500px;
-    margin-left: -4%;
-    width: 291px;
-    align-items: center;
-  }
+
+  #giftcard {
+    display: flex;
+    position: absolute;
+    margin-top: -39%;
+    left: -9%;
+    float: left;
+    width: 100%;
+    font-size: 94%;
+    top: 83%;
+}
+.page .field #rentamensual {
+  width: 97%;
+  padding-left: 10px;
+  font-size: 17px;
+  font-weight: 500;
+  margin-left: 28%;
+  border-radius: 5px;
+  margin-top: -13%;
+  margin-bottom: 35px;
+}
+
+.texto {
+  margin-left: -45%;
+  margin-top: 34px;
+  width: 281px;
+  font-size: 15px;
+  /* margin-bottom: -40px; */
+}
+
+.form-outer form .page .field3 {
+  height: 25px;
+  width: 21%;
+  margin: 45px 0;
+  top: -5%;
+  left: -76%;
+  position: relative;
+  display: flex;
+}
+.form-outer form .page .field3 .transbordo {
+  margin-left: 12%;
+  margin-top: -30px;
+}
+.form-outer form .page .field3 #asiento {
+  margin-left: 11%;
+  margin-top: -12%;
+}
+
+#trans{
+  margin-top: -31px;
+}
+
+#asin{
+  margin-top: -62px;
+}
+
+.texto {
+  margin-left: -45%;
+  margin-top: -34px;
+  width: 281px;
+}
+
+.form-outer form .page .fie20 {
+  height: 45px;
+  width: 303px;
+  margin: 45px 0;
+  position: relative;
+  display: flex;
+  margin-left: 44%;
+  margin-top: 6%;
+  padding-bottom: 15px;
+}
+
+#btnnex4 {
+  border: none;
+  padding: 15px 35px;
+  background-color: red;
+  color: #fff;
+  border-radius: 27px;
+  margin: 15px;
+  transition: 0.4s all;
+  margin-top: 283px;
+  width: 1%;
+  margin-left: -14%;
+  height: 50px;
+}
+.salto{
+  display: block;
+}
+
+.pregunta {
+  margin-left: -93px;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  font-size: 71%;
+  margin-bottom: 13px;
+  margin-top: -15px;
+  width: 100%;
+}
 
 }
+/*FIN MEDIA QUERY PARA LOS DISPOSITIVOS MOVILES*/

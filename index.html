@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/style.css" />
-	<title>Document</title>
+	<title>ClickTracker</title>
 	<script src="https://kit.fontawesome.com/b959c0c03b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 	<div class="container">
+		<!--Contenedor contiene el modal cuando entra en la pagina -->
 		<div class="modal-container" id="modal-container">
 			<div class="modal" id="modal">
 				<div class="modal-content">
@@ -22,15 +23,15 @@
 						</div>
 						<h2 class="h2">Investigación del comportamiento de elección </h2>
 						<p>Esta encuesta tiene por objetivo estudiar el proceso de deliberación de las
-							personas al elegir alternativas de viajes en transporte público.</p>
+							personas al elegir alternativas de viajes en transporte público.</p><br>
 						<p> Agradecemos su colaboración respondiendo la presente encuesta, la cual le tomará alrededor
 							de 8 minutos.
 							Los datos que usted indique serán utilizados solamente para el desarrollo de una Tesis de
 							Magíster
-							en Ingeniería de Transporte de la Universidad de Chile.</p>
+							en Ingeniería de Transporte de la Universidad de Chile.</p><br>
 						<p> Al dar click en "Siguiente", da su consentimiento para continuar y participar en la
-							encuesta.
-							Si tiene alguna duda, sugerencia y/o comentario, por favor no dude en comunicarse al correo
+							encuesta.</p><br>
+						<p>Si tiene alguna duda, sugerencia y/o comentario, por favor no dude en comunicarse al correo
 							electrónico
 							<a href="mailto:gabriel.nova@ug.uchile.cl">gabriel.nova@ug.uchile.cl</a>
 
@@ -43,6 +44,7 @@
 				</div>
 			</div>
 		</div>
+		<!--Contenedor contiene el modal antes de mostrar la opcion de ingresar tiempo caminata etc -->
 		<div class="modal-container2" id="modal-container2">
 			<div class="modal2" id="modal2">
 				<div class="modal-content2">
@@ -52,67 +54,81 @@
 
 						</div>
 						<h2 class="h3">Descripción de la situación de elección </h2>
-						<p>
-							A continuación, se le mostrarán 8 situaciones hipotéticas de elección
-							de ruta de transporte público para un viaje de ida al trabajo/estudio en punta mañana.
-							Usted tiene 3 rutas disponibles que se diferencian en los siguientes atributos:
 
-						</p>
+						<p>En esta sección, se busca identificar cómo eran
+							las condiciones de sus viajes habituales antes de
+							la pandemia a través de los siguientes atributos:</p><br>
 						<p>
-							• Tiempo de caminata: Minutos caminados desde su hogar hasta el primer paradero y desde el
+							<strong> Tiempo de caminata:</strong> Minutos caminados desde
+							su hogar hasta el primer paradero y desde el
 							paradero de bajada hasta su destino.
-							• Tiempo de espera: Minutos esperando en todos los paraderos de su viaje.
-							• Tiempo de viaje en el vehículo: Minutos estando a bordo del bus/metro durante su viaje.
-							• Costo: Tarifa pagada para realizar su viaje.
-							• #Transbordos: Número de cambios de modos de transporte.
-							• Disponibilidad de asiento: Posibilidad de sentarse durante el viaje.
-						</p>
+						</p><br>
+						<p>
+							<strong> Tiempo de espera:</strong> Minutos esperando en todos
+							los paraderos de su viaje.
+						</p><br>
+						<p>
+							<strong>Tiempo de viaje en el vehículo: </strong>Minutos estando
+							a bordo del bus/metro durante su viaje.
+						</p><br>
+						<p>
+							<strong>.Costo:</strong> Tarifa pagada para realizar su viaje.
+						</p><br>
 
+						<p>
+							<strong>.#Transbordos:</strong> Número de cambios de modos
+							de transporte.
+						</p>
+						<p>
+							<strong>.Disponibilidad de asiento: </strong>Posibilidad de
+							sentarse durante el viaje.
+						</p>
 						<input type="checkbox" id="close2">
-						<p class="aceptar2">Comenzar con preguntas hipotéticas</p>
+						<p class="aceptar2"> He leído la definición de los atributos</p>
 
 					</div>
 
 				</div>
 			</div>
 		</div>
+		<!--Header contiene solo logo -->
 		<header>
 			<div class="logo">
 				<img src="img/logo_facultad_universidad_de_chile.jpg" width="50%" height="100%" alt="logo">
 			</div>
 		</header>
+		<!--Formulario contiene todas las funcionalidad del proyecto -->
 		<div class="form-outer">
 			<form action="#" id="form">
-				<div class="page slidepage" style="margin-left: 12%;">
-					<div class="title">Para efecto de clasificación estadística,indique
+				<div class="page slidepage" style="margin-left: 11%;">
+					<div class="title" id="titleprimero">Para efecto de clasificación estadística,indique
 						características
 						<span class="salto"> socioeconómicas y de movilidad</span>
 						<h4> antes de la pandemia</h4>
 					</div>
 					<div class="field">
-						<div class="label">¿Cuál es su edad?</div>
-						<input type="number" placeholder="Ej 20" id="edad" name="pregunta-1" value="20">
+						<div class="label" id="edad20">¿Cuál es su edad?</div>
+						<input type="number" placeholder="Ej 20" id="edad" name="pregunta-1">
 						<i class="fas fa-check-circle"></i>
-						<i class="fas fa-exclamation-circle"></i>
-						<small>Error message</small>
+
 
 					</div>
 					<div class="field">
-						<div class="label">¿Con que genero se siente identificado?</div>
+						<div class="label" id="identificar">¿Con que genero se siente identificado?</div>
 						<select id="genero" name="pregunta-2">
 							<option>Masculino</option>
 							<option>Femenino</option>
 							<option>Otro</option>
 						</select>
 						<i class="fas fa-check-circle"></i>
-						<i class="fas fa-exclamation-circle"></i>
-						<small>Error message</small>
+
 					</div>
 					<button type="button" class="btn-next nextBtn" type="button" id="next">Siguiente</button>
 
 				</div>
 				<div class="page">
-					<div class="title">Para efecto de clasificación estadística, <span class="salto"> indique
+					<div class="title" id="titlelabolar">Para efecto de clasificación estadística, <span class="salto">
+							indique
 							características
 							socioeconómicas</span> <span class="salto"> y de movilidad </span>
 						<h4> antes de la pandemia
@@ -127,8 +143,7 @@
 							<option>Otro</option>
 						</select>
 						<i class="fas fa-check-circle"></i>
-						<i class="fas fa-exclamation-circle"></i>
-						<small>Error message</small>
+
 					</div>
 					<div class="field fieldocu">
 						<div class="label">¿Cuál es su máximo nivel educacional?</div>
@@ -144,15 +159,14 @@
 
 						</select>
 						<i class="fas fa-check-circle"></i>
-						<i class="fas fa-exclamation-circle"></i>
-						<small>Error message</small>
 					</div>
 					<button type="button" class="btn-next btnnext next-1">Siguiente</button>
 
 				</div>
 
 				<div class="page">
-					<div class="title">Para efecto de clasificación estadística,<span class="salto"> indique
+					<div class="title " id="titleresponsive">Para efecto de clasificación estadística,<span
+							class="salto"> indique
 							características
 							socioeconómicas<span class="salto"></span> y de movilidad </span>
 						<h4> antes de la pandemia</h4>
@@ -161,14 +175,14 @@
 						<div class="label-custom">¿Cuántos días de la semana laboral <span class="salto"> usaba
 								transporte público
 								para ir al </span> trabajo o estudio antes de la pandemia?</div>
-						<input type="text" class="input-custom" id="viajeday" value="2" name="pregunta-5">
+						<input type="number" class="input-custom" id="viajeday" name="pregunta-5" required>
 						<i class="fas fa-check-circle"></i>
-						<i class="fas fa-exclamation-circle"></i>
-						<small>Error message</small>
+
 					</div>
-					<div class="field">
-						<div class="label-custom2">¿Tiene tarjeta Bip!, pase escolar<span class="salto"> o adulto
-								mayor?</span></div>
+					<div class="field" id="fieldbip">
+						<div class="label-custom2">¿Tiene tarjeta Bip!, pase escolar o adulto
+							mayor?</div>
+
 						<select class="select-custom" id="tarjetabip" name="pregunta-6">
 							<option>Tarjeta Bip!</option>
 							<option>Pase escolar</option>
@@ -176,23 +190,23 @@
 
 						</select>
 						<i class="fas fa-check-circle"></i>
-						<i class="fas fa-exclamation-circle"></i>
-						<small>Error message</small>
+
 					</div>
-					<button type="button" class="btn-next1 next-2">Siguiente</button>
+					<button type="button" class="next-2 btnxet1">Siguiente</button>
 
 				</div>
 
 
 				<div class="page">
-					<div class="title" id="titlecrear">Para efecto de clasificación estadística, <span class="salto">
+					<div class="title">Para efecto de clasificación estadística, <span class="salto">
 							indique
 							características
 							socioeconómicas</span> <span class="salto"> y de movilidad</span>
 						<h4> antes de la pandemia</h4>
 					</div>
-					<div class="field">
-						<div class="label">¿En qué rango estima usted <span class="salto">que se encuentra el ingreso
+					<div class="field" id="fieldrango">
+						<div class="label" id="labelrango">¿En qué rango estima usted <span class="salto">que se
+								encuentra el ingreso
 								líquido</span> <span class="salto">mensual de su hogar?</span></div>
 						<select class="select-custom2" id="rentamensual" name="pregunta-7">
 							<option>Menos de $324.000</option>
@@ -206,18 +220,14 @@
 
 						</select>
 						<i class="fas fa-check-circle"></i>
-						<i class="fas fa-exclamation-circle"></i>
-						<small>Error message</small>
 					</div>
 					<div class="field">
 						<div class="label-custom3">¿Cuántas personas componen <span class="salto"> su hogar
 								incluyéndose?</span></div>
-						<input type="number" class="input-custom2" id="totalpersHouse" value="5" name="pregunta-8"> <i
+						<input type="number" class="input-custom2" id="totalpersHouse" name="pregunta-8"> <i
 							class="fas fa-check-circle"></i>
-						<i class="fas fa-exclamation-circle"></i>
-						<small>Error message</small>
 					</div>
-					<button type="button" class="btnnext2 next-3">Siguiente</button>
+					<button type="button" class="btnnex2 next-3">Siguiente</button>
 
 				</div>
 
@@ -227,49 +237,71 @@
 
 					<div class="field2">
 						<label>Tiempo de caminata [min]:</label>
-						<input type="number" class="fieldnumber" id="tiempocaminata" value="2" name="pregunta-9.1">
+						<input type="number" class="fieldnumber" id="tiempocaminata" name="pregunta-9.1" required>
 
 					</div>
 					<div class="field2">
 						<label>Tiempo de espera [min]:</label>
-						<input type="number" class="fieldnumber" id="tiempoespera" value="2" name="pregunta-9.2">
+						<input type="number" class="fieldnumber" id="tiempoespera" name="pregunta-9.2" required>
 
 					</div>
 					<div class="field2">
 						<label>Tiempo de viaje [min]:</label>
-						<input type="number" class="fieldnumber" id="tiempoviaje" value="2" name="pregunta-9.3">
+						<input type="number" class="fieldnumber" id="tiempoviaje" name="pregunta-9.3" required>
 
 					</div>
 					<div class="field3">
 						<label>Tarifa [$]:</label>
-						<input type="number" class="fieldnumber tarifa" name="ta" id="tarifa" value="2"
-							name="pregunta-9.4">
+						<input type="number" class="fieldnumber tarifa" name="ta" id="tarifa" name="pregunta-9.4"
+							required>
 
 					</div>
 					<div class="field3">
-						<label>Trasbordo [-]:</label>
-						<input type="number" class="fieldnumber transbordo" id="transbordo" value="2"
-							name="pregunta-9.5">
+						<label id="trans">Trasbordo [-]:</label>
+						<input type="number" class="fieldnumber transbordo" id="transbordo" name="pregunta-9.5"
+							required>
 
 					</div>
 					<div class="field3">
-						<label>¿Hay asiento?</label>
+						<label id="asin">¿Hay asiento?</label>
 						<select class="fieldnumber disponibilidad" id="asiento" name="pregunta-9.6">
 							<option value="1">Hay disponibilidad</option>
 							<option value="0" selected>No</option>
 						</select>
 
+						<div class="texto">
+							<p>
+								A continuación, se le mostrarán 8 <strong> situaciones hipotéticas de elección de ruta
+									de transporte público para un viaje de ida al trabajo/estudio en punta mañana.
+								</strong>
+								Cabe destacar
+								que tiene <strong> 3 rutas disponibles </strong> que se diferencian los atributos
+								señalados anteriormente. </p>
+						</div>
 					</div>
+
+
 					<button type="button" class="btn-nex next-4" name="btnNext">Siguiente</button>
 				</div>
 
 				<div class="page interview-random">
 					<!--Cambio-->
 					<div class="progress">
-						<div class="valor">Pregunta <span id="index">1</span>/8</div>
+						<div class="valor">
+							<p>Pregunta <span id="index">1</span>/8</p>
+						</div>
+					</div>
+					<div class="pregunta">
+						<span class="salto">¿Cuál de estas 3 ruta de transporte público</span>
+						<span class="salto">elegiría <strong> para viajar al trabajo/estudio en punta
+								mañanas?</strong></span><br>
+
+						<span class="salto"> Para ver los atributos de cada ruta marque "ver"</span>
+						<strong> <span class="salto"> las veces que estime conveniente.</span></strong>
+						<span class="salto">Cuando este seguro, indique su ruta elegida.</span>
 					</div>
 					<div class="prueba">
-				
+
 						<div class="rutaA">
 							<span>Ruta A</span>
 							<span>Ruta B</span>
@@ -280,21 +312,32 @@
 							</div>
 							<!--Cambio-->
 							<div class="alternative">
-								<input type="button" class="btn-option btn-click" value="A" name="pregunta-10.1" id="btnA">
-								<input type="button" class="btn-option btn-click" value="B" name="pregunta-10.1" id="btnB">
-								<input type="button" class="btn-option btn-click optional" value="C" name="pregunta-10.1" id="btnC">
+								<label for="">¿Que ALTERNATIVA elige?</label>
+
+								<input type="button" class="btn-option btn-click" value="A" name="pregunta-10.1"
+									id="btnA">
+								<input type="button" class="btn-option btn-click" value="B" name="pregunta-10.1"
+									id="btnB">
+								<input type="button" class="btn-option btn-click optional" value="C"
+									name="pregunta-10.1" id="btnC">
 							</div>
 							<button type="button" type="button" class="btn-next-screen">Siguiente</button>
 						</div>
-						<button type="button" class="btn-next4 next-4 hide">Siguiente</button>
+						<button type="button" class="btn-next4 next-5 hide">Siguiente</button>
 					</div>
 				</div>
 				<div class="page">
-					<label for="Correo" Correo></label>
-					<input type="email" name="pregunta-11" id="email" value="test@gmail.com">
+					<div class="fie20 field" id="fie20">
+						<p id="giftcard">Por haber respondido esta encuesta,
+							ingrese su correo electrónico para participar
+							por una giftcard de $20.000 en tiendas Cencosud </p>
+						<label for="Correo" Correo></label>
+						<input type="email" name="pregunta-11" id="email" required>
+					</div>
 				</div>
 
-				<input type="submit">
+				<input type="submit" class="btn-next4 btnnex40" value="Terminar encuesta" id="btnnex4">
+
 
 			</form>
 

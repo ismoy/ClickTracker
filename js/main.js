@@ -1,5 +1,5 @@
+//traer los botones que estan en view.js
 import interviews from "./view.js"
-
 
 localStorage.setItem("tracker", JSON.stringify([]))
 const view = document.querySelector(".interview-content");
@@ -18,11 +18,13 @@ let screenCount = 0;
 let tiempoCaminata, tiempoespera, tiempoviaje, tarifa, transbordo, asiento;
 
 
+//cargar las encuestas ramdom cada vez se recarga la pagina
 window.addEventListener("load", () => {
     const random = Math.floor(Math.random() * interviews.length);
     interview = interviews[random];
     view.innerHTML = interview.content;
     optionalElement(interview.interview)
+    console.log("Te has tocado la encuesta ", interview.interview);
 });
 
 function optionalElement(interview) {
@@ -71,8 +73,9 @@ divRandom.addEventListener("click", (evt) => {
     let { target } = evt;
     let btnCliks = document.querySelectorAll(".btn-click");
     let btnOptions = document.querySelectorAll(".btn-option");
-    console.log(clickCount);
+    
     if (clickCount > 0) {
+
         btnNextQuestion.disabled = false;
 
         if (target.className == "btn-next-screen") {
@@ -80,9 +83,7 @@ divRandom.addEventListener("click", (evt) => {
                 let { buttons } = interview.screens[screenCount];
                 loadDataInterview(buttons)
                 ++count;
-
                 steppregunta.textContent = count;
-
                 btnOptions.forEach(btn => {
                     btn.disabled = false;
                     btn.name = "pregunta-10.".concat(count)
@@ -91,7 +92,7 @@ divRandom.addEventListener("click", (evt) => {
             }
             if (count == 8) {
                 target.style.display = "none";
-                let btnNext = document.querySelector(".btn-next4.next-4");
+                let btnNext = document.querySelector(".btn-next4.next-5");
                 btnNext.classList.remove("hide");
             }
             clickCount = 0;
@@ -101,30 +102,32 @@ divRandom.addEventListener("click", (evt) => {
 
         if (target.classList.contains("btn-option")) {
             mp.push({ question: target.name, answer: target.value });
-
             btnCliks.forEach(x => x.disabled = true);
-
         }
 
     }
 })
 
-//cambio
+//cambio-v2
 divRandom.addEventListener("focusin", (e) => {
 
     let target = e.target;
     let { type } = target;
+    //#region modificación
     switch (type) {
         case "button":
 
-            if (/[btn]\d{1,2}/.test(target.name)) {
+            if (target.classList.contains("btn-track")) {
                 clickCount++;
-                console.log(/[btn]\d{1,2}/.test(target.name), target.name, clickCount);
                 target.value = target.getAttribute("data-value");
                 tracker(target)
             }
+            if (target.classList.contains("btn-click")) {
+                clickCount++;
+            }
             return;
     }
+    //#endregion modificación
 });
 
 divRandom.addEventListener("focusout", (e) => {
@@ -132,7 +135,7 @@ divRandom.addEventListener("focusout", (e) => {
     let { type } = target;
     switch (type) {
         case "button":
-            if (/[btn]\d{1,2}/.test(target.name)) {
+            if (target.classList.contains("btn-track")) {
                 target.value = "ver";
             }
             return;
@@ -153,18 +156,29 @@ function loadDataInterview(buttons) {
         else {
             value = generalInterview(button.row, button.value, asiento)
         }
-        document.querySelector(`input[name=${button.button}]`).setAttribute("data-value", value);
+        //#region modificación
+        if (interview.interview != "click-tracker-24-V2") {
+            document.querySelector(`input[name=${button.button}]`).setAttribute("data-value", value);
+        }
+        else {
+            document.querySelector(`input[name=${button.button}]`).setAttribute("value", value);
+        }
+        //#endregion modificación
+
+
     })
+
 }
 
 function generalInterview(row, value, asiento) {
+    //#region modificacion
     switch (row) {
         case 1:
-            return tiempoCaminata * value;
+            return Math.round(tiempoCaminata * value);
         case 2:
-            return tiempoespera * value;
+            return Math.round(tiempoespera * value);
         case 3:
-            return tiempoviaje * value;
+            return Math.round(tiempoviaje * value);
         case 4:
         case 5:
             return value;
@@ -172,27 +186,33 @@ function generalInterview(row, value, asiento) {
             return asiento;
 
     }
+    //#endregion modificacion
 }
 function interview33_23(row, value) {
+    //#region  correcion al aplicar math round
     switch (row) {
         case 1:
-            return value = (tiempoCaminata + tiempoespera) * value;
+
+            return Math.round((tiempoCaminata + tiempoespera) * value);
         case 2:
-            return tiempoviaje * value;
+            return Math.round(tiempoviaje * value);
         case 3:
             return value;
     }
+    //#endregion  correcion al aplicar math round
 }
 
 function interview32_22(row, value) {
+    //#region modificación
     switch (row) {
         case 1:
-            return (tiempoCaminata + tiempoespera + tiempoviaje) * value;
+            return Math.round((tiempoCaminata + tiempoespera + tiempoviaje) * value);
         case 2:
             return value;
     }
+    //#endregion modificación
 }
-//cambio
+//parte der servidor para guardar hay que cambiar la ruta del servidor 
 function save(evt) {
     evt.preventDefault();
     let form = Object.fromEntries(new FormData(document.forms[0]))
@@ -204,7 +224,7 @@ function save(evt) {
         obj.questions.push({ question: key[0], answer: key[1] })
     }
     obj.tracks = JSON.parse(localStorage.getItem("tracker"))
-
+    //CAMBIA SOLO EL URL DEL SERVIDOR PONE NOMBRE DE SUS SERVIDOR
     fetch("http://localhost/clicktracker/server/server.php", {
         method: "POST",
         headers: {
@@ -214,8 +234,9 @@ function save(evt) {
     })
         .then(r => r.json())
         .then(d => {
+            console.log(d);
             alert("Gracias por contestar !!");
-            location.reload(); 
+            location.reload();
         })
 
 }
