@@ -16,7 +16,7 @@ $pwd = "1234";
 $queryInterview = "Insert into tb_interview(interviewId, name,email) values(?,?,?)";
 
 $queryQuestion = "Insert into tb_question(question,answer,interviewId) values(?,?,?)";
-$queryTrack = "Insert into tb_tracker(button,value,screen,interviewId) values(?,?,?,?)";
+$queryTrack = "Insert into tb_tracker(button,value,screen,interviewId,time) values(?,?,?,?,?)";
 
 
 $contentType = isset($_SERVER["CONTENT_TYPE"]) ? trim($_SERVER["CONTENT_TYPE"]) : '';
@@ -39,11 +39,11 @@ if ($contentType === "application/json") {
             $smtp->execute([$key["question"], $key["answer"], $id]);
         }
         $smtp = null;
-       /** cmabio */
+        /** cmabio */
         if (!empty($decoded["tracks"])) {
             foreach ($decoded["tracks"] as $key) {
                 $smtp = $db->prepare($queryTrack);
-                $smtp->execute([$key["name"], $key["value"], $key["screen"], $id]);
+                $smtp->execute([$key["name"], $key["value"], $key["screen"], $id, $key["time"]]);
             }
             $smtp = null;
         }
