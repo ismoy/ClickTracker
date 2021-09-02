@@ -1712,33 +1712,33 @@ const interviews = [
     {
         interview: "click-tracker-24-V2"
         , content: `
-        <div class="form-group" id="tracker241">
+        <div class="form-group" id="tracker241V2">
             <label for="">Tpo. caminata[min]:</label>
-            <div class="grupolabel">
+            <div class="grupolabel grupolabelV2">
                 <input type="button" class="btn-click"   name="btn1"  data-value="" value="">
                 <input type="button" class="btn-click"   name="btn5" data-value="" value="">
                 <input type="button" class="btn-click"   name="btn9"  data-value="" value="">
             </div>
         </div>
-        <div class="form-group" id="tracker242">
+        <div class="form-group" id="tracker242V2">
             <label for="">Tiempo de espera [min]:</label>            
-            <div class="grupolabel">
+            <div class="grupolabel grupolabelV2">
                 <input type="button" class="btn-click"   name="btn2"  data-value="" value="">
                 <input type="button" class="btn-click"   name="btn6" data-value="" value="">
                 <input type="button" class="btn-click"   name="btn10" data-value="" value="">
             </div>
         </div>
-        <div class="form-group" id="tracker243">    
+        <div class="form-group" id="tracker243V2">    
             <label for="">Tpo. de viaje [min]:</label>
-            <div class="grupolabel">
+            <div class="grupolabel grupolabelV2">
                 <input type="button" class="btn-click"   name="btn3"  data-value="" value="">
                 <input type="button" class="btn-click"   name="btn7" data-value="" value="">
                 <input type="button" class="btn-click"   name="btn11" data-value="" value="">
             </div>
         </div>
-        <div class="form-group" id="tracker244">
+        <div class="form-group" id="tracker244V2">
             <label for="">Costo[pesos]:</label>
-            <div class="grupolabel" > 
+            <div class="grupolabel grupolabelV2" > 
                 <input type="button" class="btn-click"   name="btn4"  data-value="" value="">
                 <input type="button" class="btn-click"   name="btn8" data-value="" value="">
                 <input type="button" class="btn-click"   name="btn12" data-value="" value="">

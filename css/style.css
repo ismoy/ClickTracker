@@ -1087,6 +1087,36 @@ input[type="checkbox"] {
 .interview-content #tracker355 {
   margin-left: 37px;
 }
+
+.interview-content #tracker241V2{
+  margin-left: 37px;
+}
+.interview-content #tracker242V2 {
+  margin-left: 5px;
+  padding: 2px;
+}
+.interview-content #tracker243V2 {
+  margin-left: 40px;
+}
+.interview-content #tracker244V2 {
+  margin-left: 76px;
+}
+.alternativeV2 {
+  margin-left: 2%;
+}
+.grupolabelV2 input {
+  padding: 9px;
+  margin-right: 17px;
+  margin-top: 20px;
+  width: 48px;
+}
+.interview-contentV2{
+  margin-left: 0%;
+}
+.prueba .rutaAV2 {
+  margin-left: 71px;
+}
+
 .hide{
     display: none;
 }
