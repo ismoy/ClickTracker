@@ -11,6 +11,7 @@ btnNextQuestion.disabled = true;
 //
 
 let interview;
+let start = Date.now();
 let mp = [];
 let count = 1;
 let clickCount = 0;
@@ -40,7 +41,8 @@ function optionalElement(interview) {
 
 function tracker({ name, value }) {
     let data = getLocalStorage();
-    data.push({ name, value, screen: `${interview.screens[screenCount].screen}` });
+    let end = Date.now();
+    data.push({ name, value, screen: `${interview.screens[screenCount].screen}`, time: (end - start) / 1000 });
     saveData(data)
 }
 
@@ -73,7 +75,7 @@ divRandom.addEventListener("click", (evt) => {
     let { target } = evt;
     let btnCliks = document.querySelectorAll(".btn-click");
     let btnOptions = document.querySelectorAll(".btn-option");
-    
+
     if (clickCount > 0) {
 
         btnNextQuestion.disabled = false;
@@ -122,7 +124,7 @@ divRandom.addEventListener("focusin", (e) => {
                 target.value = target.getAttribute("data-value");
                 tracker(target)
             }
-            if (target.classList.contains("btn-click")) {
+            if (target.classList.contains("btn-not-track")) {
                 clickCount++;
             }
             return;
@@ -234,7 +236,6 @@ function save(evt) {
     })
         .then(r => r.json())
         .then(d => {
-            console.log(d);
             alert("Gracias por contestar !!");
             location.reload();
         })
