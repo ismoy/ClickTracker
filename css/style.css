@@ -494,10 +494,26 @@ form .page .field select {
 
 .form-outer form .page .field3 #tarifa {
   margin-left: 2%;
+  margin-top: -27px;
+}
+
+#tarif{
+  margin-top: -26px;
+}
+#trans{
+  margin-top: -32px;
+}
+#transbordo{
+  margin-top: -33px;
+  margin-left: 10px;
+}
+#asin{
+  margin-top: -32px;
 }
 
 .form-outer form .page .field3 #asiento {
   margin-left: 1%;
+  margin-top: -34px
 }
 
 .btn-next3 {
@@ -514,6 +530,7 @@ form .page .field select {
   margin-left: -69%;
 }
 
+
 .btn-next-screen {
   border: none;
   padding: 15px 35px;
@@ -522,9 +539,9 @@ form .page .field select {
   border-radius: 27px;
   margin: 15px;
   transition: 0.4s all;
-  margin-top: 10px;
+  margin-top: 17px;
   width: 4%;
-  margin-left: 3%;
+  margin-left: 2%;
 }
 
 .btn-next-screen:hover {
@@ -534,11 +551,11 @@ form .page .field select {
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
   }
 
-  .form-outer form .page .field3 {
+  .form-outer form .page .field3  {
     height: 25px;
     width: 43%;
     margin: 45px 0;
-    top: -39%;
+    top: -29%;
     left: -64%;
     position: relative;
     display: flex;
@@ -900,7 +917,7 @@ input[type="checkbox"] {
   border-radius: 27px;
   margin: 15px;
   transition: 0.4s all;
-  margin-top: 0%;
+  margin-top: 10px;
   width: 3%;
   margin-left: 2%;
 }
@@ -1128,6 +1145,51 @@ input[type="checkbox"] {
 
 .hide{
     display: none;
+}
+#tack25dis{
+  margin-left: 118px;
+}
+#fd3{
+    height: 25px;
+    width: 43%;
+    margin: 45px 0;
+    top: -36%;
+    left: -64%;
+    position: relative;
+    display: flex;
+}
+#labelalter{
+  position: fixed;
+  margin-top: 11px;
+  font-weight: 500;
+  margin-left: -4%;
+
+}
+.tack33dis{
+  margin-left: 71px;
+}
+.label33{
+  margin-top: 20px;
+  margin-left: 124px;
+}
+
+#track34{
+  margin-left: 170px;
+}
+.prueba .rutaAV3 {
+  margin-left: 124px;
+}
+.form-outer form .page .fd4{
+  margin-top: -1%;
+}
+.form-outer form .page .fieldko{
+  height: 25px;
+  width: 43%;
+  margin: 45px 0;
+  top: -28%;
+  left: -64%;
+  position: relative;
+  display: flex;
 }
 
 /*FIN CSS PARA LOS BOTONES EN CADA ENCUESTA DONDE ESTA LOS BOTONES PARA DAR CLICK EN VER*/
@@ -1510,18 +1572,7 @@ form .page .field .select-custom {
 .interview-random{
     width: 24%;
 }
-.btn-next-screen {
-    border: none;
-    padding: 15px 35px;
-    background-color: red;
-    color: #fff;
-    border-radius: 27px;
-    margin: 15px;
-    transition: 0.4s all;
-    margin-top: 15px;
-    width: 7%;
-    margin-left: -1%;
-}
+
 
 .btn-next4 {
     border: none;

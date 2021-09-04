@@ -24,7 +24,7 @@ window.addEventListener("load", () => {
     const random = Math.floor(Math.random() * interviews.length);
     interview = interviews[random];
     view.innerHTML = interview.content;
-    optionalElement(interview.interview)
+    optionalElement(interview.interview);
     console.log("Te has tocado la encuesta ", interview.interview);
 });
 
