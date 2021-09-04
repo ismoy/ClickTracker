@@ -239,48 +239,47 @@
 					<div class="field2">
 						<label>Tiempo de caminata [min]:</label>
 						<input type="number" class="fieldnumber" id="tiempocaminata" name="pregunta-9.1" required>
-
+						<div>
+							<label>Tarifa [$]:</label>
+							<input type="number" class="fieldnumber tarifa" name="ta" id="tarifa" name="pregunta-9.4"
+								required>
+	
+						</div>
 					</div>
 					<div class="field2">
 						<label>Tiempo de espera [min]:</label>
 						<input type="number" class="fieldnumber" id="tiempoespera" name="pregunta-9.2" required>
 
+						<div>
+							<label id="trans">Trasbordo [-]:</label>
+							<input type="number" class="fieldnumber transbordo" id="transbordo" name="pregunta-9.5"
+								required>
+	
+						</div>
 					</div>
 					<div class="field2">
 						<label>Tiempo de viaje [min]:</label>
 						<input type="number" class="fieldnumber" id="tiempoviaje" name="pregunta-9.3" required>
 
-					</div>
-					<div class="field3" >
-						<label id="tarif">Tarifa [$]:</label>
-						<input type="number" class="fieldnumber tarifa" name="ta" id="tarifa" name="pregunta-9.4"
-							required>
-
-					</div>
-					<div class="field3" >
-						<label id="trans">Trasbordo [-]:</label>
-						<input type="number" class="fieldnumber transbordo" id="transbordo" name="pregunta-9.5"
-							required>
-
-					</div>
-					<div class="field3">
-						<label id="asin">¿Hay asiento?</label>
-						<select class="fieldnumber disponibilidad" id="asiento" name="pregunta-9.6">
-							<option value="1">Hay disponibilidad</option>
-							<option value="0" selected>No</option>
-						</select>
-
-						<div class="texto">
-							<p>
-								A continuación, se le mostrarán 8 <strong> situaciones hipotéticas de elección de ruta
-									de transporte público para un viaje de ida al trabajo/estudio en punta mañana.
-								</strong>
-								Cabe destacar
-								que tiene <strong> 3 rutas disponibles </strong> que se diferencian los atributos
-								señalados anteriormente. </p>
+						<div>
+							<label>¿Hay asiento?</label>
+							<select class="fieldnumber disponibilidad" id="asiento" name="pregunta-9.6">
+								<option value="1">Hay disponibilidad</option>
+								<option value="0" selected>No</option>
+							</select>
 						</div>
 					</div>
-
+					
+					<div class="texto">
+						<p>
+							A continuación, se le mostrarán 8 <strong> situaciones hipotéticas de elección de ruta
+								de transporte público para un viaje de ida al trabajo/estudio en punta mañana.
+							</strong>
+							Cabe destacar
+							que tiene <strong> 3 rutas disponibles </strong> que se diferencian los atributos
+							señalados anteriormente. </p>
+					</div>
+				
 
 					<button type="button" class="btn-nex next-4" name="btnNext">Siguiente</button>
 				</div>
@@ -304,7 +303,7 @@
 					<div class="prueba">
 
 						<div class="rutaA rutaAV2 rutaAV3" id="track34">
-							<span>Ruta A</span>
+							<span class="trak24">Ruta A</span>
 							<span>Ruta B</span>
 							<span class="optional">Ruta C</span>
 						</div>

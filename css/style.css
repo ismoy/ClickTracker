@@ -348,7 +348,7 @@ form .page .field select {
   border-radius: 27px;
   margin: 15px;
   transition: 0.4s all;
-  margin-top: -91px;
+  margin-top: 24px;
   width: 4%;
   margin-left: -67%;
 }
@@ -469,11 +469,11 @@ form .page .field select {
 }
 .form-outer form .page .field2 {
   height: 25px;
-  width: 378px;
+  width: 450px;
   margin: 45px 0;
   position: relative;
   display: flex;
-  margin-left: -73%;
+  margin-left: -71%;
 }
 
 .form-outer form .page .field2 .fieldnumber {
@@ -772,9 +772,9 @@ h1 {
   height: auto;
 }
 .texto {
-  margin-left: -41%;
-  margin-top: 59px;
-  width: 825px;
+  margin-left: -75%;
+  margin-top: 44px;
+  width: 827px;
 }
 
 #giftcard {
@@ -1021,8 +1021,11 @@ input[type="checkbox"] {
   margin-left: 34px;
 }
 
+.interview-content #tracker321 {
+  margin-left: -100px;
+}
 .interview-content #tracker322 {
-  margin-left: 66px;
+  margin-left: -29px;
 }
 
 .interview-content #traker252 {
@@ -1045,12 +1048,15 @@ input[type="checkbox"] {
   margin-left: -1px;
 }
 
+.interview-content #tracker231 {
+  margin-left: -86px;
+}
 .interview-content #tracker232 {
-  margin-left: 91px;
+  margin-left: 4px;
 }
 
 .interview-content #tracker233 {
-  margin-left: 121px;
+  margin-left: 37px;
 }
 
 .interview-content #tracker362 {
@@ -1073,12 +1079,18 @@ input[type="checkbox"] {
   margin-left: -2px;
 }
 
+.interview-content #track341 {
+  margin-left: -73px;
+}
 .interview-content #track342 {
-  margin-left: -12px;
+  margin-left: -83px;
+}
+.interview-content #track343 {
+  margin-left: -67px;
 }
 
 .interview-content #track344 {
-  margin-left: 35px;
+  margin-left: -30px;
 }
 
 .interview-content #traker222 {
@@ -1093,16 +1105,23 @@ input[type="checkbox"] {
   margin-left: 36px;
 }
 
-.interview-content #tracker352 {
-  margin-left: -12px;
+.interview-content #tracker351 {
+  margin-left: -77px;
 }
 
+.interview-content #tracker352 {
+  margin-left: -82px;
+}
+
+.interview-content #tracker353 {
+  margin-left: -68px;
+}
 .interview-content #tracker354 {
-  margin-left: 36px;
+  margin-left: -26px;
 }
 
 .interview-content #tracker355 {
-  margin-left: 37px;
+  margin-left: -22px;
 }
 
 .interview-content #tracker241V2{
@@ -1187,6 +1206,28 @@ input[type="checkbox"] {
   width: 43%;
   margin: 45px 0;
   top: -28%;
+  left: -64%;
+  position: relative;
+  display: flex;
+}
+.trak24{
+  margin-left: -87px;
+}
+.form-outer form .page .field24 {
+  height: 25px;
+  width: 43%;
+  margin: 45px 0;
+  top: -34%;
+  left: -64%;
+  position: relative;
+  display: flex;
+}
+
+.form-outer form .page #fiel24 {
+  height: 25px;
+  width: 43%;
+  margin: 45px 0;
+  top: -27%;
   left: -64%;
   position: relative;
   display: flex;

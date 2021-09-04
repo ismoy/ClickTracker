@@ -802,7 +802,7 @@ const interviews = [
     {
         interview: "click-tracker-32"
         , content: `
-        <div class="form-group">
+        <div class="form-group" id="tracker321">
             <label for="">Tpo. total de viaje[min]:</label>
             <div class="grupolabel">
                 <input type="button" class="btn-click btn-track"   name="btn1"  data-value="" value="Ver">
@@ -1287,7 +1287,7 @@ const interviews = [
             <div class="grupolabel">
                 <input type="button" class="btn-click btn-track"   name="btn1"  data-value="" value="Ver">
                 <input type="button" class="btn-click btn-track"   name="btn5" data-value="" value="Ver">
-                <input type="button" class="btn-click btn-track"   name="btn8"  data-value="" value="Ver">
+    
             </div>
         </div>
         <div class="form-group" id="tracker242">
@@ -1295,7 +1295,6 @@ const interviews = [
             <div class="grupolabel">
                 <input type="button" class="btn-click btn-track"   name="btn2"  data-value="" value="Ver">
                 <input type="button" class="btn-click btn-track"   name="btn6" data-value="" value="Ver">
-                <input type="button" class="btn-click btn-track"   name="btn9" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="tracker243">    
@@ -1303,15 +1302,13 @@ const interviews = [
             <div class="grupolabel">
                 <input type="button" class="btn-click btn-track"   name="btn3"  data-value="" value="Ver">
                 <input type="button" class="btn-click btn-track"   name="btn7" data-value="" value="Ver">
-                <input type="button" class="btn-click btn-track"   name="btn11" data-value="" value="Ver">
             </div>
         </div>
         <div class="form-group" id="tracker244">
             <label for="">Costo[pesos]:</label>
             <div class="grupolabel" > 
                 <input type="button" class="btn-click btn-track"   name="btn4"  data-value="" value="Ver">
-                <input type="button" class="btn-click btn-track"   name="btn10" data-value="" value="Ver">
-                <input type="button" class="btn-click btn-track"   name="btn12" data-value="" value="Ver">
+                <input type="button" class="btn-click btn-track"   name="btn8" data-value="" value="Ver">
             </div>
         </div>
     `, screens: [
@@ -1330,12 +1327,8 @@ const interviews = [
                     { button: "btn5", value: 0, shouldMultiply: true, row: 1 },
                     { button: "btn6", value: 1.85, shouldMultiply: true, row: 2 },
                     { button: "btn7", value: 0.5, shouldMultiply: true, row: 3 },
-                    { button: "btn8", value: 0.85, shouldMultiply: false, row: 1 },
-                    { button: "btn9", value: 1.85, shouldMultiply: false, row: 1 },
-                    { button: "btn10", value: "$" + 830, shouldMultiply: false, row: 4 },
-                    { button: "btn11", value: 2, shouldMultiply: false, row: 3 },
-                    { button: "btn12", value: "$" + 750, shouldMultiply: false, row: 4 }
-
+                    { button: "btn8", value: "$" + 830, shouldMultiply: false, row: 4 },
+                 
 
 
                 ]
@@ -1351,12 +1344,8 @@ const interviews = [
                     { button: "btn5", value: 2, shouldMultiply: true, row: 1 },
                     { button: "btn6", value: "Hay", shouldMultiply: true, row: 2 },
                     { button: "btn7", value: 1.2, shouldMultiply: true, row: 3 },
-                    { button: "btn8", value: 1.85, shouldMultiply: false, row: 4 },
-                    { button: "btn9", value: 0.85, shouldMultiply: false, row: 1 },
-                    { button: "btn10", value: "$" + 830, shouldMultiply: false, row: 2 },
-                    { button: "btn11", value: 0, shouldMultiply: false, row: 3 },
-                    { button: "btn12", value: "Hay", shouldMultiply: false, row: 4 }
-
+                    { button: "btn8", value: "$" + 830, shouldMultiply: false, row: 2 },
+                   
 
                 ]
             }, {
@@ -1370,12 +1359,8 @@ const interviews = [
                     { button: "btn5", value: 1, shouldMultiply: true, row: 1 },
                     { button: "btn6", value: "Hay", shouldMultiply: true, row: 2 },
                     { button: "btn7", value: 1.2, shouldMultiply: true, row: 3 },
-                    { button: "btn8", value: 1.2, shouldMultiply: false, row: 4 },
-                    { button: "btn9", value: 0.85, shouldMultiply: false, row: 1 },
-                    { button: "btn10", value: "$" + 750, shouldMultiply: false, row: 2 },
-                    { button: "btn11", value: 1, shouldMultiply: false, row: 3 },
-                    { button: "btn12", value: "No", shouldMultiply: false, row: 4 }
-
+                    { button: "btn8", value: "$" + 750, shouldMultiply: false, row: 2 },
+                   
 
                 ]
             }, {
@@ -1389,13 +1374,8 @@ const interviews = [
                     { button: "btn5", value: 1, shouldMultiply: true, row: 1 },
                     { button: "btn6", value: "Hay", shouldMultiply: true, row: 2 },
                     { button: "btn7", value: 1.2, shouldMultiply: true, row: 3 },
-                    { button: "btn8", value: 1.2, shouldMultiply: false, row: 4 },
-                    { button: "btn9", value: 0.85, shouldMultiply: false, row: 1 },
-                    { button: "btn10", value: "$" + 750, shouldMultiply: false, row: 2 },
-                    { button: "btn11", value: 1, shouldMultiply: false, row: 3 },
-                    { button: "btn12", value: "No", shouldMultiply: false, row: 4 }
-
-
+                    { button: "btn8", value: "$" + 750, shouldMultiply: false, row: 2 },
+                   
                 ]
             }, {
                 screen: 9,
@@ -1408,12 +1388,8 @@ const interviews = [
                     { button: "btn5", value: 2, shouldMultiply: true, row: 1 },
                     { button: "btn6", value: "No", shouldMultiply: true, row: 2 },
                     { button: "btn7", value: 0.5, shouldMultiply: true, row: 3 },
-                    { button: "btn8", value: 1.2, shouldMultiply: false, row: 4 },
-                    { button: "btn9", value: 1.85, shouldMultiply: false, row: 1 },
-                    { button: "btn10", value: "$" + 700, shouldMultiply: false, row: 2 },
-                    { button: "btn11", value: 0, shouldMultiply: false, row: 3 },
-                    { button: "btn12", value: "No", shouldMultiply: false, row: 4 }
-
+                    { button: "btn8", value: 1.85, shouldMultiply: false, row: 1 },
+                   
 
                 ]
             },
@@ -1428,12 +1404,8 @@ const interviews = [
                     { button: "btn5", value: 1, shouldMultiply: true, row: 1 },
                     { button: "btn6", value: "Hay", shouldMultiply: true, row: 2 },
                     { button: "btn7", value: 1.85, shouldMultiply: true, row: 3 },
-                    { button: "btn8", value: 0.5, shouldMultiply: false, row: 4 },
-                    { button: "btn9", value: 1.2, shouldMultiply: false, row: 1 },
-                    { button: "btn10", value: "$" + 700, shouldMultiply: false, row: 2 },
-                    { button: "btn11", value: 0, shouldMultiply: false, row: 3 },
-                    { button: "btn12", value: "Hay", shouldMultiply: false, row: 4 }
-
+                    { button: "btn8", value: "$" + 700, shouldMultiply: false, row: 2 },
+                   
                 ]
             }, {
                 screen: 11,
@@ -1447,12 +1419,8 @@ const interviews = [
                     { button: "btn5", value: 0, shouldMultiply: true, row: 1 },
                     { button: "btn6", value: "No", shouldMultiply: true, row: 2 },
                     { button: "btn7", value: 1.85, shouldMultiply: true, row: 3 },
-                    { button: "btn8", value: 0.5, shouldMultiply: false, row: 4 },
-                    { button: "btn9", value: 1.2, shouldMultiply: false, row: 1 },
-                    { button: "btn10", value: "$" + 750, shouldMultiply: false, row: 2 },
-                    { button: "btn11", value: 1, shouldMultiply: false, row: 3 },
-                    { button: "btn12", value: "No", shouldMultiply: false, row: 4 }
-
+                    { button: "btn8", value: "$" + 750, shouldMultiply: false, row: 2 },
+                  
                 ]
             }, {
                 screen: 12,
@@ -1466,12 +1434,8 @@ const interviews = [
                     { button: "btn5", value: 0, shouldMultiply: true, row: 1 },
                     { button: "btn6", value: "No", shouldMultiply: true, row: 2 },
                     { button: "btn7", value: 0.85, shouldMultiply: true, row: 3 },
-                    { button: "btn8", value: 1.85, shouldMultiply: false, row: 4 },
-                    { button: "btn9", value: 0.5, shouldMultiply: false, row: 1 },
-                    { button: "btn10", value: "$" + 700, shouldMultiply: false, row: 2 },
-                    { button: "btn11", value: 2, shouldMultiply: false, row: 3 },
-                    { button: "btn12", value: "No", shouldMultiply: false, row: 4 }
-
+                    { button: "btn8", value: "$" + 700, shouldMultiply: false, row: 2 },
+                   
                 ]
             }
         ]
@@ -1898,7 +1862,7 @@ const interviews = [
             }
         ]
     },
-    //#endregion Nueva encuesta
+    //#end region Nueva encuesta
 ];
 
 
