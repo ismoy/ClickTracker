@@ -227,7 +227,7 @@ function save(evt) {
     }
     obj.tracks = JSON.parse(localStorage.getItem("tracker"))
     //CAMBIA SOLO EL URL DEL SERVIDOR PONE NOMBRE DE SUS SERVIDOR
-    fetch("http://localhost/clicktracker/server/server.php", {
+    fetch("http://200.9.100.91/clicktracker/server/server.php", {
         method: "POST",
         headers: {
             "content-type": "application/json"
