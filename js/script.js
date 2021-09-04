@@ -34,6 +34,7 @@ const nextBtnThird = document.querySelector(".next-2");
 const nextBtnFourth = document.querySelector(".next-3");
 const nextBtnFive = document.querySelector(".next-4");
 const nextBtnSix = document.querySelector(".next-5");
+const btnterminarencuesta = document.querySelector(".btnnex40");
 
 //capturar los valores de cada campos en lagina para validarlos
 const genero = document.getElementById('genero');
@@ -51,6 +52,7 @@ const tiempoviaje = document.getElementById('tiempoviaje');
 const tarifa = document.getElementById('tarifa');
 const transbordo = document.getElementById('transbordo');
 const asiento = document.getElementById('asiento');
+const terminarencuesta = document.getElementById('email');
 
 //determinar el maximo pagina que va a mostrar en mi caso es 6 
 let max = 7;
@@ -148,7 +150,7 @@ nextBtnFive.addEventListener("click", function(){
     if (valortiempocaminataValue === '' || valortiempoespera === '' || valortiempoviaje === '' ||
     valortarifa === '' || valortransbordo === '' || valorasiento === ''){
         
-        alert("Los campos no deben estar vacios");
+      //  alert("Los campos no deben estar vacios");
    
     }else{
         setSuccessFor(tiempocaminata);
@@ -164,9 +166,17 @@ nextBtnSix.addEventListener("click", function(){
         current +=1;
 });
 
-
-
-
-
-
-
+btnterminarencuesta.addEventListener("click", function(){
+    const valorterminarencuesta = terminarencuesta.value.trim();
+    if(valorterminarencuesta === ''){
+        Swal.fire('Por favor ingrese un correo electrónico ');
+    }else{
+    Swal.fire({
+        position: 'center',
+        icon: 'success',
+        title: 'Muchas gracias por tomarse el tiempo para completar la encuesta!',
+        showConfirmButton: false,
+        timer: 4000
+      })
+    }
+})
