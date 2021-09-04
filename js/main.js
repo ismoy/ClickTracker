@@ -99,11 +99,8 @@ divRandom.addEventListener("click", (evt) => {
             }
             clickCount = 0;
             btnNextQuestion.disabled = true;
-            alternative.setAttribute("data-choose", "false");
-            
+            alternative.setAttribute("data-choose", "false"); 
         }
-
-
         if (target.classList.contains("btn-option")) {
             alternative.setAttribute("data-choose", "true");
             mp.push({ question: target.name, answer: target.value });
