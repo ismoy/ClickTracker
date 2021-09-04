@@ -30,7 +30,7 @@ window.addEventListener("load", () => {
 
 function optionalElement(interview) {
     let elements = document.querySelectorAll(".optional");
-    let optionals = ["click-tracker-22", "click-tracker-23", "click-tracker-24", "click-tracker-25", "click-tracker-26"]
+    let optionals = ["click-tracker-22", "click-tracker-23", "click-tracker-24", "click-tracker-25", "click-tracker-26","click-tracker-26-V2"]
     elements.forEach(element => {
         if (optionals.includes(interview)) {
             element.style.display = "none";
@@ -79,8 +79,8 @@ divRandom.addEventListener("click", (evt) => {
     if (clickCount > 0) {
 
         btnNextQuestion.disabled = false;
-
-        if (target.className == "btn-next-screen") {
+        let { className } = target, alternative = document.querySelector(".alternative"), choose = alternative.getAttribute("data-choose");
+        if (className == "btn-next-screen" && choose == "true") {
             if (++screenCount <= 7) {
                 let { buttons } = interview.screens[screenCount];
                 loadDataInterview(buttons)
@@ -99,10 +99,10 @@ divRandom.addEventListener("click", (evt) => {
             }
             clickCount = 0;
             btnNextQuestion.disabled = true;
+            alternative.setAttribute("data-choose", "false"); 
         }
-
-
         if (target.classList.contains("btn-option")) {
+            alternative.setAttribute("data-choose", "true");
             mp.push({ question: target.name, answer: target.value });
             btnCliks.forEach(x => x.disabled = true);
         }
