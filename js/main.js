@@ -100,7 +100,7 @@ divRandom.addEventListener("click", (evt) => {
             clickCount = 0;
             btnNextQuestion.disabled = true;
             alternative.setAttribute("data-choose", "false");
-            console.log(mp);
+            
         }
 
 
