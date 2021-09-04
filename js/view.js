@@ -9,7 +9,7 @@ const interviews = [
         interview: "click-tracker-36",
         content: `
         <div class="form-group" id="tracker361">
-            <label for="">Tpo. de  [min]:</label>
+            <label for="">Tpo. de <span class="salto">caminata [min]: </span></label>
             <div class="grupolabel">
                 <input type="button" class="btn-click btn-track"   name="btn1"  data-value="" value="Ver">
                 <input type="button" class="btn-click btn-track"   name="btn7" data-value="" value="Ver">
@@ -17,7 +17,7 @@ const interviews = [
             </div>
         </div>
         <div class="form-group" id="tracker362">
-            <label for="">Tpo. de espera [min]:</label>            
+            <label for="">Tpo. de <span class="salto">espera [min]:</span></label>            
             <div class="grupolabel">
                 <input type="button" class="btn-click btn-track"   name="btn2"  data-value="" value="Ver">
                 <input type="button" class="btn-click btn-track"   name="btn8"  data-value="" value="Ver">
@@ -25,7 +25,7 @@ const interviews = [
             </div>
         </div>
         <div class="form-group" id="tracker363">    
-            <label for="">Tpo. de viaje [min]:</label>
+            <label for="">Tpo. <span class="salto">de viaje [min]:</span></label>
             <div class="grupolabel">
                 <input type="button" class="btn-click btn-track"   name="btn3"  data-value="" value="Ver">
                 <input type="button" class="btn-click btn-track"   name="btn9"  data-value="" value="Ver">
@@ -255,7 +255,7 @@ const interviews = [
         interview: "Click-tracker-35"
         , content: `
         <div class="form-group" id="tracker351">
-            <label for="">Tpo. caminata[min]:</label>
+            <label for="">Tpo. de <span class="salto">caminata[min]:</span></label>
             <div class="grupolabel">
                 <input type="button" class="btn-click btn-track"   name="btn1"  data-value="" value="Ver">
                 <input type="button" class="btn-click btn-track"   name="btn6" data-value="" value="Ver">
@@ -263,7 +263,7 @@ const interviews = [
             </div>
         </div>
         <div class="form-group" id="tracker352">
-            <label for="">Tpo. de espera [min]:</label>            
+            <label for="">Tpo. de <span class="salto">espera [min]:</span></label>            
             <div class="grupolabel">
                 <input type="button" class="btn-click btn-track"   name="btn2"  data-value="" value="Ver">
                 <input type="button" class="btn-click btn-track"   name="btn7"  data-value="" value="Ver">
@@ -271,7 +271,7 @@ const interviews = [
             </div>
         </div>
         <div class="form-group" id="tracker353">    
-            <label for="">Tpo. de viaje [min]:</label>
+            <label for="">Tpo. de viaje<span class="salto"> [min]:</span></label>
             <div class="grupolabel">
                 <input type="button" class="btn-click btn-track"   name="btn3"  data-value="" value="Ver">
                 <input type="button" class="btn-click btn-track"   name="btn8"  data-value="" value="Ver">
@@ -466,7 +466,7 @@ const interviews = [
         interview: "click-tracker-34"
         , content: `
         <div class="form-group" id="track341">
-            <label for="">Tpo. caminata[min]:</label>
+            <label for="">Tpo.caminata<span class="salto">[min]:</span></label>
             <div class="grupolabel">
                 <input type="button" class="btn-click btn-track"   name="btn1"  data-value="" value="Ver">
                 <input type="button" class="btn-click btn-track"   name="btn5" data-value="" value="Ver">
@@ -474,7 +474,7 @@ const interviews = [
             </div>
         </div>
         <div class="form-group" id="track342">
-            <label for="">Tpo. de espéra [min]:</label>            
+            <label for="">Tpo. de <span class="salto"> espéra [min]:</span></label>            
             <div class="grupolabel">
                 <input type="button" class="btn-click btn-track"   name="btn2"  data-value="" value="Ver">
                 <input type="button" class="btn-click btn-track"   name="btn6"  data-value="" value="Ver">
@@ -482,7 +482,7 @@ const interviews = [
             </div>
         </div>
         <div class="form-group" id="track343">    
-            <label for="">Tpo. de viaje [min]:</label>
+            <label for="">Tpo. de viaje<span class="salto"> [min]:</span></label>
             <div class="grupolabel">
                 <input type="button" class="btn-click btn-track"   name="btn3"  data-value="" value="Ver">
                 <input type="button" class="btn-click btn-track"   name="btn7"  data-value="" value="Ver">
@@ -648,7 +648,7 @@ const interviews = [
         interview: "click-tracker-33"
         , content: `
         <div class="form-group" id="tacker33-1">
-            <label for="">Tpo. caminata y de espera[min]:</label>
+            <label for="">Tpo. caminata y<span class="salto"> de  espera[min]:</span></label>
             <div class="grupolabel">
                 <input type="button" class="btn-click btn-track"   name="btn1" data-value="" value="Ver">
                 <input type="button" class="btn-click btn-track"   name="btn4" data-value="" value="Ver">
@@ -656,7 +656,7 @@ const interviews = [
             </div>
         </div>
         <div class="form-group" id="tacker33-2">
-            <label for="">Tpo. de viaje [min]:</label>            
+            <label for="">Tpo. de viaje <span class="salto">[min]:</span></label>            
             <div class="grupolabel">
                 <input type="button" class="btn-click btn-track"   name="btn2"  data-value="" value="Ver">
                 <input type="button" class="btn-click btn-track"   name="btn5"  data-value="" value="Ver">
@@ -803,7 +803,7 @@ const interviews = [
         interview: "click-tracker-32"
         , content: `
         <div class="form-group" id="tracker321">
-            <label for="">Tpo. total de viaje[min]:</label>
+            <label for="">Tpo. total de <span class="salto"> viaje[min]:</span></label>
             <div class="grupolabel">
                 <input type="button" class="btn-click btn-track"   name="btn1"  data-value="" value="Ver">
                 <input type="button" class="btn-click btn-track"   name="btn3" data-value="" value="Ver">
@@ -1445,7 +1445,7 @@ const interviews = [
         interview: "click-tracker-23"
         , content: `
         <div class="form-group" id="tracker231">
-            <label for="">Tpo. caminata y de espera[min]:</label>
+            <label for="">Tpo. caminata y <span class="salto"> espera[min]:</span></label>
             <div class="grupolabel">
                 <input type="button" class="btn-click btn-track"   name="btn1"  data-value="" value="Ver">
                 <input type="button" class="btn-click btn-track"   name="btn4" data-value="" value="Ver">
@@ -1573,7 +1573,7 @@ const interviews = [
         interview: "click-tracker-22"
         , content: `
         <div class="form-group" id="traker221">
-            <label for="">Tpo. total de viaje[min]:</label>
+            <label for="">Tpo. total de<span class="salto"> viaje[min]:</span></label>
             <div class="grupolabel">
                 <input type="button" class="btn-click btn-track"   name="btn1"  data-value="" value="Ver">
                 <input type="button" class="btn-click btn-track"   name="btn3" data-value="" value="Ver">

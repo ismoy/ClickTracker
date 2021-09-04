@@ -1244,20 +1244,23 @@ input[type="checkbox"] {
   }
   .container {
     width: 500px;
-    height: 100%;
+    height: 100vh;
     text-align: center;
     justify-content: center;
     overflow: auto;
-  }
-
-  .logo {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    margin-left: 1in;
-    padding-left: 38px;
-    transform: scale(2);
-  }
+    margin-top: -57px;
+    overflow-x: hidden;
+}
+.logo {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-left: -36px;
+  padding-top: 20px;
+  transform: scale(2);
+  display: block;
+  margin-top: -5px;
+}
 
   .container .form-outer {
     width: 500px;
@@ -1303,6 +1306,7 @@ input[type="checkbox"] {
   align-items: center;
   margin-top: 5%;
 }
+
 form .page .field select {
     margin-left: -29%;
     width: 286px;
@@ -1331,7 +1335,7 @@ form .page .field select {
   margin: 15px;
   transition: 0.4s all;
   margin-top: 1%;
-  margin-left: -71%;
+  margin-left: -73%;
   width: 13%;
 }
 
@@ -1341,7 +1345,7 @@ form .page .field select {
   margin-left: -76%;
   width: 302px;
   align-items: center;
-  margin-top: 2%;
+  margin-top: 3%;
 }
 
 .form-outer form .page .fieldday {
@@ -1421,12 +1425,12 @@ form .page .field .select-custom {
 }
 
 .form-outer form .page #titleprimero {
-  font-size: 94%;
+  font-size: 93%;
   font-weight: 500px;
   margin-left: -75%;
   width: 315px;
   align-items: center;
-  margin-top: 2%;
+  margin-top: 5%;
 }
 
 .form-outer form .page #fieldrango {
@@ -1492,23 +1496,23 @@ form .page .field .select-custom {
   cursor: pointer;
 }
 .form-outer form .page .titledescriba {
-    font-size: 94%;
-    font-weight: 500px;
-    margin-left: -76%;
-    width: 315px;
-    align-items: center;
-    margin-top: 1%;
-    margin-bottom: 2%;
+  font-size: 94%;
+  font-weight: 500px;
+  margin-left: -76%;
+  width: 315px;
+  align-items: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-top: 3%;
 }
-
 .form-outer form .page .field2 {
-    height: 25px;
-    width: 263px;
-    margin: 45px 0;
-    position: relative;
-    display: flex;
-    margin-left: -76%;
-    margin-top: -1%;
+  height: 25px;
+  width: 288px;
+  margin: 50px 0;
+  position: relative;
+  display: flex;
+  margin-left: -76%;
+  margin-top: 0%;
 }
 
 .form-outer form .page .field3 {
@@ -1551,7 +1555,7 @@ form .page .field .select-custom {
   border-radius: 27px;
   margin: 15px;
   transition: 0.4s all;
-  margin-top: 16px;
+  margin-top: -82px;
   margin-left: -73%;
   display: block;
   width: 7%;
@@ -1581,21 +1585,12 @@ form .page .field .select-custom {
     padding: 2px;
 }
 .alternative {
-    margin-left: -1%;
+  margin-left: -5%;
+  margin-top: -10px;
 }
-
-.alternative label {
-  position: fixed;
-  margin-top: 6%;
-  font-weight: 500;
-  margin-left: -34%;
-}
-
 .btn-option {
-  padding: 10px;
-  margin-top: 43px;
+  margin-top: 52px;
   margin-right: 22px;
-
 }
 
 .grupolabel input {
@@ -1614,7 +1609,18 @@ form .page .field .select-custom {
     width: 24%;
 }
 
-
+.btn-next-screen {
+  border: none;
+  padding: 15px 35px;
+  background-color: red;
+  color: #fff;
+  border-radius: 27px;
+  margin: 15px;
+  transition: 0.4s all;
+  margin-top: 17px;
+  width: 6%;
+  margin-left: -4%;
+}
 .btn-next4 {
     border: none;
     padding: 15px 35px;
@@ -1713,14 +1719,7 @@ form .page .field .select-custom {
     margin-left: -35%;
   }
 
-  .form-outer form .page .field input {
-    height: 100%;
-    width: 80%;
-    border-radius: 5px;
-    border: 1px solid black;
-    font-size: 18px;
-    margin-left: -40%;
-  }
+  
   .btn-next1:hover {
     cursor: pointer;
     background-color: #fff;
@@ -1759,7 +1758,7 @@ form .page .field .select-custom {
     float: left;
     width: 100%;
     font-size: 94%;
-    top: 83%;
+    top: 241%;
 }
 .page .field #rentamensual {
   width: 97%;
@@ -1829,11 +1828,13 @@ form .page .field .select-custom {
   background-color: red;
   color: #fff;
   border-radius: 27px;
-  margin: 15px;
+  /* margin: 15px; */
   transition: 0.4s all;
-  margin-top: 283px;
-  width: 1%;
+  margin-top: 355px;
+  width: 153px;
   margin-left: -14%;
+  /* margin-right: -13%; */
+  /* left: -20px; */
   height: 50px;
 }
 .salto{
@@ -1850,6 +1851,165 @@ form .page .field .select-custom {
   margin-top: -15px;
   width: 100%;
 }
+#track34 {
+  margin-left: -5px;
+}
 
+.interview-content #trac261 {
+  margin-left: -262px;
+}
+
+.interview-content #trac262 {
+  margin-left: -272px;
+}
+
+.interview-content #trac263 {
+  margin-left: -258px;
+}
+
+.interview-content #trac264 {
+  margin-left: -223px;
+}
+
+.interview-content #trac265 {
+  margin-left: -239px;
+}
+
+.interview-content #trac266 {
+  margin-left: -223px;
+}
+
+.interview-content #tracker241 {
+  margin-left: -265px;
+}
+
+.interview-content #tracker242 {
+  margin-left: -292px;
+}
+
+.interview-content #tracker243 {
+  margin-left: -255px;
+}
+
+.interview-content #tracker244 {
+  margin-left: -219px;
+}
+
+.interview-content #tracker231 {
+  margin-left: -230px;
+}
+.interview-content #tracker232 {
+  margin-left: -247px;
+}
+.interview-content #tracker233 {
+  margin-left: -215px;
+}
+
+.interview-content #track341 {
+  margin-left: -266px;
+}
+.interview-content #track342 {
+  margin-left: -270px;
+}
+.interview-content #track343 {
+  margin-left: -270px;
+}
+.interview-content #track344 {
+  margin-left: -275px;
+}
+
+.interview-content #tracker361 {
+  margin-left: -291px;
+}
+.interview-content #tracker362 {
+  margin-left: -276px;
+}
+.interview-content #tracker363 {
+  margin-left: -284px;
+}
+.interview-content #tracker364 {
+  margin-left: -281px;
+}
+.interview-content #tracker365 {
+  margin-left: -293px;
+}
+.interview-content #tracker366 {
+  margin-left: -285px;
+}
+.interview-content #tracker321 {
+  margin-left: -259px;
+}
+.interview-content #tracker322 {
+  margin-left: -266px;
+}
+.interview-content #traker251 {
+  margin-left: -267px;
+}
+.interview-content #traker252 {
+  margin-left: -267px;
+}
+.interview-content #traker253 {
+  margin-left: -252px;
+}
+.interview-content #traker254 {
+  margin-left: -217px;
+}
+.interview-content #traker255 {
+  margin-left: -233px;
+}
+.interview-content #traker221 {
+  margin-left: -215px;
+}
+.interview-content #traker222 {
+  margin-left: -223px;
+}
+.interview-content #tracker351 {
+  margin-left: -281px;
+}
+.interview-content #tracker352 {
+  margin-left: -271px;
+}
+.interview-content #tracker353 {
+  margin-left: -270px;
+}
+.interview-content #tracker354 {
+  margin-left: -278px;
+}
+.interview-content #tracker355 {
+  margin-left: -275px;
+}
+.interview-content #tacker33-1 {
+  margin-left: -279px;
+}
+.interview-content #tacker33-2 {
+  margin-left: -258px;
+}
+.interview-content #tacker33-3 {
+  margin-left: -266px;
+}
+#tiempocaminata{
+  margin-top: 22px;
+}
+.form-outer form .page .field2 #tiempoespera {
+  margin-left: 5%;
+  margin-top: 21px;
+}
+.form-outer form .page .field2 #tiempoviaje {
+  margin-left: 0%;
+  margin-top: 23px;
+  margin-right: 20px;
+}
+#asiento{
+  width: 110px;
+}
+#email {
+  height: 100%;
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 18px;
+  margin-left: -25%;
+  margin-top: 34%;
+}
 }
 /*FIN MEDIA QUERY PARA LOS DISPOSITIVOS MOVILES*/
