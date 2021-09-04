@@ -30,7 +30,7 @@ window.addEventListener("load", () => {
 
 function optionalElement(interview) {
     let elements = document.querySelectorAll(".optional");
-    let optionals = ["click-tracker-22", "click-tracker-23", "click-tracker-24", "click-tracker-25", "click-tracker-26"]
+    let optionals = ["click-tracker-22", "click-tracker-23", "click-tracker-24", "click-tracker-25", "click-tracker-26","click-tracker-26-V2"]
     elements.forEach(element => {
         if (optionals.includes(interview)) {
             element.style.display = "none";
