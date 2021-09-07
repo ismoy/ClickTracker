@@ -177,6 +177,8 @@ btnterminarencuesta.addEventListener("click", function(){
         title: 'Muchas gracias por tomarse el tiempo para completar la encuesta!',
         showConfirmButton: false,
         timer: 4000
+        
       })
+      location.reload(true);
     }
 })
