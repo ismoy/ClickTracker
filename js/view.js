@@ -1679,43 +1679,43 @@ const interviews = [
         <div class="form-group" id="trac261">
             <label for="">Tpo. caminata[min]:</label>
             <div class="grupolabel">
-                <input type="button" class="btn-click btn-not-track"   name="btn1"  data-value="" value="Ver">
-                <input type="button" class="btn-click btn-not-track"   name="btn7" data-value="" value="Ver">
+                <input type="button" class="btn-click btn-not-track"   name="btn1"  data-value="" value="">
+                <input type="button" class="btn-click btn-not-track"   name="btn7" data-value="" value="">
             </div>
         </div>
         <div class="form-group" id="trac262">
             <label for="">Tpo. de espera [min]:</label>            
             <div class="grupolabel">
-                <input type="button" class="btn-click btn-not-track"   name="btn2"  data-value="" value="Ver">
-                <input type="button" class="btn-click btn-not-track"   name="btn8"  data-value="" value="Ver">
+                <input type="button" class="btn-click btn-not-track"   name="btn2"  data-value="" value="">
+                <input type="button" class="btn-click btn-not-track"   name="btn8"  data-value="" value="">
             </div>
         </div>
         <div class="form-group" id="trac263">    
             <label for="">Tpo. de viaje [min]:</label>
             <div class="grupolabel">
-                <input type="button" class="btn-click btn-not-track"   name="btn3"  data-value="" value="Ver">
-                <input type="button" class="btn-click btn-not-track"   name="btn9"  data-value="" value="Ver">
+                <input type="button" class="btn-click btn-not-track"   name="btn3"  data-value="" value="">
+                <input type="button" class="btn-click btn-not-track"   name="btn9"  data-value="" value="">
             </div>
         </div>
         <div class="form-group" id="trac264">
             <label for="">Costo[pesos]:</label>
             <div class="grupolabel" > 
-                <input type="button" class="btn-click btn-not-track"   name="btn4"  data-value="" value="Ver">
-                <input type="button" class="btn-click btn-not-track"   name="btn10" data-value="" value="Ver">
+                <input type="button" class="btn-click btn-not-track"   name="btn4"  data-value="" value="" >
+                <input type="button" class="btn-click btn-not-track"   name="btn10" data-value="" value="">
             </div>
         </div>
         <div class="form-group" id="trac265">
             <label for="">#Trasbordos [-]:</label>
             <div class="grupolabel">
-                <input type="button" class="btn-click btn-not-track"   name="btn5"  data-value="" value="Ver">
-                <input type="button" class="btn-click btn-not-track"   name="btn11" data-value="" value="Ver">
+                <input type="button" class="btn-click btn-not-track"   name="btn5"  data-value="" value="">
+                <input type="button" class="btn-click btn-not-track"   name="btn11" data-value="" value="">
             </div>
         </div>
         <div class="form-group" id="trac266">
             <label for="">¿Hay asiento?</label>
             <div class="grupolabel">
-                <input type="button" class="btn-click btn-not-track"   name="btn6"  data-value="" value="Ver">
-                <input type="button" class="btn-click btn-not-track"   name="btn12" data-value="" value="Ver">
+                <input type="button" class="btn-click btn-not-track"   name="btn6"  data-value="" value="">
+                <input type="button" class="btn-click btn-not-track"   name="btn12" data-value="" value="">
             </div>
         </div>
     
