@@ -66,19 +66,19 @@ const interviews = [
                     { button: "btn3", value: 0.5, shouldMultiply: true, row: 3 },
                     { button: "btn4", value: "$" + 750, shouldMultiply: false, row: 4 },
                     { button: "btn5", value: 2, shouldMultiply: false, row: 5 },
-                    { button: "btn6", value: "No", shouldMultiply: false, row: 6 },
+                    { button: "btn6", value: "Hay", shouldMultiply: false, row: 6 },
                     { button: "btn7", value: 1.2, shouldMultiply: true, row: 1 },
                     { button: "btn8", value: 0.85, shouldMultiply: true, row: 2 },
                     { button: "btn9", value: 1.85, shouldMultiply: true, row: 3 },
                     { button: "btn10", value: "$" + 830, shouldMultiply: false, row: 4 },
                     { button: "btn11", value: 0, shouldMultiply: false, row: 5 },
-                    { button: "btn12", value: "No", shouldMultiply: false, row: 6 },
+                    { button: "btn12", value: "Hay", shouldMultiply: false, row: 6 },
                     { button: "btn13", value: 0.5, shouldMultiply: true, row: 1 },
                     { button: "btn14", value: 1.85, shouldMultiply: true, row: 2 },
                     { button: "btn15", value: 1.85, shouldMultiply: true, row: 3 },
                     { button: "btn16", value: "$" + 700, shouldMultiply: false, row: 4 },
                     { button: "btn17", value: 0, shouldMultiply: false, row: 5 },
-                    { button: "btn18", value: "Hay", shouldMultiply: false, row: 6 },
+                    { button: "btn18", value: "No", shouldMultiply: false, row: 6 },
 
 
                 ]
@@ -91,19 +91,19 @@ const interviews = [
                     { button: "btn3", value: 0.85, shouldMultiply: true, row: 3 },
                     { button: "btn4", value: "$" + 830, shouldMultiply: false, row: 4 },
                     { button: "btn5", value: 0, shouldMultiply: false, row: 5 },
-                    { button: "btn6", value: "No", shouldMultiply: false, row: 6 },
+                    { button: "btn6", value: "Hay", shouldMultiply: false, row: 6 },
                     { button: "btn7", value: 0.85, shouldMultiply: true, row: 1 },
                     { button: "btn8", value: 0.5, shouldMultiply: true, row: 2 },
                     { button: "btn9", value: 0.85, shouldMultiply: true, row: 3 },
                     { button: "btn10", value: "$" + 700, shouldMultiply: false, row: 4 },
                     { button: "btn11", value: 2, shouldMultiply: false, row: 5 },
-                    { button: "btn12", value: "No", shouldMultiply: false, row: 6 },
+                    { button: "btn12", value: "Hay", shouldMultiply: false, row: 6 },
                     { button: "btn13", value: 1.2, shouldMultiply: true, row: 1 },
                     { button: "btn14", value: 1.2, shouldMultiply: true, row: 2 },
                     { button: "btn15", value: 0.85, shouldMultiply: true, row: 3 },
                     { button: "btn16", value: "$" + 830, shouldMultiply: false, row: 4 },
                     { button: "btn17", value: 1, shouldMultiply: false, row: 5 },
-                    { button: "btn18", value: "No", shouldMultiply: false, row: 6 },
+                    { button: "btn18", value: "Hay", shouldMultiply: false, row: 6 },
                 ]
             }, {
                 screen: 7,
@@ -114,19 +114,19 @@ const interviews = [
                     { button: "btn3", value: 1.85, shouldMultiply: true, row: 3 },
                     { button: "btn4", value: "$" + 750, shouldMultiply: false, row: 4 },
                     { button: "btn5", value: 2, shouldMultiply: false, row: 5 },
-                    { button: "btn6", value: "Hay", shouldMultiply: false, row: 6 },
+                    { button: "btn6", value: "No", shouldMultiply: false, row: 6 },
                     { button: "btn7", value: 1.85, shouldMultiply: true, row: 1 },
                     { button: "btn8", value: 1.2, shouldMultiply: true, row: 2 },
                     { button: "btn9", value: 0.5, shouldMultiply: true, row: 3 },
                     { button: "btn10", value: "$" + 700, shouldMultiply: false, row: 4 },
                     { button: "btn11", value: 0, shouldMultiply: false, row: 5 },
-                    { button: "btn12", value: "Hay", shouldMultiply: false, row: 6 },
+                    { button: "btn12", value: "No", shouldMultiply: false, row: 6 },
                     { button: "btn13", value: 1.2, shouldMultiply: true, row: 1 },
                     { button: "btn14", value: 1.2, shouldMultiply: true, row: 2 },
                     { button: "btn15", value: 1.2, shouldMultiply: true, row: 3 },
                     { button: "btn16", value: "$" + 750, shouldMultiply: false, row: 4 },
                     { button: "btn17", value: 1, shouldMultiply: false, row: 5 },
-                    { button: "btn18", value: "No", shouldMultiply: false, row: 6 },
+                    { button: "btn18", value: "Hay", shouldMultiply: false, row: 6 },
 
 
                 ]
@@ -138,19 +138,19 @@ const interviews = [
                     { button: "btn3", value: 0.85, shouldMultiply: true, row: 3 },
                     { button: "btn4", value: "$" + 750, shouldMultiply: false, row: 4 },
                     { button: "btn5", value: 1, shouldMultiply: false, row: 5 },
-                    { button: "btn6", value: "No", shouldMultiply: false, row: 6 },
+                    { button: "btn6", value: "Hay", shouldMultiply: false, row: 6 },
                     { button: "btn7", value: 0.85, shouldMultiply: true, row: 1 },
                     { button: "btn8", value: 0.5, shouldMultiply: true, row: 2 },
                     { button: "btn9", value: 1.85, shouldMultiply: true, row: 3 },
                     { button: "btn10", value: "$" + 750, shouldMultiply: false, row: 4 },
                     { button: "btn11", value: 0, shouldMultiply: false, row: 5 },
-                    { button: "btn12", value: "Hay", shouldMultiply: false, row: 6 },
+                    { button: "btn12", value: "No", shouldMultiply: false, row: 6 },
                     { button: "btn13", value: 0.5, shouldMultiply: true, row: 1 },
                     { button: "btn14", value: 1.85, shouldMultiply: true, row: 2 },
                     { button: "btn15", value: 0.5, shouldMultiply: true, row: 3 },
                     { button: "btn16", value: "$" + 700, shouldMultiply: false, row: 4 },
                     { button: "btn17", value: 2, shouldMultiply: false, row: 5 },
-                    { button: "btn18", value: "Hay", shouldMultiply: false, row: 6 },
+                    { button: "btn18", value: "No", shouldMultiply: false, row: 6 },
                 ]
             }, {
                 screen: 5,
@@ -160,19 +160,19 @@ const interviews = [
                     { button: "btn3", value: 0.5, shouldMultiply: true, row: 3 },
                     { button: "btn4", value: "$" + 700, shouldMultiply: false, row: 4 },
                     { button: "btn5", value: 0, shouldMultiply: false, row: 5 },
-                    { button: "btn6", value: "No", shouldMultiply: false, row: 6 },
+                    { button: "btn6", value: "Hay", shouldMultiply: false, row: 6 },
                     { button: "btn7", value: 1.2, shouldMultiply: true, row: 1 },
                     { button: "btn8", value: 1.2, shouldMultiply: true, row: 2 },
                     { button: "btn9", value: 1.2, shouldMultiply: true, row: 3 },
                     { button: "btn10", value: "$" + 750, shouldMultiply: false, row: 4 },
                     { button: "btn11", value: 1, shouldMultiply: false, row: 5 },
-                    { button: "btn12", value: "No", shouldMultiply: false, row: 6 },
+                    { button: "btn12", value: "Hay", shouldMultiply: false, row: 6 },
                     { button: "btn13", value: 1.85, shouldMultiply: true, row: 1 },
                     { button: "btn14", value: 0.5, shouldMultiply: true, row: 2 },
                     { button: "btn15", value: 0.85, shouldMultiply: true, row: 3 },
                     { button: "btn16", value: "$" + 750, shouldMultiply: false, row: 4 },
                     { button: "btn17", value: 2, shouldMultiply: false, row: 5 },
-                    { button: "btn18", value: "Hay", shouldMultiply: false, row: 6 },
+                    { button: "btn18", value: "No", shouldMultiply: false, row: 6 },
 
                 ]
             },
@@ -184,41 +184,41 @@ const interviews = [
                     { button: "btn3", value: 1.2, shouldMultiply: true, row: 3 },
                     { button: "btn4", value: "$" + 700, shouldMultiply: false, row: 4 },
                     { button: "btn5", value: 1, shouldMultiply: false, row: 5 },
-                    { button: "btn6", value: "Hay", shouldMultiply: false, row: 6 },
+                    { button: "btn6", value: "No", shouldMultiply: false, row: 6 },
                     { button: "btn7", value: 1.85, shouldMultiply: true, row: 1 },
                     { button: "btn8", value: 0.85, shouldMultiply: true, row: 2 },
                     { button: "btn9", value: 0.85, shouldMultiply: true, row: 3 },
                     { button: "btn10", value: "$" + 750, shouldMultiply: false, row: 4 },
                     { button: "btn11", value: 2, shouldMultiply: false, row: 5 },
-                    { button: "btn12", value: "Hay", shouldMultiply: false, row: 6 },
+                    { button: "btn12", value: "No", shouldMultiply: false, row: 6 },
                     { button: "btn13", value: 0.85, shouldMultiply: true, row: 1 },
                     { button: "btn14", value: 0.85, shouldMultiply: true, row: 2 },
                     { button: "btn15", value: 1.2, shouldMultiply: true, row: 3 },
                     { button: "btn16", value: "$" + 750, shouldMultiply: false, row: 4 },
                     { button: "btn17", value: 0, shouldMultiply: false, row: 5 },
-                    { button: "btn18", value: "No", shouldMultiply: false, row: 6 },
+                    { button: "btn18", value: "Hay", shouldMultiply: false, row: 6 },
 
                 ]
             }, {
                 screen: 7,
                 buttons: [
-                    { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
+                    { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
                     { button: "btn2", value: 0.5, shouldMultiply: true, row: 2 },
-                    { button: "btn3", value: 0.5, shouldMultiply: true, row: 3 },
-                    { button: "btn4", value: "$" + 750, shouldMultiply: false, row: 4 },
-                    { button: "btn5", value: 2, shouldMultiply: false, row: 5 },
+                    { button: "btn3", value: 1.2, shouldMultiply: true, row: 3 },
+                    { button: "btn4", value: "$" + 700, shouldMultiply: false, row: 4 },
+                    { button: "btn5", value: 0, shouldMultiply: false, row: 5 },
                     { button: "btn6", value: "No", shouldMultiply: false, row: 6 },
-                    { button: "btn7", value: 1.2, shouldMultiply: true, row: 1 },
-                    { button: "btn8", value: 0.85, shouldMultiply: true, row: 2 },
-                    { button: "btn9", value: 1.85, shouldMultiply: true, row: 3 },
+                    { button: "btn7", value: 0.5, shouldMultiply: true, row: 1 },
+                    { button: "btn8", value: 1.85, shouldMultiply: true, row: 2 },
+                    { button: "btn9", value: 0.5, shouldMultiply: true, row: 3 },
                     { button: "btn10", value: "$" + 830, shouldMultiply: false, row: 4 },
-                    { button: "btn11", value: 0, shouldMultiply: false, row: 5 },
+                    { button: "btn11", value: 1, shouldMultiply: false, row: 5 },
                     { button: "btn12", value: "No", shouldMultiply: false, row: 6 },
-                    { button: "btn13", value: 0.5, shouldMultiply: true, row: 1 },
-                    { button: "btn14", value: 1.85, shouldMultiply: true, row: 2 },
+                    { button: "btn13", value: 0.85, shouldMultiply: true, row: 1 },
+                    { button: "btn14", value: 0.85, shouldMultiply: true, row: 2 },
                     { button: "btn15", value: 1.85, shouldMultiply: true, row: 3 },
                     { button: "btn16", value: "$" + 700, shouldMultiply: false, row: 4 },
-                    { button: "btn17", value: 0, shouldMultiply: false, row: 5 },
+                    { button: "btn17", value: 1, shouldMultiply: false, row: 5 },
                     { button: "btn18", value: "Hay", shouldMultiply: false, row: 6 },
 
                 ]
@@ -231,19 +231,19 @@ const interviews = [
                     { button: "btn3", value: 1.85, shouldMultiply: true, row: 1 },
                     { button: "btn4", value: "$" + 830, shouldMultiply: false, row: 1 },
                     { button: "btn5", value: 1, shouldMultiply: false, row: 1 },
-                    { button: "btn6", value: "Hay", shouldMultiply: false, row: 1 },
+                    { button: "btn6", value: "No", shouldMultiply: false, row: 1 },
                     { button: "btn7", value: 0.5, shouldMultiply: true, row: 1 },
                     { button: "btn8", value: 1.85, shouldMultiply: true, row: 1 },
                     { button: "btn9", value: 1.2, shouldMultiply: true, row: 1 },
                     { button: "btn10", value: "$" + 700, shouldMultiply: false, row: 1 },
                     { button: "btn11", value: 1, shouldMultiply: false, row: 1 },
-                    { button: "btn12", value: "No", shouldMultiply: false, row: 1 },
+                    { button: "btn12", value: "Hay", shouldMultiply: false, row: 1 },
                     { button: "btn13", value: 1.85, shouldMultiply: true, row: 1 },
                     { button: "btn14", value: 0.5, shouldMultiply: true, row: 1 },
                     { button: "btn15", value: 0.5, shouldMultiply: true, row: 1 },
                     { button: "btn16", value: "$" + 830, shouldMultiply: false, row: 1 },
                     { button: "btn17", value: 0, shouldMultiply: false, row: 1 },
-                    { button: "btn18", value: "Hay", shouldMultiply: false, row: 1 },
+                    { button: "btn18", value: "No", shouldMultiply: false, row: 1 },
 
                 ]
             }
@@ -503,17 +503,17 @@ const interviews = [
                 buttons: [
 
                     { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
-                    { button: "btn2", value: 1.85, shouldMultiply: true, row: 2 },
-                    { button: "btn3", value: 0.5, shouldMultiply: true, row: 3 },
+                    { button: "btn2", value: 0.85, shouldMultiply: true, row: 2 },
+                    { button: "btn3", value: 0.85, shouldMultiply: true, row: 3 },
                     { button: "btn4", value: "$" + 830, shouldMultiply: false, row: 4 },
                     { button: "btn5", value: 1.2, shouldMultiply: true, row: 1 },
-                    { button: "btn6", value: 1.2, shouldMultiply: true, row: 2 },
+                    { button: "btn6", value: 0.85, shouldMultiply: true, row: 2 },
                     { button: "btn7", value: 1.2, shouldMultiply: true, row: 3 },
-                    { button: "btn8", value: "$" + 830, shouldMultiply: false, row: 4 },
-                    { button: "btn9", value: 0.5, shouldMultiply: true, row: 1 },
-                    { button: "btn10", value: 0.5, shouldMultiply: true, row: 2 },
-                    { button: "btn11", value: 1.85, shouldMultiply: true, row: 3 },
-                    { button: "btn12", value: "$" + 730, shouldMultiply: false, row: 4 }
+                    { button: "btn8", value: "$" + 700, shouldMultiply: false, row: 4 },
+                    { button: "btn9", value: 1.2, shouldMultiply: true, row: 1 },
+                    { button: "btn10", value: 1.2, shouldMultiply: true, row: 2 },
+                    { button: "btn11", value: 0.85, shouldMultiply: true, row: 3 },
+                    { button: "btn12", value: "$" + 750, shouldMultiply: false, row: 4 }
                 ]
             },
             {
@@ -521,20 +521,55 @@ const interviews = [
                 buttons: [
 
                     { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
-                    { button: "btn2", value: 0.5, shouldMultiply: true, row: 2 },
-                    { button: "btn3", value: 0.85, shouldMultiply: true, row: 3 },
-                    { button: "btn4", value: "$" + 730, shouldMultiply: false, row: 4 },
-                    { button: "btn5", value: 0.85, shouldMultiply: true, row: 1 },
-                    { button: "btn6", value: 1.2, shouldMultiply: true, row: 2 },
+                    { button: "btn2", value: 1.85, shouldMultiply: true, row: 2 },
+                    { button: "btn3", value: 0.5, shouldMultiply: true, row: 3 },
+                    { button: "btn4", value: "$" + 830, shouldMultiply: false, row: 4 },
+                    { button: "btn5", value: 1.85, shouldMultiply: true, row: 1 },
+                    { button: "btn6", value: 0.85, shouldMultiply: true, row: 2 },
                     { button: "btn7", value: 0.85, shouldMultiply: true, row: 3 },
                     { button: "btn8", value: "$" + 700, shouldMultiply: false, row: 4 },
-                    { button: "btn9", value: 0.85, shouldMultiply: true, row: 1 },
-                    { button: "btn10", value: 0.85, shouldMultiply: true, row: 2 },
-                    { button: "btn11", value: 1.2, shouldMultiply: true, row: 3 },
-                    { button: "btn12", value: "$" + 700, shouldMultiply: false, row: 4 }
+                    { button: "btn9", value: 0.5, shouldMultiply: true, row: 1 },
+                    { button: "btn10", value: 0.5, shouldMultiply: true, row: 2 },
+                    { button: "btn11", value: 1.85, shouldMultiply: true, row: 3 },
+                    { button: "btn12", value: "$" + 750, shouldMultiply: false, row: 4 }
                 ]
             }, {
                 screen: 7,
+                buttons: [
+
+                    { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
+                    { button: "btn2", value: 0.85, shouldMultiply: true, row: 2 },
+                    { button: "btn3", value: 0.5, shouldMultiply: true, row: 3 },
+                    { button: "btn4", value: "$" + 750, shouldMultiply: false, row: 4 },
+                    { button: "btn5", value: 0.85, shouldMultiply: true, row: 1 },
+                    { button: "btn6", value: 1.85, shouldMultiply: true, row: 2 },
+                    { button: "btn7", value: 0.85, shouldMultiply: true, row: 3 },
+                    { button: "btn8", value: "$" + 830, shouldMultiply: false, row: 4 },
+                    { button: "btn9", value: 0.5, shouldMultiply: true, row: 1 },
+                    { button: "btn10", value: 0.85, shouldMultiply: true, row: 2 },
+                    { button: "btn11", value: 1.85, shouldMultiply: true, row: 3 },
+                    { button: "btn12", value: "$" + 700, shouldMultiply: false, row: 4 }
+                ]
+            }, {
+                screen: 8,
+
+                buttons: [
+
+                    { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
+                    { button: "btn2", value: 1.2, shouldMultiply: true, row: 2 },
+                    { button: "btn3", value: 1.85, shouldMultiply: true, row: 3 },
+                    { button: "btn4", value: "$" + 700, shouldMultiply: false, row: 4 },
+                    { button: "btn5", value: 1.2, shouldMultiply: true, row: 1 },
+                    { button: "btn6", value: 1.2, shouldMultiply: true, row: 2 },
+                    { button: "btn7", value: 1.2, shouldMultiply: true, row: 3 },
+                    { button: "btn8", value: "$" + 750, shouldMultiply: false, row: 4 },
+                    { button: "btn9", value: 1.85, shouldMultiply: true, row: 1 },
+                    { button: "btn10", value: 0.5, shouldMultiply: true, row: 2 },
+                    { button: "btn11", value: 0.5, shouldMultiply: true, row: 3 },
+                    { button: "btn12", value: "$" + 700, shouldMultiply: false, row: 4 }
+                ]
+            }, {
+                screen: 9,
                 buttons: [
 
                     { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
@@ -544,100 +579,65 @@ const interviews = [
                     { button: "btn5", value: 1.85, shouldMultiply: true, row: 1 },
                     { button: "btn6", value: 0.5, shouldMultiply: true, row: 2 },
                     { button: "btn7", value: 0.5, shouldMultiply: true, row: 3 },
-                    { button: "btn8", value: "$" + 730, shouldMultiply: false, row: 4 },
-                    { button: "btn9", value: 1.85, shouldMultiply: true, row: 1 },
-                    { button: "btn10", value: 0.85, shouldMultiply: true, row: 2 },
-                    { button: "btn11", value: 0.85, shouldMultiply: true, row: 3 },
-                    { button: "btn12", value: "$" + 830, shouldMultiply: false, row: 4 }
-                ]
-            }, {
-                screen: 8,
-
-                buttons: [
-
-                    { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
-                    { button: "btn2", value: 1.2, shouldMultiply: true, row: 2 },
-                    { button: "btn3", value: 1.2, shouldMultiply: true, row: 3 },
-                    { button: "btn4", value: "$" + 700, shouldMultiply: false, row: 4 },
-                    { button: "btn5", value: 0.85, shouldMultiply: true, row: 1 },
-                    { button: "btn6", value: 1.85, shouldMultiply: true, row: 2 },
-                    { button: "btn7", value: 1.2, shouldMultiply: true, row: 3 },
-                    { button: "btn8", value: "$" + 830, shouldMultiply: false, row: 4 },
-                    { button: "btn9", value: 1.85, shouldMultiply: true, row: 1 },
-                    { button: "btn10", value: 0.5, shouldMultiply: true, row: 2 },
-                    { button: "btn11", value: 0.5, shouldMultiply: true, row: 3 },
-                    { button: "btn12", value: "$" + 730, shouldMultiply: false, row: 4 }
-                ]
-            }, {
-                screen: 9,
-                buttons: [
-
-                    { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
-                    { button: "btn2", value: 0.5, shouldMultiply: true, row: 2 },
-                    { button: "btn3", value: 0.85, shouldMultiply: true, row: 3 },
-                    { button: "btn4", value: "$" + 730, shouldMultiply: false, row: 4 },
-                    { button: "btn5", value: 0.5, shouldMultiply: true, row: 1 },
-                    { button: "btn6", value: 1.85, shouldMultiply: true, row: 2 },
-                    { button: "btn7", value: 0.85, shouldMultiply: true, row: 3 },
                     { button: "btn8", value: "$" + 700, shouldMultiply: false, row: 4 },
-                    { button: "btn9", value: 0.85, shouldMultiply: true, row: 1 },
-                    { button: "btn10", value: 1.85, shouldMultiply: true, row: 2 },
+                    { button: "btn9", value: 1.2, shouldMultiply: true, row: 1 },
+                    { button: "btn10", value: 1.2, shouldMultiply: true, row: 2 },
                     { button: "btn11", value: 1.2, shouldMultiply: true, row: 3 },
-                    { button: "btn12", value: "$" + 700, shouldMultiply: false, row: 4 }
+                    { button: "btn12", value: "$" + 830, shouldMultiply: false, row: 4 }
                 ]
             },
             {
                 screen: 10,
                 buttons: [
 
-                    { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
-                    { button: "btn2", value: 1.2, shouldMultiply: true, row: 2 },
-                    { button: "btn3", value: 0.5, shouldMultiply: true, row: 3 },
-                    { button: "btn4", value: "$" + 700, shouldMultiply: false, row: 4 },
+                    { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
+                    { button: "btn2", value: 0.5, shouldMultiply: true, row: 2 },
+                    { button: "btn3", value: 0.85, shouldMultiply: true, row: 3 },
+                    { button: "btn4", value: "$" + 750, shouldMultiply: false, row: 4 },
                     { button: "btn5", value: 0.5, shouldMultiply: true, row: 1 },
-                    { button: "btn6", value: 0.85, shouldMultiply: true, row: 2 },
+                    { button: "btn6", value: 1.2, shouldMultiply: true, row: 2 },
                     { button: "btn7", value: 1.85, shouldMultiply: true, row: 3 },
-                    { button: "btn8", value: "$" + 730, shouldMultiply: false, row: 4 },
-                    { button: "btn9", value: 1.2, shouldMultiply: true, row: 1 },
-                    { button: "btn10", value: 1.2, shouldMultiply: true, row: 2 },
-                    { button: "btn11", value: 1.85, shouldMultiply: true, row: 3 },
-                    { button: "btn12", value: "$" + 700, shouldMultiply: false, row: 4 }
+                    { button: "btn8", value: "$" + 750, shouldMultiply: false, row: 4 },
+                    { button: "btn9", value: 0.85, shouldMultiply: true, row: 1 },
+                    { button: "btn10", value: 1.85, shouldMultiply: true, row: 2 },
+                    { button: "btn11", value: 0.85, shouldMultiply: true, row: 3 },
+                    { button: "btn12", value: "$" + 750, shouldMultiply: false, row: 4 }
                 ]
             }, {
                 screen: 11,
 
                 buttons: [
 
-                    { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
-                    { button: "btn2", value: 0.85, shouldMultiply: true, row: 2 },
-                    { button: "btn3", value: 1.85, shouldMultiply: true, row: 3 },
-                    { button: "btn4", value: "$" + 730, shouldMultiply: false, row: 4 },
-                    { button: "btn5", value: 1.2, shouldMultiply: true, row: 1 },
-                    { button: "btn6", value: 0.5, shouldMultiply: true, row: 2 },
-                    { button: "btn7", value: 1.85, shouldMultiply: true, row: 3 },
-                    { button: "btn8", value: "$" + 730, shouldMultiply: false, row: 4 },
-                    { button: "btn9", value: 0.5, shouldMultiply: true, row: 1 },
-                    { button: "btn10", value: 1.85, shouldMultiply: true, row: 2 },
-                    { button: "btn11", value: 0.5, shouldMultiply: true, row: 3 },
-                    { button: "btn12", value: "$" + 730, shouldMultiply: false, row: 4 }
+                    { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
+                    { button: "btn2", value: 0.5, shouldMultiply: true, row: 2 },
+                    { button: "btn3", value: 1.2, shouldMultiply: true, row: 3 },
+                    { button: "btn4", value: "$" + 700, shouldMultiply: false, row: 4 },
+                    { button: "btn5", value: 0.5, shouldMultiply: true, row: 1 },
+                    { button: "btn6", value: 1.85, shouldMultiply: true, row: 2 },
+                    { button: "btn7", value: 0.5, shouldMultiply: true, row: 3 },
+                    { button: "btn8", value: "$" + 750, shouldMultiply: false, row: 4 },
+                    { button: "btn9", value: 1.85, shouldMultiply: true, row: 1 },
+                    { button: "btn10", value: 0.85, shouldMultiply: true, row: 2 },
+                    { button: "btn11", value: 1.2, shouldMultiply: true, row: 3 },
+                    { button: "btn12", value: "$" + 830, shouldMultiply: false, row: 4 }
                 ]
             }, {
                 screen: 12,
 
                 buttons: [
 
-                    { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
-                    { button: "btn2", value: 0.85, shouldMultiply: true, row: 2 },
+                    { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
+                    { button: "btn2", value: 1.2, shouldMultiply: true, row: 2 },
                     { button: "btn3", value: 1.85, shouldMultiply: true, row: 3 },
-                    { button: "btn4", value: "$" + 830, shouldMultiply: false, row: 4 },
-                    { button: "btn5", value: 1.85, shouldMultiply: true, row: 1 },
-                    { button: "btn6", value: 0.85, shouldMultiply: true, row: 2 },
-                    { button: "btn7", value: 0.5, shouldMultiply: true, row: 3 },
-                    { button: "btn8", value: "$" + 700, shouldMultiply: false, row: 4 },
-                    { button: "btn9", value: 1.2, shouldMultiply: true, row: 1 },
-                    { button: "btn10", value: 1.2, shouldMultiply: true, row: 2 },
-                    { button: "btn11", value: 0.85, shouldMultiply: true, row: 3 },
-                    { button: "btn12", value: "$" + 830, shouldMultiply: false, row: 4 }
+                    { button: "btn4", value: "$" + 750, shouldMultiply: false, row: 4 },
+                    { button: "btn5", value: 0.85, shouldMultiply: true, row: 1 },
+                    { button: "btn6", value: 0.5, shouldMultiply: true, row: 2 },
+                    { button: "btn7", value: 1.85, shouldMultiply: true, row: 3 },
+                    { button: "btn8", value: "$" + 830, shouldMultiply: false, row: 4 },
+                    { button: "btn9", value: 0.85, shouldMultiply: true, row: 1 },
+                    { button: "btn10", value: 1.85, shouldMultiply: true, row: 2 },
+                    { button: "btn11", value: 0.5, shouldMultiply: true, row: 3 },
+                    { button: "btn12", value: "$" + 700, shouldMultiply: false, row: 4 }
                 ]
             }
 
@@ -836,11 +836,11 @@ const interviews = [
 
                 buttons: [
                     { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
-                    { button: "btn2", value: "$" + 750, shouldMultiply: false, row: 2 },
+                    { button: "btn2", value: "$" + 830, shouldMultiply: false, row: 2 },
                     { button: "btn3", value: 0.85, shouldMultiply: true, row: 1 },
-                    { button: "btn4", value: "$" + 700, shouldMultiply: false, row: 2 },
-                    { button: "btn5", value: 0.85, shouldMultiply: true, row: 1 },
-                    { button: "btn6", value: "$" + 700, shouldMultiply: false, row: 2 }
+                    { button: "btn4", value: "$" + 750, shouldMultiply: false, row: 2 },
+                    { button: "btn5", value: 1.2, shouldMultiply: true, row: 1 },
+                    { button: "btn6", value: "$" + 750, shouldMultiply: false, row: 2 }
                 ]
             }, {
                 screen: 7,
@@ -848,8 +848,8 @@ const interviews = [
                 buttons: [
                     { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
                     { button: "btn2", value: "$" + 750, shouldMultiply: false, row: 2 },
-                    { button: "btn3", value: 1.85, shouldMultiply: true, row: 1 },
-                    { button: "btn4", value: "$" + 750, shouldMultiply: false, row: 2 },
+                    { button: "btn3", value: 0.85, shouldMultiply: true, row: 1 },
+                    { button: "btn4", value: "$" + 830, shouldMultiply: false, row: 2 },
                     { button: "btn5", value: 1.2, shouldMultiply: true, row: 1 },
                     { button: "btn6", value: "$" + 700, shouldMultiply: false, row: 2 }
                 ]
@@ -862,17 +862,17 @@ const interviews = [
                     { button: "btn3", value: 0.5, shouldMultiply: true, row: 1 },
                     { button: "btn4", value: "$" + 830, shouldMultiply: false, row: 2 },
                     { button: "btn5", value: 0.85, shouldMultiply: true, row: 1 },
-                    { button: "btn6", value: "$" + 830, shouldMultiply: false, row: 2 }
+                    { button: "btn6", value: "$" + 750, shouldMultiply: false, row: 2 }
                 ]
             }, {
                 screen: 9,
 
                 buttons: [
-                    { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
+                    { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
                     { button: "btn2", value: "$" + 700, shouldMultiply: false, row: 2 },
                     { button: "btn3", value: 0.85, shouldMultiply: true, row: 1 },
                     { button: "btn4", value: "$" + 750, shouldMultiply: false, row: 2 },
-                    { button: "btn5", value: 0.5, shouldMultiply: true, row: 1 },
+                    { button: "btn5", value: 1.85, shouldMultiply: true, row: 1 },
                     { button: "btn6", value: "$" + 700, shouldMultiply: false, row: 2 }
 
                 ]
@@ -892,10 +892,10 @@ const interviews = [
                 screen: 11,
 
                 buttons: [
-                    { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
+                    { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
                     { button: "btn2", value: "$" + 700, shouldMultiply: false, row: 2 },
-                    { button: "btn3", value: 0.5, shouldMultiply: true, row: 1 },
-                    { button: "btn4", value: "$" + 830, shouldMultiply: false, row: 2 },
+                    { button: "btn3", value: 0.85, shouldMultiply: true, row: 1 },
+                    { button: "btn4", value: "$" + 750, shouldMultiply: false, row: 2 },
                     { button: "btn5", value: 0.5, shouldMultiply: true, row: 1 },
                     { button: "btn6", value: "$" + 830, shouldMultiply: false, row: 2 }
                 ]
@@ -906,7 +906,7 @@ const interviews = [
                     { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
                     { button: "btn2", value: "$" + 830, shouldMultiply: false, row: 2 },
                     { button: "btn3", value: 1.85, shouldMultiply: true, row: 1 },
-                    { button: "btn4", value: 700, shouldMultiply: false, row: 2 },
+                    { button: "btn4", value: "$" + 700, shouldMultiply: false, row: 2 },
                     { button: "btn5", value: 1.85, shouldMultiply: true, row: 1 },
                     { button: "btn6", value: "$" + 750, shouldMultiply: false, row: 2 }
                 ]
@@ -965,53 +965,53 @@ const interviews = [
                 screen: 5,
 
                 buttons: [
-                    { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
-                    { button: "btn2", value: 1.2, shouldMultiply: true, row: 2 },
+                    { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
+                    { button: "btn2", value: 1.85, shouldMultiply: true, row: 2 },
                     { button: "btn3", value: 0.5, shouldMultiply: true, row: 3 },
                     { button: "btn4", value: "$" + 700, shouldMultiply: false, row: 4 },
                     { button: "btn5", value: 0, shouldMultiply: false, row: 5 },
                     { button: "btn6", value: "Hay", shouldMultiply: false, row: 6 },
-                    { button: "btn7", value: 1.85, shouldMultiply: true, row: 1 },
-                    { button: "btn8", value: 1.85, shouldMultiply: true, row: 2 },
+                    { button: "btn7", value: 0.5, shouldMultiply: true, row: 1 },
+                    { button: "btn8", value: 0.85, shouldMultiply: true, row: 2 },
                     { button: "btn9", value: 1.85, shouldMultiply: true, row: 3 },
                     { button: "btn10", value: "$" + 830, shouldMultiply: false, row: 4 },
                     { button: "btn11", value: 2, shouldMultiply: false, row: 5 },
-                    { button: "btn12", value: "No", shouldMultiply: false, row: 6 }
+                    { button: "btn12", value: "Hay", shouldMultiply: false, row: 6 }
                 ]
             },
             {
                 screen: 6,
 
                 buttons: [
-                    { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
-                    { button: "btn2", value: 1.85, shouldMultiply: true, row: 2 },
-                    { button: "btn3", value: 1.85, shouldMultiply: true, row: 3 },
-                    { button: "btn4", value: "$" + 830, shouldMultiply: false, row: 4 },
+                    { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
+                    { button: "btn2", value: 0.5, shouldMultiply: true, row: 2 },
+                    { button: "btn3", value: 1.2, shouldMultiply: true, row: 3 },
+                    { button: "btn4", value: "$" + 700, shouldMultiply: false, row: 4 },
                     { button: "btn5", value: 2, shouldMultiply: false, row: 5 },
                     { button: "btn6", value: "Hay", shouldMultiply: false, row: 6 },
-                    { button: "btn7", value: 0.5, shouldMultiply: true, row: 1 },
-                    { button: "btn8", value: 0.5, shouldMultiply: true, row: 2 },
-                    { button: "btn9", value: 0.5, shouldMultiply: true, row: 3 },
+                    { button: "btn7", value: 1.2, shouldMultiply: true, row: 1 },
+                    { button: "btn8", value: 1.85, shouldMultiply: true, row: 2 },
+                    { button: "btn9", value: 0.85, shouldMultiply: true, row: 3 },
                     { button: "btn10", value: "$" + 830, shouldMultiply: false, row: 4 },
                     { button: "btn11", value: 0, shouldMultiply: false, row: 5 },
-                    { button: "btn12", value: "No", shouldMultiply: false, row: 6 }
+                    { button: "btn12", value: "Hay", shouldMultiply: false, row: 6 }
                 ]
             }, {
                 screen: 7,
 
                 buttons: [
-                    { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
-                    { button: "btn2", value: 0.5, shouldMultiply: true, row: 2 },
-                    { button: "btn3", value: 1.2, shouldMultiply: true, row: 3 },
-                    { button: "btn4", value: "$" + 700, shouldMultiply: false, row: 4 },
-                    { button: "btn5", value: 0, shouldMultiply: false, row: 5 },
-                    { button: "btn6", value: "Hay", shouldMultiply: false, row: 6 },
+                    { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
+                    { button: "btn2", value: 0.85, shouldMultiply: true, row: 2 },
+                    { button: "btn3", value: 1.85, shouldMultiply: true, row: 3 },
+                    { button: "btn4", value: "$" + 750, shouldMultiply: false, row: 4 },
+                    { button: "btn5", value: 1, shouldMultiply: false, row: 5 },
+                    { button: "btn6", value: "No", shouldMultiply: false, row: 6 },
                     { button: "btn7", value: 0.85, shouldMultiply: true, row: 1 },
                     { button: "btn8", value: 0.85, shouldMultiply: true, row: 2 },
-                    { button: "btn9", value: 0.85, shouldMultiply: true, row: 3 },
-                    { button: "btn10", value: "$" + 700, shouldMultiply: false, row: 4 },
-                    { button: "btn11", value: 0, shouldMultiply: false, row: 5 },
-                    { button: "btn12", value: "No", shouldMultiply: false, row: 6 }
+                    { button: "btn9", value: 0.5, shouldMultiply: true, row: 3 },
+                    { button: "btn10", value: "$" + 750, shouldMultiply: false, row: 4 },
+                    { button: "btn11", value: 1, shouldMultiply: false, row: 5 },
+                    { button: "btn12", value: "Hay", shouldMultiply: false, row: 6 }
                 ]
             }, {
                 screen: 8,
@@ -1020,49 +1020,49 @@ const interviews = [
                     { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
                     { button: "btn2", value: 1.2, shouldMultiply: true, row: 2 },
                     { button: "btn3", value: 1.2, shouldMultiply: true, row: 3 },
-                    { button: "btn4", value: "$" + 770, shouldMultiply: false, row: 4 },
+                    { button: "btn4", value: "$" + 700, shouldMultiply: false, row: 4 },
                     { button: "btn5", value: 1, shouldMultiply: false, row: 5 },
                     { button: "btn6", value: "Hay", shouldMultiply: false, row: 6 },
-                    { button: "btn7", value: 0.85, shouldMultiply: true, row: 1 },
-                    { button: "btn8", value: 0.85, shouldMultiply: true, row: 2 },
+                    { button: "btn7", value: 1.2, shouldMultiply: true, row: 1 },
+                    { button: "btn8", value: 1.2, shouldMultiply: true, row: 2 },
                     { button: "btn9", value: 0.85, shouldMultiply: true, row: 3 },
-                    { button: "btn10", value: "$" + 700, shouldMultiply: false, row: 4 },
-                    { button: "btn11", value: 0, shouldMultiply: false, row: 5 },
+                    { button: "btn10", value: "$" + 750, shouldMultiply: false, row: 4 },
+                    { button: "btn11", value: 1, shouldMultiply: false, row: 5 },
                     { button: "btn12", value: "No", shouldMultiply: false, row: 6 }
                 ]
             }, {
                 screen: 9,
 
                 buttons: [
-                    { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
+                    { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
                     { button: "btn2", value: 0.85, shouldMultiply: true, row: 2 },
-                    { button: "btn3", value: 0.85, shouldMultiply: true, row: 3 },
-                    { button: "btn4", value: "$" + 770, shouldMultiply: false, row: 4 },
-                    { button: "btn5", value: 1, shouldMultiply: false, row: 5 },
+                    { button: "btn3", value: 0.5, shouldMultiply: true, row: 3 },
+                    { button: "btn4", value: "$" + 830, shouldMultiply: false, row: 4 },
+                    { button: "btn5", value: 2, shouldMultiply: false, row: 5 },
                     { button: "btn6", value: "No", shouldMultiply: false, row: 6 },
-                    { button: "btn7", value: 1.2, shouldMultiply: true, row: 1 },
+                    { button: "btn7", value: 0.5, shouldMultiply: true, row: 1 },
                     { button: "btn8", value: 1.2, shouldMultiply: true, row: 2 },
-                    { button: "btn9", value: 1.2, shouldMultiply: true, row: 3 },
-                    { button: "btn10", value: "$" + 770, shouldMultiply: false, row: 4 },
-                    { button: "btn11", value: 1, shouldMultiply: false, row: 5 },
-                    { button: "btn12", value: "Hay", shouldMultiply: false, row: 6 },
+                    { button: "btn9", value: 1.85, shouldMultiply: true, row: 3 },
+                    { button: "btn10", value: "$" + 700, shouldMultiply: false, row: 4 },
+                    { button: "btn11", value: 0, shouldMultiply: false, row: 5 },
+                    { button: "btn12", value: "No", shouldMultiply: false, row: 6 },
                 ]
             },
             {
                 screen: 10,
 
                 buttons: [
-                    { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
-                    { button: "btn2", value: 0.5, shouldMultiply: true, row: 2 },
-                    { button: "btn3", value: 0.5, shouldMultiply: true, row: 3 },
-                    { button: "btn4", value: "$" + 700, shouldMultiply: false, row: 4 },
-                    { button: "btn5", value: 0, shouldMultiply: false, row: 5 },
+                    { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
+                    { button: "btn2", value: 1.85, shouldMultiply: true, row: 2 },
+                    { button: "btn3", value: 0.85, shouldMultiply: true, row: 3 },
+                    { button: "btn4", value: "$" + 750, shouldMultiply: false, row: 4 },
+                    { button: "btn5", value: 1, shouldMultiply: false, row: 5 },
                     { button: "btn6", value: "Hay", shouldMultiply: false, row: 6 },
-                    { button: "btn7", value: 1.2, shouldMultiply: true, row: 1 },
-                    { button: "btn8", value: 1.2, shouldMultiply: true, row: 2 },
+                    { button: "btn7", value: 1.85, shouldMultiply: true, row: 1 },
+                    { button: "btn8", value: 0.5, shouldMultiply: true, row: 2 },
                     { button: "btn9", value: 1.2, shouldMultiply: true, row: 3 },
-                    { button: "btn10", value: "$" + 770, shouldMultiply: false, row: 4 },
-                    { button: "btn11", value: 1, shouldMultiply: false, row: 5 },
+                    { button: "btn10", value: "$" + 700, shouldMultiply: false, row: 4 },
+                    { button: "btn11", value: 0, shouldMultiply: false, row: 5 },
                     { button: "btn12", value: "Hay", shouldMultiply: false, row: 6 }
 
                 ]
@@ -1070,35 +1070,35 @@ const interviews = [
                 screen: 11,
 
                 buttons: [
-                    { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
-                    { button: "btn2", value: 0.85, shouldMultiply: true, row: 2 },
+                    { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
+                    { button: "btn2", value: 1.2, shouldMultiply: true, row: 2 },
                     { button: "btn3", value: 0.85, shouldMultiply: true, row: 3 },
-                    { button: "btn4", value: "$" + 770, shouldMultiply: false, row: 4 },
-                    { button: "btn5", value: 1, shouldMultiply: false, row: 5 },
+                    { button: "btn4", value: "$" + 750, shouldMultiply: false, row: 4 },
+                    { button: "btn5", value: 0, shouldMultiply: false, row: 5 },
                     { button: "btn6", value: "No", shouldMultiply: false, row: 6 },
                     { button: "btn7", value: 1.85, shouldMultiply: true, row: 1 },
-                    { button: "btn8", value: 1.85, shouldMultiply: true, row: 2 },
-                    { button: "btn9", value: 1.85, shouldMultiply: true, row: 3 },
-                    { button: "btn10", value: "$" + 770, shouldMultiply: false, row: 4 },
+                    { button: "btn8", value: 0.5, shouldMultiply: true, row: 2 },
+                    { button: "btn9", value: 1.2, shouldMultiply: true, row: 3 },
+                    { button: "btn10", value: "$" + 750, shouldMultiply: false, row: 4 },
                     { button: "btn11", value: 1, shouldMultiply: false, row: 5 },
-                    { button: "btn12", value: "Hay", shouldMultiply: false, row: 6 }
+                    { button: "btn12", value: "No", shouldMultiply: false, row: 6 }
                 ]
             }, {
                 screen: 12,
 
                 buttons: [
-                    { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
-                    { button: "btn2", value: 1.85, shouldMultiply: true, row: 2 },
+                    { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
+                    { button: "btn2", value: 0.5, shouldMultiply: true, row: 2 },
                     { button: "btn3", value: 1.85, shouldMultiply: true, row: 3 },
                     { button: "btn4", value: "$" + 830, shouldMultiply: false, row: 4 },
-                    { button: "btn5", value: 2, shouldMultiply: false, row: 5 },
+                    { button: "btn5", value: 0, shouldMultiply: false, row: 5 },
                     { button: "btn6", value: "No", shouldMultiply: false, row: 6 },
-                    { button: "btn7", value: 0.5, shouldMultiply: true, row: 1 },
-                    { button: "btn8", value: 0.5, shouldMultiply: true, row: 2 },
+                    { button: "btn7", value: 0.85, shouldMultiply: true, row: 1 },
+                    { button: "btn8", value: 1.85, shouldMultiply: true, row: 2 },
                     { button: "btn9", value: 0.5, shouldMultiply: true, row: 3 },
                     { button: "btn10", value: "$" + 700, shouldMultiply: false, row: 4 },
                     { button: "btn11", value: 2, shouldMultiply: false, row: 5 },
-                    { button: "btn12", value: "Hay", shouldMultiply: false, row: 6 }
+                    { button: "btn12", value: "No", shouldMultiply: false, row: 6 }
                 ]
             }
         ]
@@ -1320,13 +1320,13 @@ const interviews = [
                     //SI QUIERES CAMBIAR SU POSITION EL ULTIMO VALOR CAMBIARLO
                     // ME EXPLICO EL BOTON TIEMPO CAMINATA ESTA EN LA ROW = FILA 1 Y EL DE TIEMPO ESPERA ESTA EN ROW FILA 2
                     // SIGUE ESE PATRON PARA AGREGAR LOS OTROS
-                    { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
+                    { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
                     { button: "btn2", value: 1.85, shouldMultiply: true, row: 2 },
                     { button: "btn3", value: 0.5, shouldMultiply: true, row: 3 },
                     { button: "btn4", value: "$" + 700, shouldMultiply: false, row: 4 },
-                    { button: "btn5", value: 0, shouldMultiply: true, row: 1 },
-                    { button: "btn6", value: 1.85, shouldMultiply: true, row: 2 },
-                    { button: "btn7", value: 0.5, shouldMultiply: true, row: 3 },
+                    { button: "btn5", value: 0.85, shouldMultiply: true, row: 1 },
+                    { button: "btn6", value: 0.5, shouldMultiply: true, row: 2 },
+                    { button: "btn7", value: 1.85, shouldMultiply: true, row: 3 },
                     { button: "btn8", value: "$" + 830, shouldMultiply: false, row: 4 },
                  
 
@@ -1339,12 +1339,12 @@ const interviews = [
                 buttons: [
                     { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
                     { button: "btn2", value: 0.5, shouldMultiply: true, row: 2 },
-                    { button: "btn3", value: 1.2, shouldMultiply: true, row: 3 },
-                    { button: "btn4", value: "$" + 700, shouldMultiply: false, row: 4 },
-                    { button: "btn5", value: 2, shouldMultiply: true, row: 1 },
-                    { button: "btn6", value: "Hay", shouldMultiply: true, row: 2 },
+                    { button: "btn3", value: 0.85, shouldMultiply: true, row: 3 },
+                    { button: "btn4", value: "$" + 750, shouldMultiply: false, row: 4 },
+                    { button: "btn5", value: 0.5, shouldMultiply: true, row: 1 },
+                    { button: "btn6", value: 1.85, shouldMultiply: true, row: 2 },
                     { button: "btn7", value: 1.2, shouldMultiply: true, row: 3 },
-                    { button: "btn8", value: "$" + 830, shouldMultiply: false, row: 2 },
+                    { button: "btn8", value: "$" + 700, shouldMultiply: false, row: 4 },
                    
 
                 ]
@@ -1352,14 +1352,14 @@ const interviews = [
                 screen: 7,
 
                 buttons: [
-                    { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
-                    { button: "btn2", value: 0.85, shouldMultiply: true, row: 2 },
-                    { button: "btn3", value: 1.85, shouldMultiply: true, row: 3 },
-                    { button: "btn4", value: "$" + 750, shouldMultiply: false, row: 4 },
-                    { button: "btn5", value: 1, shouldMultiply: true, row: 1 },
-                    { button: "btn6", value: "Hay", shouldMultiply: true, row: 2 },
-                    { button: "btn7", value: 1.2, shouldMultiply: true, row: 3 },
-                    { button: "btn8", value: "$" + 750, shouldMultiply: false, row: 2 },
+                    { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
+                    { button: "btn2", value: 1.2, shouldMultiply: true, row: 2 },
+                    { button: "btn3", value: 0.5, shouldMultiply: true, row: 3 },
+                    { button: "btn4", value: "$" + 830, shouldMultiply: false, row: 4 },
+                    { button: "btn5", value: 0.5, shouldMultiply: true, row: 1 },
+                    { button: "btn6", value: 1.2, shouldMultiply: true, row: 2 },
+                    { button: "btn7", value: 1.85, shouldMultiply: true, row: 3 },
+                    { button: "btn8", value: "$" + 700, shouldMultiply: false, row: 4 },
                    
 
                 ]
@@ -1367,14 +1367,14 @@ const interviews = [
                 screen: 8,
 
                 buttons: [
-                    { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
-                    { button: "btn2", value: 1.2, shouldMultiply: true, row: 2 },
-                    { button: "btn3", value: 1.2, shouldMultiply: true, row: 3 },
-                    { button: "btn4", value: "$" + 700, shouldMultiply: false, row: 4 },
-                    { button: "btn5", value: 1, shouldMultiply: true, row: 1 },
-                    { button: "btn6", value: "Hay", shouldMultiply: true, row: 2 },
-                    { button: "btn7", value: 1.2, shouldMultiply: true, row: 3 },
-                    { button: "btn8", value: "$" + 750, shouldMultiply: false, row: 2 },
+                    { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
+                    { button: "btn2", value: 0.85, shouldMultiply: true, row: 2 },
+                    { button: "btn3", value: 0.85, shouldMultiply: true, row: 3 },
+                    { button: "btn4", value: "$" + 750, shouldMultiply: false, row: 4 },
+                    { button: "btn5", value: 1.2, shouldMultiply: true, row: 1 },
+                    { button: "btn6", value: 1.2, shouldMultiply: true, row: 2 },
+                    { button: "btn7", value: 0.85, shouldMultiply: true, row: 3 },
+                    { button: "btn8", value: "$" + 750, shouldMultiply: false, row: 4 },
                    
                 ]
             }, {
@@ -1382,13 +1382,13 @@ const interviews = [
 
                 buttons: [
                     { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
-                    { button: "btn2", value: 0.85, shouldMultiply: true, row: 2 },
-                    { button: "btn3", value: 0.5, shouldMultiply: true, row: 3 },
-                    { button: "btn4", value: "$" + 830, shouldMultiply: false, row: 4 },
-                    { button: "btn5", value: 2, shouldMultiply: true, row: 1 },
-                    { button: "btn6", value: "No", shouldMultiply: true, row: 2 },
+                    { button: "btn2", value: 0.5, shouldMultiply: true, row: 2 },
+                    { button: "btn3", value: 1.85, shouldMultiply: true, row: 3 },
+                    { button: "btn4", value: "$" + 700, shouldMultiply: false, row: 4 },
+                    { button: "btn5", value: 0.85, shouldMultiply: true, row: 1 },
+                    { button: "btn6", value: 1.85, shouldMultiply: true, row: 2 },
                     { button: "btn7", value: 0.5, shouldMultiply: true, row: 3 },
-                    { button: "btn8", value: 1.85, shouldMultiply: false, row: 1 },
+                    { button: "btn8", value: "$" + 830, shouldMultiply: false, row: 4 },
                    
 
                 ]
@@ -1397,14 +1397,14 @@ const interviews = [
                 screen: 10,
 
                 buttons: [
-                    { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
-                    { button: "btn2", value: 1.85, shouldMultiply: true, row: 2 },
-                    { button: "btn3", value: 0.85, shouldMultiply: true, row: 3 },
-                    { button: "btn4", value: "$" + 750, shouldMultiply: false, row: 4 },
-                    { button: "btn5", value: 1, shouldMultiply: true, row: 1 },
-                    { button: "btn6", value: "Hay", shouldMultiply: true, row: 2 },
-                    { button: "btn7", value: 1.85, shouldMultiply: true, row: 3 },
-                    { button: "btn8", value: "$" + 700, shouldMultiply: false, row: 2 },
+                    { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
+                    { button: "btn2", value: 1.2, shouldMultiply: true, row: 2 },
+                    { button: "btn3", value: 1.2, shouldMultiply: true, row: 3 },
+                    { button: "btn4", value: "$" + 700, shouldMultiply: false, row: 4 },
+                    { button: "btn5", value: 1.85, shouldMultiply: true, row: 1 },
+                    { button: "btn6", value: 0.85, shouldMultiply: true, row: 2 },
+                    { button: "btn7", value: 1.2, shouldMultiply: true, row: 3 },
+                    { button: "btn8", value: "$" + 830, shouldMultiply: false, row: 4 },
                    
                 ]
             }, {
@@ -1413,13 +1413,13 @@ const interviews = [
                 buttons: [
 
                     { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
-                    { button: "btn2", value: 1.2, shouldMultiply: true, row: 2 },
-                    { button: "btn3", value: 0.85, shouldMultiply: true, row: 3 },
-                    { button: "btn4", value: "$" + 750, shouldMultiply: false, row: 4 },
-                    { button: "btn5", value: 0, shouldMultiply: true, row: 1 },
-                    { button: "btn6", value: "No", shouldMultiply: true, row: 2 },
-                    { button: "btn7", value: 1.85, shouldMultiply: true, row: 3 },
-                    { button: "btn8", value: "$" + 750, shouldMultiply: false, row: 2 },
+                    { button: "btn2", value: 1.85, shouldMultiply: true, row: 2 },
+                    { button: "btn3", value: 1.85, shouldMultiply: true, row: 3 },
+                    { button: "btn4", value: "$" + 830, shouldMultiply: false, row: 4 },
+                    { button: "btn5", value: 1.85, shouldMultiply: true, row: 1 },
+                    { button: "btn6", value: 0.5, shouldMultiply: true, row: 2 },
+                    { button: "btn7", value: 0.5, shouldMultiply: true, row: 3 },
+                    { button: "btn8", value: "$" + 700, shouldMultiply: false, row: 4 },
                   
                 ]
             }, {
@@ -1427,14 +1427,14 @@ const interviews = [
 
                 buttons: [
 
-                    { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
-                    { button: "btn2", value: 0.5, shouldMultiply: true, row: 2 },
-                    { button: "btn3", value: 1.85, shouldMultiply: true, row: 3 },
-                    { button: "btn4", value: "$" + 830, shouldMultiply: false, row: 4 },
-                    { button: "btn5", value: 0, shouldMultiply: true, row: 1 },
-                    { button: "btn6", value: "No", shouldMultiply: true, row: 2 },
+                    { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
+                    { button: "btn2", value: 0.85, shouldMultiply: true, row: 2 },
+                    { button: "btn3", value: 1.2, shouldMultiply: true, row: 3 },
+                    { button: "btn4", value: "$" + 750, shouldMultiply: false, row: 4 },
+                    { button: "btn5", value: 1.2, shouldMultiply: true, row: 1 },
+                    { button: "btn6", value: 0.85, shouldMultiply: true, row: 2 },
                     { button: "btn7", value: 0.85, shouldMultiply: true, row: 3 },
-                    { button: "btn8", value: "$" + 700, shouldMultiply: false, row: 2 },
+                    { button: "btn8", value: "$" + 750, shouldMultiply: false, row: 4 },
                    
                 ]
             }
@@ -1470,12 +1470,12 @@ const interviews = [
                 screen: 5,
 
                 buttons: [
-                    { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
-                    { button: "btn2", value: 1.85, shouldMultiply: true, row: 2 },
+                    { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
+                    { button: "btn2", value: 1.2, shouldMultiply: true, row: 2 },
                     { button: "btn3", value: "$" + 750, shouldMultiply: false, row: 3 },
-                    { button: "btn4", value: 0.5, shouldMultiply: true, row: 1 },
-                    { button: "btn5", value: 0.5, shouldMultiply: true, row: 2 },
-                    { button: "btn6", value: "$" + 830, shouldMultiply: false, row: 3 }
+                    { button: "btn4", value: 1.85, shouldMultiply: true, row: 1 },
+                    { button: "btn5", value: 1.2, shouldMultiply: true, row: 2 },
+                    { button: "btn6", value: "$" + 750, shouldMultiply: false, row: 3 }
 
                 ]
             },
@@ -1484,10 +1484,10 @@ const interviews = [
 
                 buttons: [
                     { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
-                    { button: "btn2", value: 1.85, shouldMultiply: true, row: 2 },
+                    { button: "btn2", value: 0.5, shouldMultiply: true, row: 2 },
                     { button: "btn3", value: "$" + 830, shouldMultiply: false, row: 3 },
-                    { button: "btn4", value: 0.5, shouldMultiply: true, row: 1 },
-                    { button: "btn5", value: 0.85, shouldMultiply: true, row: 2 },
+                    { button: "btn4", value: 1.85, shouldMultiply: true, row: 1 },
+                    { button: "btn5", value: 1.85, shouldMultiply: true, row: 2 },
                     { button: "btn6", value: "$" + 700, shouldMultiply: false, row: 3 }
 
                 ]
@@ -1495,22 +1495,22 @@ const interviews = [
                 screen: 7,
 
                 buttons: [
-                    { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
-                    { button: "btn2", value: 1.2, shouldMultiply: true, row: 2 },
-                    { button: "btn3", value: "$" + 750, shouldMultiply: false, row: 3 },
-                    { button: "btn4", value: 0.85, shouldMultiply: true, row: 1 },
-                    { button: "btn5", value: 0.5, shouldMultiply: true, row: 2 },
-                    { button: "btn6", value: "$" + 700, shouldMultiply: false, row: 3 }
+                    { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
+                    { button: "btn2", value: 0.5, shouldMultiply: true, row: 2 },
+                    { button: "btn3", value: "$" + 700, shouldMultiply: false, row: 3 },
+                    { button: "btn4", value: 0.5, shouldMultiply: true, row: 1 },
+                    { button: "btn5", value: 1.85, shouldMultiply: true, row: 2 },
+                    { button: "btn6", value: "$" + 830, shouldMultiply: false, row: 3 }
 
                 ]
             }, {
                 screen: 8,
 
                 buttons: [
-                    { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
+                    { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
                     { button: "btn2", value: 0.85, shouldMultiply: true, row: 2 },
-                    { button: "btn3", value: "$" + 700, shouldMultiply: false, row: 3 },
-                    { button: "btn4", value: 1.2, shouldMultiply: true, row: 1 },
+                    { button: "btn3", value: "$" + 750, shouldMultiply: false, row: 3 },
+                    { button: "btn4", value: 0.5, shouldMultiply: true, row: 1 },
                     { button: "btn5", value: 1.2, shouldMultiply: true, row: 2 },
                     { button: "btn6", value: "$" + 750, shouldMultiply: false, row: 3 }
 
@@ -1520,10 +1520,10 @@ const interviews = [
 
                 buttons: [
                     { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
-                    { button: "btn2", value: 0.85, shouldMultiply: true, row: 2 },
-                    { button: "btn3", value: "$" + 750, shouldMultiply: false, row: 3 },
-                    { button: "btn4", value: 0.85, shouldMultiply: true, row: 1 },
-                    { button: "btn5", value: 0.85, shouldMultiply: true, row: 2 },
+                    { button: "btn2", value: 1.85, shouldMultiply: true, row: 2 },
+                    { button: "btn3", value: "$" + 830, shouldMultiply: false, row: 3 },
+                    { button: "btn4", value: 1.2, shouldMultiply: true, row: 1 },
+                    { button: "btn5", value: 0.5, shouldMultiply: true, row: 2 },
                     { button: "btn6", value: "$" + 700, shouldMultiply: false, row: 3 }
 
                 ]
@@ -1532,11 +1532,11 @@ const interviews = [
                 screen: 10,
 
                 buttons: [
-                    { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
+                    { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
                     { button: "btn2", value: 1.2, shouldMultiply: true, row: 2 },
                     { button: "btn3", value: "$" + 700, shouldMultiply: false, row: 3 },
-                    { button: "btn4", value: 1.85, shouldMultiply: true, row: 1 },
-                    { button: "btn5", value: 1.85, shouldMultiply: true, row: 2 },
+                    { button: "btn4", value: 1.2, shouldMultiply: true, row: 1 },
+                    { button: "btn5", value: 0.85, shouldMultiply: true, row: 2 },
                     { button: "btn6", value: "$" + 750, shouldMultiply: false, row: 3 }
 
                 ]
@@ -1544,12 +1544,12 @@ const interviews = [
                 screen: 11,
 
                 buttons: [
-                    { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
-                    { button: "btn2", value: 0.5, shouldMultiply: true, row: 2 },
-                    { button: "btn3", value: "$" + 830, shouldMultiply: false, row: 3 },
-                    { button: "btn4", value: 1.2, shouldMultiply: true, row: 1 },
-                    { button: "btn5", value: 1.2, shouldMultiply: true, row: 2 },
-                    { button: "btn6", value: "$" + 750, shouldMultiply: false, row: 3 }
+                    { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
+                    { button: "btn2", value: 1.85, shouldMultiply: true, row: 2 },
+                    { button: "btn3", value: "$" + 700, shouldMultiply: false, row: 3 },
+                    { button: "btn4", value: 1.85, shouldMultiply: true, row: 1 },
+                    { button: "btn5", value: 0.5, shouldMultiply: true, row: 2 },
+                    { button: "btn6", value: "$" + 830, shouldMultiply: false, row: 3 }
 
                 ]
             }, {
@@ -1557,11 +1557,11 @@ const interviews = [
 
                 buttons: [
                     { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
-                    { button: "btn2", value: 0.5, shouldMultiply: true, row: 2 },
-                    { button: "btn3", value: "$" + 700, shouldMultiply: false, row: 3 },
+                    { button: "btn2", value: 0.85, shouldMultiply: true, row: 2 },
+                    { button: "btn3", value: "$" + 750, shouldMultiply: false, row: 3 },
                     { button: "btn4", value: 1.85, shouldMultiply: true, row: 1 },
-                    { button: "btn5", value: 1.85, shouldMultiply: true, row: 2 },
-                    { button: "btn6", value: "$" + 830, shouldMultiply: false, row: 3 }
+                    { button: "btn5", value: 0.85, shouldMultiply: true, row: 2 },
+                    { button: "btn6", value: "$" + 700, shouldMultiply: false, row: 3 }
 
                 ]
             }
@@ -1724,53 +1724,53 @@ const interviews = [
                 screen: 5,
 
                 buttons: [
-                    { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
-                    { button: "btn2", value: 1.2, shouldMultiply: true, row: 2 },
+                    { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
+                    { button: "btn2", value: 1.85, shouldMultiply: true, row: 2 },
                     { button: "btn3", value: 0.5, shouldMultiply: true, row: 3 },
-                    { button: "btn4", value: "$"+700, shouldMultiply: false, row: 4 },
+                    { button: "btn4", value: "$" + 700, shouldMultiply: false, row: 4 },
                     { button: "btn5", value: 0, shouldMultiply: false, row: 5 },
                     { button: "btn6", value: "Hay", shouldMultiply: false, row: 6 },
-                    { button: "btn7", value: 1.85, shouldMultiply: true, row: 1 },
-                    { button: "btn8", value: 1.85, shouldMultiply: true, row: 2 },
+                    { button: "btn7", value: 0.5, shouldMultiply: true, row: 1 },
+                    { button: "btn8", value: 0.85, shouldMultiply: true, row: 2 },
                     { button: "btn9", value: 1.85, shouldMultiply: true, row: 3 },
-                    { button: "btn10", value: "$"+830, shouldMultiply: false, row: 4 },
+                    { button: "btn10", value: "$" + 830, shouldMultiply: false, row: 4 },
                     { button: "btn11", value: 2, shouldMultiply: false, row: 5 },
-                    { button: "btn12", value: "No", shouldMultiply: false, row: 6 }
+                    { button: "btn12", value: "Hay", shouldMultiply: false, row: 6 }
                 ]
             },
             {
                 screen: 6,
 
                 buttons: [
-                    { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
-                    { button: "btn2", value: 1.85, shouldMultiply: true, row: 2 },
-                    { button: "btn3", value: 1.85, shouldMultiply: true, row: 3 },
-                    { button: "btn4", value: "$"+830, shouldMultiply: false, row: 4 },
+                    { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
+                    { button: "btn2", value: 0.5, shouldMultiply: true, row: 2 },
+                    { button: "btn3", value: 1.2, shouldMultiply: true, row: 3 },
+                    { button: "btn4", value: "$" + 700, shouldMultiply: false, row: 4 },
                     { button: "btn5", value: 2, shouldMultiply: false, row: 5 },
-                    { button: "btn6", value: "No", shouldMultiply: false, row: 6 },
-                    { button: "btn7", value: 0.5, shouldMultiply: true, row: 1 },
-                    { button: "btn8", value: 0.5, shouldMultiply: true, row: 2 },
-                    { button: "btn9", value: 0.5, shouldMultiply: true, row: 3 },
-                    { button: "btn10", value: "$"+830, shouldMultiply: false, row: 4 },
+                    { button: "btn6", value: "Hay", shouldMultiply: false, row: 6 },
+                    { button: "btn7", value: 1.2, shouldMultiply: true, row: 1 },
+                    { button: "btn8", value: 1.85, shouldMultiply: true, row: 2 },
+                    { button: "btn9", value: 0.85, shouldMultiply: true, row: 3 },
+                    { button: "btn10", value: "$" + 830, shouldMultiply: false, row: 4 },
                     { button: "btn11", value: 0, shouldMultiply: false, row: 5 },
-                    { button: "btn12", value: "No", shouldMultiply: false, row: 6 }
+                    { button: "btn12", value: "Hay", shouldMultiply: false, row: 6 }
                 ]
             }, {
                 screen: 7,
 
                 buttons: [
-                    { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
-                    { button: "btn2", value: 0.5, shouldMultiply: true, row: 2 },
-                    { button: "btn3", value: 1.2, shouldMultiply: true, row: 3 },
-                    { button: "btn4", value: "$"+700, shouldMultiply: false, row: 4 },
-                    { button: "btn5", value: 0, shouldMultiply: false, row: 5 },
-                    { button: "btn6", value: "Hay", shouldMultiply: false, row: 6 },
+                    { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
+                    { button: "btn2", value: 0.85, shouldMultiply: true, row: 2 },
+                    { button: "btn3", value: 1.85, shouldMultiply: true, row: 3 },
+                    { button: "btn4", value: "$" + 750, shouldMultiply: false, row: 4 },
+                    { button: "btn5", value: 1, shouldMultiply: false, row: 5 },
+                    { button: "btn6", value: "No", shouldMultiply: false, row: 6 },
                     { button: "btn7", value: 0.85, shouldMultiply: true, row: 1 },
                     { button: "btn8", value: 0.85, shouldMultiply: true, row: 2 },
-                    { button: "btn9", value: 0.85, shouldMultiply: true, row: 3 },
-                    { button: "btn10", value: "$"+700, shouldMultiply: false, row: 4 },
-                    { button: "btn11", value: 0, shouldMultiply: false, row: 5 },
-                    { button: "btn12", value: "No", shouldMultiply: false, row: 6 }
+                    { button: "btn9", value: 0.5, shouldMultiply: true, row: 3 },
+                    { button: "btn10", value: "$" + 750, shouldMultiply: false, row: 4 },
+                    { button: "btn11", value: 1, shouldMultiply: false, row: 5 },
+                    { button: "btn12", value: "Hay", shouldMultiply: false, row: 6 }
                 ]
             }, {
                 screen: 8,
@@ -1779,49 +1779,49 @@ const interviews = [
                     { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
                     { button: "btn2", value: 1.2, shouldMultiply: true, row: 2 },
                     { button: "btn3", value: 1.2, shouldMultiply: true, row: 3 },
-                    { button: "btn4", value: "$"+770, shouldMultiply: false, row: 4 },
+                    { button: "btn4", value: "$" + 700, shouldMultiply: false, row: 4 },
                     { button: "btn5", value: 1, shouldMultiply: false, row: 5 },
                     { button: "btn6", value: "Hay", shouldMultiply: false, row: 6 },
-                    { button: "btn7", value: 0.85, shouldMultiply: true, row: 1 },
-                    { button: "btn8", value: 0.85, shouldMultiply: true, row: 2 },
+                    { button: "btn7", value: 1.2, shouldMultiply: true, row: 1 },
+                    { button: "btn8", value: 1.2, shouldMultiply: true, row: 2 },
                     { button: "btn9", value: 0.85, shouldMultiply: true, row: 3 },
-                    { button: "btn10", value: "$"+700, shouldMultiply: false, row: 4 },
-                    { button: "btn11", value: 0, shouldMultiply: false, row: 5 },
+                    { button: "btn10", value: "$" + 750, shouldMultiply: false, row: 4 },
+                    { button: "btn11", value: 1, shouldMultiply: false, row: 5 },
                     { button: "btn12", value: "No", shouldMultiply: false, row: 6 }
                 ]
             }, {
                 screen: 9,
 
                 buttons: [
-                    { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
+                    { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
                     { button: "btn2", value: 0.85, shouldMultiply: true, row: 2 },
-                    { button: "btn3", value: 0.85, shouldMultiply: true, row: 3 },
-                    { button: "btn4", value: "$"+770, shouldMultiply: false, row: 4 },
-                    { button: "btn5", value: 1, shouldMultiply: false, row: 5 },
+                    { button: "btn3", value: 0.5, shouldMultiply: true, row: 3 },
+                    { button: "btn4", value: "$" + 830, shouldMultiply: false, row: 4 },
+                    { button: "btn5", value: 2, shouldMultiply: false, row: 5 },
                     { button: "btn6", value: "No", shouldMultiply: false, row: 6 },
-                    { button: "btn7", value: 1.2, shouldMultiply: true, row: 1 },
+                    { button: "btn7", value: 0.5, shouldMultiply: true, row: 1 },
                     { button: "btn8", value: 1.2, shouldMultiply: true, row: 2 },
-                    { button: "btn9", value: 1.2, shouldMultiply: true, row: 3 },
-                    { button: "btn10", value: "$"+770, shouldMultiply: false, row: 4 },
-                    { button: "btn11", value: 1, shouldMultiply: false, row: 5 },
-                    { button: "btn12", value: "Hay", shouldMultiply: false, row: 6 },
+                    { button: "btn9", value: 1.85, shouldMultiply: true, row: 3 },
+                    { button: "btn10", value: "$" + 700, shouldMultiply: false, row: 4 },
+                    { button: "btn11", value: 0, shouldMultiply: false, row: 5 },
+                    { button: "btn12", value: "No", shouldMultiply: false, row: 6 },
                 ]
             },
             {
                 screen: 10,
 
                 buttons: [
-                    { button: "btn1", value: 1.2, shouldMultiply: true, row: 1 },
-                    { button: "btn2", value: 0.5, shouldMultiply: true, row: 2 },
-                    { button: "btn3", value: 0.5, shouldMultiply: true, row: 3 },
-                    { button: "btn4", value: "$" + 700, shouldMultiply: false, row: 4 },
-                    { button: "btn5", value: 0, shouldMultiply: false, row: 5 },
+                    { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
+                    { button: "btn2", value: 1.85, shouldMultiply: true, row: 2 },
+                    { button: "btn3", value: 0.85, shouldMultiply: true, row: 3 },
+                    { button: "btn4", value: "$" + 750, shouldMultiply: false, row: 4 },
+                    { button: "btn5", value: 1, shouldMultiply: false, row: 5 },
                     { button: "btn6", value: "Hay", shouldMultiply: false, row: 6 },
-                    { button: "btn7", value: 1.2, shouldMultiply: true, row: 1 },
-                    { button: "btn8", value: 1.2, shouldMultiply: true, row: 2 },
+                    { button: "btn7", value: 1.85, shouldMultiply: true, row: 1 },
+                    { button: "btn8", value: 0.5, shouldMultiply: true, row: 2 },
                     { button: "btn9", value: 1.2, shouldMultiply: true, row: 3 },
-                    { button: "btn10", value: "$"+770, shouldMultiply: false, row: 4 },
-                    { button: "btn11", value: 1, shouldMultiply: false, row: 5 },
+                    { button: "btn10", value: "$" + 700, shouldMultiply: false, row: 4 },
+                    { button: "btn11", value: 0, shouldMultiply: false, row: 5 },
                     { button: "btn12", value: "Hay", shouldMultiply: false, row: 6 }
 
                 ]
@@ -1829,35 +1829,35 @@ const interviews = [
                 screen: 11,
 
                 buttons: [
-                    { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
-                    { button: "btn2", value: 0.85, shouldMultiply: true, row: 2 },
+                    { button: "btn1", value: 0.5, shouldMultiply: true, row: 1 },
+                    { button: "btn2", value: 1.2, shouldMultiply: true, row: 2 },
                     { button: "btn3", value: 0.85, shouldMultiply: true, row: 3 },
-                    { button: "btn4", value: "$"+770, shouldMultiply: false, row: 4 },
-                    { button: "btn5", value: 1, shouldMultiply: false, row: 5 },
+                    { button: "btn4", value: "$" + 750, shouldMultiply: false, row: 4 },
+                    { button: "btn5", value: 0, shouldMultiply: false, row: 5 },
                     { button: "btn6", value: "No", shouldMultiply: false, row: 6 },
                     { button: "btn7", value: 1.85, shouldMultiply: true, row: 1 },
-                    { button: "btn8", value: 1.85, shouldMultiply: true, row: 2 },
-                    { button: "btn9", value: 1.85, shouldMultiply: true, row: 3 },
-                    { button: "btn10", value: "$"+770, shouldMultiply: false, row: 4 },
+                    { button: "btn8", value: 0.5, shouldMultiply: true, row: 2 },
+                    { button: "btn9", value: 1.2, shouldMultiply: true, row: 3 },
+                    { button: "btn10", value: "$" + 750, shouldMultiply: false, row: 4 },
                     { button: "btn11", value: 1, shouldMultiply: false, row: 5 },
-                    { button: "btn12", value: "Hay", shouldMultiply: false, row: 6 }
+                    { button: "btn12", value: "No", shouldMultiply: false, row: 6 }
                 ]
             }, {
                 screen: 12,
 
                 buttons: [
-                    { button: "btn1", value: 1.85, shouldMultiply: true, row: 1 },
-                    { button: "btn2", value: 1.85, shouldMultiply: true, row: 2 },
+                    { button: "btn1", value: 0.85, shouldMultiply: true, row: 1 },
+                    { button: "btn2", value: 0.5, shouldMultiply: true, row: 2 },
                     { button: "btn3", value: 1.85, shouldMultiply: true, row: 3 },
-                    { button: "btn4", value: "$"+830, shouldMultiply: false, row: 4 },
-                    { button: "btn5", value: 2, shouldMultiply: false, row: 5 },
+                    { button: "btn4", value: "$" + 830, shouldMultiply: false, row: 4 },
+                    { button: "btn5", value: 0, shouldMultiply: false, row: 5 },
                     { button: "btn6", value: "No", shouldMultiply: false, row: 6 },
-                    { button: "btn7", value: 0.5, shouldMultiply: true, row: 1 },
-                    { button: "btn8", value: 0.5, shouldMultiply: true, row: 2 },
+                    { button: "btn7", value: 0.85, shouldMultiply: true, row: 1 },
+                    { button: "btn8", value: 1.85, shouldMultiply: true, row: 2 },
                     { button: "btn9", value: 0.5, shouldMultiply: true, row: 3 },
-                    { button: "btn10", value: "$"+700, shouldMultiply: false, row: 4 },
+                    { button: "btn10", value: "$" + 700, shouldMultiply: false, row: 4 },
                     { button: "btn11", value: 2, shouldMultiply: false, row: 5 },
-                    { button: "btn12", value: "Hay", shouldMultiply: false, row: 6 }
+                    { button: "btn12", value: "No", shouldMultiply: false, row: 6 }
                 ]
             }
         ]
